@@ -1,0 +1,381 @@
+/* MDD Viewer - Electron App Styles */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+  background: #f5f5f7;
+  color: #1d1d1f;
+  overflow: hidden;
+}
+
+.app {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* 헤더 */
+.app-header {
+  background: #ffffff;
+  border-bottom: 1px solid #e5e5e7;
+  padding: 12px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 60px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.header-left h1 {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #1d1d1f;
+}
+
+.version {
+  background: #007aff;
+  color: white;
+  padding: 2px 8px;
+  border-radius: 12px;
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
+/* 버튼 스타일 */
+.btn-primary {
+  background: #007aff;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.btn-primary:hover {
+  background: #0056cc;
+  transform: translateY(-1px);
+}
+
+.btn-primary:disabled {
+  background: #c7c7cc;
+  cursor: not-allowed;
+  transform: none;
+}
+
+.btn-primary.large {
+  padding: 12px 24px;
+  font-size: 1rem;
+}
+
+/* 메인 레이아웃 */
+.app-body {
+  flex: 1;
+  display: flex;
+  overflow: hidden;
+}
+
+/* 사이드바 */
+.sidebar {
+  width: 300px;
+  background: #ffffff;
+  border-right: 1px solid #e5e5e7;
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar-header {
+  padding: 16px;
+  border-bottom: 1px solid #e5e5e7;
+}
+
+.sidebar-header h3 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.package-info {
+  background: #f2f2f7;
+  padding: 12px;
+  border-radius: 8px;
+  font-size: 0.85rem;
+}
+
+.package-name {
+  font-weight: 600;
+  margin-bottom: 4px;
+  color: #1d1d1f;
+}
+
+.package-type {
+  color: #007aff;
+  margin-bottom: 2px;
+}
+
+.package-size {
+  color: #6e6e73;
+}
+
+/* 문서 목록 */
+.document-list {
+  flex: 1;
+  overflow-y: auto;
+  padding: 8px;
+}
+
+.document-item {
+  padding: 12px;
+  margin-bottom: 4px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  border: 1px solid transparent;
+}
+
+.document-item:hover {
+  background: #f2f2f7;
+}
+
+.document-item.selected {
+  background: #007aff;
+  color: white;
+  border-color: #007aff;
+}
+
+.doc-type {
+  font-size: 0.75rem;
+  font-weight: 600;
+  opacity: 0.8;
+  margin-bottom: 4px;
+}
+
+.doc-title {
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+/* 메인 뷰어 */
+.main-viewer {
+  flex: 1;
+  background: #f5f5f7;
+  display: flex;
+  flex-direction: column;
+}
+
+/* 환영 화면 */
+.welcome-screen {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+}
+
+.welcome-content {
+  text-align: center;
+  max-width: 600px;
+}
+
+.welcome-content h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 16px;
+  color: #1d1d1f;
+}
+
+.welcome-content p {
+  font-size: 1.2rem;
+  color: #6e6e73;
+  margin-bottom: 40px;
+}
+
+.welcome-features {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 24px;
+  margin-bottom: 40px;
+}
+
+.feature {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.feature h4 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: #1d1d1f;
+}
+
+.feature p {
+  font-size: 0.85rem;
+  color: #6e6e73;
+  line-height: 1.5;
+}
+
+/* PDF 뷰어 */
+.pdf-viewer {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  background: white;
+  margin: 16px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  overflow: hidden;
+}
+
+.viewer-controls {
+  background: #f8f9fa;
+  border-bottom: 1px solid #e5e5e7;
+  padding: 12px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.page-controls, .zoom-controls {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.page-controls button, .zoom-controls button {
+  background: #ffffff;
+  border: 1px solid #d1d1d6;
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.page-controls button:hover, .zoom-controls button:hover {
+  background: #f2f2f7;
+  border-color: #007aff;
+}
+
+.page-controls button:disabled {
+  background: #f8f9fa;
+  color: #c7c7cc;
+  cursor: not-allowed;
+}
+
+.page-info, .zoom-level {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #1d1d1f;
+  min-width: 80px;
+  text-align: center;
+}
+
+/* PDF 컨테이너 */
+.pdf-container {
+  flex: 1;
+  overflow: auto;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  background: #f8f9fa;
+}
+
+.react-pdf__Document {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.react-pdf__Page {
+  margin-bottom: 20px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.react-pdf__Page__canvas {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* 로딩 및 에러 */
+.loading, .error {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+  font-size: 1.1rem;
+}
+
+.loading {
+  color: #007aff;
+}
+
+.error {
+  color: #ff3b30;
+}
+
+/* 상태바 */
+.status-bar {
+  background: #ffffff;
+  border-top: 1px solid #e5e5e7;
+  padding: 8px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.8rem;
+  color: #6e6e73;
+  min-height: 32px;
+}
+
+/* 스크롤바 스타일 */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #c1c1c1;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #a8a8a8;
+}
+
+/* 반응형 */
+@media (max-width: 768px) {
+  .sidebar {
+    width: 250px;
+  }
+  
+  .welcome-features {
+    grid-template-columns: 1fr;
+  }
+  
+  .viewer-controls {
+    flex-direction: column;
+    gap: 12px;
+  }
+}

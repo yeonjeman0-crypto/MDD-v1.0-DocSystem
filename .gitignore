@@ -208,9 +208,12 @@ elasticsearch-data/
 *.deb
 *.rpm
 
+# Large PDF documents (exclude from Git)
+절차서 PDF/
+절차서 원본/
+도리코로고/
+
 # Document temporary files
-절차서 PDF/**/~$*
-절차서 원본/**/~$*
 **/~$*
 
 # Backup and temporary files

@@ -2,6 +2,7 @@ import { Module } from '@nestjs/common';
 import { ConfigModule } from '@nestjs/config';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { DocumentsModule } from './documents/documents.module';
+import { PackagesModule } from './packages/packages.module';
 
 @Module({
   imports: [
@@ -9,16 +10,13 @@ import { DocumentsModule } from './documents/documents.module';
       isGlobal: true,
     }),
     TypeOrmModule.forRoot({
-      type: 'postgres',
-      host: process.env.DB_HOST || 'localhost',
-      port: parseInt(process.env.DB_PORT) || 5432,
-      username: process.env.DB_USERNAME || 'postgres',
-      password: process.env.DB_PASSWORD || 'postgres',
-      database: process.env.DB_DATABASE || 'mdd_system',
+      type: 'sqlite',
+      database: ':memory:', // 임시로 메모리 데이터베이스 사용
       autoLoadEntities: true,
-      synchronize: process.env.NODE_ENV !== 'production',
+      synchronize: true,
     }),
     DocumentsModule,
+    PackagesModule,
   ],
 })
 export class AppModule {}
