@@ -70,55 +70,78 @@ MDD-v1.0-DocSystem/
 - **선박 적용**: ≤ 20초 + FTS 백그라운드 ≤ 3분
 - **검색 응답**: p95 ≤ 300ms
 
-### 📅 개발 로드맵 (16주)
+### 🎯 구현 완료 현황
 
-#### Phase 1: Core Infrastructure (1-4주)
-- [ ] PostgreSQL 스키마 설계
-- [ ] MinIO 스토리지 설정
-- [ ] NestJS API 골격
-- [ ] React Admin Portal 기본 UI
-- [ ] Zstd 압축/해제 모듈
-- [ ] Ed25519 서명 시스템
+#### ✅ Phase 1: Core Infrastructure (완료)
+- [x] **JSON 파서 시스템**: 4개 문서 유형 완전 파싱 지원
+- [x] **NestJS API 백엔드**: REST API, TypeORM, Swagger 문서화 완료
+- [x] **React Admin Portal**: Ant Design 5 기반 UI, 문서 트리 네비게이션
+- [x] **PostgreSQL 엔티티**: 문서 구조 데이터베이스 스키마 설계
+- [x] **문서 구조 관리**: Main Manual, Procedures, Instructions, Forms
 
-#### Phase 2: Viewer & Delta (5-8주)
-- [ ] Electron Viewer 개발
-- [ ] React-PDF 통합
+#### 🚧 Phase 2: Viewer & Delta (개발 중)
+- [x] **Electron Viewer 프로젝트**: 기본 구조 및 빌드 시스템
+- [ ] React-PDF 통합 
 - [ ] 드래그앤드롭 핸들러
 - [ ] 델타 생성 알고리즘
 - [ ] 이메일 배포 시스템
 
-#### Phase 3: Enterprise Features (9-12주)
+#### 📋 Phase 3: Enterprise Features (예정)
 - [ ] Elasticsearch 통합
 - [ ] OCR 텍스트 추출
 - [ ] 모니터링 대시보드
 - [ ] 감사 로그 시스템
 
-#### Phase 4: Integration & Optimization (13-16주)
+#### 📋 Phase 4: Integration & Optimization (예정)
 - [ ] Teams/SharePoint 연동
 - [ ] ERP 시스템 커넥터
 - [ ] 성능 최적화
 - [ ] DR 시나리오 테스트
 
+### 📊 현재 구현 상태
+
+#### ✅ 완료된 기능
+1. **JSON 문서 파서**: 4개 JSON 파일 완전 파싱 (MM, PR, I, DRKF)
+2. **REST API 서버**: NestJS 기반 백엔드 서비스
+3. **관리자 포털**: React 18 + TypeScript + Ant Design 5
+4. **문서 트리 네비게이션**: 계층적 문서 구조 표시
+5. **데이터베이스 엔티티**: TypeORM 기반 스키마 설계
+6. **Swagger API 문서**: 자동 생성된 API 문서
+7. **Docker 컨테이너**: 개발 환경 컨테이너화
+8. **Electron 뷰어**: 기본 프로젝트 구조
+
+#### 🔧 개발 현황
+- **API 엔드포인트**: 4개 완료 (Main Manual, Procedures, Instructions, Forms)
+- **프론트엔드 컴포넌트**: DocumentTree, DocumentViewer 기본 구조
+- **JSON 데이터**: 한국어/영어 이중 언어 지원
+- **타입 정의**: 완전한 TypeScript 타입 시스템
+
 ### 🚀 빠른 시작
 
 ```bash
 # 저장소 클론
-git clone https://github.com/[username]/MDD-v1.0-DocSystem.git
+git clone https://github.com/yeonjeman0-crypto/MDD-v1.0-DocSystem.git
 cd MDD-v1.0-DocSystem
 
 # 개발 환경 설정
 docker-compose up -d
 
-# Admin Portal 실행
-cd admin-portal
+# 의존성 설치 (루트에서 모든 워크스페이스)
 npm install
+
+# 개발 서버 실행 (API + Admin Portal 동시)
 npm run dev
 
-# API 서버 실행  
-cd ../api
-npm install
-npm run start:dev
+# 또는 개별 실행
+npm run dev:api      # NestJS API 서버 (포트 3001)
+npm run dev:portal   # React Admin Portal (포트 5173)
 ```
+
+### 🌐 접속 주소
+
+- **Admin Portal**: http://localhost:5173
+- **API Server**: http://localhost:3001
+- **API Documentation**: http://localhost:3001/api/docs
 
 ### 📚 문서
 
@@ -148,9 +171,9 @@ npm run start:dev
 
 ### 📞 지원
 
-- **이슈**: [GitHub Issues](https://github.com/[username]/MDD-v1.0-DocSystem/issues)
+- **이슈**: [GitHub Issues](https://github.com/yeonjeman0-crypto/MDD-v1.0-DocSystem/issues)
 - **문의**: [support@company.com](mailto:support@company.com)
-- **문서**: [프로젝트 위키](https://github.com/[username]/MDD-v1.0-DocSystem/wiki)
+- **문서**: [프로젝트 위키](https://github.com/yeonjeman0-crypto/MDD-v1.0-DocSystem/wiki)
 
 ---
 

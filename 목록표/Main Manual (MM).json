@@ -1,0 +1,136 @@
+{
+  "version": "1.0.1",
+  "generated_at": "2025-08-09T03:03:26.974427Z",
+  "section": "MM",
+  "code": "MM-00",
+  "title_ko": "본 매뉴얼",
+  "title_en": "MAIN MANUAL",
+  "front": [
+    {
+      "code": "00",
+      "title_ko": "표지",
+      "title_en": "Cover Letter"
+    }
+  ],
+  "forms": [
+    {
+      "code": "F-1",
+      "title_ko": "목차",
+      "title_en": "INDEX"
+    },
+    {
+      "code": "F-2",
+      "title_ko": "개정이력",
+      "title_en": "REVISION HISTORY"
+    },
+    {
+      "code": "F-3",
+      "title_ko": "사명 및 비전",
+      "title_en": "MISSION AND VISION OF COMPANY"
+    },
+    {
+      "code": "F-4",
+      "title_ko": "회사의 장기 목표",
+      "title_en": "LONG-TERM OBJECTIVE OF COMPANY"
+    },
+    {
+      "code": "F-5",
+      "title_ko": "회사의 안전, 보건, 품질 및 환경보호 방침",
+      "title_en": "HSQE POLICY OF COMPANY"
+    },
+    {
+      "code": "F-6",
+      "title_ko": "마약 및 알코올 통제 방침",
+      "title_en": "DRUG AND ALCOHOL CONTROL POLICY"
+    },
+    {
+      "code": "F-7",
+      "title_ko": "년간 안전, 보건, 품질 및 환경 경영 목표",
+      "title_en": "ANNUAL SHQE MANAGEMENT OBJECTIVE"
+    },
+    {
+      "code": "F-8",
+      "title_ko": "윤리경영 방침",
+      "title_en": "CORPORATE POLICY OF ETHICAL MANAGEMENT"
+    }
+  ],
+  "chapters": [
+    {
+      "code": "CH.1",
+      "title_ko": "일반사항",
+      "title_en": "GENERAL"
+    },
+    {
+      "code": "CH.2",
+      "title_ko": "책임과 권한",
+      "title_en": "RESPONSIBILITY AND AUTHORITY"
+    },
+    {
+      "code": "CH.3",
+      "title_ko": "안전보건, 품질 및 환경 경영 시스템",
+      "title_en": "SHEQ MANAGEMENT SYSTEM"
+    },
+    {
+      "code": "CH.4",
+      "title_ko": "경영 기획",
+      "title_en": "MANAGEMENT PLANNING"
+    },
+    {
+      "code": "CH.5",
+      "title_ko": "자원 관리",
+      "title_en": "RESOURCE MANAGEMENT"
+    },
+    {
+      "code": "CH.6",
+      "title_ko": "운영관리",
+      "title_en": "OPERATION MANAGEMENT"
+    },
+    {
+      "code": "CH.7",
+      "title_ko": "성과평가",
+      "title_en": "PERFORMANCE EVALUATION"
+    },
+    {
+      "code": "CH.8",
+      "title_ko": "개선",
+      "title_en": "IMPROVEMENT"
+    },
+    {
+      "code": "CH.9",
+      "title_ko": "윤리경영 방침",
+      "title_en": "CORPORATE POLICY OF ETHICAL MANAGEMENT"
+    }
+  ],
+  "appendices": [
+    {
+      "code": "APP.1",
+      "title_ko": "프로세스 상호관계",
+      "title_en": "PROCESS INTERRELATION"
+    },
+    {
+      "code": "APP.2",
+      "title_ko": "프로세스 분류",
+      "title_en": "PROCESS CLASSIFICATION"
+    },
+    {
+      "code": "APP.3",
+      "title_ko": "프로세스 기획서",
+      "title_en": "PROCESS PLANNING"
+    },
+    {
+      "code": "APP.4",
+      "title_ko": "업무 분장표",
+      "title_en": "WORK RESPONSE TABLE"
+    },
+    {
+      "code": "APP.5",
+      "title_ko": "주요용어의 정의",
+      "title_en": "DEFINITION OF MAJOR TERMS"
+    },
+    {
+      "code": "APP.6",
+      "title_ko": "모니터링 및 측정 주기",
+      "title_en": "PERIOD OF MONITORING AND MEASUREMENT"
+    }
+  ]
+}

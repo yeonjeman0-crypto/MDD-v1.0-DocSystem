@@ -1,0 +1,1919 @@
+{
+  "version": "1.0.1",
+  "generated_at": "2025-08-09T03:03:26.974427Z",
+  "section": "Procedures",
+  "items": [
+    {
+      "code": "DRK-PR01",
+      "title_ko": "경영진 업무",
+      "title_en": "Management Duty",
+      "vessel_type": "",
+      "front": [
+        {
+          "code": "00",
+          "title_ko": "표지",
+          "title_en": "Cover Letter"
+        },
+        {
+          "code": "F-1",
+          "title_ko": "목차",
+          "title_en": "Index"
+        },
+        {
+          "code": "F-2",
+          "title_ko": "개정이력",
+          "title_en": "Revision History"
+        }
+      ],
+      "chapters": [
+        {
+          "code": "CH.1",
+          "title_ko": "일반사항",
+          "title_en": "General"
+        },
+        {
+          "code": "CH.2",
+          "title_ko": "책임과 권한",
+          "title_en": "Responsibility and Authority"
+        },
+        {
+          "code": "CH.3",
+          "title_ko": "경영검토",
+          "title_en": "Management Review"
+        },
+        {
+          "code": "CH.4",
+          "title_ko": "목표관리",
+          "title_en": "Objective Management"
+        },
+        {
+          "code": "CH.5",
+          "title_ko": "의사소통",
+          "title_en": "Communication"
+        },
+        {
+          "code": "CH.6",
+          "title_ko": "업무 전결",
+          "title_en": "Delegation of Authority"
+        },
+        {
+          "code": "CH.7",
+          "title_ko": "윤리경영 절차서",
+          "title_en": "Ethical Management Procedure"
+        }
+      ],
+      "appendices": [
+        {
+          "code": "APP.1",
+          "title_ko": "업무 전결 기준표",
+          "title_en": "Delegation of Authority Matrix"
+        }
+      ]
+    },
+    {
+      "code": "DRK-PR02",
+      "title_ko": "문서 및 기록 관리",
+      "title_en": "Document & Record Control",
+      "vessel_type": "",
+      "front": [
+        {
+          "code": "00",
+          "title_ko": "표지",
+          "title_en": "Cover Letter"
+        },
+        {
+          "code": "F-1",
+          "title_ko": "목차",
+          "title_en": "Index"
+        },
+        {
+          "code": "F-2",
+          "title_ko": "개정이력",
+          "title_en": "Revision History"
+        }
+      ],
+      "chapters": [
+        {
+          "code": "CH.1",
+          "title_ko": "일반사항",
+          "title_en": "General"
+        },
+        {
+          "code": "CH.2",
+          "title_ko": "책임과 권한",
+          "title_en": "Responsibility and Authority"
+        },
+        {
+          "code": "CH.3",
+          "title_ko": "표준문서",
+          "title_en": "Standard Document"
+        },
+        {
+          "code": "CH.4",
+          "title_ko": "외부출처문서",
+          "title_en": "External Document"
+        },
+        {
+          "code": "CH.5",
+          "title_ko": "증서",
+          "title_en": "Certificate"
+        },
+        {
+          "code": "CH.6",
+          "title_ko": "일반 공문서",
+          "title_en": "General Official Document"
+        },
+        {
+          "code": "CH.7",
+          "title_ko": "문서 수 발신",
+          "title_en": "Document Dispatch and Receipt"
+        },
+        {
+          "code": "CH.8",
+          "title_ko": "기록 관리",
+          "title_en": "Record Control"
+        }
+      ],
+      "appendices": [
+        {
+          "code": "APP.1",
+          "title_ko": "기록 및 보고서 양식",
+          "title_en": "List of Record and Report Form"
+        }
+      ]
+    },
+    {
+      "code": "DRK-PR03",
+      "title_ko": "육상 직원 관리",
+      "title_en": "Shore Staff Management",
+      "vessel_type": "",
+      "front": [
+        {
+          "code": "00",
+          "title_ko": "표지",
+          "title_en": "Cover Letter"
+        },
+        {
+          "code": "F-1",
+          "title_ko": "목차",
+          "title_en": "Index"
+        },
+        {
+          "code": "F-2",
+          "title_ko": "개정이력",
+          "title_en": "Revision History"
+        }
+      ],
+      "chapters": [
+        {
+          "code": "CH.1",
+          "title_ko": "일반사항",
+          "title_en": "General"
+        },
+        {
+          "code": "CH.2",
+          "title_ko": "책임과 권한",
+          "title_en": "Responsibility and Authority"
+        },
+        {
+          "code": "CH.3",
+          "title_ko": "채용 및 전근 배치 보직부여",
+          "title_en": "Recruitment, Transfer, Assignment of Duties"
+        },
+        {
+          "code": "CH.4",
+          "title_ko": "휴가 조퇴 지각",
+          "title_en": "Leave, Early Leave, Tardiness"
+        },
+        {
+          "code": "CH.5",
+          "title_ko": "출장",
+          "title_en": "Business Trip"
+        },
+        {
+          "code": "CH.6",
+          "title_ko": "휴직 복직 해고 및 퇴직",
+          "title_en": "Leave of Absence, Reinstatement, Dismissal & Retirement"
+        },
+        {
+          "code": "CH.7",
+          "title_ko": "급여 상여금 퇴직금 지급",
+          "title_en": "Salary, Bonus & Severance Pay"
+        },
+        {
+          "code": "CH.8",
+          "title_ko": "건강진단",
+          "title_en": "Health Checkup"
+        },
+        {
+          "code": "CH.9",
+          "title_ko": "재해보상",
+          "title_en": "Compensation for Occupational Injuries"
+        },
+        {
+          "code": "CH.10",
+          "title_ko": "표창과 징계절차",
+          "title_en": "Commendation and Disciplinary Procedure"
+        },
+        {
+          "code": "CH.11",
+          "title_ko": "인수인계",
+          "title_en": "Handover/Takeover"
+        },
+        {
+          "code": "CH.12",
+          "title_ko": "교육훈련",
+          "title_en": "Education and Training"
+        },
+        {
+          "code": "CH.13",
+          "title_ko": "평가",
+          "title_en": "Performance Appraisal"
+        },
+        {
+          "code": "CH.14",
+          "title_ko": "복리후생규정",
+          "title_en": "Welfare Regulations"
+        },
+        {
+          "code": "CH.15",
+          "title_ko": "전결규정",
+          "title_en": "Delegation of Authority"
+        },
+        {
+          "code": "CH.16",
+          "title_ko": "비상대응",
+          "title_en": "Emergency Response"
+        }
+      ],
+      "appendices": [
+        {
+          "code": "APP.1",
+          "title_ko": "육상직원채용기준",
+          "title_en": "Shore Staff Hiring Criteria"
+        },
+        {
+          "code": "APP.2",
+          "title_ko": "출장관리규정",
+          "title_en": "Business Trip Management Regulation"
+        },
+        {
+          "code": "APP.3",
+          "title_ko": "임원퇴직금 지급규정",
+          "title_en": "Executive Severance Pay Regulation"
+        },
+        {
+          "code": "APP.4",
+          "title_ko": "비상 대응 조직도",
+          "title_en": "Emergency Response Organization Chart"
+        },
+        {
+          "code": "APP.5",
+          "title_ko": "비상대응 시나리오",
+          "title_en": "Emergency Response Scenario"
+        },
+        {
+          "code": "APP.6",
+          "title_ko": "취업규칙",
+          "title_en": "Rules of Employment"
+        }
+      ]
+    },
+    {
+      "code": "DRK-PR04",
+      "title_ko": "해상 직원 관리",
+      "title_en": "Crew Management",
+      "vessel_type": "",
+      "front": [
+        {
+          "code": "00",
+          "title_ko": "표지",
+          "title_en": "Cover Letter"
+        },
+        {
+          "code": "F-1",
+          "title_ko": "목차",
+          "title_en": "Index"
+        },
+        {
+          "code": "F-2",
+          "title_ko": "개정이력",
+          "title_en": "Revision History"
+        }
+      ],
+      "chapters": [
+        {
+          "code": "CH.1",
+          "title_ko": "일반사항",
+          "title_en": "General"
+        },
+        {
+          "code": "CH.2",
+          "title_ko": "책임과 권한",
+          "title_en": "Responsibility and Authority"
+        },
+        {
+          "code": "CH.3",
+          "title_ko": "해상 직원 인사 위원회",
+          "title_en": "Crew Management Committee"
+        },
+        {
+          "code": "CH.4",
+          "title_ko": "채용 및 교대",
+          "title_en": "Recruiting and Replacing"
+        },
+        {
+          "code": "CH.5",
+          "title_ko": "진급, 징계 및 퇴직",
+          "title_en": "Promotion, Discipline and Retirement"
+        },
+        {
+          "code": "CH.6",
+          "title_ko": "상병관리 및 의료지원",
+          "title_en": "Treatment and Medical Support"
+        },
+        {
+          "code": "CH.7",
+          "title_ko": "선원관리사 및 외국인 선원 관리",
+          "title_en": "Manning Agency and Foreign Crew Management"
+        },
+        {
+          "code": "CH.8",
+          "title_ko": "해상 직원 교육 훈련",
+          "title_en": "Crew Education and Training"
+        },
+        {
+          "code": "CH.9",
+          "title_ko": "선내 교육 훈련",
+          "title_en": "Shipboard Training"
+        },
+        {
+          "code": "CH.10",
+          "title_ko": "평가",
+          "title_en": "Appraisal"
+        },
+        {
+          "code": "CH.11",
+          "title_ko": "실습생 관리",
+          "title_en": "Apprentice Management"
+        },
+        {
+          "code": "CH.12",
+          "title_ko": "선내 불만 처리",
+          "title_en": "Onboard Complaint Handling"
+        },
+        {
+          "code": "CH.13",
+          "title_ko": "마약 및 알코올 통제",
+          "title_en": "Drug and Alcohol Control"
+        },
+        {
+          "code": "CH.14",
+          "title_ko": "근로 및 휴식시간",
+          "title_en": "Working and Rest Hour"
+        },
+        {
+          "code": "CH.15",
+          "title_ko": "주부식 및 사주업무 관리",
+          "title_en": "Meal and Steward Affairs Management"
+        },
+        {
+          "code": "CH.16",
+          "title_ko": "해상직원 정신건강 관리",
+          "title_en": "Crew Mental Health Management"
+        }
+      ],
+      "appendices": [
+        {
+          "code": "APP.1",
+          "title_ko": "해상직원 채용기준",
+          "title_en": "Crew Employment Standard"
+        },
+        {
+          "code": "APP.2",
+          "title_ko": "면담평가 확인 사항",
+          "title_en": "Confirmation Items of Crew Interview"
+        },
+        {
+          "code": "APP.3",
+          "title_ko": "해상직원 입사서류",
+          "title_en": "Documents for Joining Crew the Company"
+        },
+        {
+          "code": "APP.4",
+          "title_ko": "정밀검사 판정기준",
+          "title_en": "Close Physical Examination Items and Criterion"
+        },
+        {
+          "code": "APP.5",
+          "title_ko": "표준 개인 업무 분장",
+          "title_en": "Standard Personal Job Division"
+        },
+        {
+          "code": "APP.6",
+          "title_ko": "상위직급 업무 실습 목록",
+          "title_en": "List of Higher Rank Duty Exercise"
+        },
+        {
+          "code": "APP.7",
+          "title_ko": "사내 교육 훈련 과정",
+          "title_en": "In-House Training Course"
+        },
+        {
+          "code": "APP.8",
+          "title_ko": "근무복/작업복 관리지침",
+          "title_en": "Supply Standard for Working Clothes/Safety Shoes/Duty Uniform"
+        }
+      ]
+    },
+    {
+      "code": "DRK-PR05",
+      "title_ko": "정비 업무",
+      "title_en": "Maintenance",
+      "vessel_type": "",
+      "front": [
+        {
+          "code": "00",
+          "title_ko": "표지",
+          "title_en": "Cover Letter"
+        },
+        {
+          "code": "F-1",
+          "title_ko": "목차",
+          "title_en": "Index"
+        },
+        {
+          "code": "F-2",
+          "title_ko": "개정이력",
+          "title_en": "Revision History"
+        }
+      ],
+      "chapters": [
+        {
+          "code": "CH.1",
+          "title_ko": "일반사항",
+          "title_en": "General"
+        },
+        {
+          "code": "CH.2",
+          "title_ko": "책임과 권한",
+          "title_en": "Responsibility and Authority"
+        },
+        {
+          "code": "CH.3",
+          "title_ko": "정비업무 방침과 표준",
+          "title_en": "Policy and Standard of Maintenance"
+        },
+        {
+          "code": "CH.4",
+          "title_ko": "계획정비",
+          "title_en": "Planned Maintenance System"
+        },
+        {
+          "code": "CH.5",
+          "title_ko": "자체정비",
+          "title_en": "Self Controlled Maintenance"
+        },
+        {
+          "code": "CH.6",
+          "title_ko": "외주정비",
+          "title_en": "Subcontractor Maintenance"
+        },
+        {
+          "code": "CH.7",
+          "title_ko": "입거정비",
+          "title_en": "Docking Repair"
+        },
+        {
+          "code": "CH.8",
+          "title_ko": "중대설비",
+          "title_en": "Critical Equipment"
+        },
+        {
+          "code": "CH.9",
+          "title_ko": "도면 관리",
+          "title_en": "Management of Drawing"
+        },
+        {
+          "code": "CH.10",
+          "title_ko": "외지수리 사실신고",
+          "title_en": "Report of Repair from Outside of Korea"
+        }
+      ],
+      "appendices": [
+        {
+          "code": "APP.1",
+          "title_ko": "주기적 검사의 대상과 주기",
+          "title_en": "Object of Periodical Inspection & Interval"
+        },
+        {
+          "code": "APP.2",
+          "title_ko": "중대기기 식별을 위한 위험성평가",
+          "title_en": "The Risk Assessment to Identify Critical Equipment"
+        },
+        {
+          "code": "APP.3",
+          "title_ko": "재생수리 기부속 및 재생수리 제한",
+          "title_en": "Recondition Items and Limitations"
+        }
+      ]
+    },
+    {
+      "code": "DRK-PR06",
+      "title_ko": "구매 및 보급",
+      "title_en": "Purchase and Supply",
+      "vessel_type": "",
+      "front": [
+        {
+          "code": "00",
+          "title_ko": "표지",
+          "title_en": "Cover Letter"
+        },
+        {
+          "code": "F-1",
+          "title_ko": "목차",
+          "title_en": "Index"
+        },
+        {
+          "code": "F-2",
+          "title_ko": "개정이력",
+          "title_en": "Revision History"
+        }
+      ],
+      "chapters": [
+        {
+          "code": "CH.1",
+          "title_ko": "일반사항",
+          "title_en": "General"
+        },
+        {
+          "code": "CH.2",
+          "title_ko": "책임과 권한",
+          "title_en": "Responsibility and Authority"
+        },
+        {
+          "code": "CH.3",
+          "title_ko": "선용품 보급",
+          "title_en": "Ship’s Store Supply"
+        },
+        {
+          "code": "CH.4",
+          "title_ko": "의료 위생 용품 보급",
+          "title_en": "Supply of Medical/Sanitary Item"
+        },
+        {
+          "code": "CH.5",
+          "title_ko": "작업복/안전화 보급",
+          "title_en": "Supply of Work Clothes/Safety Shoes"
+        },
+        {
+          "code": "CH.6",
+          "title_ko": "연료유/윤활유 보급",
+          "title_en": "Supply of Fuel/Lubricating Oil"
+        },
+        {
+          "code": "CH.7",
+          "title_ko": "청수 보급",
+          "title_en": "Supply of Fresh Water"
+        },
+        {
+          "code": "CH.8",
+          "title_ko": "긴급 보급",
+          "title_en": "Emergency Supply"
+        },
+        {
+          "code": "CH.9",
+          "title_ko": "수급품 검수",
+          "title_en": "Tallying of Received Supplies"
+        }
+      ],
+      "appendices": [
+        {
+          "code": "APP.1",
+          "title_ko": "기부속 최소 재고 가이드",
+          "title_en": "Guide for Minimum Stock of Spare Parts"
+        }
+      ]
+    },
+    {
+      "code": "DRK-PR07",
+      "title_ko": "외부공급자 관리",
+      "title_en": "External Provider Control",
+      "vessel_type": "",
+      "front": [
+        {
+          "code": "00",
+          "title_ko": "표지",
+          "title_en": "Cover Letter"
+        },
+        {
+          "code": "F-1",
+          "title_ko": "목차",
+          "title_en": "Index"
+        },
+        {
+          "code": "F-2",
+          "title_ko": "개정이력",
+          "title_en": "Revision History"
+        }
+      ],
+      "chapters": [
+        {
+          "code": "CH.1",
+          "title_ko": "일반사항",
+          "title_en": "General"
+        },
+        {
+          "code": "CH.2",
+          "title_ko": "책임과 권한",
+          "title_en": "Responsibility and Authority"
+        },
+        {
+          "code": "CH.3",
+          "title_ko": "외부공급자의 초기평가 및 선정",
+          "title_en": "Initial Appraisal and Choice of External Providers"
+        },
+        {
+          "code": "CH.4",
+          "title_ko": "정기평가 및 사후 관리",
+          "title_en": "Periodical Appraisal and Post-Control"
+        }
+      ],
+      "appendices": []
+    },
+    {
+      "code": "DRK-PR08",
+      "title_ko": "항행 안전",
+      "title_en": "Safety Navigation",
+      "vessel_type": "",
+      "front": [
+        {
+          "code": "00",
+          "title_ko": "표지",
+          "title_en": "Cover Letter"
+        },
+        {
+          "code": "F-1",
+          "title_ko": "목차",
+          "title_en": "Index"
+        },
+        {
+          "code": "F-2",
+          "title_ko": "개정이력",
+          "title_en": "Revision History"
+        }
+      ],
+      "chapters": [
+        {
+          "code": "CH.1",
+          "title_ko": "일반사항",
+          "title_en": "General"
+        },
+        {
+          "code": "CH.2",
+          "title_ko": "책임과 권한",
+          "title_en": "Responsibility and Authority"
+        },
+        {
+          "code": "CH.3",
+          "title_ko": "항해 계획",
+          "title_en": "Passage Plan"
+        },
+        {
+          "code": "CH.4",
+          "title_ko": "항해 당직",
+          "title_en": "Navigational Watch"
+        },
+        {
+          "code": "CH.5",
+          "title_ko": "정박 당직",
+          "title_en": "Watch-Keeping in Port"
+        },
+        {
+          "code": "CH.6",
+          "title_ko": "입출항 및 도선사 승선",
+          "title_en": "Entering/Leaving a Port and Pilot Onboard"
+        },
+        {
+          "code": "CH.7",
+          "title_ko": "중대항해 및 특수항해",
+          "title_en": "Critical and Special Navigation"
+        },
+        {
+          "code": "CH.8",
+          "title_ko": "항해일지의 기록",
+          "title_en": "Record of Log Book"
+        },
+        {
+          "code": "CH.9",
+          "title_ko": "항해 심사",
+          "title_en": "Navigational Audit"
+        },
+        {
+          "code": "CH.10",
+          "title_ko": "계류",
+          "title_en": "Mooring"
+        },
+        {
+          "code": "CH.11",
+          "title_ko": "묘박 업무",
+          "title_en": "Anchoring"
+        },
+        {
+          "code": "CH.12",
+          "title_ko": "해도 및 항행간행물 관리",
+          "title_en": "Chart and Publication Management"
+        },
+        {
+          "code": "CH.13",
+          "title_ko": "통신 및 보고",
+          "title_en": "Communication and Report"
+        },
+        {
+          "code": "CH.14",
+          "title_ko": "운항 분석 및 통제",
+          "title_en": "Navigation Analysis and Control"
+        }
+      ],
+      "appendices": [
+        {
+          "code": "APP.1",
+          "title_ko": "선교 복무 지침",
+          "title_en": "Master’s Standing Order for Navigation"
+        },
+        {
+          "code": "APP.2",
+          "title_ko": "기관장 복무 지침",
+          "title_en": "Chief Engineer Standing Order"
+        },
+        {
+          "code": "APP.3",
+          "title_ko": "신 침로 거리",
+          "title_en": "Distance of New Course"
+        },
+        {
+          "code": "APP.4",
+          "title_ko": "ECDIS 운용지침",
+          "title_en": "ECDIS Operation Guide"
+        },
+        {
+          "code": "APP.5",
+          "title_ko": "선교팀 관리",
+          "title_en": "Bridge Team Management"
+        },
+        {
+          "code": "APP.6",
+          "title_ko": "선박안전을 위한 조업어선들의 특징",
+          "title_en": "The Figure of Fishing Boats for the Safety Navigation"
+        },
+        {
+          "code": "APP.7",
+          "title_ko": "계류삭 및 계류 설비 세부 기준",
+          "title_en": "Standards Detail for Mooring Rope and Equipment"
+        },
+        {
+          "code": "APP.8",
+          "title_ko": "묘박 세부 지침",
+          "title_en": "Detail Instruction for Anchoring"
+        }
+      ]
+    },
+    {
+      "code": "DRK-PR09",
+      "title_ko": "화물 관리",
+      "title_en": "Cargo Handling",
+      "vessel_type": "Bulk Carrier",
+      "front": [
+        {
+          "code": "00",
+          "title_ko": "표지",
+          "title_en": "Cover Letter"
+        },
+        {
+          "code": "F-1",
+          "title_ko": "목차",
+          "title_en": "Index"
+        },
+        {
+          "code": "F-2",
+          "title_ko": "개정이력",
+          "title_en": "Revision History"
+        }
+      ],
+      "chapters": [
+        {
+          "code": "CH.1",
+          "title_ko": "책임",
+          "title_en": "Responsibility"
+        },
+        {
+          "code": "CH.2",
+          "title_ko": "일반사항",
+          "title_en": "General"
+        },
+        {
+          "code": "CH.3",
+          "title_ko": "안전",
+          "title_en": "Safety"
+        },
+        {
+          "code": "CH.4",
+          "title_ko": "화물 적/양하",
+          "title_en": "Loading and Unloading of Cargo"
+        },
+        {
+          "code": "CH.5",
+          "title_ko": "원목 운송 지침",
+          "title_en": "Log Transportation"
+        },
+        {
+          "code": "CH.6",
+          "title_ko": "산적화물 운송지침",
+          "title_en": "Bulk Cargo Transportation"
+        },
+        {
+          "code": "CH.7",
+          "title_ko": "개품화물 운송지침",
+          "title_en": "Break Bulk Cargo Transportation"
+        },
+        {
+          "code": "CH.8",
+          "title_ko": "발라스트 작업",
+          "title_en": "Ballast Work"
+        },
+        {
+          "code": "CH.9",
+          "title_ko": "화물창 청소",
+          "title_en": "Cargo Hold Cleaning"
+        }
+      ],
+      "appendices": []
+    },
+    {
+      "code": "DRK-PR09",
+      "title_ko": "화물 관리",
+      "title_en": "Cargo Handling",
+      "vessel_type": "PCTC",
+      "front": [
+        {
+          "code": "00",
+          "title_ko": "표지",
+          "title_en": "Cover Letter"
+        },
+        {
+          "code": "F-1",
+          "title_ko": "목차",
+          "title_en": "Index"
+        },
+        {
+          "code": "F-2",
+          "title_ko": "개정이력",
+          "title_en": "Revision History"
+        }
+      ],
+      "chapters": [
+        {
+          "code": "CH.1",
+          "title_ko": "일반사항",
+          "title_en": "General"
+        },
+        {
+          "code": "CH.2",
+          "title_ko": "RAMP 와 DECK PANEL 운용",
+          "title_en": "Ramp & Deck Panel Operation"
+        },
+        {
+          "code": "CH.3",
+          "title_ko": "선적 준비",
+          "title_en": "Preparation for Loading"
+        },
+        {
+          "code": "CH.4",
+          "title_ko": "선적",
+          "title_en": "Loading"
+        },
+        {
+          "code": "CH.5",
+          "title_ko": "표준적부",
+          "title_en": "Standardized Stowage"
+        },
+        {
+          "code": "CH.6",
+          "title_ko": "고박",
+          "title_en": "Lashing"
+        },
+        {
+          "code": "CH.7",
+          "title_ko": "항해중",
+          "title_en": "During the Voyage"
+        },
+        {
+          "code": "CH.8",
+          "title_ko": "양하",
+          "title_en": "Unloading"
+        },
+        {
+          "code": "CH.9",
+          "title_ko": "특수화물 취급",
+          "title_en": "Handling for Special Cargo"
+        },
+        {
+          "code": "CH.10",
+          "title_ko": "환기",
+          "title_en": "Ventilation"
+        },
+        {
+          "code": "CH.11",
+          "title_ko": "화물손상 방지",
+          "title_en": "Prevention for Cargo Damage"
+        },
+        {
+          "code": "CH.12",
+          "title_ko": "화재 방지",
+          "title_en": "Prevention for Fire"
+        }
+      ],
+      "appendices": [
+        {
+          "code": "APP.1",
+          "title_ko": "Uniform Load & Axle Load",
+          "title_en": "Uniform Load & Axle Load"
+        },
+        {
+          "code": "APP.2",
+          "title_ko": "Deck Lifter, Tug Master, Pick-Up Truck",
+          "title_en": "Deck Lifter, Tug Master, Pick-Up Truck"
+        },
+        {
+          "code": "APP.3",
+          "title_ko": "Cargo Hold Battery and Gas Charging",
+          "title_en": "Cargo Hold Battery and Gas Charging"
+        },
+        {
+          "code": "APP.4",
+          "title_ko": "Alternative Fuel Vehicles Units (AFV)",
+          "title_en": "Alternative Fuel Vehicles Units (AFV)"
+        }
+      ]
+    },
+    {
+      "code": "DRK-PR10",
+      "title_ko": "사고 관리",
+      "title_en": "Incident Control",
+      "vessel_type": "",
+      "front": [
+        {
+          "code": "00",
+          "title_ko": "표지",
+          "title_en": "Cover Letter"
+        },
+        {
+          "code": "F-1",
+          "title_ko": "목차",
+          "title_en": "Index"
+        },
+        {
+          "code": "F-2",
+          "title_ko": "개정이력",
+          "title_en": "Revision History"
+        }
+      ],
+      "chapters": [
+        {
+          "code": "CH.1",
+          "title_ko": "일반사항",
+          "title_en": "General"
+        },
+        {
+          "code": "CH.2",
+          "title_ko": "책임과 권한",
+          "title_en": "Responsibility and Authority"
+        },
+        {
+          "code": "CH.3",
+          "title_ko": "사고의 조사 및 분석",
+          "title_en": "Accident Investigation and Analysis"
+        },
+        {
+          "code": "CH.4",
+          "title_ko": "정보의 공유",
+          "title_en": "Information Sharing"
+        },
+        {
+          "code": "CH.5",
+          "title_ko": "해상직원 상해 평가 분석",
+          "title_en": "Injury Assessment/Analysis to Crew"
+        }
+      ],
+      "appendices": []
+    },
+    {
+      "code": "DRK-PR11",
+      "title_ko": "위험성 평가",
+      "title_en": "Risk Assessment",
+      "vessel_type": "",
+      "front": [
+        {
+          "code": "00",
+          "title_ko": "표지",
+          "title_en": "Cover Letter"
+        },
+        {
+          "code": "F-1",
+          "title_ko": "목차",
+          "title_en": "Index"
+        },
+        {
+          "code": "F-2",
+          "title_ko": "개정이력",
+          "title_en": "Revision History"
+        }
+      ],
+      "chapters": [
+        {
+          "code": "CH.1",
+          "title_ko": "일반사항",
+          "title_en": "General"
+        },
+        {
+          "code": "CH.2",
+          "title_ko": "책임과 권한",
+          "title_en": "Responsibility and Authority"
+        },
+        {
+          "code": "CH.3",
+          "title_ko": "위험성 평가의 준비",
+          "title_en": "Preparation of Risk Assessment"
+        },
+        {
+          "code": "CH.4",
+          "title_ko": "위험성 평가",
+          "title_en": "Risk Assessment"
+        },
+        {
+          "code": "CH.5",
+          "title_ko": "위험성 평가서",
+          "title_en": "Risk Assessment Sheet"
+        },
+        {
+          "code": "CH.6",
+          "title_ko": "위험성의 개선",
+          "title_en": "Risk Control"
+        },
+        {
+          "code": "CH.7",
+          "title_ko": "선상 위험성 관리",
+          "title_en": "Shipboard Risk Control"
+        }
+      ],
+      "appendices": []
+    },
+    {
+      "code": "DRK-PR12",
+      "title_ko": "변화 관리",
+      "title_en": "Management of Change",
+      "vessel_type": "",
+      "front": [
+        {
+          "code": "00",
+          "title_ko": "표지",
+          "title_en": "Cover Letter"
+        },
+        {
+          "code": "F-1",
+          "title_ko": "목차",
+          "title_en": "Index"
+        },
+        {
+          "code": "F-2",
+          "title_ko": "개정이력",
+          "title_en": "Revision History"
+        }
+      ],
+      "chapters": [
+        {
+          "code": "CH.1",
+          "title_ko": "일반사항",
+          "title_en": "General"
+        },
+        {
+          "code": "CH.2",
+          "title_ko": "책임과 권한",
+          "title_en": "Responsibility and Authority"
+        },
+        {
+          "code": "CH.3",
+          "title_ko": "변화 관리",
+          "title_en": "Management of Change"
+        },
+        {
+          "code": "CH.4",
+          "title_ko": "법규 및 그 밖의 요구사항",
+          "title_en": "Legal and Other Requirement"
+        }
+      ],
+      "appendices": []
+    },
+    {
+      "code": "DRK-PR13",
+      "title_ko": "안전 관리",
+      "title_en": "Safety Management",
+      "vessel_type": "",
+      "front": [
+        {
+          "code": "00",
+          "title_ko": "표지",
+          "title_en": "Cover Letter"
+        },
+        {
+          "code": "F-1",
+          "title_ko": "목차",
+          "title_en": "Index"
+        },
+        {
+          "code": "F-2",
+          "title_ko": "개정이력",
+          "title_en": "Revision History"
+        }
+      ],
+      "chapters": [
+        {
+          "code": "CH.1",
+          "title_ko": "일반사항",
+          "title_en": "General"
+        },
+        {
+          "code": "CH.2",
+          "title_ko": "책임과 권한",
+          "title_en": "Responsibility and Authority"
+        },
+        {
+          "code": "CH.3",
+          "title_ko": "선내 안전 수칙",
+          "title_en": "Shipboard Safety Rule"
+        },
+        {
+          "code": "CH.4",
+          "title_ko": "각종 위험작업",
+          "title_en": "Dangerous Works"
+        },
+        {
+          "code": "CH.5",
+          "title_ko": "승무원 건강관리",
+          "title_en": "Health Control of Crew"
+        },
+        {
+          "code": "CH.6",
+          "title_ko": "선내안전점검의 원칙",
+          "title_en": "Principle of Shipboard Safety Inspection"
+        },
+        {
+          "code": "CH.7",
+          "title_ko": "선내안전점검의 수행",
+          "title_en": "Shipboard Safety Inspection"
+        },
+        {
+          "code": "CH.8",
+          "title_ko": "유류분석",
+          "title_en": "Oil Analysis"
+        },
+        {
+          "code": "CH.9",
+          "title_ko": "계측기 검교정",
+          "title_en": "Calibration"
+        },
+        {
+          "code": "CH.10",
+          "title_ko": "석면 관리 절차",
+          "title_en": "Asbestos Control Operation"
+        }
+      ],
+      "appendices": [
+        {
+          "code": "APP.1",
+          "title_ko": "선내 안전점검 대상, 주기 및 담당자(갑판)",
+          "title_en": "Object, Period, PIC (Deck)"
+        },
+        {
+          "code": "APP.2",
+          "title_ko": "선내 안전점검 대상, 주기 및 담당자(기관)",
+          "title_en": "Object, Period, PIC (Engine)"
+        },
+        {
+          "code": "APP.3",
+          "title_ko": "안전을 위한 선장복무지침",
+          "title_en": "Master’s Standing Order for Safety"
+        },
+        {
+          "code": "APP.4",
+          "title_ko": "보안을 위한 선장복무지침",
+          "title_en": "Master’s Standing Order for Security"
+        },
+        {
+          "code": "APP.5",
+          "title_ko": "탱크 코팅 점검 지침(탱커선)",
+          "title_en": "Tank Coating Inspection Guidance (Only for Tanker)"
+        }
+      ]
+    },
+    {
+      "code": "DRK-PR14",
+      "title_ko": "환경 관리",
+      "title_en": "Environment Management",
+      "vessel_type": "",
+      "front": [
+        {
+          "code": "00",
+          "title_ko": "표지",
+          "title_en": "Cover Letter"
+        },
+        {
+          "code": "F-1",
+          "title_ko": "목차",
+          "title_en": "Index"
+        },
+        {
+          "code": "F-2",
+          "title_ko": "개정이력",
+          "title_en": "Revision History"
+        }
+      ],
+      "chapters": [
+        {
+          "code": "CH.1",
+          "title_ko": "일반사항",
+          "title_en": "General"
+        },
+        {
+          "code": "CH.2",
+          "title_ko": "책임과 권한",
+          "title_en": "Responsibility and Authority"
+        },
+        {
+          "code": "CH.3",
+          "title_ko": "환경측면 조사",
+          "title_en": "Environmental Aspect Investigation"
+        },
+        {
+          "code": "CH.4",
+          "title_ko": "조사 기준",
+          "title_en": "Investigation Standard"
+        },
+        {
+          "code": "CH.5",
+          "title_ko": "환경 측면 관리",
+          "title_en": "Environmental Aspect Management"
+        },
+        {
+          "code": "CH.6",
+          "title_ko": "해양오염방지 관리기준",
+          "title_en": "Marine Pollution Prevention Criteria"
+        },
+        {
+          "code": "CH.7",
+          "title_ko": "빌지 및 슬러지의 처리",
+          "title_en": "Bilge and Sludge Disposal"
+        },
+        {
+          "code": "CH.8",
+          "title_ko": "소각",
+          "title_en": "Incineration"
+        },
+        {
+          "code": "CH.9",
+          "title_ko": "폐기물 처리",
+          "title_en": "Garbage Disposal"
+        },
+        {
+          "code": "CH.10",
+          "title_ko": "분뇨 처리",
+          "title_en": "Sewage Disposal"
+        },
+        {
+          "code": "CH.11",
+          "title_ko": "해양오염방제자재",
+          "title_en": "Marine Pollution Prevention Material"
+        },
+        {
+          "code": "CH.12",
+          "title_ko": "평형수 관리",
+          "title_en": "Management of Ballast Water"
+        },
+        {
+          "code": "CH.13",
+          "title_ko": "오존파괴물질 관리",
+          "title_en": "Ozone Depleting Substance Management"
+        },
+        {
+          "code": "CH.14",
+          "title_ko": "대기 오염물 및 방오시스템",
+          "title_en": "Air Pollution and Antifouling System"
+        },
+        {
+          "code": "CH.15",
+          "title_ko": "황산화물배출통제지역",
+          "title_en": "SOx Emission Control Area"
+        },
+        {
+          "code": "CH.16",
+          "title_ko": "에너지 관리",
+          "title_en": "Energy Conservation"
+        },
+        {
+          "code": "CH.17",
+          "title_ko": "기름중화제 및 분산제 사용의 관리",
+          "title_en": "Management of Oil Dispersant and Neutralizer"
+        }
+      ],
+      "appendices": [
+        {
+          "code": "APP.1",
+          "title_ko": "유황분 계산식",
+          "title_en": "Sulfur Calculator"
+        },
+        {
+          "code": "APP.2",
+          "title_ko": "주요용어의 정의",
+          "title_en": "Definition of Major Terms"
+        },
+        {
+          "code": "APP.3",
+          "title_ko": "EGCS 운전지침",
+          "title_en": "EGCS Operation Instruction"
+        },
+        {
+          "code": "APP.4",
+          "title_ko": "BWTS 관리 지침",
+          "title_en": "BWTS Management Instruction"
+        },
+        {
+          "code": "APP.5",
+          "title_ko": "폐기물관리계획서",
+          "title_en": "Garbage Management Plan"
+        },
+        {
+          "code": "APP.6",
+          "title_ko": "Catalytic fines 관리 지침",
+          "title_en": "Catalytic Fines Management Guidelines"
+        },
+        {
+          "code": "APP.7",
+          "title_ko": "생물부착관리계획서",
+          "title_en": "Biofouling Management Plan"
+        },
+        {
+          "code": "APP.8",
+          "title_ko": "EPL, SHAPOLI 관리 지침",
+          "title_en": "EPL, SHAPOLI Management Instruction"
+        }
+      ]
+    },
+    {
+      "code": "DRK-PR15",
+      "title_ko": "비상 대응",
+      "title_en": "Emergency Response",
+      "vessel_type": "",
+      "front": [
+        {
+          "code": "00",
+          "title_ko": "표지",
+          "title_en": "Cover Letter"
+        },
+        {
+          "code": "F-1",
+          "title_ko": "목차",
+          "title_en": "Index"
+        },
+        {
+          "code": "F-2",
+          "title_ko": "개정이력",
+          "title_en": "Revision History"
+        }
+      ],
+      "chapters": [
+        {
+          "code": "CH.1",
+          "title_ko": "일반사항",
+          "title_en": "General"
+        },
+        {
+          "code": "CH.2",
+          "title_ko": "책임과 권한",
+          "title_en": "Responsibility and Authority"
+        },
+        {
+          "code": "CH.3",
+          "title_ko": "비상상황의 종류 및 비상대응기준",
+          "title_en": "Kind of Emergency and Emergency Response Criteria"
+        },
+        {
+          "code": "CH.4",
+          "title_ko": "선박에서의 비상사태 처리",
+          "title_en": "Emergency Response on Board"
+        },
+        {
+          "code": "CH.5",
+          "title_ko": "육상에서의 비상사태 처리",
+          "title_en": "Emergency Response on Shore"
+        },
+        {
+          "code": "CH.6",
+          "title_ko": "비상대응훈련",
+          "title_en": "Emergency Response Drill"
+        },
+        {
+          "code": "CH.7",
+          "title_ko": "해난 구조",
+          "title_en": "Salvage"
+        },
+        {
+          "code": "CH.8",
+          "title_ko": "언론대응",
+          "title_en": "Media Control"
+        }
+      ],
+      "appendices": [
+        {
+          "code": "APP.1",
+          "title_ko": "비상상황 별 비상대응",
+          "title_en": "Response as Emergency Case"
+        },
+        {
+          "code": "APP.2",
+          "title_ko": "로이드 해난구조 표준 양식",
+          "title_en": "Lloyd Standard Form of Salvage Agreement"
+        },
+        {
+          "code": "APP.3",
+          "title_ko": "SCOPIC Clause",
+          "title_en": "SCOPIC Clause"
+        },
+        {
+          "code": "APP.4",
+          "title_ko": "비상연락계통도",
+          "title_en": "Emergency Contact Flow Chart"
+        },
+        {
+          "code": "APP.5",
+          "title_ko": "비상대책위원회 조직도",
+          "title_en": "Emergency Control Committee Organization"
+        },
+        {
+          "code": "APP.6",
+          "title_ko": "밀폐구역 구조",
+          "title_en": "Enclosed Space Rescue"
+        }
+      ]
+    },
+    {
+      "code": "DRK-PR16",
+      "title_ko": "검사·심사 수검",
+      "title_en": "Survey & Audit",
+      "vessel_type": "",
+      "front": [
+        {
+          "code": "00",
+          "title_ko": "표지",
+          "title_en": "Cover Letter"
+        },
+        {
+          "code": "F-1",
+          "title_ko": "목차",
+          "title_en": "Index"
+        },
+        {
+          "code": "F-2",
+          "title_ko": "개정이력",
+          "title_en": "Revision History"
+        }
+      ],
+      "chapters": [
+        {
+          "code": "CH.1",
+          "title_ko": "일반사항",
+          "title_en": "General"
+        },
+        {
+          "code": "CH.2",
+          "title_ko": "책임과 권한",
+          "title_en": "Responsibility and Authority"
+        },
+        {
+          "code": "CH.3",
+          "title_ko": "선급검사의 수검",
+          "title_en": "Class Survey"
+        },
+        {
+          "code": "CH.4",
+          "title_ko": "항만국 통제 수검",
+          "title_en": "Port State Control"
+        },
+        {
+          "code": "CH.5",
+          "title_ko": "안전경영시스템 심사 수검",
+          "title_en": "Safety Management System Audit"
+        },
+        {
+          "code": "CH.6",
+          "title_ko": "메이저/CDI 수검",
+          "title_en": "Oil Major/CDI Inspection"
+        },
+        {
+          "code": "CH.7",
+          "title_ko": "기국 통제 수검",
+          "title_en": "Flag State Control"
+        },
+        {
+          "code": "CH.8",
+          "title_ko": "선박보안시스템 심사 수검",
+          "title_en": "Ship Security Audit"
+        },
+        {
+          "code": "CH.9",
+          "title_ko": "기타 검사",
+          "title_en": "Other Survey"
+        }
+      ],
+      "appendices": [
+        {
+          "code": "APP.1",
+          "title_ko": "기관장 확인검사 항목",
+          "title_en": "C/E Conformation Survey Items"
+        }
+      ]
+    },
+    {
+      "code": "DRK-PR17",
+      "title_ko": "선박 인수·인도",
+      "title_en": "Ship Acquisition & Delivery",
+      "vessel_type": "",
+      "front": [
+        {
+          "code": "00",
+          "title_ko": "표지",
+          "title_en": "Cover Letter"
+        },
+        {
+          "code": "F-1",
+          "title_ko": "목차",
+          "title_en": "Index"
+        },
+        {
+          "code": "F-2",
+          "title_ko": "개정이력",
+          "title_en": "Revision History"
+        }
+      ],
+      "chapters": [
+        {
+          "code": "CH.1",
+          "title_ko": "일반사항",
+          "title_en": "General"
+        },
+        {
+          "code": "CH.2",
+          "title_ko": "책임과 권한",
+          "title_en": "Responsibility and Authority"
+        },
+        {
+          "code": "CH.3",
+          "title_ko": "신조선 인수",
+          "title_en": "Delivery of New Ship"
+        },
+        {
+          "code": "CH.4",
+          "title_ko": "신조선 인수 선원 업무",
+          "title_en": "Duty for Ship Acceptance Crew"
+        },
+        {
+          "code": "CH.5",
+          "title_ko": "중고선 및 관리선 인수",
+          "title_en": "Acceptance of Second Hand Ship"
+        },
+        {
+          "code": "CH.6",
+          "title_ko": "중고선 및 관리선 인도",
+          "title_en": "Delivery of Second Hand Ship"
+        }
+      ],
+      "appendices": [
+        {
+          "code": "APP.1",
+          "title_ko": "신조/중고/관리 선박 인수 작업 일정표",
+          "title_en": "Taking Over Schedule for New, Used, and Management Vessel"
+        }
+      ]
+    },
+    {
+      "code": "DRK-PR18",
+      "title_ko": "모니터링·측정·의사소통",
+      "title_en": "Monitoring, Measurement & Communication",
+      "vessel_type": "",
+      "front": [
+        {
+          "code": "00",
+          "title_ko": "표지",
+          "title_en": "Cover Letter"
+        },
+        {
+          "code": "F-1",
+          "title_ko": "목차",
+          "title_en": "Index"
+        },
+        {
+          "code": "F-2",
+          "title_ko": "개정이력",
+          "title_en": "Revision History"
+        }
+      ],
+      "chapters": [
+        {
+          "code": "CH.1",
+          "title_ko": "일반사항",
+          "title_en": "General"
+        },
+        {
+          "code": "CH.2",
+          "title_ko": "책임과 권한",
+          "title_en": "Responsibility and Authority"
+        },
+        {
+          "code": "CH.3",
+          "title_ko": "감독 방선 점검",
+          "title_en": "Superintendent Visiting Inspection"
+        },
+        {
+          "code": "CH.4",
+          "title_ko": "선장 검증 및 보고",
+          "title_en": "Master’s Verification and Reporting"
+        },
+        {
+          "code": "CH.5",
+          "title_ko": "프로세스의 모니터링 및 측정",
+          "title_en": "Process Monitoring and Measurement"
+        },
+        {
+          "code": "CH.6",
+          "title_ko": "서비스의 모니터링 및 측정",
+          "title_en": "Service Monitoring and Measurement"
+        },
+        {
+          "code": "CH.7",
+          "title_ko": "데이터 분석",
+          "title_en": "Data Analysis"
+        },
+        {
+          "code": "CH.8",
+          "title_ko": "외부 의사소통",
+          "title_en": "Communication with Outside"
+        },
+        {
+          "code": "CH.9",
+          "title_ko": "육상 회의",
+          "title_en": "Shore Base Meeting"
+        },
+        {
+          "code": "CH.10",
+          "title_ko": "선박 회의",
+          "title_en": "Shipboard Meeting"
+        },
+        {
+          "code": "CH.11",
+          "title_ko": "준수 평가",
+          "title_en": "Evaluation for Compliance with Legal/Other Requirement"
+        },
+        {
+          "code": "CH.12",
+          "title_ko": "기반 구조 및 조직의 지식",
+          "title_en": "Infrastructure & Organization Knowledge"
+        }
+      ],
+      "appendices": []
+    },
+    {
+      "code": "DRK-PR19",
+      "title_ko": "고객만족·고객관리",
+      "title_en": "Customer Satisfaction & Customer Related Process",
+      "vessel_type": "",
+      "front": [
+        {
+          "code": "00",
+          "title_ko": "표지",
+          "title_en": "Cover Letter"
+        },
+        {
+          "code": "F-1",
+          "title_ko": "목차",
+          "title_en": "Index"
+        },
+        {
+          "code": "F-2",
+          "title_ko": "개정이력",
+          "title_en": "Revision History"
+        }
+      ],
+      "chapters": [
+        {
+          "code": "CH.1",
+          "title_ko": "고객만족",
+          "title_en": "Customer Satisfaction"
+        },
+        {
+          "code": "CH.2",
+          "title_ko": "고객관리 프로세스",
+          "title_en": "Customer Related Process"
+        }
+      ],
+      "appendices": []
+    },
+    {
+      "code": "DRK-PR20",
+      "title_ko": "내부심사",
+      "title_en": "Internal Audit",
+      "vessel_type": "",
+      "front": [
+        {
+          "code": "00",
+          "title_ko": "표지",
+          "title_en": "Cover Letter"
+        },
+        {
+          "code": "F-1",
+          "title_ko": "목차",
+          "title_en": "Index"
+        },
+        {
+          "code": "F-2",
+          "title_ko": "개정이력",
+          "title_en": "Revision History"
+        }
+      ],
+      "chapters": [
+        {
+          "code": "CH.1",
+          "title_ko": "일반사항",
+          "title_en": "General"
+        },
+        {
+          "code": "CH.2",
+          "title_ko": "책임과 권한",
+          "title_en": "Responsibility and Authority"
+        },
+        {
+          "code": "CH.3",
+          "title_ko": "내부심사 종류",
+          "title_en": "Kind of Internal Audit"
+        },
+        {
+          "code": "CH.4",
+          "title_ko": "심사대상 및 시간",
+          "title_en": "Object and Time of Audit"
+        },
+        {
+          "code": "CH.5",
+          "title_ko": "내부심사팀의 구성 및 독립성",
+          "title_en": "Composition of Audit Team and Independence"
+        },
+        {
+          "code": "CH.6",
+          "title_ko": "심사자의 자격 및 관리",
+          "title_en": "Qualification and Management of Internal Auditor"
+        },
+        {
+          "code": "CH.7",
+          "title_ko": "심사계획의 수립 및 통보",
+          "title_en": "Establishment and Notification of Internal Audit Plan"
+        },
+        {
+          "code": "CH.8",
+          "title_ko": "내부심사의 수행",
+          "title_en": "Conducting Internal Audit"
+        }
+      ],
+      "appendices": []
+    },
+    {
+      "code": "DRK-PR21",
+      "title_ko": "부적합 관리",
+      "title_en": "Non-Conformity Handling",
+      "vessel_type": "",
+      "front": [
+        {
+          "code": "00",
+          "title_ko": "표지",
+          "title_en": "Cover Letter"
+        },
+        {
+          "code": "F-1",
+          "title_ko": "목차",
+          "title_en": "Index"
+        },
+        {
+          "code": "F-2",
+          "title_ko": "개정이력",
+          "title_en": "Revision History"
+        }
+      ],
+      "chapters": [
+        {
+          "code": "CH.1",
+          "title_ko": "일반사항",
+          "title_en": "General"
+        },
+        {
+          "code": "CH.2",
+          "title_ko": "책임과 권한",
+          "title_en": "Responsibility and Authority"
+        },
+        {
+          "code": "CH.3",
+          "title_ko": "부적합 관리",
+          "title_en": "Non-Conformity Handling"
+        }
+      ],
+      "appendices": []
+    },
+    {
+      "code": "DRK-PR22",
+      "title_ko": "사이버 보안",
+      "title_en": "Cyber Security",
+      "vessel_type": "",
+      "front": [
+        {
+          "code": "00",
+          "title_ko": "표지",
+          "title_en": "Cover Letter"
+        },
+        {
+          "code": "F-1",
+          "title_ko": "목차",
+          "title_en": "Index"
+        },
+        {
+          "code": "F-2",
+          "title_ko": "개정이력",
+          "title_en": "Revision History"
+        }
+      ],
+      "chapters": [
+        {
+          "code": "CH.1",
+          "title_ko": "일반사항",
+          "title_en": "General"
+        },
+        {
+          "code": "CH.2",
+          "title_ko": "위협의 식별",
+          "title_en": "Identify Threats"
+        },
+        {
+          "code": "CH.3",
+          "title_ko": "취약성 식별",
+          "title_en": "Identify Vulnerabilities"
+        },
+        {
+          "code": "CH.4",
+          "title_ko": "리스크 평가",
+          "title_en": "Risk Assessment"
+        },
+        {
+          "code": "CH.5",
+          "title_ko": "교육 및 인식 개선",
+          "title_en": "Training and Enhance Cyber Security Awareness"
+        },
+        {
+          "code": "CH.6",
+          "title_ko": "기술적 보안 조치",
+          "title_en": "Technical Protection Measures"
+        },
+        {
+          "code": "CH.7",
+          "title_ko": "관리적 보안 조치",
+          "title_en": "Administrative Protection Measures"
+        },
+        {
+          "code": "CH.8",
+          "title_ko": "물리적 보호 조치",
+          "title_en": "Physical Protection Measures"
+        },
+        {
+          "code": "CH.9",
+          "title_ko": "사이버 보안 비상대응 및 복구",
+          "title_en": "Cyber Security Emergency Response and Recovery"
+        },
+        {
+          "code": "CH.10",
+          "title_ko": "사이버 보안 검증, 검토 및 평가",
+          "title_en": "Cyber Security Verification, Review and Evaluation"
+        }
+      ],
+      "appendices": [
+        {
+          "code": "APP.1",
+          "title_ko": "위험성평가",
+          "title_en": "Risk Assessment"
+        }
+      ]
+    }
+  ]
+}

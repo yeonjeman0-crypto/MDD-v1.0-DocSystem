@@ -1,0 +1,3928 @@
+{
+  "version": "1.0.1",
+  "generated_at": "2025-08-09T03:03:26.974427Z",
+  "section": "Instructions",
+  "items": [
+    {
+      "code": "I-01",
+      "title_ko": "사고속보",
+      "title_en": "ACCIDENT PRESS",
+      "items": [
+        {
+          "date": "",
+          "code": "",
+          "title_ko": "",
+          "title_en": ""
+        },
+        {
+          "date": "2013.10.07",
+          "code": "I-01-13-001",
+          "title_ko": "Incident of submersible & portable cargo pump with Unsatisfactory management & poor maintenance",
+          "title_en": "Incident of submersible & portable cargo pump with Unsatisfactory management & poor maintenance"
+        },
+        {
+          "date": "2013.11.26",
+          "code": "I-01-13-002",
+          "title_ko": "Anchor dragged into incidental contact buoy",
+          "title_en": "Anchor dragged into incidental contact buoy"
+        },
+        {
+          "date": "2015.12.01",
+          "code": "I-01-SQT-15-114",
+          "title_ko": "Serious center ramp incident",
+          "title_en": "Serious center ramp incident"
+        },
+        {
+          "date": "2016.02.25",
+          "code": "I-01-MTT-16-038",
+          "title_ko": "Oil pollution incident",
+          "title_en": "Oil pollution incident"
+        },
+        {
+          "date": "2016.01.28",
+          "code": "I-01-SQT-16-008",
+          "title_ko": "List to starboard due to heavy winds at Bay of Biscay",
+          "title_en": "List to starboard due to heavy winds at Bay of Biscay"
+        },
+        {
+          "date": "2016.03.17",
+          "code": "I-01-SQT-16-022",
+          "title_ko": "Fuel oil spilled sea surface during bunkering",
+          "title_en": "Fuel oil spilled sea surface during bunkering"
+        },
+        {
+          "date": "2016.03.31",
+          "code": "I-01-SQT-16-026",
+          "title_ko": "Crew injury",
+          "title_en": "Crew injury"
+        },
+        {
+          "date": "2016.07.11",
+          "code": "I-01-SQT-16-079",
+          "title_ko": "Outbreak of mutlny on the Kwang Hyun 803 a deep-sea fishing vessel",
+          "title_en": "Outbreak of mutlny on the Kwang Hyun 803 a deep-sea fishing vessel"
+        },
+        {
+          "date": "2017.07.14",
+          "code": "I-01-MTT-17-233",
+          "title_ko": "M.V Ocean flower, Main air compressor damaged",
+          "title_en": "M.V Ocean flower, Main air compressor damaged"
+        },
+        {
+          "date": "2017.01.03",
+          "code": "I-01-SQT-17-003",
+          "title_ko": "The facility CCTV on the Wharf be damaged by vessel GMT Astro",
+          "title_en": "The facility CCTV on the Wharf be damaged by vessel GMT Astro"
+        },
+        {
+          "date": "2017.05.26",
+          "code": "I-01-SQT-17-065",
+          "title_ko": "투묘 중 Heavy Weather에 의한 Anchor Dragging 및 damaged on propeller",
+          "title_en": "투묘 중 Heavy Weather에 의한 Anchor Dragging 및 damaged on propeller"
+        },
+        {
+          "date": "2017.07.17",
+          "code": "I-01-SQT-17-088",
+          "title_ko": "Fire in engine room and fatal on mooring operation",
+          "title_en": "Fire in engine room and fatal on mooring operation"
+        },
+        {
+          "date": "2017.08.01",
+          "code": "I-01-SQT-17-094",
+          "title_ko": "황천항해 중, No.1&2 hold 내 해수 유입",
+          "title_en": "황천항해 중, No.1&2 hold 내 해수 유입"
+        },
+        {
+          "date": "2018.01.23",
+          "code": "I-01-18-01",
+          "title_ko": "Collision accident of other company’s vessel",
+          "title_en": "Collision accident of other company’s vessel"
+        },
+        {
+          "date": "2018.01.29",
+          "code": "I-01-18-02",
+          "title_ko": "화물작업 중 하역 인부의 추락사고",
+          "title_en": "화물작업 중 하역 인부의 추락사고"
+        },
+        {
+          "date": "2018.02.05",
+          "code": "I-01-18-03",
+          "title_ko": "Oil spill during bunker operation",
+          "title_en": "Oil spill during bunker operation"
+        },
+        {
+          "date": "2018.02.07",
+          "code": "I-01-18-04",
+          "title_ko": "Bottom Touch in Singapore Strait",
+          "title_en": "Bottom Touch in Singapore Strait"
+        },
+        {
+          "date": "2018.07.31",
+          "code": "I-01-18-06",
+          "title_ko": "Cargo damage by flowing sea water in cargo hold",
+          "title_en": "Cargo damage by flowing sea water in cargo hold"
+        },
+        {
+          "date": "2018.08.30",
+          "code": "I-01-18-07",
+          "title_ko": "M/E has stopped due to fuel injection pump",
+          "title_en": "M/E has stopped due to fuel injection pump"
+        },
+        {
+          "date": "2018.11.06",
+          "code": "I-01-18-08",
+          "title_ko": "Crash after dragging anchor",
+          "title_en": "Crash after dragging anchor"
+        },
+        {
+          "date": "2018.11.20",
+          "code": "I-01-18-09",
+          "title_ko": "Many deficiencies items from the AMSA inspection in short term.",
+          "title_en": "Many deficiencies items from the AMSA inspection in short term."
+        },
+        {
+          "date": "2018.10.25",
+          "code": "I-01-SQT2-18-001",
+          "title_ko": "Touched with floating mooring buoy on the way of sailing from berth",
+          "title_en": "Touched with floating mooring buoy on the way of sailing from berth"
+        },
+        {
+          "date": "2019.05.27",
+          "code": "I-01-SQT1-19-001",
+          "title_ko": "“Ultra Alpha” broadside collision on “CS Summer” at Busan, Korea",
+          "title_en": "“Ultra Alpha” broadside collision on “CS Summer” at Busan, Korea"
+        },
+        {
+          "date": "2019.01.08",
+          "code": "I-01-SQT2-19-001",
+          "title_ko": "Touched with floating mooring buoy on the way of sailing from berth",
+          "title_en": "Touched with floating mooring buoy on the way of sailing from berth"
+        },
+        {
+          "date": "2019.01.09",
+          "code": "I-01-SQT2-19-002",
+          "title_ko": "Accidents of other company’s vessel in Hongkong",
+          "title_en": "Accidents of other company’s vessel in Hongkong"
+        },
+        {
+          "date": "2019.03.12",
+          "code": "I-01-SQT2-19-003",
+          "title_ko": "Russian cargo ship collided with Gwangan Bridge in Busan",
+          "title_en": "Russian cargo ship collided with Gwangan Bridge in Busan"
+        },
+        {
+          "date": "2019.03.21",
+          "code": "I-01-SQT2-19-004",
+          "title_ko": "Fire Accident of Domestic Chemical tanker",
+          "title_en": "Fire Accident of Domestic Chemical tanker"
+        },
+        {
+          "date": "2019.07.12",
+          "code": "I-01-SQT2-19-005",
+          "title_ko": "Crew burn injury",
+          "title_en": "Crew burn injury"
+        },
+        {
+          "date": "2019.09.09",
+          "code": "I-01-SQT2-19-006",
+          "title_ko": "Four missing as Car carrier capsizes at port of Brunswick, Georgia",
+          "title_en": "Four missing as Car carrier capsizes at port of Brunswick, Georgia"
+        },
+        {
+          "date": "2019.11.28",
+          "code": "I-01-SQT2-19-007",
+          "title_ko": "Hazardous waste disposal with other garbage at Australia port",
+          "title_en": "Hazardous waste disposal with other garbage at Australia port"
+        },
+        {
+          "date": "2020.12.03",
+          "code": "I-01-MAT-20-001",
+          "title_ko": "[Other company case] Cases of COVID19 Infection of crew on Board",
+          "title_en": "[Other company case] Cases of COVID19 Infection of crew on Board"
+        },
+        {
+          "date": "2020.07.03",
+          "code": "I-01-SQT-20-002",
+          "title_ko": "The claim from charterer due to using of bunker with sulfur 0.1% in the out of Inland area in China sea area",
+          "title_en": "The claim from charterer due to using of bunker with sulfur 0.1% in the out of Inland area in China sea area"
+        },
+        {
+          "date": "2020.08.11",
+          "code": "I-01-SQT-20-003",
+          "title_ko": "Capesize bulk carrier aground with oil leak",
+          "title_en": "Capesize bulk carrier aground with oil leak"
+        },
+        {
+          "date": "2020.08.19",
+          "code": "I-01-SQT-20-004",
+          "title_ko": "A cape size bulker around at off east coast of island Mauritius",
+          "title_en": "A cape size bulker around at off east coast of island Mauritius"
+        },
+        {
+          "date": "2020.10.23",
+          "code": "I-01-SQT-20-005",
+          "title_ko": "Instability from a cargo load caused the PCC vessel - Golden Ray to capsize",
+          "title_en": "Instability from a cargo load caused the PCC vessel - Golden Ray to capsize"
+        },
+        {
+          "date": "2020.11.24",
+          "code": "I-01-SQT-20-006",
+          "title_ko": "Collision incident at CJK TSS South Channel",
+          "title_en": "Collision incident at CJK TSS South Channel"
+        },
+        {
+          "date": "2020.01.21",
+          "code": "I-01-SQT2-20-001",
+          "title_ko": "Accident of Death after Enclosed Space Entry on Cargo Ship",
+          "title_en": "Accident of Death after Enclosed Space Entry on Cargo Ship"
+        },
+        {
+          "date": "2021.01.22",
+          "code": "I-01-SQT-21-001",
+          "title_ko": "Damaged mooring winch while shifting operation",
+          "title_en": "Damaged mooring winch while shifting operation"
+        },
+        {
+          "date": "2021.06.23",
+          "code": "I-01-SQT-21-004",
+          "title_ko": "Intoxication Leads to the death of an officer",
+          "title_en": "Intoxication Leads to the death of an officer"
+        },
+        {
+          "date": "2021.07.06",
+          "code": "I-01-SQT-21-005",
+          "title_ko": "Occurrence of short landing during cargo operation in Car carrier fleet",
+          "title_en": "Occurrence of short landing during cargo operation in Car carrier fleet"
+        },
+        {
+          "date": "2021.07.29",
+          "code": "I-01-SQT-21-006",
+          "title_ko": "Death from COVID-19 infection on vessel",
+          "title_en": "Death from COVID-19 infection on vessel"
+        },
+        {
+          "date": "2021.08.12",
+          "code": "I-01-SQT-21-007",
+          "title_ko": "Delayed berthing schedule due to inadequate pilot boarding preparation",
+          "title_en": "Delayed berthing schedule due to inadequate pilot boarding preparation"
+        },
+        {
+          "date": "2021.08.13",
+          "code": "I-01-SQT-21-008",
+          "title_ko": "Grounding of Wood-Chip Carrier",
+          "title_en": "Grounding of Wood-Chip Carrier"
+        },
+        {
+          "date": "2021.09.13",
+          "code": "I-01-SQT-21-009",
+          "title_ko": "Death due to loss of foot",
+          "title_en": "Death due to loss of foot"
+        },
+        {
+          "date": "2021.10.19",
+          "code": "I-01-SQT-21-010",
+          "title_ko": "18 Stowaway on board in Lagos, Nigeria",
+          "title_en": "18 Stowaway on board in Lagos, Nigeria"
+        },
+        {
+          "date": "2021.11.01",
+          "code": "I-01-SQT-21-011",
+          "title_ko": "압력게이지 파손으로 인한 눈부상",
+          "title_en": "압력게이지 파손으로 인한 눈부상"
+        },
+        {
+          "date": "2022.02.09",
+          "code": "I-01-SQT-22-001",
+          "title_ko": "Collision with other cargo vessel in vicinity of Fangcheng",
+          "title_en": "Collision with other cargo vessel in vicinity of Fangcheng"
+        },
+        {
+          "date": "2022.02.11",
+          "code": "I-01-SQT-22-002",
+          "title_ko": "Occurrence of short landing in Car carrier fleet",
+          "title_en": "Occurrence of short landing in Car carrier fleet"
+        },
+        {
+          "date": "2022.02.22",
+          "code": "I-01-SQT-22-003",
+          "title_ko": "Fire incident occurrence and abandon ship in PCC vessel",
+          "title_en": "Fire incident occurrence and abandon ship in PCC vessel"
+        },
+        {
+          "date": "2022.03.28",
+          "code": "I-01-SQT-22-004",
+          "title_ko": "Almost falling of life boat in to sea of during life boat release hook inspection",
+          "title_en": "Almost falling of life boat in to sea of during life boat release hook inspection"
+        },
+        {
+          "date": "2022.04.04",
+          "code": "I-01-CMD-22-009",
+          "title_ko": "Prohibited devices found from off signer’s bag during luggage check at Portsaid military check point",
+          "title_en": "Prohibited devices found from off signer’s bag during luggage check at Portsaid military check point"
+        },
+        {
+          "date": "2022.04.20",
+          "code": "I-01-SQT-22-005",
+          "title_ko": "Fatality in being crashed between the steel plates and the handrail",
+          "title_en": "Fatality in being crashed between the steel plates and the handrail"
+        },
+        {
+          "date": "2022.04.29",
+          "code": "I-01-SQT-22-006",
+          "title_ko": "Provision crane jib falls to gangway",
+          "title_en": "Provision crane jib falls to gangway"
+        },
+        {
+          "date": "2022.05.12",
+          "code": "I-01-SQT-22-008",
+          "title_ko": "Damage to port facilities while berthing",
+          "title_en": "Damage to port facilities while berthing"
+        },
+        {
+          "date": "2022.07.07",
+          "code": "I-01-SQT-22-009",
+          "title_ko": "Loss of Port anchor during anchoring",
+          "title_en": "Loss of Port anchor during anchoring"
+        },
+        {
+          "date": "2022.08.19",
+          "code": "I-01-SQT-22-010",
+          "title_ko": "Cargo Fall to Cargo Deck",
+          "title_en": "Cargo Fall to Cargo Deck"
+        },
+        {
+          "date": "2022.08.26",
+          "code": "I-01-SQT-22-011",
+          "title_ko": "Stern ramp damage during cargo operation",
+          "title_en": "Stern ramp damage during cargo operation"
+        },
+        {
+          "date": "2022.09.21",
+          "code": "I-01-SQT-22-012",
+          "title_ko": "Fire incident during berthing",
+          "title_en": "Fire incident during berthing"
+        },
+        {
+          "date": "2022.09.30",
+          "code": "I-01-CMD-22-013",
+          "title_ko": "Injury during grinder operation working",
+          "title_en": "Injury during grinder operation working"
+        },
+        {
+          "date": "2022.11.15",
+          "code": "I-01-SQT-22-013",
+          "title_ko": "Anchor Twisted with Anchor Chain",
+          "title_en": "Anchor Twisted with Anchor Chain"
+        },
+        {
+          "date": "2022.11.23",
+          "code": "I-01-SQT-22-014",
+          "title_ko": "Detention in PSC inspection due to BWMS & BWMP",
+          "title_en": "Detention in PSC inspection due to BWMS & BWMP"
+        },
+        {
+          "date": "2023.01.20",
+          "code": "I-01-SQT-23-001",
+          "title_ko": "Identified 28 deficiencies in AMSA inspection at Port Pirie",
+          "title_en": "Identified 28 deficiencies in AMSA inspection at Port Pirie"
+        },
+        {
+          "date": "2023.02.08",
+          "code": "I-01-SQT-23-002",
+          "title_ko": "Management PCC vessel caught fire",
+          "title_en": "Management PCC vessel caught fire"
+        },
+        {
+          "date": "2023.03.08",
+          "code": "I-01-MTT1-23-003",
+          "title_ko": "Discharge of Sewage water and Gray water to Harbour Water",
+          "title_en": "Discharge of Sewage water and Gray water to Harbour Water"
+        },
+        {
+          "date": "2023.03.23",
+          "code": "I-01-MTT2-23-004",
+          "title_ko": "Hoisting Wire of deck crane cut during cargo operation",
+          "title_en": "Hoisting Wire of deck crane cut during cargo operation"
+        },
+        {
+          "date": "2023.03.23",
+          "code": "I-01-MTT2-23-005",
+          "title_ko": "Motor of shaft generator was burnt",
+          "title_en": "Motor of shaft generator was burnt"
+        },
+        {
+          "date": "2023.05.30",
+          "code": "I-01-SQT-23-006",
+          "title_ko": "Crew finger Injury on Board during Voyage",
+          "title_en": "Crew finger Injury on Board during Voyage"
+        },
+        {
+          "date": "2023.07.25",
+          "code": "I-01-SQT-23-007",
+          "title_ko": "Operational defect of Side Ramp",
+          "title_en": "Operational defect of Side Ramp"
+        },
+        {
+          "date": "2023.09.23",
+          "code": "I-01-SQT-23-008",
+          "title_ko": "Time discrepancy Incident during Arrival at Port Koper",
+          "title_en": "Time discrepancy Incident during Arrival at Port Koper"
+        },
+        {
+          "date": "2023.10.11",
+          "code": "I-01-SQT-23-009",
+          "title_ko": "PSC Detention in Ningbo, China",
+          "title_en": "PSC Detention in Ningbo, China"
+        },
+        {
+          "date": "2024.02.16",
+          "code": "I-01-MTT-24-001",
+          "title_ko": "Fire occurred by Oil leaking from deisel generator lubricating oil filter",
+          "title_en": "Fire occurred by Oil leaking from deisel generator lubricating oil filter"
+        },
+        {
+          "date": "2024.03.27",
+          "code": "I-01-SQT-24-001",
+          "title_ko": "Baltimore Bridge Collapse after ship’s collision (Other company incident)",
+          "title_en": "Baltimore Bridge Collapse after ship’s collision (Other company incident)"
+        },
+        {
+          "date": "2024.03.29",
+          "code": "I-01-MTT-24-002",
+          "title_ko": "Contamination for bunker from LSMGO to LSFO",
+          "title_en": "Contamination for bunker from LSMGO to LSFO"
+        },
+        {
+          "date": "2024.07.03",
+          "code": "I-01-CMD-24-001",
+          "title_ko": "Crew face injury on board hit by the crane hook",
+          "title_en": "Crew face injury on board hit by the crane hook"
+        },
+        {
+          "date": "2024.07.05",
+          "code": "I-01-MTT-24-003",
+          "title_ko": "Fire occurred in ACB",
+          "title_en": "Fire occurred in ACB"
+        },
+        {
+          "date": "2024.08.02",
+          "code": "I-01-SQT-24-002",
+          "title_ko": "LNG-fueled bulker collides with anchored vessel (Other company incident)",
+          "title_en": "LNG-fueled bulker collides with anchored vessel (Other company incident)"
+        },
+        {
+          "date": "2024.09.30",
+          "code": "I-01-SQT-24-003",
+          "title_ko": "Cape Size Bulk Carrier Collides with Fishing Boat (Other Company Incident)",
+          "title_en": "Cape Size Bulk Carrier Collides with Fishing Boat (Other Company Incident)"
+        },
+        {
+          "date": "2024.10.31",
+          "code": "I-01-MTT-24-004",
+          "title_ko": "Oil spill during bunker operations in Singapore",
+          "title_en": "Oil spill during bunker operations in Singapore"
+        },
+        {
+          "date": "2024.12.04",
+          "code": "I-01-SQT-24-005",
+          "title_ko": "Fire in cargo hold",
+          "title_en": "Fire in cargo hold"
+        },
+        {
+          "date": "2025.01.10",
+          "code": "I-01-SQT-25-001",
+          "title_ko": "Incident at Masan Port Due to Strong Winds",
+          "title_en": "Incident at Masan Port Due to Strong Winds"
+        },
+        {
+          "date": "2025.02.27",
+          "code": "I-01-SQT-25-002",
+          "title_ko": "Unauthorized passage in a ATBA(Area to be avoid) in U.S. coast",
+          "title_en": "Unauthorized passage in a ATBA(Area to be avoid) in U.S. coast"
+        },
+        {
+          "date": "2025.03.02",
+          "code": "I-01-SQT-25-003",
+          "title_ko": "Mooring rope jammed in Bow thruster propeller when departure mooring operation",
+          "title_en": "Mooring rope jammed in Bow thruster propeller when departure mooring operation"
+        },
+        {
+          "date": "2025.03.12",
+          "code": "I-01-SQT-25-004",
+          "title_ko": "North Sea Collision – Container Ship & Oil Tanker (Other company incident)",
+          "title_en": "North Sea Collision – Container Ship & Oil Tanker (Other company incident)"
+        },
+        {
+          "date": "2025.04.23",
+          "code": "I-01-SQT-25-005",
+          "title_ko": "Security Alert – Unauthorized Persons Incident in Malacca Strait.",
+          "title_en": "Security Alert – Unauthorized Persons Incident in Malacca Strait."
+        },
+        {
+          "date": "2025.06.10",
+          "code": "I-01-SQT-25-006",
+          "title_ko": "Fire Incident on Foreign-Flagged PCTC Transporting Electric Vehicles (Other company incident)",
+          "title_en": "Fire Incident on Foreign-Flagged PCTC Transporting Electric Vehicles (Other company incident)"
+        },
+        {
+          "date": "2025.06.10",
+          "code": "I-01-SQT-25-007",
+          "title_ko": "Caution Advised for Doriko Vessels Navigating in Waters Near Colombo – Container Ship Fire Incident.",
+          "title_en": "Caution Advised for Doriko Vessels Navigating in Waters Near Colombo – Container Ship Fire Incident."
+        },
+        {
+          "date": "2025.06.18",
+          "code": "I-01-CMD-25-008",
+          "title_ko": "Burn Injury During Engine Room Boiler Maintenance",
+          "title_en": "Burn Injury During Engine Room Boiler Maintenance"
+        },
+        {
+          "date": "2025.07.09",
+          "code": "I-01-SQT-25-008",
+          "title_ko": "Red Sea Attack Alert – Crew Casualties & Navigation Risk Warning",
+          "title_en": "Red Sea Attack Alert – Crew Casualties & Navigation Risk Warning"
+        }
+      ]
+    },
+    {
+      "code": "I-02",
+      "title_ko": "해사정보",
+      "title_en": "MARINE INFORMATION",
+      "items": [
+        {
+          "date": "",
+          "code": "",
+          "title_ko": "",
+          "title_en": ""
+        },
+        {
+          "date": "2015.12.02",
+          "code": "I-02-SQT-15-115",
+          "title_ko": "Near miss report 10th (Best practices)",
+          "title_en": "Near miss report 10th (Best practices)"
+        },
+        {
+          "date": "2015.12.21",
+          "code": "I-02-SQT-15-116",
+          "title_ko": "Robbery incident at Caofeidian/Jingtang anchorage in China",
+          "title_en": "Robbery incident at Caofeidian/Jingtang anchorage in China"
+        },
+        {
+          "date": "2016.03.04",
+          "code": "I-02-MAT-16-002",
+          "title_ko": "Reasons and symptoms of physical and psychological stress on board ships",
+          "title_en": "Reasons and symptoms of physical and psychological stress on board ships"
+        },
+        {
+          "date": "2016.03.04",
+          "code": "I-02-MAT-16-003",
+          "title_ko": "7 Most common types of accidents on ship’s deck",
+          "title_en": "7 Most common types of accidents on ship’s deck"
+        },
+        {
+          "date": "2016.03.10",
+          "code": "I-02-MAT-16-004",
+          "title_ko": "Procedure for ship familiarization for new crew members on ships",
+          "title_en": "Procedure for ship familiarization for new crew members on ships"
+        },
+        {
+          "date": "2016.03.17",
+          "code": "I-02-MAT-16-005",
+          "title_ko": "Zika Virus: New regulations for ships visiting South Korea",
+          "title_en": "Zika Virus: New regulations for ships visiting South Korea"
+        },
+        {
+          "date": "2016.03.17",
+          "code": "I-02-MAT-16-006",
+          "title_ko": "Evaluation of electrical hazards onboard",
+          "title_en": "Evaluation of electrical hazards onboard"
+        },
+        {
+          "date": "2016.06.27",
+          "code": "I-02-MAT-16-013",
+          "title_ko": "Pros and Cons of ECDIS or paperless navigation of ships",
+          "title_en": "Pros and Cons of ECDIS or paperless navigation of ships"
+        },
+        {
+          "date": "2016.06.28",
+          "code": "I-02-MAT-16-014",
+          "title_ko": "Can you lengthen your life?",
+          "title_en": "Can you lengthen your life?"
+        },
+        {
+          "date": "2016.06.28",
+          "code": "I-02-MAT-16-015",
+          "title_ko": "Seeking allergy relief – When breathing becomes bothersome",
+          "title_en": "Seeking allergy relief – When breathing becomes bothersome"
+        },
+        {
+          "date": "2016.08.10",
+          "code": "I-02-MAT-16-016",
+          "title_ko": "Launch of concentrated inspection campaign on MLC, 2006",
+          "title_en": "Launch of concentrated inspection campaign on MLC, 2006"
+        },
+        {
+          "date": "2016.09.09",
+          "code": "I-02-MAT-16-018",
+          "title_ko": "Zika in Singapore",
+          "title_en": "Zika in Singapore"
+        },
+        {
+          "date": "2016.10.13",
+          "code": "I-02-MAT-16-019",
+          "title_ko": "Understanding health risks – Improve your chances for good health",
+          "title_en": "Understanding health risks – Improve your chances for good health"
+        },
+        {
+          "date": "2016.10.26",
+          "code": "I-02-MAT-16-020",
+          "title_ko": "Real life accident: Wire rope breaks, crew members seriously injured",
+          "title_en": "Real life accident: Wire rope breaks, crew members seriously injured"
+        },
+        {
+          "date": "2016.12.21",
+          "code": "I-02-MAT-16-022",
+          "title_ko": "Protecting from cold stress",
+          "title_en": "Protecting from cold stress"
+        },
+        {
+          "date": "2016.04.04",
+          "code": "I-02-SQT-16-004",
+          "title_ko": "외국인 선원의 부두 보안구역 내 무단상륙 주의 요청",
+          "title_en": "외국인 선원의 부두 보안구역 내 무단상륙 주의 요청"
+        },
+        {
+          "date": "2016.01.29",
+          "code": "I-02-SQT-16-009",
+          "title_ko": "China to enforce low sulphur ECA at Yangtze River Delta ports from 1 April 2016",
+          "title_en": "China to enforce low sulphur ECA at Yangtze River Delta ports from 1 April 2016"
+        },
+        {
+          "date": "2016.02.02",
+          "code": "I-02-SQT-16-010",
+          "title_ko": "Near miss report 11th (Best practice)",
+          "title_en": "Near miss report 11th (Best practice)"
+        },
+        {
+          "date": "2016.02.04",
+          "code": "I-02-SQT-16-013",
+          "title_ko": "Information on the launch of an Earth observation satellite “Kwangmyongsong”",
+          "title_en": "Information on the launch of an Earth observation satellite “Kwangmyongsong”"
+        },
+        {
+          "date": "2016.03.15",
+          "code": "I-02-SQT-16-019",
+          "title_ko": "Near miss report 12th (Best practics)",
+          "title_en": "Near miss report 12th (Best practics)"
+        },
+        {
+          "date": "2016.03.29",
+          "code": "I-02-SQT-16-024",
+          "title_ko": "Pre-departure inspection of Asian Gypsy Moth (2016)",
+          "title_en": "Pre-departure inspection of Asian Gypsy Moth (2016)"
+        },
+        {
+          "date": "2016.04.04",
+          "code": "I-02-SQT-16-027",
+          "title_ko": "Near miss report 13th (Best practics)",
+          "title_en": "Near miss report 13th (Best practics)"
+        },
+        {
+          "date": "2016.04.26",
+          "code": "I-02-SQT-16-040",
+          "title_ko": "Special checking point at AMSA PSC",
+          "title_en": "Special checking point at AMSA PSC"
+        },
+        {
+          "date": "2016.04.27",
+          "code": "I-02-SQT-16-041",
+          "title_ko": "석탄화물 선적 및 운송 시 주의사항",
+          "title_en": "석탄화물 선적 및 운송 시 주의사항"
+        },
+        {
+          "date": "2016.04.27",
+          "code": "I-02-SQT-16-042",
+          "title_ko": "Carriage of bauxite that may liquefy",
+          "title_en": "Carriage of bauxite that may liquefy"
+        },
+        {
+          "date": "2016.04.27",
+          "code": "I-02-SQT-16-043",
+          "title_ko": "세계 각국의 저유황유 사용 규정 및 주의사항",
+          "title_en": "세계 각국의 저유황유 사용 규정 및 주의사항"
+        },
+        {
+          "date": "2016.05.26",
+          "code": "I-02-SQT-16-055",
+          "title_ko": "Cargo shortage 발생에 대한 문제점",
+          "title_en": "Cargo shortage 발생에 대한 문제점"
+        },
+        {
+          "date": "2016.05.30",
+          "code": "I-02-SQT-16-058",
+          "title_ko": "China: MSA publishes safety notification for vessels sailing in Zhejiang coast",
+          "title_en": "China: MSA publishes safety notification for vessels sailing in Zhejiang coast"
+        },
+        {
+          "date": "2016.06.01",
+          "code": "I-02-SQT-16-062",
+          "title_ko": "Circular from SUEZ Canal authority",
+          "title_en": "Circular from SUEZ Canal authority"
+        },
+        {
+          "date": "2016.07.05",
+          "code": "I-02-SQT-16-075",
+          "title_ko": "HME 화물 잔여물의 해상 처리",
+          "title_en": "HME 화물 잔여물의 해상 처리"
+        },
+        {
+          "date": "2016.08.17",
+          "code": "I-02-SQT-16-086",
+          "title_ko": "Bulk carrier casualty report",
+          "title_en": "Bulk carrier casualty report"
+        },
+        {
+          "date": "2016.09.22",
+          "code": "I-02-SQT-16-119",
+          "title_ko": "Guidelines for the import of wheat that is effected by the Ergot fungus",
+          "title_en": "Guidelines for the import of wheat that is effected by the Ergot fungus"
+        },
+        {
+          "date": "2016.09.22",
+          "code": "I-02-SQT-16-120",
+          "title_ko": "Briefing of IMO meeting for the IMSBC",
+          "title_en": "Briefing of IMO meeting for the IMSBC"
+        },
+        {
+          "date": "2016.10.24",
+          "code": "I-02-SQT-16-129",
+          "title_ko": "법개정에 의한 일부 내용 중 선박에 필요한 내용 발췌",
+          "title_en": "법개정에 의한 일부 내용 중 선박에 필요한 내용 발췌"
+        },
+        {
+          "date": "2016.10.26",
+          "code": "I-02-SQT-16-130",
+          "title_ko": "MT attacked by small boat in the entrance of Red sea",
+          "title_en": "MT attacked by small boat in the entrance of Red sea"
+        },
+        {
+          "date": "2016.11.11",
+          "code": "I-02-SQT-16-134",
+          "title_ko": "Stowaway in South Africa port",
+          "title_en": "Stowaway in South Africa port"
+        },
+        {
+          "date": "2016.11.14",
+          "code": "I-02-SQT-16-136",
+          "title_ko": "필리핀 남방 베트남 화물선 해적공격으로 인한 피해 발생",
+          "title_en": "필리핀 남방 베트남 화물선 해적공격으로 인한 피해 발생"
+        },
+        {
+          "date": "2016.11.16",
+          "code": "I-02-SQT-16-137",
+          "title_ko": "Zika Virus has been developing rapidly in China",
+          "title_en": "Zika Virus has been developing rapidly in China"
+        },
+        {
+          "date": "2017.01.02",
+          "code": "I-02-MAT-17-001",
+          "title_ko": "Ten points to check while inspecting accommodation areas on ships",
+          "title_en": "Ten points to check while inspecting accommodation areas on ships"
+        },
+        {
+          "date": "2017.08.09",
+          "code": "I-02-MAT-17-007",
+          "title_ko": "Ten mandatory rules for seafarers under the code of conduct",
+          "title_en": "Ten mandatory rules for seafarers under the code of conduct"
+        },
+        {
+          "date": "2017.08.10",
+          "code": "I-02-MAT-17-008",
+          "title_ko": "Procedure for ship familiarization for new crew members on ships",
+          "title_en": "Procedure for ship familiarization for new crew members on ships"
+        },
+        {
+          "date": "2017.09.10",
+          "code": "I-02-MAT-17-010",
+          "title_ko": "Ship safety officer Checklist for ship’s working environment Perusal",
+          "title_en": "Ship safety officer Checklist for ship’s working environment Perusal"
+        },
+        {
+          "date": "2017.01.31",
+          "code": "I-02-SQT-17-010",
+          "title_ko": "Hold cleaning을 위한 Careclean alkaline 사용에 대한 Guide",
+          "title_en": "Hold cleaning을 위한 Careclean alkaline 사용에 대한 Guide"
+        },
+        {
+          "date": "2017.02.02",
+          "code": "I-02-SQT-17-013",
+          "title_ko": "Navigation warning and notice to mariners No.52",
+          "title_en": "Navigation warning and notice to mariners No.52"
+        },
+        {
+          "date": "2017.03.14",
+          "code": "I-02-SQT-17-032",
+          "title_ko": "Military exclusive zone in Libya",
+          "title_en": "Military exclusive zone in Libya"
+        },
+        {
+          "date": "2017.03.14",
+          "code": "I-02-SQT-17-033",
+          "title_ko": "Dirty vessel ordered to leave New Zealand – Ministry for primary industries",
+          "title_en": "Dirty vessel ordered to leave New Zealand – Ministry for primary industries"
+        },
+        {
+          "date": "2017.05.08",
+          "code": "I-02-SQT-17-054",
+          "title_ko": "Grounding at main channel “PASO CORTADA ISLA NUEVA” between Km 335 and 345 Parana River",
+          "title_en": "Grounding at main channel “PASO CORTADA ISLA NUEVA” between Km 335 and 345 Parana River"
+        },
+        {
+          "date": "2017.06.12",
+          "code": "I-02-SQT-17-076",
+          "title_ko": "Influence on navigation resulting from diplomatic severance by Arabian Gulf countries",
+          "title_en": "Influence on navigation resulting from diplomatic severance by Arabian Gulf countries"
+        },
+        {
+          "date": "2017.08.23",
+          "code": "I-02-SQT-17-104",
+          "title_ko": "Important information according to enforcement of Ballast water management convention from 8th Sep. 2017",
+          "title_en": "Important information according to enforcement of Ballast water management convention from 8th Sep. 2017"
+        },
+        {
+          "date": "2017.10.10",
+          "code": "I-02-SQT-17-121",
+          "title_ko": "ASG planned kidnapping in Sabah waters and Coastal areas",
+          "title_en": "ASG planned kidnapping in Sabah waters and Coastal areas"
+        },
+        {
+          "date": "2018.01.31",
+          "code": "I-02-18-001",
+          "title_ko": "New requirements for capesize vessels deck fitting – Port of Port Hedland",
+          "title_en": "New requirements for capesize vessels deck fitting – Port of Port Hedland"
+        },
+        {
+          "date": "2018.02.02",
+          "code": "I-02-18-002",
+          "title_ko": "Member states of MOUs.",
+          "title_en": "Member states of MOUs."
+        },
+        {
+          "date": "2018.02.02",
+          "code": "I-02-18-003",
+          "title_ko": "Recent Navigation Warnings of China Waters No.64",
+          "title_en": "Recent Navigation Warnings of China Waters No.64"
+        },
+        {
+          "date": "2018.02.02",
+          "code": "I-02-18-004",
+          "title_ko": "An Oil Tanker has sunk in the East China Sea due to Collision and Burning",
+          "title_en": "An Oil Tanker has sunk in the East China Sea due to Collision and Burning"
+        },
+        {
+          "date": "2018.02.22",
+          "code": "I-02-18-005",
+          "title_ko": "Revised Annex V of MARPOL – Changed Garbage Category",
+          "title_en": "Revised Annex V of MARPOL – Changed Garbage Category"
+        },
+        {
+          "date": "2018.03.02",
+          "code": "I-02-18-007",
+          "title_ko": "Asian Gypsy Moth (AGM) – 2018 Flying Season Starts",
+          "title_en": "Asian Gypsy Moth (AGM) – 2018 Flying Season Starts"
+        },
+        {
+          "date": "2018.03.20",
+          "code": "I-02-18-008",
+          "title_ko": "Cyber Security",
+          "title_en": "Cyber Security"
+        },
+        {
+          "date": "2018.04.02",
+          "code": "I-02-18-009",
+          "title_ko": "Recent Navigation Warnings of China Waters No.65",
+          "title_en": "Recent Navigation Warnings of China Waters No.65"
+        },
+        {
+          "date": "2018.04.02",
+          "code": "I-02-18-010",
+          "title_ko": "Recent Navigation Warnings of China Waters No.66",
+          "title_en": "Recent Navigation Warnings of China Waters No.66"
+        },
+        {
+          "date": "2018.04.13",
+          "code": "I-02-18-011",
+          "title_ko": "해수에 의한 Steel Coils Damage",
+          "title_en": "해수에 의한 Steel Coils Damage"
+        },
+        {
+          "date": "2018.04.13",
+          "code": "I-02-18-012",
+          "title_ko": "For the keeping of gangway in safety under SOLAS regulation.",
+          "title_en": "For the keeping of gangway in safety under SOLAS regulation."
+        },
+        {
+          "date": "2018.04.20",
+          "code": "I-02-18-013",
+          "title_ko": "State of Washington Establishes Sewage NDZ for Puget Sound",
+          "title_en": "State of Washington Establishes Sewage NDZ for Puget Sound"
+        },
+        {
+          "date": "2018.05.10",
+          "code": "I-02-18-014",
+          "title_ko": "GPS Interference – Eastern Mediterranean Sea",
+          "title_en": "GPS Interference – Eastern Mediterranean Sea"
+        },
+        {
+          "date": "2018.05.23",
+          "code": "I-02-18-016",
+          "title_ko": "PSC Concentrated Inspection Campaign on A/Machine",
+          "title_en": "PSC Concentrated Inspection Campaign on A/Machine"
+        },
+        {
+          "date": "2018.06.15",
+          "code": "I-02-18-017",
+          "title_ko": "Carriage of immersion suits on cargo ships flying Malta",
+          "title_en": "Carriage of immersion suits on cargo ships flying Malta"
+        },
+        {
+          "date": "2018.07.27",
+          "code": "I-02-18-018",
+          "title_ko": "How to connect weak link for life raft",
+          "title_en": "How to connect weak link for life raft"
+        },
+        {
+          "date": "2018.09.13",
+          "code": "I-02-18-019",
+          "title_ko": "한국지정 해적위험해역 및 통항보고에 관한 사항.",
+          "title_en": "한국지정 해적위험해역 및 통항보고에 관한 사항."
+        },
+        {
+          "date": "2018.09.19",
+          "code": "I-02-18-020",
+          "title_ko": "Analysis of recent pirate incident in Asian Region",
+          "title_en": "Analysis of recent pirate incident in Asian Region"
+        },
+        {
+          "date": "2018.09.28",
+          "code": "I-02-18-021",
+          "title_ko": "Intension for anti-piracy in Celebes-Sulu Sea and in the sea of Sabah, Malaysia",
+          "title_en": "Intension for anti-piracy in Celebes-Sulu Sea and in the sea of Sabah, Malaysia"
+        },
+        {
+          "date": "2018.10.01",
+          "code": "I-02-18-022",
+          "title_ko": "Early implementation of the requirement for using low sulfur fuel oil (0.5%) for vessels in Yangtze River Delta ECA (from 1st Oct. 2018)",
+          "title_en": "Early implementation of the requirement for using low sulfur fuel oil (0.5%) for vessels in Yangtze River Delta ECA (from 1st Oct. 2018)"
+        },
+        {
+          "date": "2018.12.10",
+          "code": "I-02-18-023",
+          "title_ko": "Intension for anti-piracy in the sea of Sabah, Malaysia",
+          "title_en": "Intension for anti-piracy in the sea of Sabah, Malaysia"
+        },
+        {
+          "date": "2019.01.10",
+          "code": "I-02-19-01",
+          "title_ko": "Six sailors with a pirate attack in the HRA of west Africa",
+          "title_en": "Six sailors with a pirate attack in the HRA of west Africa"
+        },
+        {
+          "date": "2019.03.06",
+          "code": "I-02-19-02",
+          "title_ko": "US and Canada – Asian Gypsy Moth (AGM) – 2019 Flying season starts",
+          "title_en": "US and Canada – Asian Gypsy Moth (AGM) – 2019 Flying season starts"
+        },
+        {
+          "date": "2019.03.06",
+          "code": "I-02-19-03",
+          "title_ko": "Turkey Pollution Fines 2019.",
+          "title_en": "Turkey Pollution Fines 2019."
+        },
+        {
+          "date": "2019.03.11",
+          "code": "I-02-19-04",
+          "title_ko": "China – Measures for supervision and management of ship ballast water and sediment",
+          "title_en": "China – Measures for supervision and management of ship ballast water and sediment"
+        },
+        {
+          "date": "2019.03.11",
+          "code": "I-02-19-05",
+          "title_ko": "IMB Piracy Alert in Semporna, Sabah & surrounding waters",
+          "title_en": "IMB Piracy Alert in Semporna, Sabah & surrounding waters"
+        },
+        {
+          "date": "2019.03.21",
+          "code": "I-02-19-06",
+          "title_ko": "SSAS TEST 연락처 알림",
+          "title_en": "SSAS TEST 연락처 알림"
+        },
+        {
+          "date": "2019.04.10",
+          "code": "1-02-19-07",
+          "title_ko": "The precedent to the seaworthiness by the passage plan for the voyage",
+          "title_en": "The precedent to the seaworthiness by the passage plan for the voyage"
+        },
+        {
+          "date": "2019.06.07",
+          "code": "1-02-SQT-19-08",
+          "title_ko": "Signed the memorandum of understanding regarding the exemption of ballast-water exchanging in Korea and China sea",
+          "title_en": "Signed the memorandum of understanding regarding the exemption of ballast-water exchanging in Korea and China sea"
+        },
+        {
+          "date": "2019.11.19",
+          "code": "1-02-SQT-19-09",
+          "title_ko": "Precautions for calling to Hongkong in accordance with Hongkong protests",
+          "title_en": "Precautions for calling to Hongkong in accordance with Hongkong protests"
+        },
+        {
+          "date": "2019.07.23",
+          "code": "I-02-SQT2-19-002",
+          "title_ko": "Seven armed pirates board bulker near Singapore Strait",
+          "title_en": "Seven armed pirates board bulker near Singapore Strait"
+        },
+        {
+          "date": "2019.10.29",
+          "code": "I-02-SQT2-19-003",
+          "title_ko": "Detentions for ‘illegal anchoring’ in Indonesia",
+          "title_en": "Detentions for ‘illegal anchoring’ in Indonesia"
+        },
+        {
+          "date": "2020.01.07",
+          "code": "I-02-SQT-20-001",
+          "title_ko": "India introduces ban on single use plastics",
+          "title_en": "India introduces ban on single use plastics"
+        },
+        {
+          "date": "2020.01.13",
+          "code": "I-02-SQT-20-002",
+          "title_ko": "호르무즈 해협 통항선박에 대한 가이드라인",
+          "title_en": "호르무즈 해협 통항선박에 대한 가이드라인"
+        },
+        {
+          "date": "2020.02.03",
+          "code": "I-02-SQT-20-003",
+          "title_ko": "Enhanced quarantine for preventing Novel Corona virus in Korean port",
+          "title_en": "Enhanced quarantine for preventing Novel Corona virus in Korean port"
+        },
+        {
+          "date": "2020.02.11",
+          "code": "I-02-SQT-20-004",
+          "title_ko": "Pirate activities on the Singapore strait",
+          "title_en": "Pirate activities on the Singapore strait"
+        },
+        {
+          "date": "2020.02.27",
+          "code": "I-02-SQT-20-005",
+          "title_ko": "Korea maritime safety regulation partly revised",
+          "title_en": "Korea maritime safety regulation partly revised"
+        },
+        {
+          "date": "2020.04.01",
+          "code": "I-02-SQT-20-006",
+          "title_ko": "Guidance on the prohibition of unauthorized anchoring in coastal countries of Singapore strait",
+          "title_en": "Guidance on the prohibition of unauthorized anchoring in coastal countries of Singapore strait"
+        },
+        {
+          "date": "2020.06.11",
+          "code": "I-02-SQT-20-007",
+          "title_ko": "Enactment of the vessel traffic control act",
+          "title_en": "Enactment of the vessel traffic control act"
+        },
+        {
+          "date": "2020.06.22",
+          "code": "I-02-SQT-20-008",
+          "title_ko": "Draft survey trouble at port Taicang in China",
+          "title_en": "Draft survey trouble at port Taicang in China"
+        },
+        {
+          "date": "2020.06.22",
+          "code": "I-02-SQT-20-009",
+          "title_ko": "Bulk carrier mooring rope management",
+          "title_en": "Bulk carrier mooring rope management"
+        },
+        {
+          "date": "2020.07.06",
+          "code": "I-02-SQT-20-010",
+          "title_ko": "국적선의 인도네시아 출항정지 사례 공유 및 예방요청",
+          "title_en": "국적선의 인도네시아 출항정지 사례 공유 및 예방요청"
+        },
+        {
+          "date": "2020.10.30",
+          "code": "I-02-SQT-20-011",
+          "title_ko": "IMB report on piracy & armed robbery against ships",
+          "title_en": "IMB report on piracy & armed robbery against ships"
+        },
+        {
+          "date": "2020.11.11",
+          "code": "I-02-SQT-20-012",
+          "title_ko": "Monthly maritime security information (October 2020)",
+          "title_en": "Monthly maritime security information (October 2020)"
+        },
+        {
+          "date": "2020.11.11",
+          "code": "I-02-SQT-20-013",
+          "title_ko": "Incidents against ships in the eastbound lane of Singapore strait",
+          "title_en": "Incidents against ships in the eastbound lane of Singapore strait"
+        },
+        {
+          "date": "2020.11.23",
+          "code": "I-02-SQT-20-014",
+          "title_ko": "Incidents involving “Heavy weather” in North Pacific Ocean",
+          "title_en": "Incidents involving “Heavy weather” in North Pacific Ocean"
+        },
+        {
+          "date": "2020.11.23",
+          "code": "I-02-SQT-20-015",
+          "title_ko": "Collision with a vessel in the vicinity of Singapore anchorage",
+          "title_en": "Collision with a vessel in the vicinity of Singapore anchorage"
+        },
+        {
+          "date": "2020.11.25",
+          "code": "I-02-SQT-20-016",
+          "title_ko": "Vessel aground in the Singapore strait off Batu Berhanti",
+          "title_en": "Vessel aground in the Singapore strait off Batu Berhanti"
+        },
+        {
+          "date": "2020.12.15",
+          "code": "I-02-SQT-20-017",
+          "title_ko": "Monthly maritime security information (November 2020)",
+          "title_en": "Monthly maritime security information (November 2020)"
+        },
+        {
+          "date": "2020.12.17",
+          "code": "I-02-SQT-20-018",
+          "title_ko": "Hatch cover damage due to sloshing in ballast hold in heavy weather",
+          "title_en": "Hatch cover damage due to sloshing in ballast hold in heavy weather"
+        },
+        {
+          "date": "2020.12.30",
+          "code": "I-02-SQT-20-019",
+          "title_ko": "Navigation precautions in international waters near coastal countries",
+          "title_en": "Navigation precautions in international waters near coastal countries"
+        },
+        {
+          "date": "2020.01.13",
+          "code": "I-02-SQT2-20-001",
+          "title_ko": "Korea flag vessel detained in Bintan, Indonesia",
+          "title_en": "Korea flag vessel detained in Bintan, Indonesia"
+        },
+        {
+          "date": "2020.01.23",
+          "code": "I-02-SQT2-20-002",
+          "title_ko": "2019 Novel Coronavirus(2019-nCoV) in Wuhan, China",
+          "title_en": "2019 Novel Coronavirus(2019-nCoV) in Wuhan, China"
+        },
+        {
+          "date": "2020.02.19",
+          "code": "I-02-SQT2-20-003",
+          "title_ko": "2019 Annual piracy report",
+          "title_en": "2019 Annual piracy report"
+        },
+        {
+          "date": "2021.01.22",
+          "code": "I-02-SQT-21-001",
+          "title_ko": "Recent standing/bottom-touch incidents on bulk carriers with pilots on board",
+          "title_en": "Recent standing/bottom-touch incidents on bulk carriers with pilots on board"
+        },
+        {
+          "date": "2021.01.28",
+          "code": "I-02-SQT-21-002",
+          "title_ko": "Piracy report in West Africa",
+          "title_en": "Piracy report in West Africa"
+        },
+        {
+          "date": "2021.02.22",
+          "code": "I-02-SQT-21-003",
+          "title_ko": "Monthly maritime security information (Jan 2021)",
+          "title_en": "Monthly maritime security information (Jan 2021)"
+        },
+        {
+          "date": "2021.03.02",
+          "code": "I-02-SQT-21-004",
+          "title_ko": "Suspected drugs on bulk carrier",
+          "title_en": "Suspected drugs on bulk carrier"
+        },
+        {
+          "date": "2021.04.27",
+          "code": "I-02-SQT-21-005",
+          "title_ko": "CIC for prevention of vessel collision at MSA of Shanghai, China",
+          "title_en": "CIC for prevention of vessel collision at MSA of Shanghai, China"
+        },
+        {
+          "date": "2021.05.06",
+          "code": "I-02-SQT-21-006",
+          "title_ko": "North Atlantic right whale – Speed restriction measures in the Gulf of St. Lawrence",
+          "title_en": "North Atlantic right whale – Speed restriction measures in the Gulf of St. Lawrence"
+        },
+        {
+          "date": "2021.06.03",
+          "code": "I-02-SQT-21-007",
+          "title_ko": "Request piracy alert activities when sailing the Gulf of Guinea, West Africa",
+          "title_en": "Request piracy alert activities when sailing the Gulf of Guinea, West Africa"
+        },
+        {
+          "date": "2021.06.04",
+          "code": "I-02-SQT-21-008",
+          "title_ko": "Three crew member missing after ro-ro cargo ship collided with chemical tanker",
+          "title_en": "Three crew member missing after ro-ro cargo ship collided with chemical tanker"
+        },
+        {
+          "date": "2021.06.30",
+          "code": "I-02-SQT-21-009",
+          "title_ko": "Mooring rope cutting accident at berth No.3 Dangjin port",
+          "title_en": "Mooring rope cutting accident at berth No.3 Dangjin port"
+        },
+        {
+          "date": "2021.07.14",
+          "code": "I-02-SQT-21-010",
+          "title_ko": "Security information – Pirate trends in West African waters",
+          "title_en": "Security information – Pirate trends in West African waters"
+        },
+        {
+          "date": "2021.07.23",
+          "code": "I-02-SQT-21-011",
+          "title_ko": "Strengthened the standards of SOx Emission Control Areas in Korea",
+          "title_en": "Strengthened the standards of SOx Emission Control Areas in Korea"
+        },
+        {
+          "date": "2021.09.03",
+          "code": "I-02-SQT-21-012",
+          "title_ko": "Amended maritime traffic safety law of PRC increases penalties for breaches of safe navigation",
+          "title_en": "Amended maritime traffic safety law of PRC increases penalties for breaches of safe navigation"
+        },
+        {
+          "date": "2021.08.31",
+          "code": "I-02-SQT-21-013",
+          "title_ko": "Security information – Piracy incident case on the port of Manila",
+          "title_en": "Security information – Piracy incident case on the port of Manila"
+        },
+        {
+          "date": "2021.09.10",
+          "code": "I-02-SQT-21-014",
+          "title_ko": "Prohibited use of lasers in U.S. territorial water",
+          "title_en": "Prohibited use of lasers in U.S. territorial water"
+        },
+        {
+          "date": "2021.10.08",
+          "code": "I-02-SQT-21-015",
+          "title_ko": "Unauthorized anchoring in foreign territorial sea is prohibited",
+          "title_en": "Unauthorized anchoring in foreign territorial sea is prohibited"
+        },
+        {
+          "date": "2021.10.27",
+          "code": "I-02-SQT-21-016",
+          "title_ko": "Recent security issues",
+          "title_en": "Recent security issues"
+        },
+        {
+          "date": "2021.11.09",
+          "code": "I-02-SQT-21-017",
+          "title_ko": "Floating pumice stones in Japan territorial waters",
+          "title_en": "Floating pumice stones in Japan territorial waters"
+        },
+        {
+          "date": "2021.11.12",
+          "code": "I-02-SQT-21-018",
+          "title_ko": "Trend of global piracy incidents in the 3rd quarter of 2021",
+          "title_en": "Trend of global piracy incidents in the 3rd quarter of 2021"
+        },
+        {
+          "date": "2021.11.19",
+          "code": "I-02-SQT-21-019",
+          "title_ko": "Marshall island-registered ‘Bulk carrier’ was scuttled in Brazil",
+          "title_en": "Marshall island-registered ‘Bulk carrier’ was scuttled in Brazil"
+        },
+        {
+          "date": "2021.11.20",
+          "code": "I-02-SQT-21-020",
+          "title_ko": "Information on the occurrence of the vessel seized in the Strait of Hormuz",
+          "title_en": "Information on the occurrence of the vessel seized in the Strait of Hormuz"
+        },
+        {
+          "date": "2021.11.22",
+          "code": "I-02-SQT-21-021",
+          "title_ko": "Trisan da Cuhna – establish area to be avoided",
+          "title_en": "Trisan da Cuhna – establish area to be avoided"
+        },
+        {
+          "date": "2021.12.01",
+          "code": "I-02-SQT-21-022",
+          "title_ko": "Hatch cover damage due to sloshing in ballast hold in heavy weather of other company",
+          "title_en": "Hatch cover damage due to sloshing in ballast hold in heavy weather of other company"
+        },
+        {
+          "date": "2021.12.03",
+          "code": "I-02-SQT-21-023",
+          "title_ko": "Incident case about danger from ignoring an alarm from other company",
+          "title_en": "Incident case about danger from ignoring an alarm from other company"
+        },
+        {
+          "date": "2021.12.31",
+          "code": "I-02-SQT-21-024",
+          "title_ko": "Incident case about man overboard during deck work in bad weather",
+          "title_en": "Incident case about man overboard during deck work in bad weather"
+        },
+        {
+          "date": "2022.01.06",
+          "code": "I-02-SQT-22-001",
+          "title_ko": "AMSA focused inspection campaign 2022",
+          "title_en": "AMSA focused inspection campaign 2022"
+        },
+        {
+          "date": "2022.01.17",
+          "code": "I-02-SQT-22-002",
+          "title_ko": "Sharing the West African pirate case",
+          "title_en": "Sharing the West African pirate case"
+        },
+        {
+          "date": "2022.01.26",
+          "code": "I-02-SQT-22-003",
+          "title_ko": "한국적 선박(BBCHP 포함) 선내 의약품 등의 비치 기준관련 정보 알림",
+          "title_en": "한국적 선박(BBCHP 포함) 선내 의약품 등의 비치 기준관련 정보 알림"
+        },
+        {
+          "date": "2022.02.08",
+          "code": "I-02-SQT-22-004",
+          "title_ko": "Trend of worldwide pirate incidents in 2021",
+          "title_en": "Trend of worldwide pirate incidents in 2021"
+        },
+        {
+          "date": "2022.03.22",
+          "code": "I-02-SQT-22-005",
+          "title_ko": "COVID : Republic of Korea record-high as Omicron nears peak",
+          "title_en": "COVID : Republic of Korea record-high as Omicron nears peak"
+        },
+        {
+          "date": "2022.03.25",
+          "code": "I-02-SQT-22-006",
+          "title_ko": "Caution for armed robbery at Indonesia anchorage",
+          "title_en": "Caution for armed robbery at Indonesia anchorage"
+        },
+        {
+          "date": "2022.03.30",
+          "code": "I-02-SQT-22-007",
+          "title_ko": "Notes on navigation in the Black Sea area related to the Ukraine-Russian war",
+          "title_en": "Notes on navigation in the Black Sea area related to the Ukraine-Russian war"
+        },
+        {
+          "date": "2022.05.03",
+          "code": "I-02-SQT-22-008",
+          "title_ko": "Trend of global piracy incidents in the 1st quarter of 2022",
+          "title_en": "Trend of global piracy incidents in the 1st quarter of 2022"
+        },
+        {
+          "date": "2022.05.18",
+          "code": "I-02-SQT-22-009",
+          "title_ko": "Request for cooperation in safety navigation of the East ∙ West Sea of Korea",
+          "title_en": "Request for cooperation in safety navigation of the East ∙ West Sea of Korea"
+        },
+        {
+          "date": "2022.07.28",
+          "code": "I-02-SQT-22-010",
+          "title_ko": "The safe passages through the Bohai Strait in China",
+          "title_en": "The safe passages through the Bohai Strait in China"
+        },
+        {
+          "date": "2022.08.03",
+          "code": "I-02-SQT-22-011",
+          "title_ko": "Notice of safe navigation related to China's maritime military training",
+          "title_en": "Notice of safe navigation related to China's maritime military training"
+        },
+        {
+          "date": "2022.08.05",
+          "code": "I-02-SQT-22-012",
+          "title_ko": "Updated Notice of Safe Navigation related to China's Maritime Military Training",
+          "title_en": "Updated Notice of Safe Navigation related to China's Maritime Military Training"
+        },
+        {
+          "date": "2022.10.11",
+          "code": "I-02-SQT-22-013",
+          "title_ko": "Notice of caution when anchoring in waters near Singapore such as Indonesia waters",
+          "title_en": "Notice of caution when anchoring in waters near Singapore such as Indonesia waters"
+        },
+        {
+          "date": "2022.11.22",
+          "code": "I-02-SQT-22-014",
+          "title_ko": "Requirement of IBWMC, BWMP, BWRB",
+          "title_en": "Requirement of IBWMC, BWMP, BWRB"
+        },
+        {
+          "date": "2023.01.30",
+          "code": "I-02-SQT-23-001",
+          "title_ko": "Do not work Mooring Operation by crew at Australian ports",
+          "title_en": "Do not work Mooring Operation by crew at Australian ports"
+        },
+        {
+          "date": "2023.03.02",
+          "code": "I-02-SQT-23-002",
+          "title_ko": "Warns of sea mine threat in Black Sea",
+          "title_en": "Warns of sea mine threat in Black Sea"
+        },
+        {
+          "date": "2023.03.24",
+          "code": "I-02-SQT-23-003",
+          "title_ko": "Recent detention cases from other company when calling China",
+          "title_en": "Recent detention cases from other company when calling China"
+        },
+        {
+          "date": "2023.03.27",
+          "code": "I-02-SQT-23-004",
+          "title_ko": "(Security) Recent Pirate Attack Information",
+          "title_en": "(Security) Recent Pirate Attack Information"
+        },
+        {
+          "date": "2023.04.03",
+          "code": "I-02-SQT-23-005",
+          "title_ko": "(Security) Sea robbery incidents in the Singapore strait",
+          "title_en": "(Security) Sea robbery incidents in the Singapore strait"
+        },
+        {
+          "date": "2023.05.03",
+          "code": "I-02-SQT-23-006",
+          "title_ko": "Information of PSC Trends (Guangzhou, Shanghai, China)",
+          "title_en": "Information of PSC Trends (Guangzhou, Shanghai, China)"
+        },
+        {
+          "date": "2023.06.26",
+          "code": "I-02-SQT-23-007",
+          "title_ko": "(Security) Piracy Incident in West of Africa",
+          "title_en": "(Security) Piracy Incident in West of Africa"
+        },
+        {
+          "date": "2023.08.07",
+          "code": "I-02-SQT-23-008",
+          "title_ko": "2023Y Tokyo, Paris MOU PSC CIC (Fire Safety)",
+          "title_en": "2023Y Tokyo, Paris MOU PSC CIC (Fire Safety)"
+        },
+        {
+          "date": "2023.09.07",
+          "code": "I-02-SQT-23-009",
+          "title_ko": "Request to cautions when anchoring in waters near Malaysia",
+          "title_en": "Request to cautions when anchoring in waters near Malaysia"
+        },
+        {
+          "date": "2023.09.08",
+          "code": "I-02-SQT-23-010",
+          "title_ko": "Matters in Shanghai Maximum Distance Apart Between Smoke, Heat Detector, and MCP",
+          "title_en": "Matters in Shanghai Maximum Distance Apart Between Smoke, Heat Detector, and MCP"
+        },
+        {
+          "date": "2023.11.03",
+          "code": "I-02-SQT-23-011",
+          "title_ko": "China MSA Key Tracking Ship",
+          "title_en": "China MSA Key Tracking Ship"
+        },
+        {
+          "date": "2023.11.21",
+          "code": "I-02-SQT-23-012",
+          "title_ko": "Car carrier captured in Southern Rea sea",
+          "title_en": "Car carrier captured in Southern Rea sea"
+        },
+        {
+          "date": "2023.11.27",
+          "code": "I-02-SQT-23-013",
+          "title_ko": "Request for strengthening security activities and Dissemination of information about pirate (suspected)",
+          "title_en": "Request for strengthening security activities and Dissemination of information about pirate (suspected)"
+        },
+        {
+          "date": "2023.12.07",
+          "code": "I-02-SQT-23-014",
+          "title_ko": "(Security) Red Sea Security Advisory Yemeni Houthi Rebel Activities and Fleet Safety Measures",
+          "title_en": "(Security) Red Sea Security Advisory Yemeni Houthi Rebel Activities and Fleet Safety Measures"
+        },
+        {
+          "date": "2024.01.26",
+          "code": "I-02-SQT-24-001",
+          "title_ko": "Guide for Piping System Management and Prevention Measures in Winter",
+          "title_en": "Guide for Piping System Management and Prevention Measures in Winter"
+        },
+        {
+          "date": "2024.01.29",
+          "code": "I-02-SQT-24-002",
+          "title_ko": "Guide to 2024 Pollution Fines in Turkish Waters",
+          "title_en": "Guide to 2024 Pollution Fines in Turkish Waters"
+        },
+        {
+          "date": "2024.03.08",
+          "code": "I-02-SQT-24-003",
+          "title_ko": "PSC detainable deficiencies related with fire safety and ISM",
+          "title_en": "PSC detainable deficiencies related with fire safety and ISM"
+        },
+        {
+          "date": "2024.04.04",
+          "code": "I-02-SQT-24-004",
+          "title_ko": "1Q PSC inspection results of the DOIRKO management vessel",
+          "title_en": "1Q PSC inspection results of the DOIRKO management vessel"
+        },
+        {
+          "date": "2024.04.05",
+          "code": "I-02-SQT-24-005",
+          "title_ko": "Information about enhanced bio security in Australia",
+          "title_en": "Information about enhanced bio security in Australia"
+        },
+        {
+          "date": "2024.04.15",
+          "code": "I-02-SQT-24-006",
+          "title_ko": "Special Actions to Prevent Electrical Equipment Failures (MSA, China)",
+          "title_en": "Special Actions to Prevent Electrical Equipment Failures (MSA, China)"
+        },
+        {
+          "date": "2024.10.11",
+          "code": "I-02-SQT-24-007",
+          "title_ko": "Ship’s officer arrested, fined after flying drone over Norwegian port",
+          "title_en": "Ship’s officer arrested, fined after flying drone over Norwegian port"
+        },
+        {
+          "date": "2024.11.01",
+          "code": "I-02-SQT-24-008",
+          "title_ko": "(UPDATED) Ship’s officer arrested, fined after flying drone over Norwegian port.",
+          "title_en": "(UPDATED) Ship’s officer arrested, fined after flying drone over Norwegian port."
+        },
+        {
+          "date": "2024.12.19",
+          "code": "I-02-SQT-24-009",
+          "title_ko": "Mandatory Updates in the IMSBC Code Effective in 2025 year",
+          "title_en": "Mandatory Updates in the IMSBC Code Effective in 2025 year"
+        },
+        {
+          "date": "2024.12.23",
+          "code": "I-02-SQT-24-010",
+          "title_ko": "Safety risk and maintenance guidelines for plastic-sheathed lifeboat wires",
+          "title_en": "Safety risk and maintenance guidelines for plastic-sheathed lifeboat wires"
+        },
+        {
+          "date": "2025.03.12",
+          "code": "I-02-MTT-25-001",
+          "title_ko": "Ensuring Safe Vessel Access: Lessons from Maritime Incidents",
+          "title_en": "Ensuring Safe Vessel Access: Lessons from Maritime Incidents"
+        },
+        {
+          "date": "2025.04.22",
+          "code": "I-02-SQT-25--001",
+          "title_ko": "Precautionary Measures for Bunker Quantity Discrepancy at Turkish Ports",
+          "title_en": "Precautionary Measures for Bunker Quantity Discrepancy at Turkish Ports"
+        },
+        {
+          "date": "2025.04.25",
+          "code": "I-02-SQT-25-002",
+          "title_ko": "Prohibition of Unauthorized Transit through Tuoji Shuidao – Bohai Strait",
+          "title_en": "Prohibition of Unauthorized Transit through Tuoji Shuidao – Bohai Strait"
+        },
+        {
+          "date": "2025.04.25",
+          "code": "I-02-SQT-25-003",
+          "title_ko": "Strict Compliance with Reporting Obligations to Flag State and RO in the Event of an incident.",
+          "title_en": "Strict Compliance with Reporting Obligations to Flag State and RO in the Event of an incident."
+        },
+        {
+          "date": "2025.05.14",
+          "code": "I-02-SQT-25-004",
+          "title_ko": "Increased GPS Spoofing Risk in Red Sea Region",
+          "title_en": "Increased GPS Spoofing Risk in Red Sea Region"
+        },
+        {
+          "date": "2025.05.19",
+          "code": "I-02-SQT-25-005",
+          "title_ko": "Recent Incidents of Piracy (Sea Robbery) in the Singapore Strait",
+          "title_en": "Recent Incidents of Piracy (Sea Robbery) in the Singapore Strait"
+        },
+        {
+          "date": "2025.05.30",
+          "code": "I-02-SQT-25-006",
+          "title_ko": "Recommendation on Navigation through the Entrance to the Baltic Sea",
+          "title_en": "Recommendation on Navigation through the Entrance to the Baltic Sea"
+        }
+      ]
+    },
+    {
+      "code": "I-03",
+      "title_ko": "기관정보",
+      "title_en": "TECHNICAL INFORMATION",
+      "items": [
+        {
+          "date": "",
+          "code": "",
+          "title_ko": "",
+          "title_en": ""
+        },
+        {
+          "date": "2013.07.30",
+          "code": "I-03-13-002",
+          "title_ko": "Information of up-dated Technical Information & Convention",
+          "title_en": "Information of up-dated Technical Information & Convention"
+        },
+        {
+          "date": "2013.08.27",
+          "code": "I-03-13-003",
+          "title_ko": "Demand special attention for F.O. purifier",
+          "title_en": "Demand special attention for F.O. purifier"
+        },
+        {
+          "date": "2015.11.20",
+          "code": "I-03-MTT-15-018",
+          "title_ko": "Bulk ship hatch cover for safety",
+          "title_en": "Bulk ship hatch cover for safety"
+        },
+        {
+          "date": "2015.12.03",
+          "code": "I-03-MTT-15-019",
+          "title_ko": "YANMAR diesel gen. engine con-rod bolt maintenance",
+          "title_en": "YANMAR diesel gen. engine con-rod bolt maintenance"
+        },
+        {
+          "date": "2015.12.28",
+          "code": "I-03-MTT-15-021",
+          "title_ko": "Gen. engine F.O. pump maintenance",
+          "title_en": "Gen. engine F.O. pump maintenance"
+        },
+        {
+          "date": "2016.02.01",
+          "code": "I-03-MTT-16-001",
+          "title_ko": "Winch brake testing",
+          "title_en": "Winch brake testing"
+        },
+        {
+          "date": "2016.01.20",
+          "code": "I-03-MTT-16-002",
+          "title_ko": "Cargo gear inspection guide",
+          "title_en": "Cargo gear inspection guide"
+        },
+        {
+          "date": "2016.02.02",
+          "code": "I-03-MTT-16-002-2",
+          "title_ko": "Effective control of E/R bilge and sludge",
+          "title_en": "Effective control of E/R bilge and sludge"
+        },
+        {
+          "date": "2016.01.24",
+          "code": "I-03-MTT-16-003",
+          "title_ko": "How to store wire rope and the right way uncoiling",
+          "title_en": "How to store wire rope and the right way uncoiling"
+        },
+        {
+          "date": "2016.01.30",
+          "code": "I-03-MTT-16-004",
+          "title_ko": "Luffing & Hoisting brake adjustment",
+          "title_en": "Luffing & Hoisting brake adjustment"
+        },
+        {
+          "date": "2016.10.13",
+          "code": "I-03-MTT-16-022",
+          "title_ko": "Most anchor losses are avoidable",
+          "title_en": "Most anchor losses are avoidable"
+        },
+        {
+          "date": "2016.10.07",
+          "code": "I-03-SQT-16-124",
+          "title_ko": "Implementation of the requirement for using low sulfur FO at core port in pearl river delta",
+          "title_en": "Implementation of the requirement for using low sulfur FO at core port in pearl river delta"
+        },
+        {
+          "date": "2017.02.28",
+          "code": "I-03-MTT-17-002",
+          "title_ko": "연료유 수급 및 사용 절차",
+          "title_en": "연료유 수급 및 사용 절차"
+        },
+        {
+          "date": "2017.03.08",
+          "code": "I-03-MTT-17-003",
+          "title_ko": "Inspection and maintenance at water trouble for boiler",
+          "title_en": "Inspection and maintenance at water trouble for boiler"
+        },
+        {
+          "date": "2017.03.10",
+          "code": "I-03-MTT-17-004",
+          "title_ko": "Lifeboat jumping stopper",
+          "title_en": "Lifeboat jumping stopper"
+        },
+        {
+          "date": "2017.05.29",
+          "code": "I-03-MTT-17-005",
+          "title_ko": "Black out recovery test",
+          "title_en": "Black out recovery test"
+        },
+        {
+          "date": "2017.07.14",
+          "code": "I-03-MTT-17-233",
+          "title_ko": "M.V Ocean flower, Main air compressor damaged",
+          "title_en": "M.V Ocean flower, Main air compressor damaged"
+        },
+        {
+          "date": "2017.06.12",
+          "code": "I-03-SQT-17-077",
+          "title_ko": "Entry into force of IMO BWM convention on 8th SEP 2017",
+          "title_en": "Entry into force of IMO BWM convention on 8th SEP 2017"
+        },
+        {
+          "date": "2017.09.01",
+          "code": "I-03-SQT-17-109",
+          "title_ko": "Regulation for the prevention of pollution by garbage from ships",
+          "title_en": "Regulation for the prevention of pollution by garbage from ships"
+        },
+        {
+          "date": "2017.09.15",
+          "code": "I-03-SQT-17-116",
+          "title_ko": "Ballast water management method when operating in the water of USA",
+          "title_en": "Ballast water management method when operating in the water of USA"
+        },
+        {
+          "date": "2019.06.13",
+          "code": "I-03-SQT1-19-001",
+          "title_ko": "Notification of China’s pollutant discharge regulation and strengthening of supervision",
+          "title_en": "Notification of China’s pollutant discharge regulation and strengthening of supervision"
+        },
+        {
+          "date": "2020.08.07",
+          "code": "I-03-MTT-20-001",
+          "title_ko": "Sox Emission control area in KOREA major ports",
+          "title_en": "Sox Emission control area in KOREA major ports"
+        },
+        {
+          "date": "2021.10.08",
+          "code": "I-03-MTT-21-001",
+          "title_ko": "Precaution for operation of fuels with maximum 0.5% sulphur",
+          "title_en": "Precaution for operation of fuels with maximum 0.5% sulphur"
+        },
+        {
+          "date": "2022.11.21",
+          "code": "I-03-MTT-22-001",
+          "title_ko": "Incident due to mixing Fuel oil",
+          "title_en": "Incident due to mixing Fuel oil"
+        },
+        {
+          "date": "2022.05.",
+          "code": "I-03-MTT-22-002",
+          "title_ko": "Preventive Action When working using oxygen / acetylene gas welding equipment",
+          "title_en": "Preventive Action When working using oxygen / acetylene gas welding equipment"
+        },
+        {
+          "date": "2023.07.18",
+          "code": "I-03-MTT-23-001",
+          "title_ko": "A case study of engine room bilge & sludge transfer work",
+          "title_en": "A case study of engine room bilge & sludge transfer work"
+        },
+        {
+          "date": "2023.10.23",
+          "code": "I-03-MTT-23-002",
+          "title_ko": "Oily water separator sampling point",
+          "title_en": "Oily water separator sampling point"
+        },
+        {
+          "date": "2023.11.09",
+          "code": "I-03-MTT-23-003",
+          "title_ko": "RECONDITION ITEMS AND LIMITATION OF THE NUMBER FOR ME, GE",
+          "title_en": "RECONDITION ITEMS AND LIMITATION OF THE NUMBER FOR ME, GE"
+        },
+        {
+          "date": "2024.01.11",
+          "code": "I-03-MTT-24-001",
+          "title_ko": "Guidelines for the Proper Application of Bulldog Grips",
+          "title_en": "Guidelines for the Proper Application of Bulldog Grips"
+        },
+        {
+          "date": "2024.07.12",
+          "code": "I-03-MTT-24-002",
+          "title_ko": "GLONASS selet procedure for GPS",
+          "title_en": "GLONASS selet procedure for GPS"
+        },
+        {
+          "date": "2025.02.14",
+          "code": "I-03-MTT-25-001",
+          "title_ko": "Guidance for the temporary storage of treated sewage,grey water in ballast tank",
+          "title_en": "Guidance for the temporary storage of treated sewage,grey water in ballast tank"
+        },
+        {
+          "date": "2025.04.18",
+          "code": "I-03-MTT-25-002",
+          "title_ko": "Guard against moisture intake from the charge air",
+          "title_en": "Guard against moisture intake from the charge air"
+        },
+        {
+          "date": "2025.04.23",
+          "code": "I-03-MTT-25-003",
+          "title_ko": "Mediterranean Sea Designated as SOx Emissions Control Area (Effective from 1 May 2025)",
+          "title_en": "Mediterranean Sea Designated as SOx Emissions Control Area (Effective from 1 May 2025)"
+        },
+        {
+          "date": "2025.05.16",
+          "code": "I-03-MTT-25-004",
+          "title_ko": "Validity of Type Approval Certification for Marine Equipment",
+          "title_en": "Validity of Type Approval Certification for Marine Equipment"
+        },
+        {
+          "date": "2025.05.26",
+          "code": "I-03-MTT-25-005",
+          "title_ko": "Fire line Isolation valve [Sharing and responding to inspection methods",
+          "title_en": "Fire line Isolation valve [Sharing and responding to inspection methods"
+        },
+        {
+          "date": "2025.05.26",
+          "code": "I-03-MTT-25-006",
+          "title_ko": "Compliance with the Ship recycling convention (Hongkong)",
+          "title_en": "Compliance with the Ship recycling convention (Hongkong)"
+        }
+      ]
+    },
+    {
+      "code": "I-04",
+      "title_ko": "항만정보",
+      "title_en": "PORT INFORMATION",
+      "items": [
+        {
+          "date": "",
+          "code": "",
+          "title_ko": "",
+          "title_en": ""
+        },
+        {
+          "date": "2014.09.21",
+          "code": "I-04-SQT-14-01",
+          "title_ko": "Port of Chittagong in Bangladesh",
+          "title_en": "Port of Chittagong in Bangladesh"
+        },
+        {
+          "date": "2018.02.19",
+          "code": "I-04-18-01",
+          "title_ko": "Port information for UMM QASR, IRAQ",
+          "title_en": "Port information for UMM QASR, IRAQ"
+        },
+        {
+          "date": "2020.06.19",
+          "code": "I-04-SQT1-20-01",
+          "title_ko": "광양/여수 항계 밖 외항 Anchoring시 주의사항",
+          "title_en": "광양/여수 항계 밖 외항 Anchoring시 주의사항"
+        },
+        {
+          "date": "2021.12.27",
+          "code": "I-04-SQT-21-001",
+          "title_ko": "Port call to Columbia River (Vancouver, USA)",
+          "title_en": "Port call to Columbia River (Vancouver, USA)"
+        },
+        {
+          "date": "2022.05.12",
+          "code": "I-03-MTT-22-001",
+          "title_ko": "GAS WELDING사고 예방을 위한 기술정보",
+          "title_en": "GAS WELDING사고 예방을 위한 기술정보"
+        }
+      ]
+    },
+    {
+      "code": "I-05",
+      "title_ko": "현장업무지침",
+      "title_en": "PRACTICAL WORK INSTRUCTION",
+      "items": [
+        {
+          "date": "",
+          "code": "",
+          "title_ko": "",
+          "title_en": ""
+        },
+        {
+          "date": "2013.07.18",
+          "code": "I-05-13-07-01",
+          "title_ko": "Periodic maintenance for moving parts of deck equipment",
+          "title_en": "Periodic maintenance for moving parts of deck equipment"
+        },
+        {
+          "date": "2013.07.19",
+          "code": "I-05-13-07-02",
+          "title_ko": "Direction for safety navigating & economical management",
+          "title_en": "Direction for safety navigating & economical management"
+        },
+        {
+          "date": "2016.01.18",
+          "code": "I-05-SQT-16-003",
+          "title_ko": "Notification of China SPRO",
+          "title_en": "Notification of China SPRO"
+        },
+        {
+          "date": "2016.04.15",
+          "code": "I-05-SQT-16-034",
+          "title_ko": "Immediate report in case of Emergency situation / incident",
+          "title_en": "Immediate report in case of Emergency situation / incident"
+        },
+        {
+          "date": "2016.05.02",
+          "code": "I-05-SQT-16-046",
+          "title_ko": "Concentrated inspection campaign in 2nd quarter of 2016",
+          "title_en": "Concentrated inspection campaign in 2nd quarter of 2016"
+        },
+        {
+          "date": "2016.06.29",
+          "code": "I-05-SQT-16-069",
+          "title_ko": "사건/사고 발생 시 즉각적인 보고에 관한 건",
+          "title_en": "사건/사고 발생 시 즉각적인 보고에 관한 건"
+        },
+        {
+          "date": "2016.09.20",
+          "code": "I-05-SQT-16-118",
+          "title_ko": "노후선 Ballast working을 하기 전 주의사항",
+          "title_en": "노후선 Ballast working을 하기 전 주의사항"
+        },
+        {
+          "date": "2016.11.11",
+          "code": "I-05-SQT-16-135",
+          "title_ko": "Alaska maritime prevention & response network coverage area",
+          "title_en": "Alaska maritime prevention & response network coverage area"
+        },
+        {
+          "date": "2017.02.27",
+          "code": "I-05-SQT-17-021",
+          "title_ko": "Changes of rules and regulations in 2017",
+          "title_en": "Changes of rules and regulations in 2017"
+        },
+        {
+          "date": "2017.03.06",
+          "code": "I-05-SQT-17-025",
+          "title_ko": "THAAD matter",
+          "title_en": "THAAD matter"
+        },
+        {
+          "date": "2017.03.08",
+          "code": "I-05-SQT-17-026",
+          "title_ko": "NC items on the way of PSC",
+          "title_en": "NC items on the way of PSC"
+        },
+        {
+          "date": "2017.05.08",
+          "code": "I-05-SQT-17-053",
+          "title_ko": "Inspection of tank vent heads",
+          "title_en": "Inspection of tank vent heads"
+        },
+        {
+          "date": "2017.05.30",
+          "code": "I-05-SQT-17-067",
+          "title_ko": "안전의식 결여로 인한 손가락 절단의 사고에 대비한 Notice",
+          "title_en": "안전의식 결여로 인한 손가락 절단의 사고에 대비한 Notice"
+        },
+        {
+          "date": "2017.08.31",
+          "code": "I-05-SQT-17-107",
+          "title_ko": "선박의 안전운항을 위한 지침",
+          "title_en": "선박의 안전운항을 위한 지침"
+        },
+        {
+          "date": "2017.09.01",
+          "code": "I-05-SQT-17-108",
+          "title_ko": "개정된 해사안전법 시행령",
+          "title_en": "개정된 해사안전법 시행령"
+        },
+        {
+          "date": "2017.09.13",
+          "code": "I-05-SQT-17-113",
+          "title_ko": "Regulations on the sulfur content of fuel oil within the Yangtze River Delta emission control area implemented from 01st September in 2017",
+          "title_en": "Regulations on the sulfur content of fuel oil within the Yangtze River Delta emission control area implemented from 01st September in 2017"
+        },
+        {
+          "date": "2017.09.29",
+          "code": "I-05-SQT-17-120",
+          "title_ko": "VHF marine radios with digital selective calling capability -Automatic channel switching",
+          "title_en": "VHF marine radios with digital selective calling capability -Automatic channel switching"
+        },
+        {
+          "date": "2017.10.16",
+          "code": "I-05-SQT-17-124",
+          "title_ko": "China joins the Hague choice of court convention league",
+          "title_en": "China joins the Hague choice of court convention league"
+        },
+        {
+          "date": "2018.04.17",
+          "code": "I-05-18-001",
+          "title_ko": "Hold 정비용 High Jet Machine 상태 확인 건",
+          "title_en": "Hold 정비용 High Jet Machine 상태 확인 건"
+        },
+        {
+          "date": "2018.07.06",
+          "code": "I-05-18-004",
+          "title_ko": "Notification of ship and shore joint exercise",
+          "title_en": "Notification of ship and shore joint exercise"
+        },
+        {
+          "date": "2018.07.23",
+          "code": "I-05-18-005",
+          "title_ko": "Feed-Back ship and shore joint exercise",
+          "title_en": "Feed-Back ship and shore joint exercise"
+        },
+        {
+          "date": "2018.10.16",
+          "code": "I-05-18-009",
+          "title_ko": "ECDIS weekly update to clear the deficiency by PSC inspection",
+          "title_en": "ECDIS weekly update to clear the deficiency by PSC inspection"
+        },
+        {
+          "date": "2018.10.19",
+          "code": "I-05-18-010",
+          "title_ko": "위험해역을 통항하는 선박의 안전을 위한 유의사항",
+          "title_en": "위험해역을 통항하는 선박의 안전을 위한 유의사항"
+        },
+        {
+          "date": "2018.10.25",
+          "code": "I-05-18-011",
+          "title_ko": "Feed-Back to the second ship and shore joint exercise in year 2018",
+          "title_en": "Feed-Back to the second ship and shore joint exercise in year 2018"
+        },
+        {
+          "date": "2018.12.19",
+          "code": "I-05-18-012",
+          "title_ko": "Daewoo Logistics 선박의 운항관련 Meeting 시 중요 안건",
+          "title_en": "Daewoo Logistics 선박의 운항관련 Meeting 시 중요 안건"
+        },
+        {
+          "date": "2018.12.19",
+          "code": "I-05-18-013",
+          "title_ko": "0.5% fuel sulfur content regulation by region of Hong Kong/Taiwan/China",
+          "title_en": "0.5% fuel sulfur content regulation by region of Hong Kong/Taiwan/China"
+        },
+        {
+          "date": "2018.11.05",
+          "code": "I-05-18-014",
+          "title_ko": "Request for company system development",
+          "title_en": "Request for company system development"
+        },
+        {
+          "date": "2019.03.19",
+          "code": "I-05-SQT-19-001",
+          "title_ko": "Over Loading 1500MT on the way of loading cargo work",
+          "title_en": "Over Loading 1500MT on the way of loading cargo work"
+        },
+        {
+          "date": "2019.04.02",
+          "code": "I-05-SQT-19-002",
+          "title_ko": "Draft Survey에 의한 Cargo Shortage 문제 해결을 위한 Guide",
+          "title_en": "Draft Survey에 의한 Cargo Shortage 문제 해결을 위한 Guide"
+        },
+        {
+          "date": "2019.04.10",
+          "code": "I-05-SQT-19-003",
+          "title_ko": "갑판상 원목선적을 위한 Hog Lashing Wire",
+          "title_en": "갑판상 원목선적을 위한 Hog Lashing Wire"
+        },
+        {
+          "date": "2019.05.06",
+          "code": "I-05-SQT-19-004",
+          "title_ko": "First Half Safety Campaign (Risks arising from mobile phone use on bridge)",
+          "title_en": "First Half Safety Campaign (Risks arising from mobile phone use on bridge)"
+        },
+        {
+          "date": "2020.01.08",
+          "code": "I-05-SQT-20-001",
+          "title_ko": "On scene safety posters and checklists with revised toolbox KOREAN, ENGLISH",
+          "title_en": "On scene safety posters and checklists with revised toolbox KOREAN, ENGLISH"
+        },
+        {
+          "date": "2020.02.12",
+          "code": "I-05-SQT-20-002",
+          "title_ko": "싱가포르 주변 및 인도네시아 영해 불법 투묘 금지",
+          "title_en": "싱가포르 주변 및 인도네시아 영해 불법 투묘 금지"
+        },
+        {
+          "date": "2020.10.19",
+          "code": "I-05-SQT-20-003",
+          "title_ko": "말레이시아 영해내 무단투묘 주의 안내",
+          "title_en": "말레이시아 영해내 무단투묘 주의 안내"
+        },
+        {
+          "date": "2020.02.25",
+          "code": "I-05-SQT2-20-001",
+          "title_ko": "국적선 나포 관련 재발방지 대책 (해양수산부)",
+          "title_en": "국적선 나포 관련 재발방지 대책 (해양수산부)"
+        },
+        {
+          "date": "2021.04.02",
+          "code": "I-05-SQT-21-001",
+          "title_ko": "Important and essential navigation of vessel to avoid any accident at sea",
+          "title_en": "Important and essential navigation of vessel to avoid any accident at sea"
+        },
+        {
+          "date": "2024.01.23",
+          "code": "I-05-24-01",
+          "title_ko": "TROUBLE LOG기록관리 (VISION SMS- ISSUED ITEM) 지침",
+          "title_en": "TROUBLE LOG기록관리 (VISION SMS- ISSUED ITEM) 지침"
+        },
+        {
+          "date": "2024.04.22",
+          "code": "I-05-24-02",
+          "title_ko": "Request of the LOAD TEST & DEADSHIP RECOVERY drill",
+          "title_en": "Request of the LOAD TEST & DEADSHIP RECOVERY drill"
+        },
+        {
+          "date": "2024.04.23",
+          "code": "I-05-24-03",
+          "title_ko": "Notice of certificate management by VISION-SMS SYSTEM",
+          "title_en": "Notice of certificate management by VISION-SMS SYSTEM"
+        },
+        {
+          "date": "2024.04.24",
+          "code": "I-05-24-04",
+          "title_ko": "Request to clean the bilge well before berthing.",
+          "title_en": "Request to clean the bilge well before berthing."
+        },
+        {
+          "date": "2024.05.28",
+          "code": "I-05-24-05",
+          "title_ko": "Notice about prohibit for holding pocket bunker",
+          "title_en": "Notice about prohibit for holding pocket bunker"
+        },
+        {
+          "date": "2024.12.02",
+          "code": "I-05-24-06",
+          "title_ko": "Hot work on cargo hold & connection part is prohibited in loading condition",
+          "title_en": "Hot work on cargo hold & connection part is prohibited in loading condition"
+        },
+        {
+          "date": "2025.01.10",
+          "code": "I-05-25-01",
+          "title_ko": "New“Arrival & Departure Checklist” Implementation",
+          "title_en": "New“Arrival & Departure Checklist” Implementation"
+        },
+        {
+          "date": "2025.05.29",
+          "code": "I-05-25-02",
+          "title_ko": "Special instruction of PSC inspection",
+          "title_en": "Special instruction of PSC inspection"
+        },
+        {
+          "date": "2025.06.13",
+          "code": "I-05-25-03",
+          "title_ko": "Official Notice NAVIGATION RISK ALERT – Tensions between Iran & Israel",
+          "title_en": "Official Notice NAVIGATION RISK ALERT – Tensions between Iran & Israel"
+        }
+      ]
+    },
+    {
+      "code": "I-06",
+      "title_ko": "심사, 검사정보",
+      "title_en": "AUDIT, INSPECTION INFORMATION",
+      "items": [
+        {
+          "date": "",
+          "code": "",
+          "title_ko": "",
+          "title_en": ""
+        },
+        {
+          "date": "2014.11.11",
+          "code": "I-06-MTT-14-015",
+          "title_ko": "Feed back of AMSA PSC deficiency",
+          "title_en": "Feed back of AMSA PSC deficiency"
+        },
+        {
+          "date": "2014.04.17",
+          "code": "I-06-14-01",
+          "title_ko": "PSC Detention (Information)",
+          "title_en": "PSC Detention (Information)"
+        },
+        {
+          "date": "2014.05.03",
+          "code": "I-06-14-02",
+          "title_ko": "Inspection Information",
+          "title_en": "Inspection Information"
+        },
+        {
+          "date": "2017.10.17",
+          "code": "I-06-SQT-14-004",
+          "title_ko": "PSC Information in the region of Australia",
+          "title_en": "PSC Information in the region of Australia"
+        },
+        {
+          "date": "2015.03.18",
+          "code": "I-06-SQT-15-22",
+          "title_ko": "Deficiency case of PSC information",
+          "title_en": "Deficiency case of PSC information"
+        },
+        {
+          "date": "2015.04.03",
+          "code": "I-06-SQT-15-031",
+          "title_ko": "Inform a latest PSC detention case",
+          "title_en": "Inform a latest PSC detention case"
+        },
+        {
+          "date": "2016.02.01",
+          "code": "I-06-SQT-16-011",
+          "title_ko": "Deficiency case of Rightship vetting inspection",
+          "title_en": "Deficiency case of Rightship vetting inspection"
+        },
+        {
+          "date": "2016.03.24",
+          "code": "I-06-SQT-16-023",
+          "title_ko": "PSC information (Food waste disposal in Bohai Sea, China)",
+          "title_en": "PSC information (Food waste disposal in Bohai Sea, China)"
+        },
+        {
+          "date": "2016.05.04",
+          "code": "I-06-SQT-16-048",
+          "title_ko": "PSC at port Nagoya in Japan",
+          "title_en": "PSC at port Nagoya in Japan"
+        },
+        {
+          "date": "2016.05.25",
+          "code": "I-06-SQT-16-054",
+          "title_ko": "BRM and Expected actions of bridge teams in Australian Pilotage Waters",
+          "title_en": "BRM and Expected actions of bridge teams in Australian Pilotage Waters"
+        },
+        {
+          "date": "2016.06.01",
+          "code": "I-06-SQT-16-059",
+          "title_ko": "Important PSC information to the vessel at port in Australia (Emergency drills)",
+          "title_en": "Important PSC information to the vessel at port in Australia (Emergency drills)"
+        },
+        {
+          "date": "2016.08.03",
+          "code": "I-06-SQT-16-087",
+          "title_ko": "USCG marine safety alert 07-16 Reg. “Inspection of life jackets”",
+          "title_en": "USCG marine safety alert 07-16 Reg. “Inspection of life jackets”"
+        },
+        {
+          "date": "2016.08.18",
+          "code": "I-06-SQT-16-091",
+          "title_ko": "CIC at each MOU from SEP to NOV 2016",
+          "title_en": "CIC at each MOU from SEP to NOV 2016"
+        },
+        {
+          "date": "2016.08.24",
+          "code": "I-06-SQT-16-097",
+          "title_ko": "PSC concentrated inspection campaign on pilot transfer arrangement by Riyadh MOU",
+          "title_en": "PSC concentrated inspection campaign on pilot transfer arrangement by Riyadh MOU"
+        },
+        {
+          "date": "2016.12.15",
+          "code": "I-06-SQT-16-149",
+          "title_ko": "호주에서 Alumina 선적시 홀드검사를 위한 참고사항",
+          "title_en": "호주에서 Alumina 선적시 홀드검사를 위한 참고사항"
+        },
+        {
+          "date": "2017.01.17",
+          "code": "I-06-SQT-17-006",
+          "title_ko": "Guidelines for PSCO on the ISM code (MSC-MEPC.4/ Circ.4)",
+          "title_en": "Guidelines for PSCO on the ISM code (MSC-MEPC.4/ Circ.4)"
+        },
+        {
+          "date": "2017.02.09",
+          "code": "I-06-SQT-17-016",
+          "title_ko": "Planning and conducting ship drills and education under SOLAS and ISPS code",
+          "title_en": "Planning and conducting ship drills and education under SOLAS and ISPS code"
+        },
+        {
+          "date": "2017.02.10",
+          "code": "I-06-SQT-17-017",
+          "title_ko": "SOLAS II-2 Regulation 13조에 의한 독립된 2개의 Escape way",
+          "title_en": "SOLAS II-2 Regulation 13조에 의한 독립된 2개의 Escape way"
+        },
+        {
+          "date": "2017.08.18",
+          "code": "I-06-SQT-17-100",
+          "title_ko": "Riyadh MoU concentrated inspection",
+          "title_en": "Riyadh MoU concentrated inspection"
+        },
+        {
+          "date": "2017.09.13",
+          "code": "I-06-SQT-17-114",
+          "title_ko": "For safe navigation using ECDIS",
+          "title_en": "For safe navigation using ECDIS"
+        },
+        {
+          "date": "2018.02.08",
+          "code": "I-06-18-01",
+          "title_ko": "Major PSC deficiencies on Sewage Treatment Plant",
+          "title_en": "Major PSC deficiencies on Sewage Treatment Plant"
+        },
+        {
+          "date": "2018.02.01",
+          "code": "I-06-18-02",
+          "title_ko": "PSC Inspection Information (VANINO, RUSSIA)",
+          "title_en": "PSC Inspection Information (VANINO, RUSSIA)"
+        },
+        {
+          "date": "2018.03.20",
+          "code": "I-06-18-03",
+          "title_ko": "For the checking of SSP to keep vessel in good security",
+          "title_en": "For the checking of SSP to keep vessel in good security"
+        },
+        {
+          "date": "2018.06.25",
+          "code": "I-06-18-04",
+          "title_ko": "PSC Inspection Information (Quick closing valves for fuel oil tanks)",
+          "title_en": "PSC Inspection Information (Quick closing valves for fuel oil tanks)"
+        },
+        {
+          "date": "2018.10.01",
+          "code": "I-06-18-05",
+          "title_ko": "IMPA Safety Campaign from 01st – 14th Oct. 2018",
+          "title_en": "IMPA Safety Campaign from 01st – 14th Oct. 2018"
+        },
+        {
+          "date": "2018.11.08",
+          "code": "I-06-18-06",
+          "title_ko": "The deficiencies which are indicated from PSC and AMSA inspection in this year 2018.",
+          "title_en": "The deficiencies which are indicated from PSC and AMSA inspection in this year 2018."
+        },
+        {
+          "date": "2018.02.01",
+          "code": "I-06-18-16",
+          "title_ko": "PSC Inspection Information (ROBERTS BANK, CANADA)",
+          "title_en": "PSC Inspection Information (ROBERTS BANK, CANADA)"
+        },
+        {
+          "date": "2019.04.10",
+          "code": "I-06-SQT-19-01",
+          "title_ko": "The problem of the following manure processing equipment",
+          "title_en": "The problem of the following manure processing equipment"
+        },
+        {
+          "date": "2019.04.17",
+          "code": "I-06-SQT-19-02",
+          "title_ko": "The deficiencies are pointed out in the 1/4 quarter PSC and AMSA inspection in 2019.",
+          "title_en": "The deficiencies are pointed out in the 1/4 quarter PSC and AMSA inspection in 2019."
+        },
+        {
+          "date": "2019.08.06",
+          "code": "I-06-SQT-19-03",
+          "title_ko": "Press release on 2019 CIC on Emergency systems and procedures",
+          "title_en": "Press release on 2019 CIC on Emergency systems and procedures"
+        },
+        {
+          "date": "2020.02.24",
+          "code": "I-06-SQT-20-01",
+          "title_ko": "PSC Inspection at Nakhodka, Russia",
+          "title_en": "PSC Inspection at Nakhodka, Russia"
+        },
+        {
+          "date": "2020.09.08",
+          "code": "I-06-SQT-20-02",
+          "title_ko": "Class NK PSC Bulletin (NK-PSC-21, Detainable deficiencies pointed out by AMSA in 2020)",
+          "title_en": "Class NK PSC Bulletin (NK-PSC-21, Detainable deficiencies pointed out by AMSA in 2020)"
+        },
+        {
+          "date": "2023.04.11",
+          "code": "I-06-MTT-23-001",
+          "title_ko": "DPC Inspection at ITAGUAI, Brazil",
+          "title_en": "DPC Inspection at ITAGUAI, Brazil"
+        },
+        {
+          "date": "2024.02.26",
+          "code": "I-06-SQT-24-001",
+          "title_ko": "PSC inspection information in Zeebrugge, Belgium",
+          "title_en": "PSC inspection information in Zeebrugge, Belgium"
+        },
+        {
+          "date": "2024.07.10",
+          "code": "I-06-SQT-24-002",
+          "title_ko": "Guide for PSC inspection preparation",
+          "title_en": "Guide for PSC inspection preparation"
+        },
+        {
+          "date": "2024.09.30",
+          "code": "I-06-SQT-24-003",
+          "title_ko": "PSC Detention in Halmstad, Sweden (Paris MOU) Inspection details and Lessons learned",
+          "title_en": "PSC Detention in Halmstad, Sweden (Paris MOU) Inspection details and Lessons learned"
+        },
+        {
+          "date": "2024.11.13",
+          "code": "I-06-SQT-24-004",
+          "title_ko": "Instruction for prevent external audit recurrece",
+          "title_en": "Instruction for prevent external audit recurrece"
+        },
+        {
+          "date": "2025.01.08",
+          "code": "I-06-SQT-25-001",
+          "title_ko": "Placement of Portable Fire Extinguishers in Engine Room (China SHENZHEN MSA)",
+          "title_en": "Placement of Portable Fire Extinguishers in Engine Room (China SHENZHEN MSA)"
+        },
+        {
+          "date": "2025.02.11",
+          "code": "I-06-SQT-25-002",
+          "title_ko": "PSC deficiency case due to sewage discharge in the Yangtze River in China",
+          "title_en": "PSC deficiency case due to sewage discharge in the Yangtze River in China"
+        },
+        {
+          "date": "2025.05.02",
+          "code": "I-06-MTT- 25-001",
+          "title_ko": "PSC deficiency information in Incheon, Korea",
+          "title_en": "PSC deficiency information in Incheon, Korea"
+        },
+        {
+          "date": "2025.05.07",
+          "code": "I-06-SQT-25-003",
+          "title_ko": "Analysis of PSC Detentions (2021–2025) and Mandatory Preventive Actions.",
+          "title_en": "Analysis of PSC Detentions (2021–2025) and Mandatory Preventive Actions."
+        },
+        {
+          "date": "2025.08.04",
+          "code": "I-06-SQT-25-004",
+          "title_ko": "Notice of PSC CIC on Ballast Water Management by Tokyo MoU & Paris MoU (Sep–Nov 2025)",
+          "title_en": "Notice of PSC CIC on Ballast Water Management by Tokyo MoU & Paris MoU (Sep–Nov 2025)"
+        }
+      ]
+    },
+    {
+      "code": "I-07",
+      "title_ko": "위험성 평가서",
+      "title_en": "RISK ASSESSMENT",
+      "ra_categories": [
+        {
+          "name": "General",
+          "sub": [
+            {
+              "name": "Office work",
+              "items": [
+                {
+                  "no": "1",
+                  "title_ko": "Office Safety & Health",
+                  "title_en": "Office Safety & Health",
+                  "rev": "Rev:1"
+                },
+                {
+                  "no": "2",
+                  "title_ko": "Overseas Business travel",
+                  "title_en": "Overseas Business travel",
+                  "rev": "Rev:1"
+                },
+                {
+                  "no": "3",
+                  "title_ko": "Management of Change",
+                  "title_en": "Management of Change",
+                  "rev": "Rev:1"
+                },
+                {
+                  "no": "4",
+                  "title_ko": "Visit Ships (Domestic Business travel)",
+                  "title_en": "Visit Ships (Domestic Business travel)",
+                  "rev": "Rev:1"
+                }
+              ]
+            },
+            {
+              "name": "Emergency response",
+              "items": [
+                {
+                  "no": "5",
+                  "title_ko": "Drill of Lifeboat/Rescue boat launching",
+                  "title_en": "Drill of Lifeboat/Rescue boat launching",
+                  "rev": "Rev:1"
+                },
+                {
+                  "no": "6",
+                  "title_ko": "Drill of Recovery of Person from Water",
+                  "title_en": "Drill of Recovery of Person from Water",
+                  "rev": "Rev:1"
+                },
+                {
+                  "no": "7",
+                  "title_ko": "Drill of abandon ship",
+                  "title_en": "Drill of abandon ship",
+                  "rev": "Rev:1"
+                },
+                {
+                  "no": "8",
+                  "title_ko": "Drill of emergency steering",
+                  "title_en": "Drill of emergency steering",
+                  "rev": "Rev:1"
+                },
+                {
+                  "no": "9",
+                  "title_ko": "Drill of fire fighting",
+                  "title_en": "Drill of fire fighting",
+                  "rev": "Rev:1"
+                },
+                {
+                  "no": "10",
+                  "title_ko": "Drill of helicopter operation",
+                  "title_en": "Drill of helicopter operation",
+                  "rev": "Rev:1"
+                },
+                {
+                  "no": "11",
+                  "title_ko": "Drill of man overboard",
+                  "title_en": "Drill of man overboard",
+                  "rev": "Rev:1"
+                },
+                {
+                  "no": "12",
+                  "title_ko": "Drill of oil spill response",
+                  "title_en": "Drill of oil spill response",
+                  "rev": "Rev:1"
+                },
+                {
+                  "no": "13",
+                  "title_ko": "Drill of rescue in enclosed space",
+                  "title_en": "Drill of rescue in enclosed space",
+                  "rev": "Rev:1"
+                },
+                {
+                  "no": "14",
+                  "title_ko": "Drill of response for other emergency situations",
+                  "title_en": "Drill of response for other emergency situations",
+                  "rev": "Rev:1"
+                },
+                {
+                  "no": "15",
+                  "title_ko": "Operation of fixed CO2 extinguishing system",
+                  "title_en": "Operation of fixed CO2 extinguishing system",
+                  "rev": "Rev:1"
+                },
+                {
+                  "no": "16",
+                  "title_ko": "Gyro failure",
+                  "title_en": "Gyro failure",
+                  "rev": "Rev:1"
+                },
+                {
+                  "no": "17",
+                  "title_ko": "ECDIS Failure",
+                  "title_en": "ECDIS Failure",
+                  "rev": "Rev:1"
+                },
+                {
+                  "no": "18",
+                  "title_ko": "RADAR failure",
+                  "title_en": "RADAR failure",
+                  "rev": "Rev:1"
+                },
+                {
+                  "no": "19",
+                  "title_ko": "Steering Gear Failure",
+                  "title_en": "Steering Gear Failure",
+                  "rev": "Rev:1"
+                },
+                {
+                  "no": "20",
+                  "title_ko": "VDR Failure",
+                  "title_en": "VDR Failure",
+                  "rev": "Rev:1"
+                },
+                {
+                  "no": "21",
+                  "title_ko": "Emergency towing",
+                  "title_en": "Emergency towing",
+                  "rev": "Rev:1"
+                }
+              ]
+            },
+            {
+              "name": "Security",
+              "items": [
+                {
+                  "no": "22",
+                  "title_ko": "Cyber Security - Office",
+                  "title_en": "Cyber Security - Office",
+                  "rev": "Rev:1"
+                },
+                {
+                  "no": "23",
+                  "title_ko": "Cyber Security - Vessel",
+                  "title_en": "Cyber Security - Vessel",
+                  "rev": "Rev:1"
+                },
+                {
+                  "no": "24",
+                  "title_ko": "Stowaways and Refugees",
+                  "title_en": "Stowaways and Refugees",
+                  "rev": "Rev:1"
+                },
+                {
+                  "no": "25",
+                  "title_ko": "Piracy High Risk area transit",
+                  "title_en": "Piracy High Risk area transit",
+                  "rev": "Rev:1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Equipment/Machinery Operation",
+          "sub": [
+            {
+              "name": "Deck",
+              "items": [
+                {
+                  "no": "26",
+                  "title_ko": "Operating Provision crane",
+                  "title_en": "Operating Provision crane",
+                  "rev": "Rev:1"
+                },
+                {
+                  "no": "27",
+                  "title_ko": "Watertight integrity",
+                  "title_en": "Watertight integrity",
+                  "rev": "Rev:1"
+                },
+                {
+                  "no": "28",
+                  "title_ko": "Gyro",
+                  "title_en": "Gyro",
+                  "rev": "Rev:1"
+                },
+                {
+                  "no": "29",
+                  "title_ko": "Magnetic Compass",
+                  "title_en": "Magnetic Compass",
+                  "rev": "Rev:1"
+                },
+                {
+                  "no": "30",
+                  "title_ko": "Inmarsat-C & MF/HF",
+                  "title_en": "Inmarsat-C & MF/HF",
+                  "rev": "Rev:1"
+                },
+                {
+                  "no": "31",
+                  "title_ko": "Cargo gear & Hyd. System for Deck machinery",
+                  "title_en": "Cargo gear & Hyd. System for Deck machinery",
+                  "rev": "Rev:1"
+                },
+                {
+                  "no": "32",
+                  "title_ko": "Windlass, Winch and anchor",
+                  "title_en": "Windlass, Winch and anchor",
+                  "rev": "Rev:1"
+                },
+                {
+                  "no": "33",
+                  "title_ko": "Radar",
+                  "title_en": "Radar",
+                  "rev": "Rev:1"
+                },
+                {
+                  "no": "34",
+                  "title_ko": "Steering gear and system",
+                  "title_en": "Steering gear and system",
+                  "rev": "Rev:1"
+                },
+                {
+                  "no": "35",
+                  "title_ko": "Ventilation operation",
+                  "title_en": "Ventilation operation",
+                  "rev": "Rev:1"
+                }
+              ]
+            },
+            {
+              "name": "Engine",
+              "items": [
+                {
+                  "no": "36",
+                  "title_ko": "Incinerator Operation",
+                  "title_en": "Incinerator Operation",
+                  "rev": "Rev:1"
+                },
+                {
+                  "no": "37",
+                  "title_ko": "Pressurised Systems",
+                  "title_en": "Pressurised Systems",
+                  "rev": "Rev:1"
+                },
+                {
+                  "no": "38",
+                  "title_ko": "Cooling fresh water system",
+                  "title_en": "Cooling fresh water system",
+                  "rev": "Rev:1"
+                },
+                {
+                  "no": "39",
+                  "title_ko": "Starting Air compressor, Air reservoir",
+                  "title_en": "Starting Air compressor, Air reservoir",
+                  "rev": "Rev:1"
+                },
+                {
+                  "no": "40",
+                  "title_ko": "Starting system, starting",
+                  "title_en": "Starting system, starting",
+                  "rev": "Rev:1"
+                },
+                {
+                  "no": "41",
+                  "title_ko": "Exhaust/Inhalation Valve and running gear (Roker arm)",
+                  "title_en": "Exhaust/Inhalation Valve and running gear (Roker arm)",
+                  "rev": "Rev:1"
+                },
+                {
+                  "no": "42",
+                  "title_ko": "M/E Safety equipment",
+                  "title_en": "M/E Safety equipment",
+                  "rev": "Rev:1"
+                },
+                {
+                  "no": "43",
+                  "title_ko": "Piston and rod, X-head & bearing, Stuffing box",
+                  "title_en": "Piston and rod, X-head & bearing, Stuffing box",
+                  "rev": "Rev:1"
+                },
+                {
+                  "no": "44",
+                  "title_ko": "Con-rod, bearing, bolt",
+                  "title_en": "Con-rod, bearing, bolt",
+                  "rev": "Rev:1"
+                },
+                {
+                  "no": "45",
+                  "title_ko": "Propulsion",
+                  "title_en": "Propulsion",
+                  "rev": "Rev:1"
+                },
+                {
+                  "no": "46",
+                  "title_ko": "Crank shaft, Main bearing, Bolt",
+                  "title_en": "Crank shaft, Main bearing, Bolt",
+                  "rev": "Rev:1"
+                },
+                {
+                  "no": "47",
+                  "title_ko": "Fuel oil system",
+                  "title_en": "Fuel oil system",
+                  "rev": "Rev:1"
+                },
+                {
+                  "no": "48",
+                  "title_ko": "Cooling seawater system",
+                  "title_en": "Cooling seawater system",
+                  "rev": "Rev:1"
+                },
+                {
+                  "no": "49",
+                  "title_ko": "Cooling lubricant system",
+                  "title_en": "Cooling lubricant system",
+                  "rev": "Rev:1"
+                },
+                {
+                  "no": "50",
+                  "title_ko": "Safe Operation Maintenance of Machinery",
+                  "title_en": "Safe Operation Maintenance of Machinery",
+                  "rev": "Rev:1"
+                },
+                {
+                  "no": "51",
+                  "title_ko": "Quick Closing Valve Test",
+                  "title_en": "Quick Closing Valve Test",
+                  "rev": "Rev:1"
+                },
+                {
+                  "no": "52",
+                  "title_ko": "GE Emergency operation",
+                  "title_en": "GE Emergency operation",
+                  "rev": "Rev:1"
+                }
+              ]
+            },
+            {
+              "name": "Environmental",
+              "items": [
+                {
+                  "no": "53",
+                  "title_ko": "Oily Water Separator (OWS)",
+                  "title_en": "Oily Water Separator (OWS)",
+                  "rev": "Rev:1"
+                },
+                {
+                  "no": "54",
+                  "title_ko": "ODME",
+                  "title_en": "ODME",
+                  "rev": "Rev:1"
+                }
+              ]
+            },
+            {
+              "name": "FFA/LSA",
+              "items": [
+                {
+                  "no": "55",
+                  "title_ko": "Fixed Fire extinguishing system",
+                  "title_en": "Fixed Fire extinguishing system",
+                  "rev": "Rev:1"
+                },
+                {
+                  "no": "56",
+                  "title_ko": "Life Boat and Davit",
+                  "title_en": "Life Boat and Davit",
+                  "rev": "Rev:1"
+                },
+                {
+                  "no": "57",
+                  "title_ko": "Motor and starter",
+                  "title_en": "Motor and starter",
+                  "rev": "Rev:1"
+                },
+                {
+                  "no": "58",
+                  "title_ko": "Emergency Fire Pump",
+                  "title_en": "Emergency Fire Pump",
+                  "rev": "Rev:1"
+                },
+                {
+                  "no": "59",
+                  "title_ko": "Fire detecting sys. and alarm",
+                  "title_en": "Fire detecting sys. and alarm",
+                  "rev": "Rev:1"
+                }
+              ]
+            },
+            {
+              "name": "Electrical",
+              "items": [
+                {
+                  "no": "60",
+                  "title_ko": "Black Out Test",
+                  "title_en": "Black Out Test",
+                  "rev": "Rev:1"
+                },
+                {
+                  "no": "61",
+                  "title_ko": "Generator",
+                  "title_en": "Generator",
+                  "rev": "Rev:1"
+                },
+                {
+                  "no": "62",
+                  "title_ko": "Emergency generator",
+                  "title_en": "Emergency generator",
+                  "rev": "Rev:1"
+                }
+              ]
+            },
+            {
+              "name": "IT System",
+              "items": [
+                {
+                  "no": "63",
+                  "title_ko": "IT System",
+                  "title_en": "IT System",
+                  "rev": "Rev:1"
+                }
+              ]
+            },
+            {
+              "name": "Others",
+              "items": [
+                {
+                  "no": "64",
+                  "title_ko": "Ship Implementation Plan, Impact of New Fuels",
+                  "title_en": "Ship Implementation Plan, Impact of New Fuels",
+                  "rev": "Rev:1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Maintenancce and works",
+          "sub": [
+            {
+              "name": "Deck maintenance",
+              "items": [
+                {
+                  "no": "65",
+                  "title_ko": "Chipping and painting",
+                  "title_en": "Chipping and painting",
+                  "rev": "Rev:1"
+                },
+                {
+                  "no": "66",
+                  "title_ko": "Rigging of pilot ladder",
+                  "title_en": "Rigging of pilot ladder",
+                  "rev": "Rev:1"
+                },
+                {
+                  "no": "67",
+                  "title_ko": "Renewal of Winch Brake Liners",
+                  "title_en": "Renewal of Winch Brake Liners",
+                  "rev": "Rev:1"
+                },
+                {
+                  "no": "68",
+                  "title_ko": "Use of Power tools",
+                  "title_en": "Use of Power tools",
+                  "rev": "Rev:1"
+                },
+                {
+                  "no": "69",
+                  "title_ko": "Crane & Lifting Operations",
+                  "title_en": "Crane & Lifting Operations",
+                  "rev": "Rev:1"
+                }
+              ]
+            },
+            {
+              "name": "Engine maintenance",
+              "items": [
+                {
+                  "no": "70",
+                  "title_ko": "ME Piston Overhaul",
+                  "title_en": "ME Piston Overhaul",
+                  "rev": "Rev:1"
+                },
+                {
+                  "no": "71",
+                  "title_ko": "Fuels Lubes Quality Sampling Analysis and Testing",
+                  "title_en": "Fuels Lubes Quality Sampling Analysis and Testing",
+                  "rev": "Rev:1"
+                },
+                {
+                  "no": "72",
+                  "title_ko": "Mechanical Vibration",
+                  "title_en": "Mechanical Vibration",
+                  "rev": "Rev:1"
+                },
+                {
+                  "no": "73",
+                  "title_ko": "Working From Cradles, Stages",
+                  "title_en": "Working From Cradles, Stages",
+                  "rev": "Rev:1"
+                },
+                {
+                  "no": "74",
+                  "title_ko": "Working in Elevator Shafts",
+                  "title_en": "Working in Elevator Shafts",
+                  "rev": "Rev:1"
+                },
+                {
+                  "no": "75",
+                  "title_ko": "Boiler, Exh. Gas boiler/economizer",
+                  "title_en": "Boiler, Exh. Gas boiler/economizer",
+                  "rev": "Rev:1"
+                },
+                {
+                  "no": "76",
+                  "title_ko": "E/R tanks",
+                  "title_en": "E/R tanks",
+                  "rev": "Rev:1"
+                },
+                {
+                  "no": "77",
+                  "title_ko": "Hand Tools",
+                  "title_en": "Hand Tools",
+                  "rev": "Rev:1"
+                },
+                {
+                  "no": "78",
+                  "title_ko": "Hydraulic Jacks",
+                  "title_en": "Hydraulic Jacks",
+                  "rev": "Rev:1"
+                },
+                {
+                  "no": "79",
+                  "title_ko": "F.O Auto Filter",
+                  "title_en": "F.O Auto Filter",
+                  "rev": "Rev:1"
+                },
+                {
+                  "no": "80",
+                  "title_ko": "Working on Rotating Machinery",
+                  "title_en": "Working on Rotating Machinery",
+                  "rev": "Rev:1"
+                },
+                {
+                  "no": "81",
+                  "title_ko": "Use of Power tools",
+                  "title_en": "Use of Power tools",
+                  "rev": "Rev:1"
+                },
+                {
+                  "no": "82",
+                  "title_ko": "Working on Lathes",
+                  "title_en": "Working on Lathes",
+                  "rev": "Rev:1"
+                },
+                {
+                  "no": "83",
+                  "title_ko": "EGE Cleaning",
+                  "title_en": "EGE Cleaning",
+                  "rev": "Rev:1"
+                },
+                {
+                  "no": "84",
+                  "title_ko": "Cleaning of Fuel Oil Tank",
+                  "title_en": "Cleaning of Fuel Oil Tank",
+                  "rev": "Rev:1"
+                },
+                {
+                  "no": "85",
+                  "title_ko": "Engineer OOW",
+                  "title_en": "Engineer OOW",
+                  "rev": "Rev:1"
+                },
+                {
+                  "no": "86",
+                  "title_ko": "GE Piston Overhaul",
+                  "title_en": "GE Piston Overhaul",
+                  "rev": "Rev:1"
+                }
+              ]
+            },
+            {
+              "name": "Special Work (Work permit required)",
+              "items": [
+                {
+                  "no": "87",
+                  "title_ko": "Hot Work",
+                  "title_en": "Hot Work",
+                  "rev": "Rev:2"
+                },
+                {
+                  "no": "88",
+                  "title_ko": "Electrical Work",
+                  "title_en": "Electrical Work",
+                  "rev": "Rev:1"
+                },
+                {
+                  "no": "89",
+                  "title_ko": "Aloft outboard work",
+                  "title_en": "Aloft outboard work",
+                  "rev": "Rev:1"
+                },
+                {
+                  "no": "90",
+                  "title_ko": "Underwater Inspection",
+                  "title_en": "Underwater Inspection",
+                  "rev": "Rev:1"
+                },
+                {
+                  "no": "91",
+                  "title_ko": "Enclosed Spaces",
+                  "title_en": "Enclosed Spaces",
+                  "rev": "Rev:1"
+                },
+                {
+                  "no": "92",
+                  "title_ko": "Lockout Tagout",
+                  "title_en": "Lockout Tagout",
+                  "rev": "Rev:1"
+                },
+                {
+                  "no": "93",
+                  "title_ko": "Working with Lifeboat",
+                  "title_en": "Working with Lifeboat",
+                  "rev": "Rev:1"
+                },
+                {
+                  "no": "94",
+                  "title_ko": "Manual Handling (T.I.L.E)",
+                  "title_en": "Manual Handling (T.I.L.E)",
+                  "rev": "Rev:1"
+                },
+                {
+                  "no": "95",
+                  "title_ko": "Inspection of tanks, holds and internal structures",
+                  "title_en": "Inspection of tanks, holds and internal structures",
+                  "rev": "Rev:1"
+                }
+              ]
+            },
+            {
+              "name": "High Risk Work (PR-13, APP.9)",
+              "items": [
+                {
+                  "no": "96",
+                  "title_ko": "Work involving handling of explosives",
+                  "title_en": "Work involving handling of explosives",
+                  "rev": "Rev:1"
+                },
+                {
+                  "no": "97",
+                  "title_ko": "Painting and Paint Removal Work",
+                  "title_en": "Painting and Paint Removal Work",
+                  "rev": "Rev:1"
+                },
+                {
+                  "no": "98",
+                  "title_ko": "Welding, Cutting, and Hot Work",
+                  "title_en": "Welding, Cutting, and Hot Work",
+                  "rev": "Rev:1"
+                },
+                {
+                  "no": "99",
+                  "title_ko": "Detection Work for Hazardous Substances",
+                  "title_en": "Detection Work for Hazardous Substances",
+                  "rev": "Rev:1"
+                },
+                {
+                  "no": "100",
+                  "title_ko": "Work performed in areas where hazardous gases may be generated",
+                  "title_en": "Work performed in areas where hazardous gases may be generated",
+                  "rev": "Rev:1"
+                },
+                {
+                  "no": "101",
+                  "title_ko": "Work involving flammable liquids",
+                  "title_en": "Work involving flammable liquids",
+                  "rev": "Rev:1"
+                },
+                {
+                  "no": "102",
+                  "title_ko": "Aloft Work and Outboard Work",
+                  "title_en": "Aloft Work and Outboard Work",
+                  "rev": "Rev:1"
+                },
+                {
+                  "no": "103",
+                  "title_ko": "Work Near High-Temperature Objects",
+                  "title_en": "Work Near High-Temperature Objects",
+                  "rev": "Rev:1"
+                },
+                {
+                  "no": "104",
+                  "title_ko": "Work Performed Under High Temperatures or Direct Sunlight",
+                  "title_en": "Work Performed Under High Temperatures or Direct Sunlight",
+                  "rev": "Rev:1"
+                },
+                {
+                  "no": "105",
+                  "title_ko": "Work Performed in Low-Temperature Conditions",
+                  "title_en": "Work Performed in Low-Temperature Conditions",
+                  "rev": "Rev:1"
+                },
+                {
+                  "no": "106",
+                  "title_ko": "De-Icing Operations",
+                  "title_en": "De-Icing Operations",
+                  "rev": "Rev:1"
+                },
+                {
+                  "no": "107",
+                  "title_ko": "Work Involving Exposure to Water or Humid Air",
+                  "title_en": "Work Involving Exposure to Water or Humid Air",
+                  "rev": "Rev:1"
+                },
+                {
+                  "no": "108",
+                  "title_ko": "Heavy Object Handling Tasks",
+                  "title_en": "Heavy Object Handling Tasks",
+                  "rev": "Rev:1"
+                },
+                {
+                  "no": "109",
+                  "title_ko": "Rigging and Lifting Gear Operation",
+                  "title_en": "Rigging and Lifting Gear Operation",
+                  "rev": "Rev:1"
+                },
+                {
+                  "no": "110",
+                  "title_ko": "Hatch Opening or Internal Hatch Work",
+                  "title_en": "Hatch Opening or Internal Hatch Work",
+                  "rev": "Rev:1"
+                },
+                {
+                  "no": "111",
+                  "title_ko": "Electrical Work with Risk of Electric Shock",
+                  "title_en": "Electrical Work with Risk of Electric Shock",
+                  "rev": "Rev:1"
+                },
+                {
+                  "no": "112",
+                  "title_ko": "Work Involving Excessive Noise or Vibration",
+                  "title_en": "Work Involving Excessive Noise or Vibration",
+                  "rev": "Rev:1"
+                },
+                {
+                  "no": "113",
+                  "title_ko": "De-rusting and Power Tool Operation",
+                  "title_en": "De-rusting and Power Tool Operation",
+                  "rev": "Rev:1"
+                },
+                {
+                  "no": "114",
+                  "title_ko": "Work in Dust-Generating Areas",
+                  "title_en": "Work in Dust-Generating Areas",
+                  "rev": "Rev:1"
+                },
+                {
+                  "no": "115",
+                  "title_ko": "Work Involving Asbestos or Asbestos-Containing Dust",
+                  "title_en": "Work Involving Asbestos or Asbestos-Containing Dust",
+                  "rev": "Rev:1"
+                },
+                {
+                  "no": "116",
+                  "title_ko": "Repair Work for Machinery Equipment",
+                  "title_en": "Repair Work for Machinery Equipment",
+                  "rev": "Rev:1"
+                },
+                {
+                  "no": "117",
+                  "title_ko": "Work Involving Exposure to Chemical Substances",
+                  "title_en": "Work Involving Exposure to Chemical Substances",
+                  "rev": "Rev:1"
+                },
+                {
+                  "no": "118",
+                  "title_ko": "Work Involving Risk of Exposure to Biological Substances",
+                  "title_en": "Work Involving Risk of Exposure to Biological Substances",
+                  "rev": "Rev:1"
+                },
+                {
+                  "no": "119",
+                  "title_ko": "Work Inside Cargo Hold",
+                  "title_en": "Work Inside Cargo Hold",
+                  "rev": "Rev:1"
+                }
+              ]
+            },
+            {
+              "name": "Critical equipment",
+              "items": [
+                {
+                  "no": "120",
+                  "title_ko": "Critical Non-Critical System and Process",
+                  "title_en": "Critical Non-Critical System and Process",
+                  "rev": "Rev:1"
+                }
+              ]
+            },
+            {
+              "name": "Others",
+              "items": [
+                {
+                  "no": "121",
+                  "title_ko": "ECA Fuel Change Over",
+                  "title_en": "ECA Fuel Change Over",
+                  "rev": "Rev:1"
+                },
+                {
+                  "no": "122",
+                  "title_ko": "Identification of Enclosed Spaces On Board Ship",
+                  "title_en": "Identification of Enclosed Spaces On Board Ship",
+                  "rev": "Rev:1"
+                },
+                {
+                  "no": "123",
+                  "title_ko": "Unmanned Machinery Space",
+                  "title_en": "Unmanned Machinery Space",
+                  "rev": "Rev:1"
+                },
+                {
+                  "no": "124",
+                  "title_ko": "Fuels Lubes Quality Sampling Analysis and Testing",
+                  "title_en": "Fuels Lubes Quality Sampling Analysis and Testing",
+                  "rev": "Rev:1"
+                },
+                {
+                  "no": "125",
+                  "title_ko": "Bunkering",
+                  "title_en": "Bunkering",
+                  "rev": "Rev:2"
+                },
+                {
+                  "no": "126",
+                  "title_ko": "Sludge discharging",
+                  "title_en": "Sludge discharging",
+                  "rev": "Rev:1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Safe Navigation",
+          "sub": [
+            {
+              "name": "Arrival/Departure of Port",
+              "items": [
+                {
+                  "no": "127",
+                  "title_ko": "Pilot Embark & Disembark by boat",
+                  "title_en": "Pilot Embark & Disembark by boat",
+                  "rev": "Rev:1"
+                },
+                {
+                  "no": "128",
+                  "title_ko": "Helicopter operation (Pilot onboard)",
+                  "title_en": "Helicopter operation (Pilot onboard)",
+                  "rev": "Rev:1"
+                },
+                {
+                  "no": "129",
+                  "title_ko": "Accommodation ladder installation",
+                  "title_en": "Accommodation ladder installation",
+                  "rev": "Rev:1"
+                }
+              ]
+            },
+            {
+              "name": "Navigation",
+              "items": [
+                {
+                  "no": "130",
+                  "title_ko": "Navigation in narrow channel",
+                  "title_en": "Navigation in narrow channel",
+                  "rev": "Rev:1"
+                },
+                {
+                  "no": "131",
+                  "title_ko": "Navigation in Coastal area",
+                  "title_en": "Navigation in Coastal area",
+                  "rev": "Rev:1"
+                },
+                {
+                  "no": "132",
+                  "title_ko": "Navigation in Cold Climate and Ice",
+                  "title_en": "Navigation in Cold Climate and Ice",
+                  "rev": "Rev:1"
+                },
+                {
+                  "no": "133",
+                  "title_ko": "Navigation in Restricted Visibility",
+                  "title_en": "Navigation in Restricted Visibility",
+                  "rev": "Rev:1"
+                },
+                {
+                  "no": "134",
+                  "title_ko": "Navigation in Heavy weather",
+                  "title_en": "Navigation in Heavy weather",
+                  "rev": "Rev:1"
+                },
+                {
+                  "no": "135",
+                  "title_ko": "ECDIS",
+                  "title_en": "ECDIS",
+                  "rev": "Rev:1"
+                },
+                {
+                  "no": "136",
+                  "title_ko": "Navigation through the Strait of Magellan",
+                  "title_en": "Navigation through the Strait of Magellan",
+                  "rev": "Rev:1"
+                }
+              ]
+            },
+            {
+              "name": "Anchoring",
+              "items": [
+                {
+                  "no": "137",
+                  "title_ko": "Anchoring",
+                  "title_en": "Anchoring",
+                  "rev": "Rev:1"
+                }
+              ]
+            },
+            {
+              "name": "Mooring",
+              "items": [
+                {
+                  "no": "138",
+                  "title_ko": "Mooring and unmooring",
+                  "title_en": "Mooring and unmooring",
+                  "rev": "Rev:1"
+                }
+              ]
+            },
+            {
+              "name": "Watch keeping",
+              "items": [
+                {
+                  "no": "139",
+                  "title_ko": "Watchkeeping during navigation",
+                  "title_en": "Watchkeeping during navigation",
+                  "rev": "Rev:1"
+                },
+                {
+                  "no": "140",
+                  "title_ko": "Watchkeeping during Anchoring",
+                  "title_en": "Watchkeeping during Anchoring",
+                  "rev": "Rev:1"
+                },
+                {
+                  "no": "141",
+                  "title_ko": "Watchkeeping during in port",
+                  "title_en": "Watchkeeping during in port",
+                  "rev": "Rev:1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Cargo operation",
+          "sub": [
+            {
+              "name": "Preparation",
+              "items": [
+                {
+                  "no": "142",
+                  "title_ko": "Preparations for cargo loading (PCC)",
+                  "title_en": "Preparations for cargo loading (PCC)",
+                  "rev": "Rev:1"
+                },
+                {
+                  "no": "143",
+                  "title_ko": "Hatch cover operation (BC)",
+                  "title_en": "Hatch cover operation (BC)",
+                  "rev": "Rev:1"
+                },
+                {
+                  "no": "144",
+                  "title_ko": "Loading instrument test (BC)",
+                  "title_en": "Loading instrument test (BC)",
+                  "rev": "Rev:1"
+                },
+                {
+                  "no": "145",
+                  "title_ko": "Hold cleaning (BC)",
+                  "title_en": "Hold cleaning (BC)",
+                  "rev": "Rev:1"
+                }
+              ]
+            },
+            {
+              "name": "Loading/Discharging",
+              "items": [
+                {
+                  "no": "146",
+                  "title_ko": "Loading & Discharging pLan (BC)",
+                  "title_en": "Loading & Discharging pLan (BC)",
+                  "rev": "Rev:1"
+                },
+                {
+                  "no": "147",
+                  "title_ko": "Loading & Deischarging cargo (BC)",
+                  "title_en": "Loading & Deischarging cargo (BC)",
+                  "rev": "Rev:1"
+                },
+                {
+                  "no": "148",
+                  "title_ko": "Movable Deck and Panels  (PCC)",
+                  "title_en": "Movable Deck and Panels  (PCC)",
+                  "rev": "Rev:1"
+                },
+                {
+                  "no": "149",
+                  "title_ko": "Ramp operation (PCC)",
+                  "title_en": "Ramp operation (PCC)",
+                  "rev": "Rev:1"
+                },
+                {
+                  "no": "150",
+                  "title_ko": "Car Carrier Cargo Operations (PCC)",
+                  "title_en": "Car Carrier Cargo Operations (PCC)",
+                  "rev": "Rev:1"
+                },
+                {
+                  "no": "151",
+                  "title_ko": "Safety during cargo operations (PCC)",
+                  "title_en": "Safety during cargo operations (PCC)",
+                  "rev": "Rev:1"
+                },
+                {
+                  "no": "152",
+                  "title_ko": "Deck Lifter (PCC)",
+                  "title_en": "Deck Lifter (PCC)",
+                  "rev": "Rev:1"
+                },
+                {
+                  "no": "153",
+                  "title_ko": "Ship to ship transfer",
+                  "title_en": "Ship to ship transfer",
+                  "rev": "Rev:1"
+                },
+                {
+                  "no": "154",
+                  "title_ko": "Draft Survey",
+                  "title_en": "Draft Survey",
+                  "rev": "Rev:1"
+                }
+              ]
+            },
+            {
+              "name": "Cargo management",
+              "items": [
+                {
+                  "no": "155",
+                  "title_ko": "General cargo management",
+                  "title_en": "General cargo management",
+                  "rev": "Rev:1"
+                },
+                {
+                  "no": "156",
+                  "title_ko": "Lashing check",
+                  "title_en": "Lashing check",
+                  "rev": "Rev:1"
+                },
+                {
+                  "no": "157",
+                  "title_ko": "Hatch cover sealing (BC)",
+                  "title_en": "Hatch cover sealing (BC)",
+                  "rev": "Rev:1"
+                },
+                {
+                  "no": "158",
+                  "title_ko": "Coal (BC)",
+                  "title_en": "Coal (BC)",
+                  "rev": "Rev:1"
+                },
+                {
+                  "no": "159",
+                  "title_ko": "Iron Ore (BC)",
+                  "title_en": "Iron Ore (BC)",
+                  "rev": "Rev:1"
+                }
+              ]
+            },
+            {
+              "name": "Ballast",
+              "items": [
+                {
+                  "no": "160",
+                  "title_ko": "BWTS",
+                  "title_en": "BWTS",
+                  "rev": "Rev:1"
+                },
+                {
+                  "no": "161",
+                  "title_ko": "Ballasting and deballasting",
+                  "title_en": "Ballasting and deballasting",
+                  "rev": "Rev:1"
+                }
+              ]
+            },
+            {
+              "name": "Others",
+              "items": [
+                {
+                  "no": "162",
+                  "title_ko": "Ship stability",
+                  "title_en": "Ship stability",
+                  "rev": "Rev:1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Crew management",
+          "sub": [
+            {
+              "name": "Onboard Living",
+              "items": [
+                {
+                  "no": "163",
+                  "title_ko": "Drug & Alcohol",
+                  "title_en": "Drug & Alcohol",
+                  "rev": "Rev:1"
+                }
+              ]
+            },
+            {
+              "name": "Health & Hygine",
+              "items": [
+                {
+                  "no": "164",
+                  "title_ko": "Medical treatment",
+                  "title_en": "Medical treatment",
+                  "rev": "Rev:1"
+                },
+                {
+                  "no": "165",
+                  "title_ko": "Asbestos",
+                  "title_en": "Asbestos",
+                  "rev": "Rev:1"
+                },
+                {
+                  "no": "166",
+                  "title_ko": "Poison",
+                  "title_en": "Poison",
+                  "rev": "Rev:1"
+                },
+                {
+                  "no": "167",
+                  "title_ko": "Handling of COVID-19 (Novel Coronavirus)",
+                  "title_en": "Handling of COVID-19 (Novel Coronavirus)",
+                  "rev": "Rev:1"
+                },
+                {
+                  "no": "168",
+                  "title_ko": "Exposure to noise",
+                  "title_en": "Exposure to noise",
+                  "rev": "Rev:1"
+                },
+                {
+                  "no": "169",
+                  "title_ko": "Crew mental health",
+                  "title_en": "Crew mental health",
+                  "rev": "Rev:1"
+                }
+              ]
+            },
+            {
+              "name": "Recuiting",
+              "items": [
+                {
+                  "no": "170",
+                  "title_ko": "Replacing Master and C/E at the same time",
+                  "title_en": "Replacing Master and C/E at the same time",
+                  "rev": "Rev:1"
+                },
+                {
+                  "no": "171",
+                  "title_ko": "Absence of Crew onboard",
+                  "title_en": "Absence of Crew onboard",
+                  "rev": "Rev:1"
+                }
+              ]
+            },
+            {
+              "name": "Cooking",
+              "items": [
+                {
+                  "no": "172",
+                  "title_ko": "Work at Galley",
+                  "title_en": "Work at Galley",
+                  "rev": "Rev:1"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "I-08",
+      "title_ko": "환경영향평가서",
+      "title_en": "ENVIRONMENTAL ASPECT INVESTIGATION SHEET",
+      "aspect_groups": [
+        {
+          "code": "1.1",
+          "title_ko": "에너지, 천연자원",
+          "title_en": "Energy / Natural Resource"
+        },
+        {
+          "code": "2.1",
+          "title_ko": "자재",
+          "title_en": "Materials"
+        },
+        {
+          "code": "3.1",
+          "title_ko": "환경 오염 물질 (안전 운항)",
+          "title_en": "Environmental Pollutant (Safety Navigation)"
+        },
+        {
+          "code": "3.2",
+          "title_ko": "환경 오염 물질 (화물 취급 및 관리)",
+          "title_en": "Environmental Pollutant (Cargo Handling & Management)"
+        },
+        {
+          "code": "3.3",
+          "title_ko": "환경 오염 물질 (선체 및 속구 관리)",
+          "title_en": "Environmental Pollutant (Hull and Machinery Management)"
+        },
+        {
+          "code": "3.4",
+          "title_ko": "환경 오염 물질 (오염물질)",
+          "title_en": "Environmental Pollutant (Pollutant)"
+        },
+        {
+          "code": "3.5",
+          "title_ko": "환경 오염 물질 (자재관리)",
+          "title_en": "Environmental Pollutant (Materials Management)"
+        },
+        {
+          "code": "3.6",
+          "title_ko": "환경 오염 물질 (비상대응)",
+          "title_en": "Environmental Pollutant (Emergency Response)"
+        },
+        {
+          "code": "3.7",
+          "title_ko": "환경 오염 물질 (일반 사항)",
+          "title_en": "Environmental Pollutant (General)"
+        },
+        {
+          "code": "3.8",
+          "title_ko": "환경 오염 물질 (입거 정비)",
+          "title_en": "Environmental Pollutant (Docking Repair)"
+        },
+        {
+          "code": "3.9",
+          "title_ko": "환경 오염 물질 (기기운전 및 정비)",
+          "title_en": "Environmental Pollutant (Instrument Operation and Maintenance)"
+        }
+      ]
+    },
+    {
+      "code": "I-09",
+      "title_ko": "신규 승선자 필수 지침",
+      "title_en": "Essential Instruction for New Joined Crew"
+    },
+    {
+      "code": "I-10",
+      "title_ko": "업무지시서",
+      "title_en": "Company Instruction",
+      "items": [
+        {
+          "date": "",
+          "code": "",
+          "title_ko": "",
+          "title_en": ""
+        },
+        {
+          "date": "2019.01.01",
+          "code": "DRK I-10-01",
+          "title_ko": "IMO DCS 업무 절차 (only shore) / IMO DCS Procedure (Only Shore)",
+          "title_en": "IMO DCS 업무 절차 (only shore) / IMO DCS Procedure (Only Shore)"
+        },
+        {
+          "date": "2019.01.01",
+          "code": "DRK I-10-02",
+          "title_ko": "EU MRV 업무 절차 (only shore) / EU MRV Procedure (Only Shore)",
+          "title_en": "EU MRV 업무 절차 (only shore) / EU MRV Procedure (Only Shore)"
+        },
+        {
+          "date": "2021.02.08",
+          "code": "DRK-I-10 App.1",
+          "title_ko": "UKHO Chart Q6099",
+          "title_en": "UKHO Chart Q6099"
+        },
+        {
+          "date": "2021.02.08",
+          "code": "DRK-I-10 App.2",
+          "title_ko": "UKHO Chart Q6114",
+          "title_en": "UKHO Chart Q6114"
+        },
+        {
+          "date": "2021.06.01",
+          "code": "DRK I-10-03",
+          "title_ko": "표준문서 개정 지침 (only shore) / Standard Document Revision Instruction (Only Shore)",
+          "title_en": "표준문서 개정 지침 (only shore) / Standard Document Revision Instruction (Only Shore)"
+        },
+        {
+          "date": "2022.03.15",
+          "code": "DRK I-10-04",
+          "title_ko": "Prevention of infection of vessel entering ports at risk of COVID 19",
+          "title_en": "Prevention of infection of vessel entering ports at risk of COVID 19"
+        },
+        {
+          "date": "2022.05.02",
+          "code": "DRK I-10-05",
+          "title_ko": "Route monitoring in VESSELLINK",
+          "title_en": "Route monitoring in VESSELLINK"
+        },
+        {
+          "date": "2022.06.30",
+          "code": "DRK-I-10-06",
+          "title_ko": "해적 대응 지침 Anti piracy instruction",
+          "title_en": "해적 대응 지침 Anti piracy instruction"
+        },
+        {
+          "date": "2022.09.26",
+          "code": "DRK-I-10-07",
+          "title_ko": "밀항자 수색 지침 Stowaway search guideline",
+          "title_en": "밀항자 수색 지침 Stowaway search guideline"
+        },
+        {
+          "date": "2022.09.26",
+          "code": "DRK-I-10-08",
+          "title_ko": "Maintenance and Cleaning of AHU",
+          "title_en": "Maintenance and Cleaning of AHU"
+        },
+        {
+          "date": "2023.03.24",
+          "code": "DRK-I-10-09",
+          "title_ko": "Bunker Line Pressure Test",
+          "title_en": "Bunker Line Pressure Test"
+        },
+        {
+          "date": "2023.03.24",
+          "code": "DRK-I-10 App.3",
+          "title_ko": "Bunker Line Test Record",
+          "title_en": "Bunker Line Test Record"
+        },
+        {
+          "date": "2023.04.25",
+          "code": "DRK-I-10-10",
+          "title_ko": "Guide on access control to the ISPS code",
+          "title_en": "Guide on access control to the ISPS code"
+        },
+        {
+          "date": "2023.05.22",
+          "code": "DRK-I-10-11",
+          "title_ko": "항해일지 기록 안내서 Deck Log book Entry Guide",
+          "title_en": "항해일지 기록 안내서 Deck Log book Entry Guide"
+        },
+        {
+          "date": "2023.06.20",
+          "code": "DRK-I-10-12",
+          "title_ko": "보안훈련 시나리오 Security drill scenario",
+          "title_en": "보안훈련 시나리오 Security drill scenario"
+        },
+        {
+          "date": "2023.07.03",
+          "code": "DRK-I-10-13",
+          "title_ko": "Guide for Emergency CardioPulmonary Resuscitation & Automated External Defibrillator",
+          "title_en": "Guide for Emergency CardioPulmonary Resuscitation & Automated External Defibrillator"
+        },
+        {
+          "date": "2023.07.28",
+          "code": "DRK I-10-14",
+          "title_ko": "TILE In Manual Handling (Task, Individual, Load, Environment)",
+          "title_en": "TILE In Manual Handling (Task, Individual, Load, Environment)"
+        },
+        {
+          "date": "2024.01.16",
+          "code": "DRK I-10-15",
+          "title_ko": "Guide for Emergency Response in trouble situation of Scrubber & BWMS",
+          "title_en": "Guide for Emergency Response in trouble situation of Scrubber & BWMS"
+        },
+        {
+          "date": "2024.02.23",
+          "code": "DRK I-10-16",
+          "title_ko": "Guide for attachment of service report at PMS",
+          "title_en": "Guide for attachment of service report at PMS"
+        },
+        {
+          "date": "2024.03.18",
+          "code": "DRK I-10-17",
+          "title_ko": "정기기간 용선계약(T/C) 클레임 예방 및 대응 가이드 / Time charter claim prevention and response guide",
+          "title_en": "정기기간 용선계약(T/C) 클레임 예방 및 대응 가이드 / Time charter claim prevention and response guide"
+        },
+        {
+          "date": "2024.06.25",
+          "code": "DRK I-10-18",
+          "title_ko": "Guide for revision of PMS Item",
+          "title_en": "Guide for revision of PMS Item"
+        },
+        {
+          "date": "2024.06.25",
+          "code": "DRK I-10-19",
+          "title_ko": "Guide for ‘maintenance’ page in “VISION-SMS”",
+          "title_en": "Guide for ‘maintenance’ page in “VISION-SMS”"
+        },
+        {
+          "date": "2024.06.27",
+          "code": "DRK I-10-20",
+          "title_ko": "Hatch cover maintenance guideline",
+          "title_en": "Hatch cover maintenance guideline"
+        },
+        {
+          "date": "2024.07.10",
+          "code": "DRK I-10-21",
+          "title_ko": "Guide for Using Starlink and Internet Equipment",
+          "title_en": "Guide for Using Starlink and Internet Equipment"
+        },
+        {
+          "date": "2024.07.22",
+          "code": "DRK I-10-22",
+          "title_ko": "Guide for Tool Box Meeting (TBM) Form Recording",
+          "title_en": "Guide for Tool Box Meeting (TBM) Form Recording"
+        },
+        {
+          "date": "2024.07.22",
+          "code": "DRK I-10-23",
+          "title_ko": "Guide for Work Permit Recording",
+          "title_en": "Guide for Work Permit Recording"
+        },
+        {
+          "date": "2024.10.14",
+          "code": "DRK I-10-24",
+          "title_ko": "Work Permit Documentation Guide for Dangerous Work",
+          "title_en": "Work Permit Documentation Guide for Dangerous Work"
+        },
+        {
+          "date": "2024.11.14",
+          "code": "DRK I-10-25",
+          "title_ko": "기관일지 기록 안내서 Engine log book Entry guide",
+          "title_en": "기관일지 기록 안내서 Engine log book Entry guide"
+        },
+        {
+          "date": "2024.12.15",
+          "code": "DRK I-10-26",
+          "title_ko": "자동차선 열작업에 관한 특별 정책 Hot work special policy for vehicle Carrier.",
+          "title_en": "자동차선 열작업에 관한 특별 정책 Hot work special policy for vehicle Carrier."
+        },
+        {
+          "date": "2025.01.08",
+          "code": "DRK I-10-23",
+          "title_ko": "Guide for Work Permit Recording",
+          "title_en": "Guide for Work Permit Recording"
+        },
+        {
+          "date": "2025.04.17",
+          "code": "DRK I-10-27",
+          "title_ko": "Onboard Noise Management Program",
+          "title_en": "Onboard Noise Management Program"
+        },
+        {
+          "date": "2025.04.21",
+          "code": "DRK-I-10-06",
+          "title_ko": "해적 대응 지침 Anti piracy instruction",
+          "title_en": "해적 대응 지침 Anti piracy instruction"
+        },
+        {
+          "date": "2025.05.20",
+          "code": "DRK I-10-28",
+          "title_ko": "Guide for Use and Inspection of High Voltage Insulating Gloves",
+          "title_en": "Guide for Use and Inspection of High Voltage Insulating Gloves"
+        },
+        {
+          "date": "2025.05.28",
+          "code": "DRK I-10-29",
+          "title_ko": "SAFETY CAMPAIGN – SAFE MOORING OPERATION",
+          "title_en": "SAFETY CAMPAIGN – SAFE MOORING OPERATION"
+        },
+        {
+          "date": "2025.07.28",
+          "code": "DRK I-10-30",
+          "title_ko": "PC(T)C Cargo Operation Watch Instruction",
+          "title_en": "PC(T)C Cargo Operation Watch Instruction"
+        }
+      ]
+    }
+  ]
+}

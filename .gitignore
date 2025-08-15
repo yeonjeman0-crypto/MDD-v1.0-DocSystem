@@ -207,3 +207,13 @@ elasticsearch-data/
 *.pkg
 *.deb
 *.rpm
+
+# Document temporary files
+절차서 PDF/**/~$*
+절차서 원본/**/~$*
+**/~$*
+
+# Backup and temporary files
+*.tmp
+*.bak
+*.old

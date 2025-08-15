@@ -1,0 +1,3847 @@
+{
+  "version": "1.0.1",
+  "generated_at": "2025-08-09T03:03:26.974427Z",
+  "section": "Forms",
+  "items": [
+    {
+      "code": "DRKF-PR01-01",
+      "title_ko": "경영검토회의계획서 MANAGEMENT REVIEW MEETING PLAN",
+      "title_en": "경영검토회의계획서 MANAGEMENT REVIEW MEETING PLAN",
+      "pr_code": "DRK-PR01",
+      "pr_title_ko": "경영진 업무",
+      "pr_title_en": "MANAGEMENT DUTY",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR01-02",
+      "title_ko": "선장경영검토보고서 MASTER’S MANAGEMENT REVIEW REPORT",
+      "title_en": "선장경영검토보고서 MASTER’S MANAGEMENT REVIEW REPORT",
+      "pr_code": "DRK-PR01",
+      "pr_title_ko": "경영진 업무",
+      "pr_title_en": "MANAGEMENT DUTY",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR01-03",
+      "title_ko": "경영진검토회의록 MANAGEMENT REVIEW MEETING MINUTE",
+      "title_en": "경영진검토회의록 MANAGEMENT REVIEW MEETING MINUTE",
+      "pr_code": "DRK-PR01",
+      "pr_title_ko": "경영진 업무",
+      "pr_title_en": "MANAGEMENT DUTY",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR01-04",
+      "title_ko": "목표추진계획서 OBJECTIVE ACHIEVING PLAN",
+      "title_en": "목표추진계획서 OBJECTIVE ACHIEVING PLAN",
+      "pr_code": "DRK-PR01",
+      "pr_title_ko": "경영진 업무",
+      "pr_title_en": "MANAGEMENT DUTY",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR01-05",
+      "title_ko": "환경경영추진계획서 ENVIRONMENTAL MANAGEMENT ACHIEVING PLAN",
+      "title_en": "환경경영추진계획서 ENVIRONMENTAL MANAGEMENT ACHIEVING PLAN",
+      "pr_code": "DRK-PR01",
+      "pr_title_ko": "경영진 업무",
+      "pr_title_en": "MANAGEMENT DUTY",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR01-06",
+      "title_ko": "제안서 PROPOSAL LETTER",
+      "title_en": "제안서 PROPOSAL LETTER",
+      "pr_code": "DRK-PR01",
+      "pr_title_ko": "경영진 업무",
+      "pr_title_en": "MANAGEMENT DUTY",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR01-07",
+      "title_ko": "제안검토보고서 PROPOSAL REVIEW REPORT",
+      "title_en": "제안검토보고서 PROPOSAL REVIEW REPORT",
+      "pr_code": "DRK-PR01",
+      "pr_title_ko": "경영진 업무",
+      "pr_title_en": "MANAGEMENT DUTY",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR01-08",
+      "title_ko": "모범사례등록부 BEST PRACTICE LOG",
+      "title_en": "모범사례등록부 BEST PRACTICE LOG",
+      "pr_code": "DRK-PR01",
+      "pr_title_ko": "경영진 업무",
+      "pr_title_en": "MANAGEMENT DUTY",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR01-09",
+      "title_ko": "PR01-09 개선위험요소식별보고서 Identification Weak Point",
+      "title_en": "Proposal and Improvement of SHQE",
+      "pr_code": "DRK-PR01",
+      "pr_title_ko": "경영진 업무",
+      "pr_title_en": "MANAGEMENT DUTY",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR01-10",
+      "title_ko": "부패방지서약 Certificate of Anti-corruption Compliance",
+      "title_en": "부패방지서약 Certificate of Anti-corruption Compliance",
+      "pr_code": "DRK-PR01",
+      "pr_title_ko": "경영진 업무",
+      "pr_title_en": "MANAGEMENT DUTY",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR02-01",
+      "title_ko": "PR02-01 표준문서관리대장",
+      "title_en": "STANDARD DOCUMENT CONTROL LIST",
+      "pr_code": "DRK-PR02",
+      "pr_title_ko": "문서 및 기록 관리",
+      "pr_title_en": "DOCUMENT AND RECORD COTROL",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR02-02",
+      "title_ko": "PR02-02 표준문서배부대장",
+      "title_en": "STANDARD DOCUMENT DISTRIBUTION LIST",
+      "pr_code": "DRK-PR02",
+      "pr_title_ko": "문서 및 기록 관리",
+      "pr_title_en": "DOCUMENT AND RECORD COTROL",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR02-03",
+      "title_ko": "표준서식관리대장 STANDARDFORMCONTROL LIST",
+      "title_en": "표준서식관리대장 STANDARDFORMCONTROL LIST",
+      "pr_code": "DRK-PR02",
+      "pr_title_ko": "문서 및 기록 관리",
+      "pr_title_en": "DOCUMENT AND RECORD COTROL",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR02-04",
+      "title_ko": "부서서식관리대장 DAPARTMENTFORMCONTROL LIST",
+      "title_en": "부서서식관리대장 DAPARTMENTFORMCONTROL LIST",
+      "pr_code": "DRK-PR02",
+      "pr_title_ko": "문서 및 기록 관리",
+      "pr_title_en": "DOCUMENT AND RECORD COTROL",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR02-05",
+      "title_ko": "PR02-05 등록, 배포,수신확인서",
+      "title_en": "Regist’n Distribution-receipt Confirm",
+      "pr_code": "DRK-PR02",
+      "pr_title_ko": "문서 및 기록 관리",
+      "pr_title_en": "DOCUMENT AND RECORD COTROL",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR02-06",
+      "title_ko": "PR02-06 숙독확인서",
+      "title_en": "Perusal Confirmation & Verification",
+      "pr_code": "DRK-PR02",
+      "pr_title_ko": "문서 및 기록 관리",
+      "pr_title_en": "DOCUMENT AND RECORD COTROL",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR02-07",
+      "title_ko": "파일목록표 FILE CONTROL LIST",
+      "title_en": "파일목록표 FILE CONTROL LIST",
+      "pr_code": "DRK-PR02",
+      "pr_title_ko": "문서 및 기록 관리",
+      "pr_title_en": "DOCUMENT AND RECORD COTROL",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR02-08",
+      "title_ko": "LIST OF RECORD & REPORT FORM",
+      "title_en": "LIST OF RECORD & REPORT FORM",
+      "pr_code": "DRK-PR02",
+      "pr_title_ko": "문서 및 기록 관리",
+      "pr_title_en": "DOCUMENT AND RECORD COTROL",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR02-09",
+      "title_ko": "업무연락 OFFICIAL NOTICE",
+      "title_en": "업무연락 OFFICIAL NOTICE",
+      "pr_code": "DRK-PR02",
+      "pr_title_ko": "문서 및 기록 관리",
+      "pr_title_en": "DOCUMENT AND RECORD COTROL",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR02-10",
+      "title_ko": "공문서식 OFFICIAL LETTER",
+      "title_en": "공문서식 OFFICIAL LETTER",
+      "pr_code": "DRK-PR02",
+      "pr_title_ko": "문서 및 기록 관리",
+      "pr_title_en": "DOCUMENT AND RECORD COTROL",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR02-11",
+      "title_ko": "PR02-11 문서수발전",
+      "title_en": "DOCUMENT DISPATCH & RECEIPT LIST",
+      "pr_code": "DRK-PR02",
+      "pr_title_ko": "문서 및 기록 관리",
+      "pr_title_en": "DOCUMENT AND RECORD COTROL",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR02-12",
+      "title_ko": "문서발송대장 DOCUMENT DISPATCH LIST",
+      "title_en": "문서발송대장 DOCUMENT DISPATCH LIST",
+      "pr_code": "DRK-PR02",
+      "pr_title_ko": "문서 및 기록 관리",
+      "pr_title_en": "DOCUMENT AND RECORD COTROL",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR02-13",
+      "title_ko": "사고속보 INCIDENT PRESS",
+      "title_en": "사고속보 INCIDENT PRESS",
+      "pr_code": "DRK-PR02",
+      "pr_title_ko": "문서 및 기록 관리",
+      "pr_title_en": "DOCUMENT AND RECORD COTROL",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR02-14",
+      "title_ko": "해사정보 MARINE INFORMATION",
+      "title_en": "해사정보 MARINE INFORMATION",
+      "pr_code": "DRK-PR02",
+      "pr_title_ko": "문서 및 기록 관리",
+      "pr_title_en": "DOCUMENT AND RECORD COTROL",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR02-15",
+      "title_ko": "기관정보 TECHNICAL INFORMATION",
+      "title_en": "기관정보 TECHNICAL INFORMATION",
+      "pr_code": "DRK-PR02",
+      "pr_title_ko": "문서 및 기록 관리",
+      "pr_title_en": "DOCUMENT AND RECORD COTROL",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR02-16",
+      "title_ko": "항만정보 PORT INFORMATION",
+      "title_en": "항만정보 PORT INFORMATION",
+      "pr_code": "DRK-PR02",
+      "pr_title_ko": "문서 및 기록 관리",
+      "pr_title_en": "DOCUMENT AND RECORD COTROL",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR02-17",
+      "title_ko": "PR02-17 심사, 검사정보",
+      "title_en": "AUDIT, INSPECTION INFORMATION",
+      "pr_code": "DRK-PR02",
+      "pr_title_ko": "문서 및 기록 관리",
+      "pr_title_en": "DOCUMENT AND RECORD COTROL",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR02-18",
+      "title_ko": "PR02-18 항만사정보고서",
+      "title_en": "PORT INFORMATION REPORT",
+      "pr_code": "DRK-PR02",
+      "pr_title_ko": "문서 및 기록 관리",
+      "pr_title_en": "DOCUMENT AND RECORD COTROL",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR02-19",
+      "title_ko": "DISTRIBUTION TABLE FOR DOCUMENTS OF EXTERNAL ORIGIN",
+      "title_en": "DISTRIBUTION TABLE FOR DOCUMENTS OF EXTERNAL ORIGIN",
+      "pr_code": "DRK-PR02",
+      "pr_title_ko": "문서 및 기록 관리",
+      "pr_title_en": "DOCUMENT AND RECORD COTROL",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR02-20",
+      "title_ko": "증서목록표 CERTIFICATE LIST",
+      "title_en": "증서목록표 CERTIFICATE LIST",
+      "pr_code": "DRK-PR02",
+      "pr_title_ko": "문서 및 기록 관리",
+      "pr_title_en": "DOCUMENT AND RECORD COTROL",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR02-21",
+      "title_ko": "기안지 DRAFT FORM",
+      "title_en": "기안지 DRAFT FORM",
+      "pr_code": "DRK-PR02",
+      "pr_title_ko": "문서 및 기록 관리",
+      "pr_title_en": "DOCUMENT AND RECORD COTROL",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR02-22",
+      "title_ko": "INDEX",
+      "title_en": "INDEX",
+      "pr_code": "DRK-PR02",
+      "pr_title_ko": "문서 및 기록 관리",
+      "pr_title_en": "DOCUMENT AND RECORD COTROL",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR04-01",
+      "title_ko": "선내징계위원회회의록 SHIPBOARD DISCIPLINARY COMMITTEE MINUTES 선내징계위원회회의록 SHIPBOARD DISCIPLINARY COMMITTEE MINUTES",
+      "title_en": "선내징계위원회회의록 SHIPBOARD DISCIPLINARY COMMITTEE MINUTES 선내징계위원회회의록 SHIPBOARD DISCIPLINARY COMMITTEE MINUTES",
+      "pr_code": "DRK-PR04",
+      "pr_title_ko": "해상 직원 관리",
+      "pr_title_en": "CREW MANAGEMENT",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR04-02",
+      "title_ko": "동승근무연장신청 REQUEST OF OVERLAP 동승근무연장신청 REQUEST OF OVERLAP",
+      "title_en": "동승근무연장신청 REQUEST OF OVERLAP 동승근무연장신청 REQUEST OF OVERLAP",
+      "pr_code": "DRK-PR04",
+      "pr_title_ko": "해상 직원 관리",
+      "pr_title_en": "CREW MANAGEMENT",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR04-03",
+      "title_ko": "진급추천서 RECOMMENDATION OF PROMOTION 진급추천서 RECOMMENDATION OF PROMOTION",
+      "title_en": "진급추천서 RECOMMENDATION OF PROMOTION 진급추천서 RECOMMENDATION OF PROMOTION",
+      "pr_code": "DRK-PR04",
+      "pr_title_ko": "해상 직원 관리",
+      "pr_title_en": "CREW MANAGEMENT",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR04-04",
+      "title_ko": "PR04-04 경고장",
+      "title_en": "LETTER OF WARNING. 경고장 / LETTER OF WARNING.",
+      "pr_code": "DRK-PR04",
+      "pr_title_ko": "해상 직원 관리",
+      "pr_title_en": "CREW MANAGEMENT",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR04-05",
+      "title_ko": "PR04-05 의료보고서",
+      "title_en": "MEDICAL REPORT 의료보고서 / MEDICAL REPORT",
+      "pr_code": "DRK-PR04",
+      "pr_title_ko": "해상 직원 관리",
+      "pr_title_en": "CREW MANAGEMENT",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR04-06",
+      "title_ko": "PR04-06 하선-계승신청서",
+      "title_en": "Disembark - Extension of contract application 하선-계승신청서 / Disembark - Extension of contract application",
+      "pr_code": "DRK-PR04",
+      "pr_title_ko": "해상 직원 관리",
+      "pr_title_en": "CREW MANAGEMENT",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR04-07",
+      "title_ko": "PR04-07 하선증명서",
+      "title_en": "CERTIFICATE FOR DISEMBARKATION 하선증명서 / CERTIFICATE FOR DISEMBARKATION",
+      "pr_code": "DRK-PR04",
+      "pr_title_ko": "해상 직원 관리",
+      "pr_title_en": "CREW MANAGEMENT",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR04-08",
+      "title_ko": "해상직원인수인계서 CREW HANDOVER NOTE 해상직원인수인계서 CREW HANDOVER NOTE",
+      "title_en": "해상직원인수인계서 CREW HANDOVER NOTE 해상직원인수인계서 CREW HANDOVER NOTE",
+      "pr_code": "DRK-PR04",
+      "pr_title_ko": "해상 직원 관리",
+      "pr_title_en": "CREW MANAGEMENT",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR04-11",
+      "title_ko": "DRK-SHQE 숙지도평가표 DRK-SHQE Knowledge Appraisal Table DRK-SHQE 숙지도평가표 DRK-SHQE Knowledge Appraisal Table",
+      "title_en": "DRK-SHQE 숙지도평가표 DRK-SHQE Knowledge Appraisal Table DRK-SHQE 숙지도평가표 DRK-SHQE Knowledge Appraisal Table",
+      "pr_code": "DRK-PR04",
+      "pr_title_ko": "해상 직원 관리",
+      "pr_title_en": "CREW MANAGEMENT",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR04-12",
+      "title_ko": "선상업무친숙확인점검표 FAMILIARIZATION CHECKLIST FOR NEW JOINED CREW 선상업무친숙확인점검표 FAMILIARIZATION CHECKLIST FOR NEW JOINED CREW",
+      "title_en": "선상업무친숙확인점검표 FAMILIARIZATION CHECKLIST FOR NEW JOINED CREW 선상업무친숙확인점검표 FAMILIARIZATION CHECKLIST FOR NEW JOINED CREW",
+      "pr_code": "DRK-PR04",
+      "pr_title_ko": "해상 직원 관리",
+      "pr_title_en": "CREW MANAGEMENT",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR04-13",
+      "title_ko": "선교장비친숙화점검표 BRIDGE EQUIPMENT FAMLIARIZATION CHECKLIST 선교장비친숙화점검표 BRIDGE EQUIPMENT FAMLIARIZATION CHECKLIST",
+      "title_en": "선교장비친숙화점검표 BRIDGE EQUIPMENT FAMLIARIZATION CHECKLIST 선교장비친숙화점검표 BRIDGE EQUIPMENT FAMLIARIZATION CHECKLIST",
+      "pr_code": "DRK-PR04",
+      "pr_title_ko": "해상 직원 관리",
+      "pr_title_en": "CREW MANAGEMENT",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR04-14",
+      "title_ko": "해상직원법정자격및교육현황표 CREW QUALIFICATION AND TRAINING STATUS TABLE 해상직원법정자격및교육현황표 CREW QUALIFICATION AND TRAINING STATUS TABLE",
+      "title_en": "해상직원법정자격및교육현황표 CREW QUALIFICATION AND TRAINING STATUS TABLE 해상직원법정자격및교육현황표 CREW QUALIFICATION AND TRAINING STATUS TABLE",
+      "pr_code": "DRK-PR04",
+      "pr_title_ko": "해상 직원 관리",
+      "pr_title_en": "CREW MANAGEMENT",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR04-15",
+      "title_ko": "해상직원업무숙련도평가서 CREW JOB SKILL APPRAISAL REPORT 해상직원업무숙련도평가서 CREW JOB SKILL APPRAISAL REPORT",
+      "title_en": "해상직원업무숙련도평가서 CREW JOB SKILL APPRAISAL REPORT 해상직원업무숙련도평가서 CREW JOB SKILL APPRAISAL REPORT",
+      "pr_code": "DRK-PR04",
+      "pr_title_ko": "해상 직원 관리",
+      "pr_title_en": "CREW MANAGEMENT",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR04-16",
+      "title_ko": "해상직원업무수행능력평가서 CREW JOB PERFORMANCE APPRAISAL REPORT 해상직원업무수행능력평가서 CREW JOB PERFORMANCE APPRAISAL REPORT",
+      "title_en": "해상직원업무수행능력평가서 CREW JOB PERFORMANCE APPRAISAL REPORT 해상직원업무수행능력평가서 CREW JOB PERFORMANCE APPRAISAL REPORT",
+      "pr_code": "DRK-PR04",
+      "pr_title_ko": "해상 직원 관리",
+      "pr_title_en": "CREW MANAGEMENT",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR04-17",
+      "title_ko": "APPRAISAL RECORD FOR APPRENTICE OFFICER",
+      "title_en": "APPRAISAL RECORD FOR APPRENTICE OFFICER",
+      "pr_code": "DRK-PR04",
+      "pr_title_ko": "해상 직원 관리",
+      "pr_title_en": "CREW MANAGEMENT",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR04-18",
+      "title_ko": "APPRAISAL RECORD FOR APPRENTICE OFFICER",
+      "title_en": "APPRAISAL RECORD FOR APPRENTICE OFFICER",
+      "pr_code": "DRK-PR04",
+      "pr_title_ko": "해상 직원 관리",
+      "pr_title_en": "CREW MANAGEMENT",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR04-19",
+      "title_ko": "PR04-19 선내불만처리보고서",
+      "title_en": "REPORT OF ON-BOARD COMPLAINT 선내불만처리보고서 / REPORT OF ON-BOARD COMPLAINT",
+      "pr_code": "DRK-PR04",
+      "pr_title_ko": "해상 직원 관리",
+      "pr_title_en": "CREW MANAGEMENT",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR04-20",
+      "title_ko": "마약알코올규정준수서약서 OATH LETTER OF DRUG AND ALCOHOL POLICY 마약알코올규정준수서약서 OATH LETTER OF DRUG AND ALCOHOL POLICY",
+      "title_en": "마약알코올규정준수서약서 OATH LETTER OF DRUG AND ALCOHOL POLICY 마약알코올규정준수서약서 OATH LETTER OF DRUG AND ALCOHOL POLICY",
+      "pr_code": "DRK-PR04",
+      "pr_title_ko": "해상 직원 관리",
+      "pr_title_en": "CREW MANAGEMENT",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR04-21",
+      "title_ko": "마약성분함유의약품목록 DRUG CONTAIN MEDICINE LIST 마약성분함유의약품목록 DRUG CONTAIN MEDICINE LIST",
+      "title_en": "마약성분함유의약품목록 DRUG CONTAIN MEDICINE LIST 마약성분함유의약품목록 DRUG CONTAIN MEDICINE LIST",
+      "pr_code": "DRK-PR04",
+      "pr_title_ko": "해상 직원 관리",
+      "pr_title_en": "CREW MANAGEMENT",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR04-22",
+      "title_ko": "마약성분함유의약품사용대장 DRUG CONTAIN MEDICINE USING LOG 마약성분함유의약품사용대장 DRUG CONTAIN MEDICINE USING LOG",
+      "title_en": "마약성분함유의약품사용대장 DRUG CONTAIN MEDICINE USING LOG 마약성분함유의약품사용대장 DRUG CONTAIN MEDICINE USING LOG",
+      "pr_code": "DRK-PR04",
+      "pr_title_ko": "해상 직원 관리",
+      "pr_title_en": "CREW MANAGEMENT",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR04-23",
+      "title_ko": "마약및알코올검사기록부 DRUG & ALCOHOL TEST RECORD 마약및알코올검사기록부 DRUG & ALCOHOL TEST RECORD",
+      "title_en": "마약및알코올검사기록부 DRUG & ALCOHOL TEST RECORD 마약및알코올검사기록부 DRUG & ALCOHOL TEST RECORD",
+      "pr_code": "DRK-PR04",
+      "pr_title_ko": "해상 직원 관리",
+      "pr_title_en": "CREW MANAGEMENT",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR04-24",
+      "title_ko": "PR04-24 주류판매일지",
+      "title_en": "ALCOHOLIC BEVERAGE SELLING LOG 주류판매일지 / ALCOHOLIC BEVERAGE SELLING LOG",
+      "pr_code": "DRK-PR04",
+      "pr_title_ko": "해상 직원 관리",
+      "pr_title_en": "CREW MANAGEMENT",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR04-25",
+      "title_ko": "주류보관통제점검표 ALCOHOLIC BEVERAGE KEEPING CONTROL RECORD",
+      "title_en": "주류보관통제점검표 ALCOHOLIC BEVERAGE KEEPING CONTROL RECORD",
+      "pr_code": "DRK-PR04",
+      "pr_title_ko": "해상 직원 관리",
+      "pr_title_en": "CREW MANAGEMENT",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR04-26",
+      "title_ko": "주류보관통제점검표 ALCOHOLIC BEVERAGE KEEPING CONTROL RECORD",
+      "title_en": "주류보관통제점검표 ALCOHOLIC BEVERAGE KEEPING CONTROL RECORD",
+      "pr_code": "DRK-PR04",
+      "pr_title_ko": "해상 직원 관리",
+      "pr_title_en": "CREW MANAGEMENT",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR04-27",
+      "title_ko": "PR04-27 근로휴식시간기록부",
+      "title_en": "RECORD OF HOURS OF WORK, REST 근로휴식시간기록부 / RECORD OF HOURS OF WORK, REST",
+      "pr_code": "DRK-PR04",
+      "pr_title_ko": "해상 직원 관리",
+      "pr_title_en": "CREW MANAGEMENT",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR04-28",
+      "title_ko": "PR04-28 근로, 휴식 및 시간 외 근로시간 기록장부",
+      "title_en": "DOCUMENT OF RECORDS OF WORK, REST AND OVERTIME HOURS 근로, 휴식 및 시간 외 근로시간 기록장부 / DOCUMENT OF RECORDS OF WORK, REST AND OVERTIME HOURS",
+      "pr_code": "DRK-PR04",
+      "pr_title_ko": "해상 직원 관리",
+      "pr_title_en": "CREW MANAGEMENT",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR04-29",
+      "title_ko": "DEVIATION LOG DEVIATION LOG",
+      "title_en": "DEVIATION LOG DEVIATION LOG",
+      "pr_code": "DRK-PR04",
+      "pr_title_ko": "해상 직원 관리",
+      "pr_title_en": "CREW MANAGEMENT",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR04-30",
+      "title_ko": "PR04-30 급식위원회회의록",
+      "title_en": "RECORD OF CATERING COMMITTEE 급식위원회회의록 / RECORD OF CATERING COMMITTEE",
+      "pr_code": "DRK-PR04",
+      "pr_title_ko": "해상 직원 관리",
+      "pr_title_en": "CREW MANAGEMENT",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR04-31",
+      "title_ko": "PR04-31 급식현황보고서",
+      "title_en": "Monthly Report of the Meal Operation 급식현황보고서 / Monthly Report of the Meal Operation",
+      "pr_code": "DRK-PR04",
+      "pr_title_ko": "해상 직원 관리",
+      "pr_title_en": "CREW MANAGEMENT",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR04-32",
+      "title_ko": "해상직원면담기록부 CREW MEMBER INTERVIEW REPORT 해상직원면담기록부 CREW MEMBER INTERVIEW REPORT",
+      "title_en": "해상직원면담기록부 CREW MEMBER INTERVIEW REPORT 해상직원면담기록부 CREW MEMBER INTERVIEW REPORT",
+      "pr_code": "DRK-PR04",
+      "pr_title_ko": "해상 직원 관리",
+      "pr_title_en": "CREW MANAGEMENT",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR04-33",
+      "title_ko": "해상직원인사카드 CREW HISTORY CARD",
+      "title_en": "해상직원인사카드 CREW HISTORY CARD",
+      "pr_code": "DRK-PR04",
+      "pr_title_ko": "해상 직원 관리",
+      "pr_title_en": "CREW MANAGEMENT",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR04-34",
+      "title_ko": "해상직원인사카드 CREW HISTORY CARD",
+      "title_en": "해상직원인사카드 CREW HISTORY CARD",
+      "pr_code": "DRK-PR04",
+      "pr_title_ko": "해상 직원 관리",
+      "pr_title_en": "CREW MANAGEMENT",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR04-35",
+      "title_ko": "월별해상직원채용-교대계획 Monthly Crew Recruitment-Replacement Plan 월별해상직원채용-교대계획 Monthly Crew Recruitment-Replacement Plan",
+      "title_en": "월별해상직원채용-교대계획 Monthly Crew Recruitment-Replacement Plan 월별해상직원채용-교대계획 Monthly Crew Recruitment-Replacement Plan",
+      "pr_code": "DRK-PR04",
+      "pr_title_ko": "해상 직원 관리",
+      "pr_title_en": "CREW MANAGEMENT",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR04-36",
+      "title_ko": "해상직원채용점검표 CHECKLIST FOR CREW RECRUITMENT 해상직원채용점검표 CHECKLIST FOR CREW RECRUITMENT",
+      "title_en": "해상직원채용점검표 CHECKLIST FOR CREW RECRUITMENT 해상직원채용점검표 CHECKLIST FOR CREW RECRUITMENT",
+      "pr_code": "DRK-PR04",
+      "pr_title_ko": "해상 직원 관리",
+      "pr_title_en": "CREW MANAGEMENT",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR04-37",
+      "title_ko": "사관채용평가서 APPRAISAL SHEET FOR OFFICER 사관채용평가서 APPRAISAL SHEET FOR OFFICER",
+      "title_en": "사관채용평가서 APPRAISAL SHEET FOR OFFICER 사관채용평가서 APPRAISAL SHEET FOR OFFICER",
+      "pr_code": "DRK-PR04",
+      "pr_title_ko": "해상 직원 관리",
+      "pr_title_en": "CREW MANAGEMENT",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR04-38",
+      "title_ko": "선장지휘능력평가표 Master Command Estimation Table. 선장지휘능력평가표 Master Command Estimation Table.",
+      "title_en": "선장지휘능력평가표 Master Command Estimation Table. 선장지휘능력평가표 Master Command Estimation Table.",
+      "pr_code": "DRK-PR04",
+      "pr_title_ko": "해상 직원 관리",
+      "pr_title_en": "CREW MANAGEMENT",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR04-39",
+      "title_ko": "기관장지휘능력평가표 CE Command Estimation Table 기관장지휘능력평가표 CE Command Estimation Table",
+      "title_en": "기관장지휘능력평가표 CE Command Estimation Table 기관장지휘능력평가표 CE Command Estimation Table",
+      "pr_code": "DRK-PR04",
+      "pr_title_ko": "해상 직원 관리",
+      "pr_title_en": "CREW MANAGEMENT",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR04-40",
+      "title_ko": "PR04-40 급여지급의뢰서",
+      "title_en": "REQUEST FOR PAY ALLOWANCE 급여지급의뢰서 / REQUEST FOR PAY ALLOWANCE",
+      "pr_code": "DRK-PR04",
+      "pr_title_ko": "해상 직원 관리",
+      "pr_title_en": "CREW MANAGEMENT",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR04-41",
+      "title_ko": "진료경력및건강상태조사서 HEALTH STATUS REPORT.",
+      "title_en": "진료경력및건강상태조사서 HEALTH STATUS REPORT.",
+      "pr_code": "DRK-PR04",
+      "pr_title_ko": "해상 직원 관리",
+      "pr_title_en": "CREW MANAGEMENT",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR04-42",
+      "title_ko": "진료경력및건강상태조사서 HEALTH STATUS REPORT.",
+      "title_en": "진료경력및건강상태조사서 HEALTH STATUS REPORT.",
+      "pr_code": "DRK-PR04",
+      "pr_title_ko": "해상 직원 관리",
+      "pr_title_en": "CREW MANAGEMENT",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR04-43",
+      "title_ko": "0 1 1 2 2 3 3 4 4 근로계약서 Contract of Employment for Seafarer 근로계약서 Contract of Employment for Seafarer",
+      "title_en": "0 1 1 2 2 3 3 4 4 근로계약서 Contract of Employment for Seafarer 근로계약서 Contract of Employment for Seafarer",
+      "pr_code": "DRK-PR04",
+      "pr_title_ko": "해상 직원 관리",
+      "pr_title_en": "CREW MANAGEMENT",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR04-44",
+      "title_ko": "해상직원인사발령-교대통보 OFFICIAL ANNOUNCEMENT FOR CREW 해상직원인사발령-교대통보 OFFICIAL ANNOUNCEMENT FOR CREW",
+      "title_en": "해상직원인사발령-교대통보 OFFICIAL ANNOUNCEMENT FOR CREW 해상직원인사발령-교대통보 OFFICIAL ANNOUNCEMENT FOR CREW",
+      "pr_code": "DRK-PR04",
+      "pr_title_ko": "해상 직원 관리",
+      "pr_title_en": "CREW MANAGEMENT",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR04-45",
+      "title_ko": "해상직원교대준비점검표 CREW REPLACEMENT PREPARATION CHECKLIST 해상직원교대준비점검표 CREW REPLACEMENT PREPARATION CHECKLIST",
+      "title_en": "해상직원교대준비점검표 CREW REPLACEMENT PREPARATION CHECKLIST 해상직원교대준비점검표 CREW REPLACEMENT PREPARATION CHECKLIST",
+      "pr_code": "DRK-PR04",
+      "pr_title_ko": "해상 직원 관리",
+      "pr_title_en": "CREW MANAGEMENT",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR04-46",
+      "title_ko": "퇴사선원면담기록부 Resigning Crew Interview Record 퇴사선원면담기록부 Resigning Crew Interview Record",
+      "title_en": "퇴사선원면담기록부 Resigning Crew Interview Record 퇴사선원면담기록부 Resigning Crew Interview Record",
+      "pr_code": "DRK-PR04",
+      "pr_title_ko": "해상 직원 관리",
+      "pr_title_en": "CREW MANAGEMENT",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR04-47",
+      "title_ko": "선원수급업체초기평가서 Manning Agency Initial Appraisal",
+      "title_en": "선원수급업체초기평가서 Manning Agency Initial Appraisal",
+      "pr_code": "DRK-PR04",
+      "pr_title_ko": "해상 직원 관리",
+      "pr_title_en": "CREW MANAGEMENT",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR04-48",
+      "title_ko": "선원공급자심사점검표 Checklist of Audit for Manning Agency",
+      "title_en": "선원공급자심사점검표 Checklist of Audit for Manning Agency",
+      "pr_code": "DRK-PR04",
+      "pr_title_ko": "해상 직원 관리",
+      "pr_title_en": "CREW MANAGEMENT",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR04-49",
+      "title_ko": "승선전숙지교육확인서 Conformation of Familiarization before Boarding",
+      "title_en": "승선전숙지교육확인서 Conformation of Familiarization before Boarding",
+      "pr_code": "DRK-PR04",
+      "pr_title_ko": "해상 직원 관리",
+      "pr_title_en": "CREW MANAGEMENT",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR04-50",
+      "title_ko": "월별해상직원교육훈련계획표 Monthly Crew Education and Training Schedule",
+      "title_en": "월별해상직원교육훈련계획표 Monthly Crew Education and Training Schedule",
+      "pr_code": "DRK-PR04",
+      "pr_title_ko": "해상 직원 관리",
+      "pr_title_en": "CREW MANAGEMENT",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR04-51",
+      "title_ko": "교육훈련계획서 Education & Training Plan",
+      "title_en": "교육훈련계획서 Education & Training Plan",
+      "pr_code": "DRK-PR04",
+      "pr_title_ko": "해상 직원 관리",
+      "pr_title_en": "CREW MANAGEMENT",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR04-52",
+      "title_ko": "교육훈련결과보고서 Education and Training Report",
+      "title_en": "교육훈련결과보고서 Education and Training Report",
+      "pr_code": "DRK-PR04",
+      "pr_title_ko": "해상 직원 관리",
+      "pr_title_en": "CREW MANAGEMENT",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR04-53",
+      "title_ko": "해상직원교육훈련기록부 CREW EDUCATION AND TRAINING RECORD BOOK",
+      "title_en": "해상직원교육훈련기록부 CREW EDUCATION AND TRAINING RECORD BOOK",
+      "pr_code": "DRK-PR04",
+      "pr_title_ko": "해상 직원 관리",
+      "pr_title_en": "CREW MANAGEMENT",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR04-54",
+      "title_ko": "승선전업무보고서 Briefing Report for Boarding",
+      "title_en": "승선전업무보고서 Briefing Report for Boarding",
+      "pr_code": "DRK-PR04",
+      "pr_title_ko": "해상 직원 관리",
+      "pr_title_en": "CREW MANAGEMENT",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR04-55",
+      "title_ko": "해상직원하선후업무보고서 Debriefing Record for Crew",
+      "title_en": "해상직원하선후업무보고서 Debriefing Record for Crew",
+      "pr_code": "DRK-PR04",
+      "pr_title_ko": "해상 직원 관리",
+      "pr_title_en": "CREW MANAGEMENT",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR04-56",
+      "title_ko": "마약및알코올검사시행일지 DRUG AND ALCOHOL TEST LOG",
+      "title_en": "마약및알코올검사시행일지 DRUG AND ALCOHOL TEST LOG",
+      "pr_code": "DRK-PR04",
+      "pr_title_ko": "해상 직원 관리",
+      "pr_title_en": "CREW MANAGEMENT",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR04-57",
+      "title_ko": "마약및알코올검사통보서 DRUG AND ALCOHOL TEST NOTIFICATION",
+      "title_en": "마약및알코올검사통보서 DRUG AND ALCOHOL TEST NOTIFICATION",
+      "pr_code": "DRK-PR04",
+      "pr_title_ko": "해상 직원 관리",
+      "pr_title_en": "CREW MANAGEMENT",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR04-58",
+      "title_ko": "사내교육평가설문서 QUESTIONARE OF IN HOUSE TRAINING APPRAISAL",
+      "title_en": "사내교육평가설문서 QUESTIONARE OF IN HOUSE TRAINING APPRAISAL",
+      "pr_code": "DRK-PR04",
+      "pr_title_ko": "해상 직원 관리",
+      "pr_title_en": "CREW MANAGEMENT",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR04-59",
+      "title_ko": "우울척도 자가 진단 Self-Diagnosis Table for Depression Scale",
+      "title_en": "우울척도 자가 진단 Self-Diagnosis Table for Depression Scale",
+      "pr_code": "DRK-PR04",
+      "pr_title_ko": "해상 직원 관리",
+      "pr_title_en": "CREW MANAGEMENT",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR05-01",
+      "title_ko": "타기검사 Steering GEAR INSPECTION",
+      "title_en": "타기검사 Steering GEAR INSPECTION",
+      "pr_code": "DRK-PR05",
+      "pr_title_ko": "정비 업무",
+      "pr_title_en": "MAINTENANCE",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR05-02",
+      "title_ko": "PR05-02 비상발전기검사",
+      "title_en": "Checklist for EMER GENERATOR ENGINE (Only Chemical Tanker)",
+      "pr_code": "DRK-PR05",
+      "pr_title_ko": "정비 업무",
+      "pr_title_en": "MAINTENANCE",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR05-03",
+      "title_ko": "PR05-03 비상공기압축기기록",
+      "title_en": "Checklist for EMER AIR COMPRESSOR",
+      "pr_code": "DRK-PR05",
+      "pr_title_ko": "정비 업무",
+      "pr_title_en": "MAINTENANCE",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR05-04",
+      "title_ko": "Test & Maintenance Record of Oily water Separator",
+      "title_en": "Test & Maintenance Record of Oily water Separator",
+      "pr_code": "DRK-PR05",
+      "pr_title_ko": "정비 업무",
+      "pr_title_en": "MAINTENANCE",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR05-05",
+      "title_ko": "자장식호흡구충진압축기 BA Charging comp.",
+      "title_en": "자장식호흡구충진압축기 BA Charging comp.",
+      "pr_code": "DRK-PR05",
+      "pr_title_ko": "정비 업무",
+      "pr_title_en": "MAINTENANCE",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR05-06",
+      "title_ko": "배터리관리노트 Battery Control Note",
+      "title_en": "배터리관리노트 Battery Control Note",
+      "pr_code": "DRK-PR05",
+      "pr_title_ko": "정비 업무",
+      "pr_title_en": "MAINTENANCE",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR05-07",
+      "title_ko": "PR05-07 Eng& P'P room, Bilge alarm Purifier Alarm & B",
+      "title_en": "thruster RM",
+      "pr_code": "DRK-PR05",
+      "pr_title_ko": "정비 업무",
+      "pr_title_en": "MAINTENANCE",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR05-08",
+      "title_ko": "ICCP & MGPS Log Sheet",
+      "title_en": "ICCP & MGPS Log Sheet",
+      "pr_code": "DRK-PR05",
+      "pr_title_ko": "정비 업무",
+      "pr_title_en": "MAINTENANCE",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR05-09",
+      "title_ko": "LIFTING DEVICE CHECK LIST(ENG)",
+      "title_en": "LIFTING DEVICE CHECK LIST(ENG)",
+      "pr_code": "DRK-PR05",
+      "pr_title_ko": "정비 업무",
+      "pr_title_en": "MAINTENANCE",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR05-10",
+      "title_ko": "PR05-10 M",
+      "title_en": "E, G/E COOLING WATER TEST RECORD",
+      "pr_code": "DRK-PR05",
+      "pr_title_ko": "정비 업무",
+      "pr_title_en": "MAINTENANCE",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR05-11",
+      "title_ko": "관수처리기록부 Boiler Water Treatment Log",
+      "title_en": "관수처리기록부 Boiler Water Treatment Log",
+      "pr_code": "DRK-PR05",
+      "pr_title_ko": "정비 업무",
+      "pr_title_en": "MAINTENANCE",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR05-12",
+      "title_ko": "MAIN ENGINE CONDITION REPORT",
+      "title_en": "MAIN ENGINE CONDITION REPORT",
+      "pr_code": "DRK-PR05",
+      "pr_title_ko": "정비 업무",
+      "pr_title_en": "MAINTENANCE",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR05-13",
+      "title_ko": "GENERATOR ENGINE CONDITION REPORT",
+      "title_en": "GENERATOR ENGINE CONDITION REPORT",
+      "pr_code": "DRK-PR05",
+      "pr_title_ko": "정비 업무",
+      "pr_title_en": "MAINTENANCE",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR05-14",
+      "title_ko": "AUX' MACHINERY CONDITION DATA SHEET (Only Chemical Tanker)",
+      "title_en": "AUX' MACHINERY CONDITION DATA SHEET (Only Chemical Tanker)",
+      "pr_code": "DRK-PR05",
+      "pr_title_ko": "정비 업무",
+      "pr_title_en": "MAINTENANCE",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR05-15",
+      "title_ko": "RUNNING HOUR VERIFICATION (A)",
+      "title_en": "RUNNING HOUR VERIFICATION (A)",
+      "pr_code": "DRK-PR05",
+      "pr_title_ko": "정비 업무",
+      "pr_title_en": "MAINTENANCE",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR05-16",
+      "title_ko": "RUNNING HOUR VERIFICATION (B)",
+      "title_en": "RUNNING HOUR VERIFICATION (B)",
+      "pr_code": "DRK-PR05",
+      "pr_title_ko": "정비 업무",
+      "pr_title_en": "MAINTENANCE",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR05-17",
+      "title_ko": "ENGINE DEPARTMENT MONTHLY CHECKLIST",
+      "title_en": "ENGINE DEPARTMENT MONTHLY CHECKLIST",
+      "pr_code": "DRK-PR05",
+      "pr_title_ko": "정비 업무",
+      "pr_title_en": "MAINTENANCE",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR05-18",
+      "title_ko": "CHECKLIST FOR MAIN ENGINE SAFETY DEVICE (Only Chemical Tanker)",
+      "title_en": "CHECKLIST FOR MAIN ENGINE SAFETY DEVICE (Only Chemical Tanker)",
+      "pr_code": "DRK-PR05",
+      "pr_title_ko": "정비 업무",
+      "pr_title_en": "MAINTENANCE",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR05-19",
+      "title_ko": "CK-list for GE Engine Safety Device (Only Chemical Tanker)",
+      "title_en": "CK-list for GE Engine Safety Device (Only Chemical Tanker)",
+      "pr_code": "DRK-PR05",
+      "pr_title_ko": "정비 업무",
+      "pr_title_en": "MAINTENANCE",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR05-20",
+      "title_ko": "CK-list for Boiler Safety Device (Only Chemical Tanker)",
+      "title_en": "CK-list for Boiler Safety Device (Only Chemical Tanker)",
+      "pr_code": "DRK-PR05",
+      "pr_title_ko": "정비 업무",
+      "pr_title_en": "MAINTENANCE",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR05-21",
+      "title_ko": "PR05-21 E",
+      "title_en": "R EQUIPMENT SAFE DEVICE CK-LIST (Only BC PCC)",
+      "pr_code": "DRK-PR05",
+      "pr_title_ko": "정비 업무",
+      "pr_title_en": "MAINTENANCE",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR05-22",
+      "title_ko": "Megger Test Record",
+      "title_en": "Megger Test Record",
+      "pr_code": "DRK-PR05",
+      "pr_title_ko": "정비 업무",
+      "pr_title_en": "MAINTENANCE",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR05-23",
+      "title_ko": "DIESEL ENGINE TIMMING RECORD",
+      "title_en": "DIESEL ENGINE TIMMING RECORD",
+      "pr_code": "DRK-PR05",
+      "pr_title_ko": "정비 업무",
+      "pr_title_en": "MAINTENANCE",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR05-24",
+      "title_ko": "CRANK SHAFT DEFLECTION REPORT",
+      "title_en": "CRANK SHAFT DEFLECTION REPORT",
+      "pr_code": "DRK-PR05",
+      "pr_title_ko": "정비 업무",
+      "pr_title_en": "MAINTENANCE",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR05-25",
+      "title_ko": "CYL OVHL REPORT for ME",
+      "title_en": "CYL OVHL REPORT for ME",
+      "pr_code": "DRK-PR05",
+      "pr_title_ko": "정비 업무",
+      "pr_title_en": "MAINTENANCE",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR05-26",
+      "title_ko": "CYL OVHL REPORT for GE",
+      "title_en": "CYL OVHL REPORT for GE",
+      "pr_code": "DRK-PR05",
+      "pr_title_ko": "정비 업무",
+      "pr_title_en": "MAINTENANCE",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR05-27",
+      "title_ko": "YEARY SHIP'S SURVEY AND DOCKING PLAN",
+      "title_en": "YEARY SHIP'S SURVEY AND DOCKING PLAN",
+      "pr_code": "DRK-PR05",
+      "pr_title_ko": "정비 업무",
+      "pr_title_en": "MAINTENANCE",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR05-28",
+      "title_ko": "DRY DOCKING REPAIR PROGRESS REPORT",
+      "title_en": "DRY DOCKING REPAIR PROGRESS REPORT",
+      "pr_code": "DRK-PR05",
+      "pr_title_ko": "정비 업무",
+      "pr_title_en": "MAINTENANCE",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR05-29",
+      "title_ko": "DOCKING INDENT",
+      "title_en": "DOCKING INDENT",
+      "pr_code": "DRK-PR05",
+      "pr_title_ko": "정비 업무",
+      "pr_title_en": "MAINTENANCE",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR05-30",
+      "title_ko": "CHECK LIST BEFORE DRY DOCKING",
+      "title_en": "CHECK LIST BEFORE DRY DOCKING",
+      "pr_code": "DRK-PR05",
+      "pr_title_ko": "정비 업무",
+      "pr_title_en": "MAINTENANCE",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR05-31",
+      "title_ko": "CHECK LIST FOR DOCK OUT",
+      "title_en": "CHECK LIST FOR DOCK OUT",
+      "pr_code": "DRK-PR05",
+      "pr_title_ko": "정비 업무",
+      "pr_title_en": "MAINTENANCE",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR05-32",
+      "title_ko": "List of PMS Outstanding Items",
+      "title_en": "List of PMS Outstanding Items",
+      "pr_code": "DRK-PR05",
+      "pr_title_ko": "정비 업무",
+      "pr_title_en": "MAINTENANCE",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR05-33",
+      "title_ko": "REPORT SHIPBOARD SCHEDULE AND RESULTS",
+      "title_en": "REPORT SHIPBOARD SCHEDULE AND RESULTS",
+      "pr_code": "DRK-PR05",
+      "pr_title_ko": "정비 업무",
+      "pr_title_en": "MAINTENANCE",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR05-36",
+      "title_ko": "MAINTENANCE & REPAIR REPORT",
+      "title_en": "MAINTENANCE & REPAIR REPORT",
+      "pr_code": "DRK-PR05",
+      "pr_title_ko": "정비 업무",
+      "pr_title_en": "MAINTENANCE",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR05-37",
+      "title_ko": "계측기기검교정이력서 History of MeasuringEquipment (Only Chemical Tanker)",
+      "title_en": "계측기기검교정이력서 History of MeasuringEquipment (Only Chemical Tanker)",
+      "pr_code": "DRK-PR05",
+      "pr_title_ko": "정비 업무",
+      "pr_title_en": "MAINTENANCE",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR05-38",
+      "title_ko": "PR05-38 계측기기목록표",
+      "title_en": "LIST OF MEASURING EQUIPMENT",
+      "pr_code": "DRK-PR05",
+      "pr_title_ko": "정비 업무",
+      "pr_title_en": "MAINTENANCE",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR05-39",
+      "title_ko": "RESULT OF CALIBRATION (Only Chemical Tanker)",
+      "title_en": "RESULT OF CALIBRATION (Only Chemical Tanker)",
+      "pr_code": "DRK-PR05",
+      "pr_title_ko": "정비 업무",
+      "pr_title_en": "MAINTENANCE",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR05-40",
+      "title_ko": "APPLICATION OF OIL ANALYSIS(LO&FO)",
+      "title_en": "APPLICATION OF OIL ANALYSIS(LO&FO)",
+      "pr_code": "DRK-PR05",
+      "pr_title_ko": "정비 업무",
+      "pr_title_en": "MAINTENANCE",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR05-41",
+      "title_ko": "M and I PLAN(LOG) for FFA and LSA(SOLAS 2000) - COVER PAGE",
+      "title_en": "M and I PLAN(LOG) for FFA and LSA(SOLAS 2000) - COVER PAGE",
+      "pr_code": "DRK-PR05",
+      "pr_title_ko": "정비 업무",
+      "pr_title_en": "MAINTENANCE",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR05-42",
+      "title_ko": "PPE & STOCK LIST",
+      "title_en": "PPE & STOCK LIST",
+      "pr_code": "DRK-PR05",
+      "pr_title_ko": "정비 업무",
+      "pr_title_en": "MAINTENANCE",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR05-43",
+      "title_ko": "EQUIPMENT THAT IS SAFETY CRITICAL CHECK LIST (Only Chemical Tanker)",
+      "title_en": "EQUIPMENT THAT IS SAFETY CRITICAL CHECK LIST (Only Chemical Tanker)",
+      "pr_code": "DRK-PR05",
+      "pr_title_ko": "정비 업무",
+      "pr_title_en": "MAINTENANCE",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR05-44",
+      "title_ko": "NAVIGATION EQUIPMENT MAINTENANCE LOG",
+      "title_en": "NAVIGATION EQUIPMENT MAINTENANCE LOG",
+      "pr_code": "DRK-PR05",
+      "pr_title_ko": "정비 업무",
+      "pr_title_en": "MAINTENANCE",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR05-45",
+      "title_ko": "DECK EQUIPMENT MAINTENANCE LOG",
+      "title_en": "DECK EQUIPMENT MAINTENANCE LOG",
+      "pr_code": "DRK-PR05",
+      "pr_title_ko": "정비 업무",
+      "pr_title_en": "MAINTENANCE",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR05-46",
+      "title_ko": "LIFTING DEVICE CHECK LIST(DECK)",
+      "title_en": "LIFTING DEVICE CHECK LIST(DECK)",
+      "pr_code": "DRK-PR05",
+      "pr_title_ko": "정비 업무",
+      "pr_title_en": "MAINTENANCE",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR05-47",
+      "title_ko": "Check List for Hull Deck Outfitting (Only Chemical Tanker)",
+      "title_en": "Check List for Hull Deck Outfitting (Only Chemical Tanker)",
+      "pr_code": "DRK-PR05",
+      "pr_title_ko": "정비 업무",
+      "pr_title_en": "MAINTENANCE",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR05-48",
+      "title_ko": "Risk Assessment for Critical Equipment Maintenance",
+      "title_en": "Risk Assessment for Critical Equipment Maintenance",
+      "pr_code": "DRK-PR05",
+      "pr_title_ko": "정비 업무",
+      "pr_title_en": "MAINTENANCE",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR05-49",
+      "title_ko": "MAINTENANCE ORDER",
+      "title_en": "MAINTENANCE ORDER",
+      "pr_code": "DRK-PR05",
+      "pr_title_ko": "정비 업무",
+      "pr_title_en": "MAINTENANCE",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR05-50",
+      "title_ko": "PMS OVERDUE LIST",
+      "title_en": "PMS OVERDUE LIST",
+      "pr_code": "DRK-PR05",
+      "pr_title_ko": "정비 업무",
+      "pr_title_en": "MAINTENANCE",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR05-51",
+      "title_ko": "MAINTENANCE PLAN & RESULT (WEEKLY)",
+      "title_en": "MAINTENANCE PLAN & RESULT (WEEKLY)",
+      "pr_code": "DRK-PR05",
+      "pr_title_ko": "정비 업무",
+      "pr_title_en": "MAINTENANCE",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR05-52",
+      "title_ko": "Mooring winch Windlass check list",
+      "title_en": "Mooring winch Windlass check list",
+      "pr_code": "DRK-PR05",
+      "pr_title_ko": "정비 업무",
+      "pr_title_en": "MAINTENANCE",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR05-53",
+      "title_ko": "CARGO GEAR CHECK LIST(BC)",
+      "title_en": "CARGO GEAR CHECK LIST(BC)",
+      "pr_code": "DRK-PR05",
+      "pr_title_ko": "정비 업무",
+      "pr_title_en": "MAINTENANCE",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR06-01",
+      "title_ko": "PR06-01 중요기부속검증(M",
+      "title_en": "E) MAJOR SPARE PART INVENTORY(ME)",
+      "pr_code": "DRK-PR06",
+      "pr_title_ko": "구매 및 보급",
+      "pr_title_en": "PURCHAGE AND SUPPLY",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR06-02",
+      "title_ko": "PR06-02 중요기부속검증(G",
+      "title_en": "E) / MAJOR SPARE PART INVENTORY(G/E)",
+      "pr_code": "DRK-PR06",
+      "pr_title_ko": "구매 및 보급",
+      "pr_title_en": "PURCHAGE AND SUPPLY",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR06-03",
+      "title_ko": "중요기부속검증(AUX.) SPARE PART ERIF’N (AUX.MACHINERY)",
+      "title_en": "중요기부속검증(AUX.) SPARE PART ERIF’N (AUX.MACHINERY)",
+      "pr_code": "DRK-PR06",
+      "pr_title_ko": "구매 및 보급",
+      "pr_title_en": "PURCHAGE AND SUPPLY",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR06-04",
+      "title_ko": "Bunker sounding log(Plan)",
+      "title_en": "Bunker sounding log(Plan)",
+      "pr_code": "DRK-PR06",
+      "pr_title_ko": "구매 및 보급",
+      "pr_title_en": "PURCHAGE AND SUPPLY",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR06-05",
+      "title_ko": "PR06-05 유류청구",
+      "title_en": "발주서 REQUEST/ORDER OFBUNKER",
+      "pr_code": "DRK-PR06",
+      "pr_title_ko": "구매 및 보급",
+      "pr_title_en": "PURCHAGE AND SUPPLY",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR06-06",
+      "title_ko": "PR06-06 유류수급점검표",
+      "title_en": "BUNKERING SAFETY CHECKLIST",
+      "pr_code": "DRK-PR06",
+      "pr_title_ko": "구매 및 보급",
+      "pr_title_en": "PURCHAGE AND SUPPLY",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR06-07",
+      "title_ko": "중요기부속, 소모품검증(갑판) DECK SPARE STORE VERIF’N",
+      "title_en": "중요기부속, 소모품검증(갑판) DECK SPARE STORE VERIF’N",
+      "pr_code": "DRK-PR06",
+      "pr_title_ko": "구매 및 보급",
+      "pr_title_en": "PURCHAGE AND SUPPLY",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR06-08",
+      "title_ko": "PR06-08 의료",
+      "title_en": "위생용품목록 MEDICAL/MEDICINE LIST",
+      "pr_code": "DRK-PR06",
+      "pr_title_ko": "구매 및 보급",
+      "pr_title_en": "PURCHAGE AND SUPPLY",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR06-09",
+      "title_ko": "PR06-09 의료",
+      "title_en": "위생용품사용 / MEDICAL SANITARY GDS USING RECORD",
+      "pr_code": "DRK-PR06",
+      "pr_title_ko": "구매 및 보급",
+      "pr_title_en": "PURCHAGE AND SUPPLY",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR06-10",
+      "title_ko": "기부속청구서 SPARE PART REQUISITION",
+      "title_en": "기부속청구서 SPARE PART REQUISITION",
+      "pr_code": "DRK-PR06",
+      "pr_title_ko": "구매 및 보급",
+      "pr_title_en": "PURCHAGE AND SUPPLY",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR06-11",
+      "title_ko": "일반선용품청구서 SHIP'S STORE REQUISITION",
+      "title_en": "일반선용품청구서 SHIP'S STORE REQUISITION",
+      "pr_code": "DRK-PR06",
+      "pr_title_ko": "구매 및 보급",
+      "pr_title_en": "PURCHAGE AND SUPPLY",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR06-12",
+      "title_ko": "검수보고서 TALLY REPORT",
+      "title_en": "검수보고서 TALLY REPORT",
+      "pr_code": "DRK-PR06",
+      "pr_title_ko": "구매 및 보급",
+      "pr_title_en": "PURCHAGE AND SUPPLY",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR06-13",
+      "title_ko": "GOOD LANDED ADVICE",
+      "title_en": "GOOD LANDED ADVICE",
+      "pr_code": "DRK-PR06",
+      "pr_title_ko": "구매 및 보급",
+      "pr_title_en": "PURCHAGE AND SUPPLY",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR06-14",
+      "title_ko": "INVENTORY LIST",
+      "title_en": "INVENTORY LIST",
+      "pr_code": "DRK-PR06",
+      "pr_title_ko": "구매 및 보급",
+      "pr_title_en": "PURCHAGE AND SUPPLY",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR06-15",
+      "title_ko": "MONTHLY ROB OF LUB, CHEMICAL & GAS",
+      "title_en": "MONTHLY ROB OF LUB, CHEMICAL & GAS",
+      "pr_code": "DRK-PR06",
+      "pr_title_ko": "구매 및 보급",
+      "pr_title_en": "PURCHAGE AND SUPPLY",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR06-16",
+      "title_ko": "PR06-16 기부속",
+      "title_en": "선용품발주서 SPARE/STORE ORDER",
+      "pr_code": "DRK-PR06",
+      "pr_title_ko": "구매 및 보급",
+      "pr_title_en": "PURCHAGE AND SUPPLY",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR06-17",
+      "title_ko": "PR06-17 유류보급점검표",
+      "title_en": "CK-LIST FOR BUNKER SUPPLY",
+      "pr_code": "DRK-PR06",
+      "pr_title_ko": "구매 및 보급",
+      "pr_title_en": "PURCHAGE AND SUPPLY",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR06-18",
+      "title_ko": "BUNKER SAMPLE LOG",
+      "title_en": "BUNKER SAMPLE LOG",
+      "pr_code": "DRK-PR06",
+      "pr_title_ko": "구매 및 보급",
+      "pr_title_en": "PURCHAGE AND SUPPLY",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR06-19",
+      "title_ko": "PR06-19 기부속청구이력표",
+      "title_en": "PARE PARTS HISTORY RECORD",
+      "pr_code": "DRK-PR06",
+      "pr_title_ko": "구매 및 보급",
+      "pr_title_en": "PURCHAGE AND SUPPLY",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR06-20",
+      "title_ko": "육상지원계획표 Notification for Support from shore",
+      "title_en": "육상지원계획표 Notification for Support from shore",
+      "pr_code": "DRK-PR06",
+      "pr_title_ko": "구매 및 보급",
+      "pr_title_en": "PURCHAGE AND SUPPLY",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR07-01",
+      "title_ko": "외부공급자현황표 EXTERNAL PROVIDER STATEMENT TABLE",
+      "title_en": "외부공급자현황표 EXTERNAL PROVIDER STATEMENT TABLE",
+      "pr_code": "DRK-PR07",
+      "pr_title_ko": "외부공급자 관리",
+      "pr_title_en": "EXTERNAL PROVIDER CONTROL",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR07-02",
+      "title_ko": "외부공급자초기평가서 EXTERNAL PROVIDER INITIAL APPRAISAL",
+      "title_en": "외부공급자초기평가서 EXTERNAL PROVIDER INITIAL APPRAISAL",
+      "pr_code": "DRK-PR07",
+      "pr_title_ko": "외부공급자 관리",
+      "pr_title_en": "EXTERNAL PROVIDER CONTROL",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR07-03",
+      "title_ko": "외부공급자등록대장 EXTERNAL PROVIDER REGISTRATION LIST",
+      "title_en": "외부공급자등록대장 EXTERNAL PROVIDER REGISTRATION LIST",
+      "pr_code": "DRK-PR07",
+      "pr_title_ko": "외부공급자 관리",
+      "pr_title_en": "EXTERNAL PROVIDER CONTROL",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR07-04",
+      "title_ko": "외부공급자정기평가서 EXTERNAL PROVIDER PERIODICAL APPRAISAL",
+      "title_en": "외부공급자정기평가서 EXTERNAL PROVIDER PERIODICAL APPRAISAL",
+      "pr_code": "DRK-PR07",
+      "pr_title_ko": "외부공급자 관리",
+      "pr_title_en": "EXTERNAL PROVIDER CONTROL",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR08-01",
+      "title_ko": "항해계획서 (A) PASSAGE PLAN",
+      "title_en": "항해계획서 (A) PASSAGE PLAN",
+      "pr_code": "DRK-PR08",
+      "pr_title_ko": "항행 안전",
+      "pr_title_en": "SAFETY NAVIGATION",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR08-02",
+      "title_ko": "ARRIVAL & DEPARTURE PORT INFORMATION",
+      "title_en": "ARRIVAL & DEPARTURE PORT INFORMATION",
+      "pr_code": "DRK-PR08",
+      "pr_title_ko": "항행 안전",
+      "pr_title_en": "SAFETY NAVIGATION",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR08-03",
+      "title_ko": "UKC CACULATION SHEET",
+      "title_en": "UKC CACULATION SHEET",
+      "pr_code": "DRK-PR08",
+      "pr_title_ko": "항행 안전",
+      "pr_title_en": "SAFETY NAVIGATION",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR08-04",
+      "title_ko": "NAVIGATIONAL WATCH HANDOVER CHECKLIST",
+      "title_en": "NAVIGATIONAL WATCH HANDOVER CHECKLIST",
+      "pr_code": "DRK-PR08",
+      "pr_title_ko": "항행 안전",
+      "pr_title_en": "SAFETY NAVIGATION",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR08-05",
+      "title_ko": "NAVIGATIONAL EQUIPMENT DAILY CHECKLIST",
+      "title_en": "NAVIGATIONAL EQUIPMENT DAILY CHECKLIST",
+      "pr_code": "DRK-PR08",
+      "pr_title_ko": "항행 안전",
+      "pr_title_en": "SAFETY NAVIGATION",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR08-06",
+      "title_ko": "EXCHANGE CHECKLIST FOR MASTER TO ASSUME CONTROL FROM O.O.W.",
+      "title_en": "EXCHANGE CHECKLIST FOR MASTER TO ASSUME CONTROL FROM O.O.W.",
+      "pr_code": "DRK-PR08",
+      "pr_title_ko": "항행 안전",
+      "pr_title_en": "SAFETY NAVIGATION",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR08-07",
+      "title_ko": "E.G.C NAVIGATION WARNING MAINTENANCE RECORD",
+      "title_en": "E.G.C NAVIGATION WARNING MAINTENANCE RECORD",
+      "pr_code": "DRK-PR08",
+      "pr_title_ko": "항행 안전",
+      "pr_title_en": "SAFETY NAVIGATION",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR08-08",
+      "title_ko": "NAVTEX NAVIGA’N WARNING MAINTENANCE RECORD",
+      "title_en": "NAVTEX NAVIGA’N WARNING MAINTENANCE RECORD",
+      "pr_code": "DRK-PR08",
+      "pr_title_ko": "항행 안전",
+      "pr_title_en": "SAFETY NAVIGATION",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR08-09",
+      "title_ko": "DECK PART ARRIVAL & DEPARTURE CHECKLIST",
+      "title_en": "DECK PART ARRIVAL & DEPARTURE CHECKLIST",
+      "pr_code": "DRK-PR08",
+      "pr_title_ko": "항행 안전",
+      "pr_title_en": "SAFETY NAVIGATION",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR08-10",
+      "title_ko": "선교항해당직경보장치점검표 BNWAS CHECKLIST",
+      "title_en": "선교항해당직경보장치점검표 BNWAS CHECKLIST",
+      "pr_code": "DRK-PR08",
+      "pr_title_ko": "항행 안전",
+      "pr_title_en": "SAFETY NAVIGATION",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR08-11",
+      "title_ko": "도선사승선점검표 CHECKLIST FOR PILOTAGE",
+      "title_en": "도선사승선점검표 CHECKLIST FOR PILOTAGE",
+      "pr_code": "DRK-PR08",
+      "pr_title_ko": "항행 안전",
+      "pr_title_en": "SAFETY NAVIGATION",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR08-12",
+      "title_ko": "PILOT CARD",
+      "title_en": "PILOT CARD",
+      "pr_code": "DRK-PR08",
+      "pr_title_ko": "항행 안전",
+      "pr_title_en": "SAFETY NAVIGATION",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR08-13",
+      "title_ko": "MASTER PILOT INFORMATION EXCHANGE",
+      "title_en": "MASTER PILOT INFORMATION EXCHANGE",
+      "pr_code": "DRK-PR08",
+      "pr_title_ko": "항행 안전",
+      "pr_title_en": "SAFETY NAVIGATION",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR08-14",
+      "title_ko": "PR08-14 제한시계점검표",
+      "title_en": "CK-LIST FOR RESTRICTED VISIBILITY",
+      "pr_code": "DRK-PR08",
+      "pr_title_ko": "항행 안전",
+      "pr_title_en": "SAFETY NAVIGATION",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR08-15",
+      "title_ko": "PR08-15 황천항해점검표",
+      "title_en": "CK-LIST FOR HEAVY WEATHER",
+      "pr_code": "DRK-PR08",
+      "pr_title_ko": "항행 안전",
+      "pr_title_en": "SAFETY NAVIGATION",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR08-16",
+      "title_ko": "PR08-16 정박중황천점검표",
+      "title_en": "CK-LIST FOR HEAVY W.THER IN PORT",
+      "pr_code": "DRK-PR08",
+      "pr_title_ko": "항행 안전",
+      "pr_title_en": "SAFETY NAVIGATION",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR08-17",
+      "title_ko": "PR08-17 협수로통항점검표",
+      "title_en": "CK-LIST FOR NARROW CHANNEL",
+      "pr_code": "DRK-PR08",
+      "pr_title_ko": "항행 안전",
+      "pr_title_en": "SAFETY NAVIGATION",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR08-18",
+      "title_ko": "PR08-18 연안항해점검표",
+      "title_en": "CHECKLIST FOR COASTAL NAVIGATION",
+      "pr_code": "DRK-PR08",
+      "pr_title_ko": "항행 안전",
+      "pr_title_en": "SAFETY NAVIGATION",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR08-19",
+      "title_ko": "묘박점검표 ANCHORING CHECKLIST",
+      "title_en": "묘박점검표 ANCHORING CHECKLIST",
+      "pr_code": "DRK-PR08",
+      "pr_title_ko": "항행 안전",
+      "pr_title_en": "SAFETY NAVIGATION",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR08-20",
+      "title_ko": "PR08-20 묘박당직인수인계",
+      "title_en": "ANCHOR WATCH HANDOVER CK-LIST",
+      "pr_code": "DRK-PR08",
+      "pr_title_ko": "항행 안전",
+      "pr_title_en": "SAFETY NAVIGATION",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR08-21",
+      "title_ko": "동계항해점검표 CHECKLIST FOR COLD AREA",
+      "title_en": "동계항해점검표 CHECKLIST FOR COLD AREA",
+      "pr_code": "DRK-PR08",
+      "pr_title_ko": "항행 안전",
+      "pr_title_en": "SAFETY NAVIGATION",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR08-22",
+      "title_ko": "PR08-22 유빙항해점검표",
+      "title_en": "CK-LIST FOR ICE NAVIGATION",
+      "pr_code": "DRK-PR08",
+      "pr_title_ko": "항행 안전",
+      "pr_title_en": "SAFETY NAVIGATION",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR08-23",
+      "title_ko": "PR08-23 해적출몰구역점검표",
+      "title_en": "CK-LIST FOR PIRACY INFEST AREA",
+      "pr_code": "DRK-PR08",
+      "pr_title_ko": "항행 안전",
+      "pr_title_en": "SAFETY NAVIGATION",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR08-24",
+      "title_ko": "전쟁구역항해점검표 CHECKLIST FOR WAR ZONE",
+      "title_en": "전쟁구역항해점검표 CHECKLIST FOR WAR ZONE",
+      "pr_code": "DRK-PR08",
+      "pr_title_ko": "항행 안전",
+      "pr_title_en": "SAFETY NAVIGATION",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR08-25",
+      "title_ko": "PR08-25 대양항해점검표",
+      "title_en": "CHECKLIST FOR OCEAN WATER",
+      "pr_code": "DRK-PR08",
+      "pr_title_ko": "항행 안전",
+      "pr_title_en": "SAFETY NAVIGATION",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR08-26",
+      "title_ko": "PR08-26 헬리콥터운용점검표",
+      "title_en": "CK-LIST HELICOPTEROPERATION",
+      "pr_code": "DRK-PR08",
+      "pr_title_ko": "항행 안전",
+      "pr_title_en": "SAFETY NAVIGATION",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR08-27",
+      "title_ko": "ABSTRACT LOG",
+      "title_en": "ABSTRACT LOG",
+      "pr_code": "DRK-PR08",
+      "pr_title_ko": "항행 안전",
+      "pr_title_en": "SAFETY NAVIGATION",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR08-28",
+      "title_ko": "PR08-28 운항통제보고서",
+      "title_en": "NAVIGATION CONTROL REPORT",
+      "pr_code": "DRK-PR08",
+      "pr_title_ko": "항행 안전",
+      "pr_title_en": "SAFETY NAVIGATION",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR08-29",
+      "title_ko": "PR08-29 전자해도친숙화점검표",
+      "title_en": "ECDIS FAMILIARIZATION CHECKLIST",
+      "pr_code": "DRK-PR08",
+      "pr_title_ko": "항행 안전",
+      "pr_title_en": "SAFETY NAVIGATION",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR08-30",
+      "title_ko": "PR08-30 년간항해심사계획서",
+      "title_en": "ANNUAL NAVIGATIONAL AUDIT PLAN",
+      "pr_code": "DRK-PR08",
+      "pr_title_ko": "항행 안전",
+      "pr_title_en": "SAFETY NAVIGATION",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR08-31",
+      "title_ko": "항해심사자목록표 NAVIGATIONAL AUDITOR LIST",
+      "title_en": "항해심사자목록표 NAVIGATIONAL AUDITOR LIST",
+      "pr_code": "DRK-PR08",
+      "pr_title_ko": "항행 안전",
+      "pr_title_en": "SAFETY NAVIGATION",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR08-32",
+      "title_ko": "항해심사점검표 NAVIGATION AUDIT REPORT",
+      "title_en": "항해심사점검표 NAVIGATION AUDIT REPORT",
+      "pr_code": "DRK-PR08",
+      "pr_title_ko": "항행 안전",
+      "pr_title_en": "SAFETY NAVIGATION",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR08-33",
+      "title_ko": "항해심사실시통보서 NAVIGAT’NAL AUDIT NOTICE",
+      "title_en": "항해심사실시통보서 NAVIGAT’NAL AUDIT NOTICE",
+      "pr_code": "DRK-PR08",
+      "pr_title_ko": "항행 안전",
+      "pr_title_en": "SAFETY NAVIGATION",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR08-34",
+      "title_ko": "기관당직인수인계노트 ENGINEERING WATCH HANDOVER NOTE",
+      "title_en": "기관당직인수인계노트 ENGINEERING WATCH HANDOVER NOTE",
+      "pr_code": "DRK-PR08",
+      "pr_title_ko": "항행 안전",
+      "pr_title_en": "SAFETY NAVIGATION",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR08-35",
+      "title_ko": "무인당직점검표 UMA CHECK LIST",
+      "title_en": "무인당직점검표 UMA CHECK LIST",
+      "pr_code": "DRK-PR08",
+      "pr_title_ko": "항행 안전",
+      "pr_title_en": "SAFETY NAVIGATION",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR08-36",
+      "title_ko": "기관부입출항점검표 ENG PART ARR & DEPT CK-LIST",
+      "title_en": "기관부입출항점검표 ENG PART ARR & DEPT CK-LIST",
+      "pr_code": "DRK-PR08",
+      "pr_title_ko": "항행 안전",
+      "pr_title_en": "SAFETY NAVIGATION",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR08-37",
+      "title_ko": "PR08-37 선장",
+      "title_en": "기관장부재중업무지시서 MASTER/CHIEF ENGINEER IN ABSENCE ORDER",
+      "pr_code": "DRK-PR08",
+      "pr_title_ko": "항행 안전",
+      "pr_title_en": "SAFETY NAVIGATION",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR08-38",
+      "title_ko": "컴퍼스오차기록부 COMPASS ERROR RECORD",
+      "title_en": "컴퍼스오차기록부 COMPASS ERROR RECORD",
+      "pr_code": "DRK-PR08",
+      "pr_title_ko": "항행 안전",
+      "pr_title_en": "SAFETY NAVIGATION",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR08-39",
+      "title_ko": "PR08-39 항행통보접수대장",
+      "title_en": "NOTICE TO MARINERS RECEIPT LOG",
+      "pr_code": "DRK-PR08",
+      "pr_title_ko": "항행 안전",
+      "pr_title_en": "SAFETY NAVIGATION",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR08-40",
+      "title_ko": "전자해도 (Rev: -, Latest: 2016-11-30)",
+      "title_en": "전자해도 (Rev: -, Latest: 2016-11-30)",
+      "pr_code": "DRK-PR08",
+      "pr_title_ko": "항행 안전",
+      "pr_title_en": "SAFETY NAVIGATION",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR08-41",
+      "title_ko": "항해(묘박) 당직표 NAVIGATION (ANCHORING) WATCH TABLE",
+      "title_en": "항해(묘박) 당직표 NAVIGATION (ANCHORING) WATCH TABLE",
+      "pr_code": "DRK-PR08",
+      "pr_title_ko": "항행 안전",
+      "pr_title_en": "SAFETY NAVIGATION",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR08-42",
+      "title_ko": "정박당직표 WATCH TABLE IN PORT",
+      "title_en": "정박당직표 WATCH TABLE IN PORT",
+      "pr_code": "DRK-PR08",
+      "pr_title_ko": "항행 안전",
+      "pr_title_en": "SAFETY NAVIGATION",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR08-43",
+      "title_ko": "전자해도관리카드 ECDIS MANAGEMENT CARD",
+      "title_en": "전자해도관리카드 ECDIS MANAGEMENT CARD",
+      "pr_code": "DRK-PR08",
+      "pr_title_ko": "항행 안전",
+      "pr_title_en": "SAFETY NAVIGATION",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR08-44",
+      "title_ko": "승무원비상연락망 CREW EMERGENCY CONTACT LIST",
+      "title_en": "승무원비상연락망 CREW EMERGENCY CONTACT LIST",
+      "pr_code": "DRK-PR08",
+      "pr_title_ko": "항행 안전",
+      "pr_title_en": "SAFETY NAVIGATION",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR08-45",
+      "title_ko": "TRANSAS ECDIS CHECK LIST",
+      "title_en": "TRANSAS ECDIS CHECK LIST",
+      "pr_code": "DRK-PR08",
+      "pr_title_ko": "항행 안전",
+      "pr_title_en": "SAFETY NAVIGATION",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR08-46",
+      "title_ko": "PR08-46 Passage plan monitoring and compliance check list",
+      "title_en": "PR08-46 Passage plan monitoring and compliance check list",
+      "pr_code": "DRK-PR08",
+      "pr_title_ko": "항행 안전",
+      "pr_title_en": "SAFETY NAVIGATION",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR08-47",
+      "title_ko": "밀항자 수색 점검표 STOWAWAY SEARCH CHECKLIST",
+      "title_en": "밀항자 수색 점검표 STOWAWAY SEARCH CHECKLIST",
+      "pr_code": "DRK-PR08",
+      "pr_title_ko": "항행 안전",
+      "pr_title_en": "SAFETY NAVIGATION",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR08-48",
+      "title_ko": "도선사 사다리 점검표 CHECKLIST OF PILOT LADDER 0 1.0 — (Rev: -, Latest: 2023-11-08)",
+      "title_en": "도선사 사다리 점검표 CHECKLIST OF PILOT LADDER 0 1.0 — (Rev: -, Latest: 2023-11-08)",
+      "pr_code": "DRK-PR08",
+      "pr_title_ko": "항행 안전",
+      "pr_title_en": "SAFETY NAVIGATION",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR08-49",
+      "title_ko": "VISITOR SAFETY BREIFING AND ACKNOWLEDGEMENT FORM 0 — (Rev: -, Latest: 2024-12-25)",
+      "title_en": "VISITOR SAFETY BREIFING AND ACKNOWLEDGEMENT FORM 0 — (Rev: -, Latest: 2024-12-25)",
+      "pr_code": "DRK-PR08",
+      "pr_title_ko": "항행 안전",
+      "pr_title_en": "SAFETY NAVIGATION",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR08-50",
+      "title_ko": "ENGINE ROOM WATCH CHANGE-OVER CHECKLIST 0 — (Rev: -, Latest: 2025-05-20)",
+      "title_en": "ENGINE ROOM WATCH CHANGE-OVER CHECKLIST 0 — (Rev: -, Latest: 2025-05-20)",
+      "pr_code": "DRK-PR08",
+      "pr_title_ko": "항행 안전",
+      "pr_title_en": "SAFETY NAVIGATION",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR09-01",
+      "title_ko": "Stevedore damage report Stevedore damage report",
+      "title_en": "Stevedore damage report Stevedore damage report",
+      "pr_code": "DRK-PR09",
+      "pr_title_ko": "화물 관리",
+      "pr_title_en": "CARGO HANDLING",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR09-02",
+      "title_ko": "Automobile damage report Automobile damage report",
+      "title_en": "Automobile damage report Automobile damage report",
+      "pr_code": "DRK-PR09",
+      "pr_title_ko": "화물 관리",
+      "pr_title_en": "CARGO HANDLING",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR09-03",
+      "title_ko": "Check list PC(T)C vessel loading operation Check list PC(T)C vessel loading operation",
+      "title_en": "Check list PC(T)C vessel loading operation Check list PC(T)C vessel loading operation",
+      "pr_code": "DRK-PR09",
+      "pr_title_ko": "화물 관리",
+      "pr_title_en": "CARGO HANDLING",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR09-04",
+      "title_ko": "Check list PC(T)C vessel discharging operation Check list PC(T)C vessel discharging operation",
+      "title_en": "Check list PC(T)C vessel discharging operation Check list PC(T)C vessel discharging operation",
+      "pr_code": "DRK-PR09",
+      "pr_title_ko": "화물 관리",
+      "pr_title_en": "CARGO HANDLING",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR09-05",
+      "title_ko": "Check list for stern side ramp operation Check list for stern side ramp operation",
+      "title_en": "Check list for stern side ramp operation Check list for stern side ramp operation",
+      "pr_code": "DRK-PR09",
+      "pr_title_ko": "화물 관리",
+      "pr_title_en": "CARGO HANDLING",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR09-06",
+      "title_ko": "Ship-shore safety check list Ship-shore safety check list",
+      "title_en": "Ship-shore safety check list Ship-shore safety check list",
+      "pr_code": "DRK-PR09",
+      "pr_title_ko": "화물 관리",
+      "pr_title_en": "CARGO HANDLING",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR09-07",
+      "title_ko": "Cargo hold entry permit during cargo operation Cargo hold entry permit during cargo operation",
+      "title_en": "Cargo hold entry permit during cargo operation Cargo hold entry permit during cargo operation",
+      "pr_code": "DRK-PR09",
+      "pr_title_ko": "화물 관리",
+      "pr_title_en": "CARGO HANDLING",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR09-08",
+      "title_ko": "TEMP. and GAS CHECK LOG FOR COAL IN CARGO HOLD TEMP. and GAS CHECK LOG FOR COAL IN CARGO HOLD",
+      "title_en": "TEMP. and GAS CHECK LOG FOR COAL IN CARGO HOLD TEMP. and GAS CHECK LOG FOR COAL IN CARGO HOLD",
+      "pr_code": "DRK-PR09",
+      "pr_title_ko": "화물 관리",
+      "pr_title_en": "CARGO HANDLING",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR09-09",
+      "title_ko": "Master's Notice for Cargo gear Master's Notice for Cargo gear",
+      "title_en": "Master's Notice for Cargo gear Master's Notice for Cargo gear",
+      "pr_code": "DRK-PR09",
+      "pr_title_ko": "화물 관리",
+      "pr_title_en": "CARGO HANDLING",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR09-10",
+      "title_ko": "NOTICE OF READINESS (BULKER & GENERAL) NOTICE OF READINESS (BULKER & GENERAL)",
+      "title_en": "NOTICE OF READINESS (BULKER & GENERAL) NOTICE OF READINESS (BULKER & GENERAL)",
+      "pr_code": "DRK-PR09",
+      "pr_title_ko": "화물 관리",
+      "pr_title_en": "CARGO HANDLING",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR09-11",
+      "title_ko": "Stevedore damage report Stevedore damage report",
+      "title_en": "Stevedore damage report Stevedore damage report",
+      "pr_code": "DRK-PR09",
+      "pr_title_ko": "화물 관리",
+      "pr_title_en": "CARGO HANDLING",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR09-12",
+      "title_ko": "Letter of Indemnity Letter of Indemnity",
+      "title_en": "Letter of Indemnity Letter of Indemnity",
+      "pr_code": "DRK-PR09",
+      "pr_title_ko": "화물 관리",
+      "pr_title_en": "CARGO HANDLING",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR09-13",
+      "title_ko": "Shut-Out Certificate. Shut-Out Certificate.",
+      "title_en": "Shut-Out Certificate. Shut-Out Certificate.",
+      "pr_code": "DRK-PR09",
+      "pr_title_ko": "화물 관리",
+      "pr_title_en": "CARGO HANDLING",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR09-14",
+      "title_ko": "Protest for Loading Discharging Quantity Protest for Loading Discharging Quantity",
+      "title_en": "Protest for Loading Discharging Quantity Protest for Loading Discharging Quantity",
+      "pr_code": "DRK-PR09",
+      "pr_title_ko": "화물 관리",
+      "pr_title_en": "CARGO HANDLING",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR09-15",
+      "title_ko": "Dead-Freight Claim Dead-Freight Claim",
+      "title_en": "Dead-Freight Claim Dead-Freight Claim",
+      "pr_code": "DRK-PR09",
+      "pr_title_ko": "화물 관리",
+      "pr_title_en": "CARGO HANDLING",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR09-16",
+      "title_ko": "Cargo quantity Discrepancy protest Cargo quantity Discrepancy protest",
+      "title_en": "Cargo quantity Discrepancy protest Cargo quantity Discrepancy protest",
+      "pr_code": "DRK-PR09",
+      "pr_title_ko": "화물 관리",
+      "pr_title_en": "CARGO HANDLING",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR09-17",
+      "title_ko": "Protest letter for overloading Protest letter for overloading",
+      "title_en": "Protest letter for overloading Protest letter for overloading",
+      "pr_code": "DRK-PR09",
+      "pr_title_ko": "화물 관리",
+      "pr_title_en": "CARGO HANDLING",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR09-18",
+      "title_ko": "Statement of Fact Statement of Fact",
+      "title_en": "Statement of Fact Statement of Fact",
+      "pr_code": "DRK-PR09",
+      "pr_title_ko": "화물 관리",
+      "pr_title_en": "CARGO HANDLING",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR09-19",
+      "title_ko": "VENT LOG BILGE CHECK FOR CARGO HOLD(STEEL CARGOES) VENT LOG BILGE CHECK FOR CARGO HOLD(STEEL CARGOES)",
+      "title_en": "VENT LOG BILGE CHECK FOR CARGO HOLD(STEEL CARGOES) VENT LOG BILGE CHECK FOR CARGO HOLD(STEEL CARGOES)",
+      "pr_code": "DRK-PR09",
+      "pr_title_ko": "화물 관리",
+      "pr_title_en": "CARGO HANDLING",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR09-20",
+      "title_ko": "CARGO HOLD CONDITION REPORT CARGO HOLD CONDITION REPORT",
+      "title_en": "CARGO HOLD CONDITION REPORT CARGO HOLD CONDITION REPORT",
+      "pr_code": "DRK-PR09",
+      "pr_title_ko": "화물 관리",
+      "pr_title_en": "CARGO HANDLING",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR09-21",
+      "title_ko": "SHIP TO SHIP TRANSFER SHIP TO SHIP TRANSFER",
+      "title_en": "SHIP TO SHIP TRANSFER SHIP TO SHIP TRANSFER",
+      "pr_code": "DRK-PR09",
+      "pr_title_ko": "화물 관리",
+      "pr_title_en": "CARGO HANDLING",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR09-22",
+      "title_ko": "Cargo Hold Cleaning Checklist Cargo Hold Cleaning Checklist 0 1 — (Rev: -, Latest: 2024-11-26)",
+      "title_en": "Cargo Hold Cleaning Checklist Cargo Hold Cleaning Checklist 0 1 — (Rev: -, Latest: 2024-11-26)",
+      "pr_code": "DRK-PR09",
+      "pr_title_ko": "화물 관리",
+      "pr_title_en": "CARGO HANDLING",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR09-23",
+      "title_ko": "Hatch cover consumables check and replacement record Hatch cover consumables check and replacement record 0 — (Rev: -, Latest: 2024-01-11)",
+      "title_en": "Hatch cover consumables check and replacement record Hatch cover consumables check and replacement record 0 — (Rev: -, Latest: 2024-01-11)",
+      "pr_code": "DRK-PR09",
+      "pr_title_ko": "화물 관리",
+      "pr_title_en": "CARGO HANDLING",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR09-24",
+      "title_ko": "Cargo hold cleaning equipment material inventory Cargo hold cleaning equipment material inventory",
+      "title_en": "Cargo hold cleaning equipment material inventory Cargo hold cleaning equipment material inventory",
+      "pr_code": "DRK-PR09",
+      "pr_title_ko": "화물 관리",
+      "pr_title_en": "CARGO HANDLING",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR09-55",
+      "title_ko": "BALLAST TANK AND VOID SPACE INSPECTION REPORT. BALLAST TANK AND VOID SPACE INSPECTION REPORT.",
+      "title_en": "BALLAST TANK AND VOID SPACE INSPECTION REPORT. BALLAST TANK AND VOID SPACE INSPECTION REPORT.",
+      "pr_code": "DRK-PR09",
+      "pr_title_ko": "화물 관리",
+      "pr_title_en": "CARGO HANDLING",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR09-65",
+      "title_ko": "WINCH BRAKE TEST WINCH BRAKE TEST",
+      "title_en": "WINCH BRAKE TEST WINCH BRAKE TEST",
+      "pr_code": "DRK-PR09",
+      "pr_title_ko": "화물 관리",
+      "pr_title_en": "CARGO HANDLING",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR09-66",
+      "title_ko": "WIDS (Water Ingress Detection System) test WIDS (Water Ingress Detection System) test 0 — (Rev: -, Latest: 2025-07-21)",
+      "title_en": "WIDS (Water Ingress Detection System) test WIDS (Water Ingress Detection System) test 0 — (Rev: -, Latest: 2025-07-21)",
+      "pr_code": "DRK-PR09",
+      "pr_title_ko": "화물 관리",
+      "pr_title_en": "CARGO HANDLING",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR09-67",
+      "title_ko": "QUARTERLY WATERTIGHTNESS (HOSE) TEST RECORD QUARTERLY WATERTIGHTNESS (HOSE) TEST RECORD 0 — (Rev: -, Latest: 2025-07-21)",
+      "title_en": "QUARTERLY WATERTIGHTNESS (HOSE) TEST RECORD QUARTERLY WATERTIGHTNESS (HOSE) TEST RECORD 0 — (Rev: -, Latest: 2025-07-21)",
+      "pr_code": "DRK-PR09",
+      "pr_title_ko": "화물 관리",
+      "pr_title_en": "CARGO HANDLING",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR10-01",
+      "title_ko": "사고보고서 INCIDENT REPORT 사고보고서 INCIDENT REPORT",
+      "title_en": "사고보고서 INCIDENT REPORT 사고보고서 INCIDENT REPORT",
+      "pr_code": "DRK-PR10",
+      "pr_title_ko": "사고 관리",
+      "pr_title_en": "INCIDENT CONTROL",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR10-02",
+      "title_ko": "상해보고서 INJURY REPORT 상해보고서 INJURY REPORT",
+      "title_en": "상해보고서 INJURY REPORT 상해보고서 INJURY REPORT",
+      "pr_code": "DRK-PR10",
+      "pr_title_ko": "사고 관리",
+      "pr_title_en": "INCIDENT CONTROL",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR10-03",
+      "title_ko": "선원상해요약보고서 SUMMARY OF CREW INJURY REPORT 선원상해요약보고서 SUMMARY OF CREW INJURY REPORT",
+      "title_en": "선원상해요약보고서 SUMMARY OF CREW INJURY REPORT 선원상해요약보고서 SUMMARY OF CREW INJURY REPORT",
+      "pr_code": "DRK-PR10",
+      "pr_title_ko": "사고 관리",
+      "pr_title_en": "INCIDENT CONTROL",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR10-04",
+      "title_ko": "NEAR MISS REPORT NEAR MISS REPORT",
+      "title_en": "NEAR MISS REPORT NEAR MISS REPORT",
+      "pr_code": "DRK-PR10",
+      "pr_title_ko": "사고 관리",
+      "pr_title_en": "INCIDENT CONTROL",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR10-05",
+      "title_ko": "사고조사보고서 INCIDENT INVESTIGATION REPORT 사고조사보고서 INCIDENT INVESTIGATION REPORT",
+      "title_en": "사고조사보고서 INCIDENT INVESTIGATION REPORT 사고조사보고서 INCIDENT INVESTIGATION REPORT",
+      "pr_code": "DRK-PR10",
+      "pr_title_ko": "사고 관리",
+      "pr_title_en": "INCIDENT CONTROL",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR10-06",
+      "title_ko": "CREW SAFETYPERFORMANCE MEASUREMENT CREW SAFETYPERFORMANCE MEASUREMENT",
+      "title_en": "CREW SAFETYPERFORMANCE MEASUREMENT CREW SAFETYPERFORMANCE MEASUREMENT",
+      "pr_code": "DRK-PR10",
+      "pr_title_ko": "사고 관리",
+      "pr_title_en": "INCIDENT CONTROL",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR11-01",
+      "title_ko": "위험성평가계획서 RISK ASSESMENT PLAN 위험성평가계획서 RISK ASSESMENT PLAN",
+      "title_en": "위험성평가계획서 RISK ASSESMENT PLAN 위험성평가계획서 RISK ASSESMENT PLAN",
+      "pr_code": "DRK-PR11",
+      "pr_title_ko": "위험성 평가",
+      "pr_title_en": "RISK ASSESSMENT",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR11-02",
+      "title_ko": "위험성식별보고서 RISK IDENTIFICATION REPORT 위험성식별보고서 RISK IDENTIFICATION REPORT",
+      "title_en": "위험성식별보고서 RISK IDENTIFICATION REPORT 위험성식별보고서 RISK IDENTIFICATION REPORT",
+      "pr_code": "DRK-PR11",
+      "pr_title_ko": "위험성 평가",
+      "pr_title_en": "RISK ASSESSMENT",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR11-03",
+      "title_ko": "위험성등록부 RISK REGISTER BOOK 위험성등록부 RISK REGISTER BOOK",
+      "title_en": "위험성등록부 RISK REGISTER BOOK 위험성등록부 RISK REGISTER BOOK",
+      "pr_code": "DRK-PR11",
+      "pr_title_ko": "위험성 평가",
+      "pr_title_en": "RISK ASSESSMENT",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR11-04",
+      "title_ko": "위험성개선계획서 RISK CONTROL PLAN 위험성개선계획서 RISK CONTROL PLAN",
+      "title_en": "위험성개선계획서 RISK CONTROL PLAN 위험성개선계획서 RISK CONTROL PLAN",
+      "pr_code": "DRK-PR11",
+      "pr_title_ko": "위험성 평가",
+      "pr_title_en": "RISK ASSESSMENT",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR11-05",
+      "title_ko": "PR11-05 월별안전환경관리보고서 MONTHLY REPORT FOR SAFETY",
+      "title_en": "ENVIRONMENTAL MANAGEMENT 월별안전환경관리보고서 MONTHLY REPORT FOR SAFETY/ENVIRONMENTAL MANAGEMENT",
+      "pr_code": "DRK-PR11",
+      "pr_title_ko": "위험성 평가",
+      "pr_title_en": "RISK ASSESSMENT",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR11-06",
+      "title_ko": "안전환경점검일지 DAILY SAFETY & ENVIRONMENTAL CHECKING LOG 안전환경점검일지 DAILY SAFETY & ENVIRONMENTAL CHECKING LOG",
+      "title_en": "안전환경점검일지 DAILY SAFETY & ENVIRONMENTAL CHECKING LOG 안전환경점검일지 DAILY SAFETY & ENVIRONMENTAL CHECKING LOG",
+      "pr_code": "DRK-PR11",
+      "pr_title_ko": "위험성 평가",
+      "pr_title_en": "RISK ASSESSMENT",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR11-07",
+      "title_ko": "위험성평가서 RISK ASSESSMENT SHEET 위험성평가서 RISK ASSESSMENT SHEET",
+      "title_en": "위험성평가서 RISK ASSESSMENT SHEET 위험성평가서 RISK ASSESSMENT SHEET",
+      "pr_code": "DRK-PR11",
+      "pr_title_ko": "위험성 평가",
+      "pr_title_en": "RISK ASSESSMENT",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR12-01",
+      "title_ko": "변화관리계획서 PLAN FOR MANAGEMENT OF CHANGE",
+      "title_en": "변화관리계획서 PLAN FOR MANAGEMENT OF CHANGE",
+      "pr_code": "DRK-PR12",
+      "pr_title_ko": "변화 관리",
+      "pr_title_en": "MANAGEMENT OF CHANGE",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR12-02",
+      "title_ko": "법규및규정현황표 LEGAL AND OTHER REQUIREMENT INDEX",
+      "title_en": "법규및규정현황표 LEGAL AND OTHER REQUIREMENT INDEX",
+      "pr_code": "DRK-PR12",
+      "pr_title_ko": "변화 관리",
+      "pr_title_en": "MANAGEMENT OF CHANGE",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR13-01",
+      "title_ko": "작업 허가서 WORK PERMIT APPLICATION 0 — (Rev: -, Latest: 2024-07-04)",
+      "title_en": "작업 허가서 WORK PERMIT APPLICATION 0 — (Rev: -, Latest: 2024-07-04)",
+      "pr_code": "DRK-PR13",
+      "pr_title_ko": "안전 관리",
+      "pr_title_en": "SAFETY MANAGEMENT",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR13-02",
+      "title_ko": "열작업 허가 점검표 HOT WORK PERMIT CHECK LIST 0 — (Rev: -, Latest: 2024-07-04)",
+      "title_en": "열작업 허가 점검표 HOT WORK PERMIT CHECK LIST 0 — (Rev: -, Latest: 2024-07-04)",
+      "pr_code": "DRK-PR13",
+      "pr_title_ko": "안전 관리",
+      "pr_title_en": "SAFETY MANAGEMENT",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR13-03",
+      "title_ko": "밀폐구역 진입 점검표 ENCLOSED SPACE ENTRY CHECK LIST 0 1 1 — (Rev: -, Latest: 2025-07-18)",
+      "title_en": "밀폐구역 진입 점검표 ENCLOSED SPACE ENTRY CHECK LIST 0 1 1 — (Rev: -, Latest: 2025-07-18)",
+      "pr_code": "DRK-PR13",
+      "pr_title_ko": "안전 관리",
+      "pr_title_en": "SAFETY MANAGEMENT",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR13-04",
+      "title_ko": "전기작업 허가 점검표 ELECTRIC WORK PERMIT CHECK LIST 0 — (Rev: -, Latest: 2024-07-04)",
+      "title_en": "전기작업 허가 점검표 ELECTRIC WORK PERMIT CHECK LIST 0 — (Rev: -, Latest: 2024-07-04)",
+      "pr_code": "DRK-PR13",
+      "pr_title_ko": "안전 관리",
+      "pr_title_en": "SAFETY MANAGEMENT",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR13-05",
+      "title_ko": "PR13-05 고소",
+      "title_en": "선외 작업 허가 점검표 ALOFT/OUTBOARD WORK PERMIT CHECK LIST 0 — (Rev: -, Latest: 2024-07-04)",
+      "pr_code": "DRK-PR13",
+      "pr_title_ko": "안전 관리",
+      "pr_title_en": "SAFETY MANAGEMENT",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR13-06",
+      "title_ko": "고압 파이프 및 압력용기 작업 허가 점검표 PIPELINE AND PRESSURE VESSEL WORK PERMIT CHECK LIST 0 — (Rev: -, Latest: 2024-07-04)",
+      "title_en": "고압 파이프 및 압력용기 작업 허가 점검표 PIPELINE AND PRESSURE VESSEL WORK PERMIT CHECK LIST 0 — (Rev: -, Latest: 2024-07-04)",
+      "pr_code": "DRK-PR13",
+      "pr_title_ko": "안전 관리",
+      "pr_title_en": "SAFETY MANAGEMENT",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR13-07",
+      "title_ko": "소형선 접현 작업 허가 점검표 SMALL CRAFT ALONGSIDE WORK PERMIT CHECK LIST 0 — (Rev: -, Latest: 2024-07-04)",
+      "title_en": "소형선 접현 작업 허가 점검표 SMALL CRAFT ALONGSIDE WORK PERMIT CHECK LIST 0 — (Rev: -, Latest: 2024-07-04)",
+      "pr_code": "DRK-PR13",
+      "pr_title_ko": "안전 관리",
+      "pr_title_en": "SAFETY MANAGEMENT",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR13-08",
+      "title_ko": "수중 작업 허가 점검표 UNDERWATER WORK PERMIT CHECK LIST 0 — (Rev: -, Latest: 2024-07-04)",
+      "title_en": "수중 작업 허가 점검표 UNDERWATER WORK PERMIT CHECK LIST 0 — (Rev: -, Latest: 2024-07-04)",
+      "pr_code": "DRK-PR13",
+      "pr_title_ko": "안전 관리",
+      "pr_title_en": "SAFETY MANAGEMENT",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR13-09",
+      "title_ko": "비화기 작업 허가 점검표 COLD WORK PERMIT CHECK LIST 0 — (Rev: -, Latest: 2024-07-04)",
+      "title_en": "비화기 작업 허가 점검표 COLD WORK PERMIT CHECK LIST 0 — (Rev: -, Latest: 2024-07-04)",
+      "pr_code": "DRK-PR13",
+      "pr_title_ko": "안전 관리",
+      "pr_title_en": "SAFETY MANAGEMENT",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR13-10",
+      "title_ko": "기중기 작업 허가 점검표 LIFTING CRANE OPERATION PERMIT CHECK LIST 0 — (Rev: -, Latest: 2024-07-04)",
+      "title_en": "기중기 작업 허가 점검표 LIFTING CRANE OPERATION PERMIT CHECK LIST 0 — (Rev: -, Latest: 2024-07-04)",
+      "pr_code": "DRK-PR13",
+      "pr_title_ko": "안전 관리",
+      "pr_title_en": "SAFETY MANAGEMENT",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR13-11",
+      "title_ko": "가스 탐지 기록부 GAS MEASUREMENT RECORDS 0 1 1 — (Rev: -, Latest: 2025-07-18)",
+      "title_en": "가스 탐지 기록부 GAS MEASUREMENT RECORDS 0 1 1 — (Rev: -, Latest: 2025-07-18)",
+      "pr_code": "DRK-PR13",
+      "pr_title_ko": "안전 관리",
+      "pr_title_en": "SAFETY MANAGEMENT",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR13-12",
+      "title_ko": "LOTO 작업 허가서 Lock-out Tag-out (LOTO) permit 0 — (Rev: -, Latest: 2024-07-04)",
+      "title_en": "LOTO 작업 허가서 Lock-out Tag-out (LOTO) permit 0 — (Rev: -, Latest: 2024-07-04)",
+      "pr_code": "DRK-PR13",
+      "pr_title_ko": "안전 관리",
+      "pr_title_en": "SAFETY MANAGEMENT",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR13-13",
+      "title_ko": "Lock-out Tag-out Log 0 — (Rev: -, Latest: 2022-04-12)",
+      "title_en": "Lock-out Tag-out Log 0 — (Rev: -, Latest: 2022-04-12)",
+      "pr_code": "DRK-PR13",
+      "pr_title_ko": "안전 관리",
+      "pr_title_en": "SAFETY MANAGEMENT",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR13-14",
+      "title_ko": "휴대용 가스 탐지기 검교정 기록부 Portable Gas detector calibration 0 — (Rev: -, Latest: 2023-10-06)",
+      "title_en": "휴대용 가스 탐지기 검교정 기록부 Portable Gas detector calibration 0 — (Rev: -, Latest: 2023-10-06)",
+      "pr_code": "DRK-PR13",
+      "pr_title_ko": "안전 관리",
+      "pr_title_en": "SAFETY MANAGEMENT",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR13-15",
+      "title_ko": "Mooring Rope & Wire Rope Log",
+      "title_en": "Mooring Rope & Wire Rope Log",
+      "pr_code": "DRK-PR13",
+      "pr_title_ko": "안전 관리",
+      "pr_title_en": "SAFETY MANAGEMENT",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR13-16",
+      "title_ko": "Towing wire rope Condition Checklist",
+      "title_en": "Towing wire rope Condition Checklist",
+      "pr_code": "DRK-PR13",
+      "pr_title_ko": "안전 관리",
+      "pr_title_en": "SAFETY MANAGEMENT",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR13-17",
+      "title_ko": "Pre-inspection checklist for towing survey 0 — (Rev: -, Latest: 2018-05-19)",
+      "title_en": "Pre-inspection checklist for towing survey 0 — (Rev: -, Latest: 2018-05-19)",
+      "pr_code": "DRK-PR13",
+      "pr_title_ko": "안전 관리",
+      "pr_title_en": "SAFETY MANAGEMENT",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR13-18",
+      "title_ko": "Pre-inspection checklist for towing survey-towing log. 0 1 — (Rev: -, Latest: 2025-07-18)",
+      "title_en": "Pre-inspection checklist for towing survey-towing log. 0 1 — (Rev: -, Latest: 2025-07-18)",
+      "pr_code": "DRK-PR13",
+      "pr_title_ko": "안전 관리",
+      "pr_title_en": "SAFETY MANAGEMENT",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR13-19",
+      "title_ko": "Wire Rope Condition Checklist",
+      "title_en": "Wire Rope Condition Checklist",
+      "pr_code": "DRK-PR13",
+      "pr_title_ko": "안전 관리",
+      "pr_title_en": "SAFETY MANAGEMENT",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR13-20",
+      "title_ko": "HSE Induction and Agreement for Contractor 0 — (Rev: -, Latest: 2022-04-21)",
+      "title_en": "HSE Induction and Agreement for Contractor 0 — (Rev: -, Latest: 2022-04-21)",
+      "pr_code": "DRK-PR13",
+      "pr_title_ko": "안전 관리",
+      "pr_title_en": "SAFETY MANAGEMENT",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR13-21",
+      "title_ko": "위생점검표 Check list for sanitary inspection",
+      "title_en": "위생점검표 Check list for sanitary inspection",
+      "pr_code": "DRK-PR13",
+      "pr_title_ko": "안전 관리",
+      "pr_title_en": "SAFETY MANAGEMENT",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR13-22",
+      "title_ko": "선원복지점검표 CHECKLIST FOR CREW WELL-BEING CONDITION",
+      "title_en": "선원복지점검표 CHECKLIST FOR CREW WELL-BEING CONDITION",
+      "pr_code": "DRK-PR13",
+      "pr_title_ko": "안전 관리",
+      "pr_title_en": "SAFETY MANAGEMENT",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR13-23",
+      "title_ko": "ASBESTOS CONTAINING MATERIAL CHECK LIST",
+      "title_en": "ASBESTOS CONTAINING MATERIAL CHECK LIST",
+      "pr_code": "DRK-PR13",
+      "pr_title_ko": "안전 관리",
+      "pr_title_en": "SAFETY MANAGEMENT",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR13-25",
+      "title_ko": "The Checklist of safety officer",
+      "title_en": "The Checklist of safety officer",
+      "pr_code": "DRK-PR13",
+      "pr_title_ko": "안전 관리",
+      "pr_title_en": "SAFETY MANAGEMENT",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR13-26",
+      "title_ko": "Joint Report on Onboard Safety and Working Environment 0 — (Rev: -, Latest: 2025-04-17)",
+      "title_en": "Joint Report on Onboard Safety and Working Environment 0 — (Rev: -, Latest: 2025-04-17)",
+      "pr_code": "DRK-PR13",
+      "pr_title_ko": "안전 관리",
+      "pr_title_en": "SAFETY MANAGEMENT",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR13-27",
+      "title_ko": "Noise Measurement Record 0 — (Rev: -, Latest: 2025-04-17)",
+      "title_en": "Noise Measurement Record 0 — (Rev: -, Latest: 2025-04-17)",
+      "pr_code": "DRK-PR13",
+      "pr_title_ko": "안전 관리",
+      "pr_title_en": "SAFETY MANAGEMENT",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR14-01",
+      "title_ko": "환경측면조사계획서 ENVIRONMENTAL ASPECT INVESTIGATION PLAN",
+      "title_en": "환경측면조사계획서 ENVIRONMENTAL ASPECT INVESTIGATION PLAN",
+      "pr_code": "DRK-PR14",
+      "pr_title_ko": "환경 관리",
+      "pr_title_en": "ENVIRONMENT MANAGEMENT",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR14-02",
+      "title_ko": "환경측면식별보고서 ENVIRONMENTAL ASPECT IDENTIFICATION REPORT",
+      "title_en": "환경측면식별보고서 ENVIRONMENTAL ASPECT IDENTIFICATION REPORT",
+      "pr_code": "DRK-PR14",
+      "pr_title_ko": "환경 관리",
+      "pr_title_en": "ENVIRONMENT MANAGEMENT",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR14-03",
+      "title_ko": "환경측면파악결과등록부 ENVIRONMENTAL ASPECT REGISTER BOOK",
+      "title_en": "환경측면파악결과등록부 ENVIRONMENTAL ASPECT REGISTER BOOK",
+      "pr_code": "DRK-PR14",
+      "pr_title_ko": "환경 관리",
+      "pr_title_en": "ENVIRONMENT MANAGEMENT",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR14-04",
+      "title_ko": "환경측면개선계획서 ENVIRONMENTAL ASPECT IMPROVEMENT PLAN",
+      "title_en": "환경측면개선계획서 ENVIRONMENTAL ASPECT IMPROVEMENT PLAN",
+      "pr_code": "DRK-PR14",
+      "pr_title_ko": "환경 관리",
+      "pr_title_en": "ENVIRONMENT MANAGEMENT",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR14-05",
+      "title_ko": "BALLAST WATER EXCHANGE REPORT",
+      "title_en": "BALLAST WATER EXCHANGE REPORT",
+      "pr_code": "DRK-PR14",
+      "pr_title_ko": "환경 관리",
+      "pr_title_en": "ENVIRONMENT MANAGEMENT",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR14-06",
+      "title_ko": "BALLAST WATER INSPECTION RECORD",
+      "title_en": "BALLAST WATER INSPECTION RECORD",
+      "pr_code": "DRK-PR14",
+      "pr_title_ko": "환경 관리",
+      "pr_title_en": "ENVIRONMENT MANAGEMENT",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR14-07",
+      "title_ko": "방제자재목록표 MARINE POLLUTION PREVENTION MATERIAL LIST",
+      "title_en": "방제자재목록표 MARINE POLLUTION PREVENTION MATERIAL LIST",
+      "pr_code": "DRK-PR14",
+      "pr_title_ko": "환경 관리",
+      "pr_title_en": "ENVIRONMENT MANAGEMENT",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR14-08",
+      "title_ko": "BALLAST WATER HANDLING LOG",
+      "title_en": "BALLAST WATER HANDLING LOG",
+      "pr_code": "DRK-PR14",
+      "pr_title_ko": "환경 관리",
+      "pr_title_en": "ENVIRONMENT MANAGEMENT",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR14-09",
+      "title_ko": "오존파괴물질내장설비점검표 OZONE DEPLETION SUBSTANCES CONTAINING EQUIPMENT CHECKLIST",
+      "title_en": "오존파괴물질내장설비점검표 OZONE DEPLETION SUBSTANCES CONTAINING EQUIPMENT CHECKLIST",
+      "pr_code": "DRK-PR14",
+      "pr_title_ko": "환경 관리",
+      "pr_title_en": "ENVIRONMENT MANAGEMENT",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR14-10",
+      "title_ko": "환경측면조사서 ENVIRONMENTAL ASPECT INVESTIGATION SHEET",
+      "title_en": "환경측면조사서 ENVIRONMENTAL ASPECT INVESTIGATION SHEET",
+      "pr_code": "DRK-PR14",
+      "pr_title_ko": "환경 관리",
+      "pr_title_en": "ENVIRONMENT MANAGEMENT",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR14-11",
+      "title_ko": "임명장 APPOINTMENT",
+      "title_en": "임명장 APPOINTMENT",
+      "pr_code": "DRK-PR14",
+      "pr_title_ko": "환경 관리",
+      "pr_title_en": "ENVIRONMENT MANAGEMENT",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR14-12",
+      "title_ko": "FOBAS CHANGE-OVER CALCULATOR 0 1 — (Rev: -, Latest: 2024-07-10)",
+      "title_en": "FOBAS CHANGE-OVER CALCULATOR 0 1 — (Rev: -, Latest: 2024-07-10)",
+      "pr_code": "DRK-PR14",
+      "pr_title_ko": "환경 관리",
+      "pr_title_en": "ENVIRONMENT MANAGEMENT",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR14-13",
+      "title_ko": "Sludge discharging checklist 0 — (Rev: -, Latest: 2025-01-09)",
+      "title_en": "Sludge discharging checklist 0 — (Rev: -, Latest: 2025-01-09)",
+      "pr_code": "DRK-PR14",
+      "pr_title_ko": "환경 관리",
+      "pr_title_en": "ENVIRONMENT MANAGEMENT",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR15-01",
+      "title_ko": "비상대응점검표 (화재및폭발) EMERGENCY CHECKLIST (FIRE & EXPLOSION) 비상대응점검표 (화재및폭발) EMERGENCY CHECKLIST (FIRE & EXPLOSION)",
+      "title_en": "비상대응점검표 (화재및폭발) EMERGENCY CHECKLIST (FIRE & EXPLOSION) 비상대응점검표 (화재및폭발) EMERGENCY CHECKLIST (FIRE & EXPLOSION)",
+      "pr_code": "DRK-PR15",
+      "pr_title_ko": "비상 대응",
+      "pr_title_en": "EMERGENCY RESPONSE",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR15-02",
+      "title_ko": "비상대응점검표 (기름유출) EMERGENCY CHECKLIST (OIL SPILL) 비상대응점검표 (기름유출) EMERGENCY CHECKLIST (OIL SPILL)",
+      "title_en": "비상대응점검표 (기름유출) EMERGENCY CHECKLIST (OIL SPILL) 비상대응점검표 (기름유출) EMERGENCY CHECKLIST (OIL SPILL)",
+      "pr_code": "DRK-PR15",
+      "pr_title_ko": "비상 대응",
+      "pr_title_en": "EMERGENCY RESPONSE",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR15-03",
+      "title_ko": "비상대응점검표 (케미컬유출) EMERGENCY CHECKLIST (CHEMICAL CARGO SPILL) 비상대응점검표 (케미컬유출) EMERGENCY CHECKLIST (CHEMICAL CARGO SPILL)",
+      "title_en": "비상대응점검표 (케미컬유출) EMERGENCY CHECKLIST (CHEMICAL CARGO SPILL) 비상대응점검표 (케미컬유출) EMERGENCY CHECKLIST (CHEMICAL CARGO SPILL)",
+      "pr_code": "DRK-PR15",
+      "pr_title_ko": "비상 대응",
+      "pr_title_en": "EMERGENCY RESPONSE",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR15-04",
+      "title_ko": "비상대응점검표 (이중저, 코퍼댐화물유출) EMERGENCY CHECKLIST (DOUBLE BOTTOM, COFFERDAM) 비상대응점검표 (이중저, 코퍼댐화물유출) EMERGENCY CHECKLIST (DOUBLE BOTTOM, COFFERDAM)",
+      "title_en": "비상대응점검표 (이중저, 코퍼댐화물유출) EMERGENCY CHECKLIST (DOUBLE BOTTOM, COFFERDAM) 비상대응점검표 (이중저, 코퍼댐화물유출) EMERGENCY CHECKLIST (DOUBLE BOTTOM, COFFERDAM)",
+      "pr_code": "DRK-PR15",
+      "pr_title_ko": "비상 대응",
+      "pr_title_en": "EMERGENCY RESPONSE",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR15-05",
+      "title_ko": "PR15-05 비상대응점검표(해상,해상묘박지화물유출)EMERGENCY CK-LIST (TOXIC GAS AND LIQUID RELEASE AT SEA",
+      "title_en": "ANCHOR) 비상대응점검표(해상,해상묘박지화물유출)EMERGENCY CK-LIST (TOXIC GAS AND LIQUID RELEASE AT SEA/ANCHOR)",
+      "pr_code": "DRK-PR15",
+      "pr_title_ko": "비상 대응",
+      "pr_title_en": "EMERGENCY RESPONSE",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR15-06",
+      "title_ko": "비상대응점검표(부두화물유출) EMER CK-LIST (TOXIC GAS AND LIQUID RELEASE AT TERMINAL) 비상대응점검표(부두화물유출) EMER CK-LIST (TOXIC GAS AND LIQUID RELEASE AT TERMINAL)",
+      "title_en": "비상대응점검표(부두화물유출) EMER CK-LIST (TOXIC GAS AND LIQUID RELEASE AT TERMINAL) 비상대응점검표(부두화물유출) EMER CK-LIST (TOXIC GAS AND LIQUID RELEASE AT TERMINAL)",
+      "pr_code": "DRK-PR15",
+      "pr_title_ko": "비상 대응",
+      "pr_title_en": "EMERGENCY RESPONSE",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR15-07",
+      "title_ko": "비상대응점검표 (퇴선) EMERGENCY CHECKLIST (ABANDON SHIP) 비상대응점검표 (퇴선) EMERGENCY CHECKLIST (ABANDON SHIP)",
+      "title_en": "비상대응점검표 (퇴선) EMERGENCY CHECKLIST (ABANDON SHIP) 비상대응점검표 (퇴선) EMERGENCY CHECKLIST (ABANDON SHIP)",
+      "pr_code": "DRK-PR15",
+      "pr_title_ko": "비상 대응",
+      "pr_title_en": "EMERGENCY RESPONSE",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR15-08",
+      "title_ko": "비상대응점검표 (타기고장) EMERGENCY CHECKLIST (STEERING GEAR FAILURE) 비상대응점검표 (타기고장) EMERGENCY CHECKLIST (STEERING GEAR FAILURE)",
+      "title_en": "비상대응점검표 (타기고장) EMERGENCY CHECKLIST (STEERING GEAR FAILURE) 비상대응점검표 (타기고장) EMERGENCY CHECKLIST (STEERING GEAR FAILURE)",
+      "pr_code": "DRK-PR15",
+      "pr_title_ko": "비상 대응",
+      "pr_title_en": "EMERGENCY RESPONSE",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR15-09",
+      "title_ko": "비상대응점검표 (충돌) EMERGENCY CHECKLIST (COLLISION) 비상대응점검표 (충돌) EMERGENCY CHECKLIST (COLLISION)",
+      "title_en": "비상대응점검표 (충돌) EMERGENCY CHECKLIST (COLLISION) 비상대응점검표 (충돌) EMERGENCY CHECKLIST (COLLISION)",
+      "pr_code": "DRK-PR15",
+      "pr_title_ko": "비상 대응",
+      "pr_title_en": "EMERGENCY RESPONSE",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR15-10",
+      "title_ko": "비상대응점검표 (좌초) EMERGENCY CHECKLIST (GROUNDING) 비상대응점검표 (좌초) EMERGENCY CHECKLIST (GROUNDING)",
+      "title_en": "비상대응점검표 (좌초) EMERGENCY CHECKLIST (GROUNDING) 비상대응점검표 (좌초) EMERGENCY CHECKLIST (GROUNDING)",
+      "pr_code": "DRK-PR15",
+      "pr_title_ko": "비상 대응",
+      "pr_title_en": "EMERGENCY RESPONSE",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR15-11",
+      "title_ko": "PR15-11 비상대응점검표 (침수) EMERGENCY CHECKLIST (FLOODING",
+      "title_en": "HULL FAILURE) 비상대응점검표 (침수) EMERGENCY CHECKLIST (FLOODING/HULL FAILURE)",
+      "pr_code": "DRK-PR15",
+      "pr_title_ko": "비상 대응",
+      "pr_title_en": "EMERGENCY RESPONSE",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR15-12",
+      "title_ko": "PR15-12 비상대응점검표 (주기고장) EMERGENCY CHECKLIST (M",
+      "title_en": "E FAILURE) 비상대응점검표 (주기고장) EMERGENCY CHECKLIST (M/E FAILURE)",
+      "pr_code": "DRK-PR15",
+      "pr_title_ko": "비상 대응",
+      "pr_title_en": "EMERGENCY RESPONSE",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR15-13",
+      "title_ko": "PR15-13 비상대응점검표 (발전기고장) EMERGENCY CHECKLIST (G",
+      "title_en": "E FAILURE) 비상대응점검표 (발전기고장) EMERGENCY CHECKLIST (G/E FAILURE)",
+      "pr_code": "DRK-PR15",
+      "pr_title_ko": "비상 대응",
+      "pr_title_en": "EMERGENCY RESPONSE",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR15-14",
+      "title_ko": "비상대응점검표 (자이로고장) EMERGENCY CHECKLIST (GYRO COMPASS FAILURE) 비상대응점검표 (자이로고장) EMERGENCY CHECKLIST (GYRO COMPASS FAILURE)",
+      "title_en": "비상대응점검표 (자이로고장) EMERGENCY CHECKLIST (GYRO COMPASS FAILURE) 비상대응점검표 (자이로고장) EMERGENCY CHECKLIST (GYRO COMPASS FAILURE)",
+      "pr_code": "DRK-PR15",
+      "pr_title_ko": "비상 대응",
+      "pr_title_en": "EMERGENCY RESPONSE",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR15-15",
+      "title_ko": "비상대응점검표 (긴급이안) EMERGENCY CHECKLIST (BREAKAWAY FROM JETTY) 비상대응점검표 (긴급이안) EMERGENCY CHECKLIST (BREAKAWAY FROM JETTY)",
+      "title_en": "비상대응점검표 (긴급이안) EMERGENCY CHECKLIST (BREAKAWAY FROM JETTY) 비상대응점검표 (긴급이안) EMERGENCY CHECKLIST (BREAKAWAY FROM JETTY)",
+      "pr_code": "DRK-PR15",
+      "pr_title_ko": "비상 대응",
+      "pr_title_en": "EMERGENCY RESPONSE",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR15-16",
+      "title_ko": "비상대응점검표 (화물투하) EMERGENCY CHECKLIST (CARGO JETTISON)",
+      "title_en": "비상대응점검표 (화물투하) EMERGENCY CHECKLIST (CARGO JETTISON)",
+      "pr_code": "DRK-PR15",
+      "pr_title_ko": "비상 대응",
+      "pr_title_en": "EMERGENCY RESPONSE",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR15-17",
+      "title_ko": "비상대응점검표 (익수자구조) EMERGENCY CHECKLIST (MAN OVERBOARD)",
+      "title_en": "비상대응점검표 (익수자구조) EMERGENCY CHECKLIST (MAN OVERBOARD)",
+      "pr_code": "DRK-PR15",
+      "pr_title_ko": "비상 대응",
+      "pr_title_en": "EMERGENCY RESPONSE",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR15-18",
+      "title_ko": "비상대응점검표 (밀폐구역인명구조)EMERGENCY CK-LIST (RESCUE IN ENCLOSE SPACE)",
+      "title_en": "비상대응점검표 (밀폐구역인명구조)EMERGENCY CK-LIST (RESCUE IN ENCLOSE SPACE)",
+      "pr_code": "DRK-PR15",
+      "pr_title_ko": "비상 대응",
+      "pr_title_en": "EMERGENCY RESPONSE",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR15-19",
+      "title_ko": "비상대응점검표 (인명손상) CHECKLIST (INJURED PERSON)",
+      "title_en": "비상대응점검표 (인명손상) CHECKLIST (INJURED PERSON)",
+      "pr_code": "DRK-PR15",
+      "pr_title_ko": "비상 대응",
+      "pr_title_en": "EMERGENCY RESPONSE",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR15-20",
+      "title_ko": "비상대응점검표 (비상예인) EMERGENCY CHECKLIST (EMERGENCY TOWING)",
+      "title_en": "비상대응점검표 (비상예인) EMERGENCY CHECKLIST (EMERGENCY TOWING)",
+      "pr_code": "DRK-PR15",
+      "pr_title_ko": "비상 대응",
+      "pr_title_en": "EMERGENCY RESPONSE",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR15-21",
+      "title_ko": "비상대응점검표 (해적출현) EMER CHECK LIST (PIRACY)",
+      "title_en": "비상대응점검표 (해적출현) EMER CHECK LIST (PIRACY)",
+      "pr_code": "DRK-PR15",
+      "pr_title_ko": "비상 대응",
+      "pr_title_en": "EMERGENCY RESPONSE",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR15-22",
+      "title_ko": "PR15-22 년간선내훈련계획",
+      "title_en": "실시일정표 SHIPBOARD DRILL/TRAINING PLANS",
+      "pr_code": "DRK-PR15",
+      "pr_title_ko": "비상 대응",
+      "pr_title_en": "EMERGENCY RESPONSE",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR15-23",
+      "title_ko": "비상대응훈련시나리오 EMERGENCY RESPONSE DRILL SCENARIO",
+      "title_en": "비상대응훈련시나리오 EMERGENCY RESPONSE DRILL SCENARIO",
+      "pr_code": "DRK-PR15",
+      "pr_title_ko": "비상 대응",
+      "pr_title_en": "EMERGENCY RESPONSE",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR15-24",
+      "title_ko": "육해상합동훈련일정표 SHIP SHORE JOINT DRILL PLANS",
+      "title_en": "육해상합동훈련일정표 SHIP SHORE JOINT DRILL PLANS",
+      "pr_code": "DRK-PR15",
+      "pr_title_ko": "비상 대응",
+      "pr_title_en": "EMERGENCY RESPONSE",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR15-25",
+      "title_ko": "최초보고점검표 CHECKLIST FOR INITIAL REPORT",
+      "title_en": "최초보고점검표 CHECKLIST FOR INITIAL REPORT",
+      "pr_code": "DRK-PR15",
+      "pr_title_ko": "비상 대응",
+      "pr_title_en": "EMERGENCY RESPONSE",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR15-26",
+      "title_ko": "해난사고보고서 NOTE OF PROTEST",
+      "title_en": "해난사고보고서 NOTE OF PROTEST",
+      "pr_code": "DRK-PR15",
+      "pr_title_ko": "비상 대응",
+      "pr_title_en": "EMERGENCY RESPONSE",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR15-27",
+      "title_ko": "사고전말서 STATEMENT OF FACT",
+      "title_en": "사고전말서 STATEMENT OF FACT",
+      "pr_code": "DRK-PR15",
+      "pr_title_ko": "비상 대응",
+      "pr_title_en": "EMERGENCY RESPONSE",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR15-28",
+      "title_ko": "비상사태상황일지 EMERGENCY STATUS LOG",
+      "title_en": "비상사태상황일지 EMERGENCY STATUS LOG",
+      "pr_code": "DRK-PR15",
+      "pr_title_ko": "비상 대응",
+      "pr_title_en": "EMERGENCY RESPONSE",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR15-29",
+      "title_ko": "개인별비상배치표 PERSONAL EMERGENCY STAIONN BILL",
+      "title_en": "개인별비상배치표 PERSONAL EMERGENCY STAIONN BILL",
+      "pr_code": "DRK-PR15",
+      "pr_title_ko": "비상 대응",
+      "pr_title_en": "EMERGENCY RESPONSE",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR15-30",
+      "title_ko": "EMERGENCY PORT CONTACT POINTS",
+      "title_en": "EMERGENCY PORT CONTACT POINTS",
+      "pr_code": "DRK-PR15",
+      "pr_title_ko": "비상 대응",
+      "pr_title_en": "EMERGENCY RESPONSE",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR15-32",
+      "title_ko": "List of Software onboard & Update Status of Anti-Virus Program 0 — (Rev: -, Latest: 2018-11-30)",
+      "title_en": "List of Software onboard & Update Status of Anti-Virus Program 0 — (Rev: -, Latest: 2018-11-30)",
+      "pr_code": "DRK-PR15",
+      "pr_title_ko": "비상 대응",
+      "pr_title_en": "EMERGENCY RESPONSE",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR15-33",
+      "title_ko": "Permit to Access on Computer network by Third Party 0 — (Rev: -, Latest: 2018-11-30)",
+      "title_en": "Permit to Access on Computer network by Third Party 0 — (Rev: -, Latest: 2018-11-30)",
+      "pr_code": "DRK-PR15",
+      "pr_title_ko": "비상 대응",
+      "pr_title_en": "EMERGENCY RESPONSE",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR16-01",
+      "title_ko": "년간외부심사계획서 ANNUAL EXTERNAL AUDIT PLAN",
+      "title_en": "년간외부심사계획서 ANNUAL EXTERNAL AUDIT PLAN",
+      "pr_code": "DRK-PR16",
+      "pr_title_ko": "외부 검사 및 심사",
+      "pr_title_en": "EXTERNAL INSPECTION AND AUDIT",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR16-02",
+      "title_ko": "기관장확인검사보고서 CHIEF ENGINEER CONFIRMATORY REPORT",
+      "title_en": "기관장확인검사보고서 CHIEF ENGINEER CONFIRMATORY REPORT",
+      "pr_code": "DRK-PR16",
+      "pr_title_ko": "외부 검사 및 심사",
+      "pr_title_en": "EXTERNAL INSPECTION AND AUDIT",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR16-03",
+      "title_ko": "항만국통제점검표 PSC CHECKLIST",
+      "title_en": "항만국통제점검표 PSC CHECKLIST",
+      "pr_code": "DRK-PR16",
+      "pr_title_ko": "외부 검사 및 심사",
+      "pr_title_en": "EXTERNAL INSPECTION AND AUDIT",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR16-04",
+      "title_ko": "Pre-arrival PSC checklist 0 — (Rev: -, Latest: 2025-01-09)",
+      "title_en": "Pre-arrival PSC checklist 0 — (Rev: -, Latest: 2025-01-09)",
+      "pr_code": "DRK-PR16",
+      "pr_title_ko": "외부 검사 및 심사",
+      "pr_title_en": "EXTERNAL INSPECTION AND AUDIT",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR17-01",
+      "title_ko": "일일보고서 DAILY REPORT",
+      "title_en": "일일보고서 DAILY REPORT",
+      "pr_code": "DRK-PR17",
+      "pr_title_ko": "선박 인수 및 인도",
+      "pr_title_en": "SHIP ACCEPTANCE AND DELIVERY",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR17-02",
+      "title_ko": "선주의견서 (신조선용) OWNER COMMENT (FOR NEW SHIPBUILDING)",
+      "title_en": "선주의견서 (신조선용) OWNER COMMENT (FOR NEW SHIPBUILDING)",
+      "pr_code": "DRK-PR17",
+      "pr_title_ko": "선박 인수 및 인도",
+      "pr_title_en": "SHIP ACCEPTANCE AND DELIVERY",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR17-03",
+      "title_ko": "일일인수일지 DAILY LOG FOR TAKING DELIVERY",
+      "title_en": "일일인수일지 DAILY LOG FOR TAKING DELIVERY",
+      "pr_code": "DRK-PR17",
+      "pr_title_ko": "선박 인수 및 인도",
+      "pr_title_en": "SHIP ACCEPTANCE AND DELIVERY",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR17-04",
+      "title_ko": "하자보상요청서 GUARANTEE CLAIM REPORT",
+      "title_en": "하자보상요청서 GUARANTEE CLAIM REPORT",
+      "pr_code": "DRK-PR17",
+      "pr_title_ko": "선박 인수 및 인도",
+      "pr_title_en": "SHIP ACCEPTANCE AND DELIVERY",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR17-05",
+      "title_ko": "하자보상요청서완료보고서 COMPLETION REPORT FOR GUARANTEE CLAIMS",
+      "title_en": "하자보상요청서완료보고서 COMPLETION REPORT FOR GUARANTEE CLAIMS",
+      "pr_code": "DRK-PR17",
+      "pr_title_ko": "선박 인수 및 인도",
+      "pr_title_en": "SHIP ACCEPTANCE AND DELIVERY",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR17-06",
+      "title_ko": "검선보고서 SHIP INSPECTION REPORT",
+      "title_en": "검선보고서 SHIP INSPECTION REPORT",
+      "pr_code": "DRK-PR17",
+      "pr_title_ko": "선박 인수 및 인도",
+      "pr_title_en": "SHIP ACCEPTANCE AND DELIVERY",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR17-07",
+      "title_ko": "PR17-07 선박인수점검표 (선기장) CHECKLIST OF SHIP DELIVERY (FOR MASTER & C",
+      "title_en": "E)",
+      "pr_code": "DRK-PR17",
+      "pr_title_ko": "선박 인수 및 인도",
+      "pr_title_en": "SHIP ACCEPTANCE AND DELIVERY",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR17-08",
+      "title_ko": "선박인수점검표 (감독) CHECKLIST OF SHIP DELIVERY (FOR SUPERINTENDENT)",
+      "title_en": "선박인수점검표 (감독) CHECKLIST OF SHIP DELIVERY (FOR SUPERINTENDENT)",
+      "pr_code": "DRK-PR17",
+      "pr_title_ko": "선박 인수 및 인도",
+      "pr_title_en": "SHIP ACCEPTANCE AND DELIVERY",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR18-01",
+      "title_ko": "년간방선점검계획서 ANNUAL VISITING INSPECTION PLAN",
+      "title_en": "년간방선점검계획서 ANNUAL VISITING INSPECTION PLAN",
+      "pr_code": "DRK-PR18",
+      "pr_title_ko": "측정 분석 및 개선",
+      "pr_title_en": "MEASUREMENT, ANALYSIS AND IMPROVEMENT",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR18-03",
+      "title_ko": "PR18-03 MR",
+      "title_en": "DP 방선보고서 MR/DP VISITING REPORT",
+      "pr_code": "DRK-PR18",
+      "pr_title_ko": "측정 분석 및 개선",
+      "pr_title_en": "MEASUREMENT, ANALYSIS AND IMPROVEMENT",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR18-04",
+      "title_ko": "안전회의록 SAFETY MEETING MINUTE",
+      "title_en": "안전회의록 SAFETY MEETING MINUTE",
+      "pr_code": "DRK-PR18",
+      "pr_title_ko": "측정 분석 및 개선",
+      "pr_title_en": "MEASUREMENT, ANALYSIS AND IMPROVEMENT",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR18-05",
+      "title_ko": "PR18-05 MAJOR",
+      "title_en": "CDI PRE-INSPECTION CHECKLIST",
+      "pr_code": "DRK-PR18",
+      "pr_title_ko": "측정 분석 및 개선",
+      "pr_title_en": "MEASUREMENT, ANALYSIS AND IMPROVEMENT",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR18-06",
+      "title_ko": "감독방선리포트 SUPERINTENDENTVETTING FINDING REPORT",
+      "title_en": "감독방선리포트 SUPERINTENDENTVETTING FINDING REPORT",
+      "pr_code": "DRK-PR18",
+      "pr_title_ko": "측정 분석 및 개선",
+      "pr_title_en": "MEASUREMENT, ANALYSIS AND IMPROVEMENT",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR18-07",
+      "title_ko": "PERIODICAL SHIPBOARD SHQE COMMITTEE MEETING MINUTES",
+      "title_en": "PERIODICAL SHIPBOARD SHQE COMMITTEE MEETING MINUTES",
+      "pr_code": "DRK-PR18",
+      "pr_title_ko": "측정 분석 및 개선",
+      "pr_title_en": "MEASUREMENT, ANALYSIS AND IMPROVEMENT",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR18-08",
+      "title_ko": "임시선박 SHQE 위원회회의록 OCCASIONAL SHIPBOARD SHQE MEETING MINUTES",
+      "title_en": "임시선박 SHQE 위원회회의록 OCCASIONAL SHIPBOARD SHQE MEETING MINUTES",
+      "pr_code": "DRK-PR18",
+      "pr_title_ko": "측정 분석 및 개선",
+      "pr_title_en": "MEASUREMENT, ANALYSIS AND IMPROVEMENT",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR18-09",
+      "title_ko": "선내주간회의록 SHIPBOARD WEEKLY MEETING MINUTE",
+      "title_en": "선내주간회의록 SHIPBOARD WEEKLY MEETING MINUTE",
+      "pr_code": "DRK-PR18",
+      "pr_title_ko": "측정 분석 및 개선",
+      "pr_title_en": "MEASUREMENT, ANALYSIS AND IMPROVEMENT",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR18-10",
+      "title_ko": "TOOL BOX MEETING LOG (WITH SHORE WORKERS) 0 1 — (Rev: -, Latest: 2022-11-01)",
+      "title_en": "TOOL BOX MEETING LOG (WITH SHORE WORKERS) 0 1 — (Rev: -, Latest: 2022-11-01)",
+      "pr_code": "DRK-PR18",
+      "pr_title_ko": "측정 분석 및 개선",
+      "pr_title_en": "MEASUREMENT, ANALYSIS AND IMPROVEMENT",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR18-11",
+      "title_ko": "법규및그밖에요구사항점검표 TABLE FOR LEGAL_OTHER REQUIREMENT",
+      "title_en": "법규및그밖에요구사항점검표 TABLE FOR LEGAL_OTHER REQUIREMENT",
+      "pr_code": "DRK-PR18",
+      "pr_title_ko": "측정 분석 및 개선",
+      "pr_title_en": "MEASUREMENT, ANALYSIS AND IMPROVEMENT",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR18-12",
+      "title_ko": "프로세스측정기록부 PROCESS MEASURING RECORD",
+      "title_en": "프로세스측정기록부 PROCESS MEASURING RECORD",
+      "pr_code": "DRK-PR18",
+      "pr_title_ko": "측정 분석 및 개선",
+      "pr_title_en": "MEASUREMENT, ANALYSIS AND IMPROVEMENT",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR18-13",
+      "title_ko": "사내월간회의록 OFFICE MONTHLY MEETING MINUTE",
+      "title_en": "사내월간회의록 OFFICE MONTHLY MEETING MINUTE",
+      "pr_code": "DRK-PR18",
+      "pr_title_ko": "측정 분석 및 개선",
+      "pr_title_en": "MEASUREMENT, ANALYSIS AND IMPROVEMENT",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR18-14",
+      "title_ko": "사내주간회의록 OFFICE WEEKLY MEETING MINUTE",
+      "title_en": "사내주간회의록 OFFICE WEEKLY MEETING MINUTE",
+      "pr_code": "DRK-PR18",
+      "pr_title_ko": "측정 분석 및 개선",
+      "pr_title_en": "MEASUREMENT, ANALYSIS AND IMPROVEMENT",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR18-15",
+      "title_ko": "정기육상 SHQE 위원회회의록 PERIODICAL SHORE SHQE MEETING MINUTES",
+      "title_en": "정기육상 SHQE 위원회회의록 PERIODICAL SHORE SHQE MEETING MINUTES",
+      "pr_code": "DRK-PR18",
+      "pr_title_ko": "측정 분석 및 개선",
+      "pr_title_en": "MEASUREMENT, ANALYSIS AND IMPROVEMENT",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR18-16",
+      "title_ko": "임시육상 SHQE 위원회회의록 OCCASIONAL SHORE SHQE MEETING MINUTES",
+      "title_en": "임시육상 SHQE 위원회회의록 OCCASIONAL SHORE SHQE MEETING MINUTES",
+      "pr_code": "DRK-PR18",
+      "pr_title_ko": "측정 분석 및 개선",
+      "pr_title_en": "MEASUREMENT, ANALYSIS AND IMPROVEMENT",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR18-17",
+      "title_ko": "출장신청서 APPLIICCATION OF BUSINESS TRIP",
+      "title_en": "출장신청서 APPLIICCATION OF BUSINESS TRIP",
+      "pr_code": "DRK-PR18",
+      "pr_title_ko": "측정 분석 및 개선",
+      "pr_title_en": "MEASUREMENT, ANALYSIS AND IMPROVEMENT",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR18-18",
+      "title_ko": "출장보고서",
+      "title_en": "출장보고서",
+      "pr_code": "DRK-PR18",
+      "pr_title_ko": "측정 분석 및 개선",
+      "pr_title_en": "MEASUREMENT, ANALYSIS AND IMPROVEMENT",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR18-19",
+      "title_ko": "Supt’ Vetting Inspection 0 — (Rev: -, Latest: 2018-01-16)",
+      "title_en": "Supt’ Vetting Inspection 0 — (Rev: -, Latest: 2018-01-16)",
+      "pr_code": "DRK-PR18",
+      "pr_title_ko": "측정 분석 및 개선",
+      "pr_title_en": "MEASUREMENT, ANALYSIS AND IMPROVEMENT",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR18-20",
+      "title_ko": "Internal & External Issue 0 — (Rev: -, Latest: 2018-10-01)",
+      "title_en": "Internal & External Issue 0 — (Rev: -, Latest: 2018-10-01)",
+      "pr_code": "DRK-PR18",
+      "pr_title_ko": "측정 분석 및 개선",
+      "pr_title_en": "MEASUREMENT, ANALYSIS AND IMPROVEMENT",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR18-21",
+      "title_ko": "이해관계자요구사항 0 — (Rev: -, Latest: 2018-10-01)",
+      "title_en": "이해관계자요구사항 0 — (Rev: -, Latest: 2018-10-01)",
+      "pr_code": "DRK-PR18",
+      "pr_title_ko": "측정 분석 및 개선",
+      "pr_title_en": "MEASUREMENT, ANALYSIS AND IMPROVEMENT",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR18-22",
+      "title_ko": "Condition Report 0 — (Rev: -, Latest: 2018-12-30)",
+      "title_en": "Condition Report 0 — (Rev: -, Latest: 2018-12-30)",
+      "pr_code": "DRK-PR18",
+      "pr_title_ko": "측정 분석 및 개선",
+      "pr_title_en": "MEASUREMENT, ANALYSIS AND IMPROVEMENT",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR18-23",
+      "title_ko": "선장자체심사보고서 MASTER SELF VETTING FINDING",
+      "title_en": "선장자체심사보고서 MASTER SELF VETTING FINDING",
+      "pr_code": "DRK-PR18",
+      "pr_title_ko": "측정 분석 및 개선",
+      "pr_title_en": "MEASUREMENT, ANALYSIS AND IMPROVEMENT",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR19-01",
+      "title_ko": "고객불만사항관리보고서 CUSTOMER DISSATISFACTION CONTROL REPORT",
+      "title_en": "고객불만사항관리보고서 CUSTOMER DISSATISFACTION CONTROL REPORT",
+      "pr_code": "DRK-PR19",
+      "pr_title_ko": "고객 불만사항 처리",
+      "pr_title_en": "CONTROL OF CUSTOMER'S COMPLAINT",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR19-02",
+      "title_ko": "고객불만사항관리대장 CUSTOMER DISSATISFACTION CONTROL LOG",
+      "title_en": "고객불만사항관리대장 CUSTOMER DISSATISFACTION CONTROL LOG",
+      "pr_code": "DRK-PR19",
+      "pr_title_ko": "고객 불만사항 처리",
+      "pr_title_en": "CONTROL OF CUSTOMER'S COMPLAINT",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR19-03",
+      "title_ko": "고객만족도조사지 QUESTIONNAIRE FOR CUSTOMER SATISFACTION",
+      "title_en": "고객만족도조사지 QUESTIONNAIRE FOR CUSTOMER SATISFACTION",
+      "pr_code": "DRK-PR19",
+      "pr_title_ko": "고객 불만사항 처리",
+      "pr_title_en": "CONTROL OF CUSTOMER'S COMPLAINT",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR19-04",
+      "title_ko": "고객만족도평가 Customer Satisfaction Evaluation",
+      "title_en": "고객만족도평가 Customer Satisfaction Evaluation",
+      "pr_code": "DRK-PR19",
+      "pr_title_ko": "고객 불만사항 처리",
+      "pr_title_en": "CONTROL OF CUSTOMER'S COMPLAINT",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR20-01",
+      "title_ko": "내부심사자자격평가서 INTERNAL AUDITOR QUALIFICATION APPRAISAL SHEET",
+      "title_en": "내부심사자자격평가서 INTERNAL AUDITOR QUALIFICATION APPRAISAL SHEET",
+      "pr_code": "DRK-PR20",
+      "pr_title_ko": "내부심사",
+      "pr_title_en": "INTERNAL AUDIT",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR20-02",
+      "title_ko": "내부심사자목록표 INTERNAL AUDITOR LIST",
+      "title_en": "내부심사자목록표 INTERNAL AUDITOR LIST",
+      "pr_code": "DRK-PR20",
+      "pr_title_ko": "내부심사",
+      "pr_title_en": "INTERNAL AUDIT",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR20-03",
+      "title_ko": "년간내부심사계획서 ANNUAL INTERNAL AUDIT PLAN",
+      "title_en": "년간내부심사계획서 ANNUAL INTERNAL AUDIT PLAN",
+      "pr_code": "DRK-PR20",
+      "pr_title_ko": "내부심사",
+      "pr_title_en": "INTERNAL AUDIT",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR20-04",
+      "title_ko": "내부심사통보서 NOTICE OF INTERNAL AUDIT PROGRAM",
+      "title_en": "내부심사통보서 NOTICE OF INTERNAL AUDIT PROGRAM",
+      "pr_code": "DRK-PR20",
+      "pr_title_ko": "내부심사",
+      "pr_title_en": "INTERNAL AUDIT",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR20-05",
+      "title_ko": "내부심사체크리스트(선박) ISM INTERNAL AUDIT CHECK LIST(FOR VESSEL)",
+      "title_en": "내부심사체크리스트(선박) ISM INTERNAL AUDIT CHECK LIST(FOR VESSEL)",
+      "pr_code": "DRK-PR20",
+      "pr_title_ko": "내부심사",
+      "pr_title_en": "INTERNAL AUDIT",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR20-06",
+      "title_ko": "심사보고서 AUDIT REPORT",
+      "title_en": "심사보고서 AUDIT REPORT",
+      "pr_code": "DRK-PR20",
+      "pr_title_ko": "내부심사",
+      "pr_title_en": "INTERNAL AUDIT",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR20-07",
+      "title_ko": "내부심사시정조치완료통보 COMPLETED NOTIFICATION OF CORRECTIVE ACTION",
+      "title_en": "내부심사시정조치완료통보 COMPLETED NOTIFICATION OF CORRECTIVE ACTION",
+      "pr_code": "DRK-PR20",
+      "pr_title_ko": "내부심사",
+      "pr_title_en": "INTERNAL AUDIT",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR20-08",
+      "title_ko": "원격내부심사 제출 서류 목록 Document of submit to company for remote internal audit 0 — (Rev: -, Latest: 2021-09-10)",
+      "title_en": "원격내부심사 제출 서류 목록 Document of submit to company for remote internal audit 0 — (Rev: -, Latest: 2021-09-10)",
+      "pr_code": "DRK-PR20",
+      "pr_title_ko": "내부심사",
+      "pr_title_en": "INTERNAL AUDIT",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR20-09",
+      "title_ko": "원격 내부심사를 위한 선박 정보(갑판) Vessel information for remote internal audit(Deck) 0 — (Rev: -, Latest: 2021-09-10)",
+      "title_en": "원격 내부심사를 위한 선박 정보(갑판) Vessel information for remote internal audit(Deck) 0 — (Rev: -, Latest: 2021-09-10)",
+      "pr_code": "DRK-PR20",
+      "pr_title_ko": "내부심사",
+      "pr_title_en": "INTERNAL AUDIT",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR20-10",
+      "title_ko": "원격 내부심사를 위한 선박 정보(기관) Vessel information for remote internal audit(Eng) 0 — (Rev: -, Latest: 2021-09-10)",
+      "title_en": "원격 내부심사를 위한 선박 정보(기관) Vessel information for remote internal audit(Eng) 0 — (Rev: -, Latest: 2021-09-10)",
+      "pr_code": "DRK-PR20",
+      "pr_title_ko": "내부심사",
+      "pr_title_en": "INTERNAL AUDIT",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR20-11",
+      "title_ko": "원격 내부 심사 제출 사진(갑판) Photo of submit to company for remote internal audit(Deck) 0 — (Rev: -, Latest: 2021-09-10)",
+      "title_en": "원격 내부 심사 제출 사진(갑판) Photo of submit to company for remote internal audit(Deck) 0 — (Rev: -, Latest: 2021-09-10)",
+      "pr_code": "DRK-PR20",
+      "pr_title_ko": "내부심사",
+      "pr_title_en": "INTERNAL AUDIT",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR20-12",
+      "title_ko": "원격 내부 심사 제출 사진(기관) Photo of submit to company for remote internal audit(Eng) 0 — (Rev: -, Latest: 2021-09-10)",
+      "title_en": "원격 내부 심사 제출 사진(기관) Photo of submit to company for remote internal audit(Eng) 0 — (Rev: -, Latest: 2021-09-10)",
+      "pr_code": "DRK-PR20",
+      "pr_title_ko": "내부심사",
+      "pr_title_en": "INTERNAL AUDIT",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR21-01",
+      "title_ko": "부적합보고서 NON-CONFORMITY REPORT",
+      "title_en": "부적합보고서 NON-CONFORMITY REPORT",
+      "pr_code": "DRK-PR21",
+      "pr_title_ko": "부적합처리",
+      "pr_title_en": "CONTROL OF NON-CONFORMITY",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR21-02",
+      "title_ko": "부적합사항관리대장 NON-CONFORMITY CONTROL LOG",
+      "title_en": "부적합사항관리대장 NON-CONFORMITY CONTROL LOG",
+      "pr_code": "DRK-PR21",
+      "pr_title_ko": "부적합처리",
+      "pr_title_en": "CONTROL OF NON-CONFORMITY",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR22-01",
+      "title_ko": "비상 연락망 Em’cy contact point",
+      "title_en": "비상 연락망 Em’cy contact point",
+      "pr_code": "DRK-PR22",
+      "pr_title_ko": "사이버 보안관리",
+      "pr_title_en": "CYBER SECURITY MANAGEMENT",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR22-02",
+      "title_ko": "선박 보안 안내 Safety Guidelines for Cyber security",
+      "title_en": "선박 보안 안내 Safety Guidelines for Cyber security",
+      "pr_code": "DRK-PR22",
+      "pr_title_ko": "사이버 보안관리",
+      "pr_title_en": "CYBER SECURITY MANAGEMENT",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR22-03",
+      "title_ko": "외부인 네트워크 접근 허가서 PERMIT TO ACCESS ON COMPUTER NETWORK BY THIRD PARTY 0 — (Rev: -, Latest: 2021-01-01)",
+      "title_en": "외부인 네트워크 접근 허가서 PERMIT TO ACCESS ON COMPUTER NETWORK BY THIRD PARTY 0 — (Rev: -, Latest: 2021-01-01)",
+      "pr_code": "DRK-PR22",
+      "pr_title_ko": "사이버 보안관리",
+      "pr_title_en": "CYBER SECURITY MANAGEMENT",
+      "revision": "",
+      "latest": ""
+    },
+    {
+      "code": "DRKF-PR22-04",
+      "title_ko": "정보 보안 서약서 Information Security Pledge 0 — (Rev: -, Latest: 2021-01-01)",
+      "title_en": "정보 보안 서약서 Information Security Pledge 0 — (Rev: -, Latest: 2021-01-01)",
+      "pr_code": "DRK-PR22",
+      "pr_title_ko": "사이버 보안관리",
+      "pr_title_en": "CYBER SECURITY MANAGEMENT",
+      "revision": "",
+      "latest": ""
+    }
+  ]
+}
