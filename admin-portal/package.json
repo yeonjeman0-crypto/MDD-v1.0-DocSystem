@@ -1,0 +1,48 @@
+{
+  "name": "mdd-admin-portal",
+  "version": "1.0.0",
+  "description": "MDD System Admin Portal - React Frontend",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "lint:fix": "eslint . --ext ts,tsx --fix",
+    "test": "vitest",
+    "test:ui": "vitest --ui"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.15.0",
+    "antd": "^5.8.0",
+    "@ant-design/icons": "^5.2.0",
+    "@tanstack/react-query": "^4.32.0",
+    "zustand": "^4.4.0",
+    "react-hook-form": "^7.45.0",
+    "react-pdf": "^7.3.0",
+    "react-dropzone": "^14.2.0",
+    "@tanstack/react-table": "^8.9.0",
+    "@monaco-editor/react": "^4.5.0",
+    "axios": "^1.5.0",
+    "dayjs": "^1.11.0",
+    "crypto-js": "^4.1.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "@types/crypto-js": "^4.1.0",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "@vitejs/plugin-react": "^4.0.0",
+    "eslint": "^8.45.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.0",
+    "sass": "^1.64.0",
+    "typescript": "^5.0.0",
+    "vite": "^4.4.0",
+    "vitest": "^0.34.0",
+    "@vitest/ui": "^0.34.0"
+  }
+}

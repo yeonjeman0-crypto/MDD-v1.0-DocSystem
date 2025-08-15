@@ -1,0 +1,81 @@
+{
+  "name": "mdd-v1.0-doc-system",
+  "version": "1.0.0",
+  "description": "Maritime Document Distribution System - Enterprise document management for ships",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npm run dev:api & npm run dev:portal",
+    "dev:api": "cd api && npm run start:dev",
+    "dev:portal": "cd admin-portal && npm run dev",
+    "build": "npm run build:api && npm run build:portal && npm run build:viewer",
+    "build:api": "cd api && npm run build",
+    "build:portal": "cd admin-portal && npm run build",
+    "build:viewer": "cd viewer && npm run build",
+    "test": "npm run test:api && npm run test:portal",
+    "test:api": "cd api && npm run test",
+    "test:portal": "cd admin-portal && npm run test",
+    "lint": "npm run lint:api && npm run lint:portal",
+    "lint:api": "cd api && npm run lint",
+    "lint:portal": "cd admin-portal && npm run lint",
+    "docker:build": "docker-compose build",
+    "docker:up": "docker-compose up -d",
+    "docker:down": "docker-compose down",
+    "k8s:deploy": "helm upgrade --install mdd-system ./infrastructure/helm/",
+    "k8s:undeploy": "helm uninstall mdd-system"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/[username]/MDD-v1.0-DocSystem.git"
+  },
+  "keywords": [
+    "maritime",
+    "document-management",
+    "ship",
+    "offline",
+    "distribution",
+    "electron",
+    "nestjs",
+    "react",
+    "typescript",
+    "enterprise"
+  ],
+  "author": "DORIKO Team",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/[username]/MDD-v1.0-DocSystem/issues"
+  },
+  "homepage": "https://github.com/[username]/MDD-v1.0-DocSystem#readme",
+  "engines": {
+    "node": ">=20.0.0",
+    "npm": ">=9.0.0"
+  },
+  "workspaces": [
+    "admin-portal",
+    "api",
+    "viewer",
+    "exporter",
+    "tools/*"
+  ],
+  "devDependencies": {
+    "@commitlint/cli": "^17.0.0",
+    "@commitlint/config-conventional": "^17.0.0",
+    "husky": "^8.0.0",
+    "lint-staged": "^13.0.0",
+    "prettier": "^2.8.0",
+    "concurrently": "^7.6.0"
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx}": [
+      "prettier --write",
+      "eslint --fix"
+    ],
+    "*.{json,md,yml,yaml}": [
+      "prettier --write"
+    ]
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  }
+}

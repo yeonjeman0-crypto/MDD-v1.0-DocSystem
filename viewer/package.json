@@ -1,0 +1,77 @@
+{
+  "name": "mdd-viewer",
+  "version": "1.0.0",
+  "description": "MDD Ship Viewer - Electron Desktop Application",
+  "main": "dist/main.js",
+  "author": "DORIKO Team",
+  "license": "MIT",
+  "scripts": {
+    "build": "npm run build:main && npm run build:renderer",
+    "build:main": "tsc",
+    "build:renderer": "vite build",
+    "dev": "concurrently \"npm run dev:main\" \"npm run dev:renderer\"",
+    "dev:main": "tsc && electron . --dev",
+    "dev:renderer": "vite",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder",
+    "dist:win": "electron-builder --win",
+    "dist:mac": "electron-builder --mac",
+    "dist:linux": "electron-builder --linux",
+    "postinstall": "electron-builder install-app-deps"
+  },
+  "build": {
+    "appId": "com.doriko.mdd-viewer",
+    "productName": "DRK Document Viewer",
+    "directories": {
+      "output": "dist-electron"
+    },
+    "files": [
+      "dist/**/*",
+      "node_modules/**/*",
+      "package.json"
+    ],
+    "win": {
+      "target": "nsis",
+      "icon": "assets/icon.ico",
+      "artifactName": "DRKViewer-${version}-setup.${ext}"
+    },
+    "mac": {
+      "target": "dmg",
+      "icon": "assets/icon.icns"
+    },
+    "linux": {
+      "target": "AppImage",
+      "icon": "assets/icon.png"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "installerIcon": "assets/icon.ico",
+      "uninstallerIcon": "assets/icon.ico",
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true
+    }
+  },
+  "dependencies": {
+    "electron-updater": "^6.1.0",
+    "sqlite3": "^5.1.0",
+    "zstd": "^0.1.0",
+    "tweetnacl": "^1.0.3",
+    "yauzl": "^2.10.0",
+    "node-stream-zip": "^1.15.0"
+  },
+  "devDependencies": {
+    "electron": "^25.0.0",
+    "electron-builder": "^24.0.0",
+    "@types/node": "^20.3.0",
+    "typescript": "^5.1.0",
+    "vite": "^4.4.0",
+    "concurrently": "^7.6.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-pdf": "^7.3.0",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "@vitejs/plugin-react": "^4.0.0"
+  }
+}
