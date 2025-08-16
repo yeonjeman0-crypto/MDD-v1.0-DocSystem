@@ -5,10 +5,14 @@ import {
   MenuUnfoldOutlined, 
   FileTextOutlined, 
   AppstoreOutlined,
-  TeamOutlined
+  TeamOutlined,
+  SearchOutlined,
+  DashboardOutlined
 } from '@ant-design/icons';
 import { PackagesPage } from './pages/PackagesPage';
 import { DocumentsPage } from './pages/DocumentsPage';
+import { SearchPage } from './pages/SearchPage';
+import { MonitoringPage } from './pages/MonitoringPage';
 import FleetPage from './pages/FleetPage';
 import './App.css';
 
@@ -29,6 +33,16 @@ function App() {
       label: '선박 관리',
     },
     {
+      key: 'monitoring',
+      icon: <DashboardOutlined />,
+      label: '모니터링',
+    },
+    {
+      key: 'search',
+      icon: <SearchOutlined />,
+      label: '문서 검색',
+    },
+    {
       key: 'packages',
       icon: <AppstoreOutlined />,
       label: '패키지 관리',
@@ -44,6 +58,10 @@ function App() {
     switch (selectedKey) {
       case 'fleet':
         return <FleetPage />;
+      case 'monitoring':
+        return <MonitoringPage />;
+      case 'search':
+        return <SearchPage />;
       case 'packages':
         return <PackagesPage />;
       case 'documents':
@@ -131,6 +149,8 @@ function App() {
             />
             <h2 style={{ margin: 0, marginLeft: 16, color: '#1890ff' }}>
               {selectedKey === 'fleet' ? '🚢 선박 관리' : 
+               selectedKey === 'monitoring' ? '📊 모니터링' :
+               selectedKey === 'search' ? '🔍 문서 검색' :
                selectedKey === 'packages' ? '📦 패키지 관리' : '📄 문서 관리'}
             </h2>
           </div>

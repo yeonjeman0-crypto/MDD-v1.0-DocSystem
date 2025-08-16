@@ -1,0 +1,225 @@
+import { Injectable, Logger, OnModuleInit } from '@nestjs/common';
+import { Cron, CronExpression } from '@nestjs/schedule';
+import { SearchService } from './search.service.simple';
+import { DocumentIndexerService as SimpleIndexer } from './document-indexer.service.simple';
+
+@Injectable()
+export class DocumentIndexerService implements OnModuleInit {
+  private readonly logger = new Logger(DocumentIndexerService.name);
+
+  constructor(
+    private readonly searchService: SearchService,
+    private readonly documentListService: DocumentListService,
+  ) {}
+
+  async onModuleInit() {
+    // 서버 시작 시 자동으로 문서 인덱싱 (백그라운드 실행)
+    setTimeout(() => this.initializeDocumentIndex(), 5000);
+  }
+
+  async initializeDocumentIndex(): Promise<void> {
+    try {
+      this.logger.log('Starting document indexing...');
+      
+      const allDocuments = await this.getAllDocuments();
+      this.logger.log(`Found ${allDocuments.length} documents to index`);
+
+      if (allDocuments.length > 0) {
+        await this.searchService.bulkIndex(allDocuments);
+        this.logger.log('Document indexing completed successfully');
+      }
+    } catch (error) {
+      this.logger.error('Failed to initialize document index:', error);
+    }
+  }
+
+  @Cron(CronExpression.EVERY_HOUR)
+  async refreshDocumentIndex(): Promise<void> {
+    this.logger.log('Starting scheduled document index refresh...');
+    await this.initializeDocumentIndex();
+  }
+
+  private async getAllDocuments(): Promise<any[]> {
+    try {
+      const documents = [];
+
+      // Main Manual 문서들
+      try {
+        const mainManual = await this.documentListService.getMainManual();
+        if (mainManual?.items) {
+          mainManual.items.forEach((item: any) => {
+            documents.push({
+              ...item,
+              section: 'main-manual',
+            });
+          });
+        }
+      } catch (error) {
+        this.logger.warn('Failed to load main manual:', error);
+      }
+
+      // Procedures 문서들
+      try {
+        const procedures = await this.documentListService.getProcedures();
+        if (procedures?.items) {
+          procedures.items.forEach((procedure: any) => {
+            // Front 항목들
+            if (procedure.front) {
+              procedure.front.forEach((item: any) => {
+                documents.push({
+                  ...item,
+                  section: 'procedures',
+                  procedureCode: procedure.code,
+                  vesselType: procedure.vessel_type,
+                });
+              });
+            }
+
+            // Chapters 항목들
+            if (procedure.chapters) {
+              procedure.chapters.forEach((item: any) => {
+                documents.push({
+                  ...item,
+                  section: 'procedures',
+                  procedureCode: procedure.code,
+                  vesselType: procedure.vessel_type,
+                });
+              });
+            }
+
+            // Appendices 항목들
+            if (procedure.appendices) {
+              procedure.appendices.forEach((item: any) => {
+                documents.push({
+                  ...item,
+                  section: 'procedures',
+                  procedureCode: procedure.code,
+                  vesselType: procedure.vessel_type,
+                });
+              });
+            }
+          });
+        }
+      } catch (error) {
+        this.logger.warn('Failed to load procedures:', error);
+      }
+
+      // Instructions 문서들
+      try {
+        const instructions = await this.documentListService.getInstructions();
+        if (instructions?.items) {
+          instructions.items.forEach((item: any) => {
+            documents.push({
+              ...item,
+              section: 'instructions',
+            });
+          });
+        }
+      } catch (error) {
+        this.logger.warn('Failed to load instructions:', error);
+      }
+
+      // Forms 문서들
+      try {
+        const forms = await this.documentListService.getForms();
+        if (forms?.items) {
+          forms.items.forEach((item: any) => {
+            documents.push({
+              ...item,
+              section: 'forms',
+            });
+          });
+        }
+      } catch (error) {
+        this.logger.warn('Failed to load forms:', error);
+      }
+
+      return documents;
+    } catch (error) {
+      this.logger.error('Failed to gather all documents:', error);
+      return [];
+    }
+  }
+
+  async reindexSpecificSection(section: string): Promise<void> {
+    try {
+      this.logger.log(`Reindexing section: ${section}`);
+      
+      let documents = [];
+      
+      switch (section) {
+        case 'main-manual':
+          const mainManual = await this.documentListService.getMainManual();
+          if (mainManual?.items) {
+            documents = mainManual.items.map((item: any) => ({
+              ...item,
+              section: 'main-manual',
+            }));
+          }
+          break;
+          
+        case 'procedures':
+          const procedures = await this.documentListService.getProcedures();
+          if (procedures?.items) {
+            procedures.items.forEach((procedure: any) => {
+              ['front', 'chapters', 'appendices'].forEach((subSection) => {
+                if (procedure[subSection]) {
+                  procedure[subSection].forEach((item: any) => {
+                    documents.push({
+                      ...item,
+                      section: 'procedures',
+                      procedureCode: procedure.code,
+                      vesselType: procedure.vessel_type,
+                    });
+                  });
+                }
+              });
+            });
+          }
+          break;
+          
+        case 'instructions':
+          const instructions = await this.documentListService.getInstructions();
+          if (instructions?.items) {
+            documents = instructions.items.map((item: any) => ({
+              ...item,
+              section: 'instructions',
+            }));
+          }
+          break;
+          
+        case 'forms':
+          const forms = await this.documentListService.getForms();
+          if (forms?.items) {
+            documents = forms.items.map((item: any) => ({
+              ...item,
+              section: 'forms',
+            }));
+          }
+          break;
+      }
+
+      if (documents.length > 0) {
+        await this.searchService.bulkIndex(documents);
+        this.logger.log(`Successfully reindexed ${documents.length} documents in section: ${section}`);
+      }
+    } catch (error) {
+      this.logger.error(`Failed to reindex section ${section}:`, error);
+    }
+  }
+
+  async getIndexingStatus(): Promise<{
+    isIndexing: boolean;
+    lastIndexed: Date;
+    totalDocuments: number;
+    errors: string[];
+  }> {
+    // In a real implementation, you'd track indexing status
+    return {
+      isIndexing: false,
+      lastIndexed: new Date(),
+      totalDocuments: 0,
+      errors: [],
+    };
+  }
+}

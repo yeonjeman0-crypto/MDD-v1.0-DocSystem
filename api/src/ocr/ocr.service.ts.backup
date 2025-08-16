@@ -1,0 +1,319 @@
+import { Injectable, Logger } from '@nestjs/common';
+import { createWorker } from 'tesseract.js';
+import * as pdf2pic from 'pdf2pic';
+import * as sharp from 'sharp';
+import * as fs from 'fs';
+import * as path from 'path';
+import { SearchService } from '../search/search.service.simple';
+
+export interface OcrResult {
+  text: string;
+  confidence: number;
+  pageNumber: number;
+  processingTime: number;
+}
+
+export interface DocumentOcrResult {
+  filePath: string;
+  totalPages: number;
+  extractedText: string;
+  pages: OcrResult[];
+  totalProcessingTime: number;
+  averageConfidence: number;
+}
+
+@Injectable()
+export class OcrService {
+  private readonly logger = new Logger(OcrService.name);
+  private worker: any;
+
+  constructor(private readonly searchService: SearchService) {
+    this.initializeOcrWorker();
+  }
+
+  private async initializeOcrWorker() {
+    try {
+      this.worker = await createWorker('kor+eng', 1, {
+        logger: (m) => {
+          if (m.status === 'recognizing text') {
+            this.logger.debug(`OCR Progress: ${Math.round(m.progress * 100)}%`);
+          }
+        },
+      });
+      
+      await this.worker.setParameters({
+        tessedit_pageseg_mode: '1', // Automatic page segmentation with OSD
+        tessedit_char_whitelist: 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789ㄱ-ㅎㅏ-ㅣ가-힣,.!?:;()-[]{}/"\'@ ',
+      });
+      
+      this.logger.log('OCR Worker initialized successfully');
+    } catch (error) {
+      this.logger.error('Failed to initialize OCR worker:', error);
+    }
+  }
+
+  async extractTextFromPdf(filePath: string): Promise<DocumentOcrResult> {
+    const startTime = Date.now();
+    
+    try {
+      this.logger.log(`Starting OCR extraction for: ${filePath}`);
+      
+      if (!fs.existsSync(filePath)) {
+        throw new Error(`File not found: ${filePath}`);
+      }
+
+      // Convert PDF to images
+      const convert = pdf2pic.fromPath(filePath, {
+        density: 200, // Higher density for better OCR accuracy
+        saveFilename: 'page',
+        savePath: path.join(__dirname, '..', '..', 'temp', 'ocr'),
+        format: 'png',
+        width: 2000,
+        height: 2000,
+      });
+
+      // Create temp directory if it doesn't exist
+      const tempDir = path.join(__dirname, '..', '..', 'temp', 'ocr');
+      if (!fs.existsSync(tempDir)) {
+        fs.mkdirSync(tempDir, { recursive: true });
+      }
+
+      // Get PDF info to determine number of pages
+      const pages: OcrResult[] = [];
+      let pageNumber = 1;
+      let allText = '';
+      let totalConfidence = 0;
+
+      try {
+        while (true) {
+          const pageResult = await convert(pageNumber, { responseType: 'image' });
+          
+          if (!pageResult || !pageResult.buffer) {
+            break; // No more pages
+          }
+
+          // Process the page image with OCR
+          const ocrResult = await this.extractTextFromImage(pageResult.buffer, pageNumber);
+          pages.push(ocrResult);
+          allText += ocrResult.text + '\n\n';
+          totalConfidence += ocrResult.confidence;
+          
+          this.logger.debug(`Processed page ${pageNumber} with confidence ${ocrResult.confidence}%`);
+          pageNumber++;
+        }
+      } catch (error) {
+        if (pageNumber === 1) {
+          throw error; // If we can't process any pages, throw error
+        }
+        // If we processed some pages but failed on others, continue
+        this.logger.warn(`Failed to process page ${pageNumber}, stopping: ${error.message}`);
+      }
+
+      const totalProcessingTime = Date.now() - startTime;
+      const averageConfidence = pages.length > 0 ? totalConfidence / pages.length : 0;
+
+      const result: DocumentOcrResult = {
+        filePath,
+        totalPages: pages.length,
+        extractedText: allText.trim(),
+        pages,
+        totalProcessingTime,
+        averageConfidence,
+      };
+
+      this.logger.log(`OCR completed for ${filePath}: ${pages.length} pages, avg confidence: ${averageConfidence.toFixed(2)}%`);
+      
+      // Clean up temp files
+      this.cleanupTempFiles(tempDir);
+      
+      return result;
+    } catch (error) {
+      this.logger.error(`OCR extraction failed for ${filePath}:`, error);
+      throw error;
+    }
+  }
+
+  async extractTextFromImage(imageBuffer: Buffer, pageNumber = 1): Promise<OcrResult> {
+    const startTime = Date.now();
+    
+    try {
+      // Preprocess image for better OCR results
+      const processedImage = await sharp(imageBuffer)
+        .resize(2000, 2000, { fit: 'inside', withoutEnlargement: true })
+        .normalize()
+        .sharpen()
+        .png()
+        .toBuffer();
+
+      // Perform OCR
+      const { data: { text, confidence } } = await this.worker.recognize(processedImage);
+      
+      const processingTime = Date.now() - startTime;
+      
+      return {
+        text: text.trim(),
+        confidence: Math.round(confidence),
+        pageNumber,
+        processingTime,
+      };
+    } catch (error) {
+      this.logger.error(`OCR failed for page ${pageNumber}:`, error);
+      return {
+        text: '',
+        confidence: 0,
+        pageNumber,
+        processingTime: Date.now() - startTime,
+      };
+    }
+  }
+
+  async processDocumentForSearch(documentPath: string, documentData: any): Promise<void> {
+    try {
+      const ocrResult = await this.extractTextFromPdf(documentPath);
+      
+      if (ocrResult.extractedText && ocrResult.averageConfidence > 50) {
+        // Update the document with extracted text in search index
+        const updatedDocument = {
+          ...documentData,
+          content: ocrResult.extractedText,
+          ocr_confidence: ocrResult.averageConfidence,
+          page_count: ocrResult.totalPages,
+          ocr_processed: true,
+          ocr_processed_at: new Date(),
+        };
+
+        await this.searchService.indexDocument(updatedDocument);
+        this.logger.log(`Updated search index with OCR text for: ${documentData.code}`);
+      } else {
+        this.logger.warn(`OCR confidence too low (${ocrResult.averageConfidence}%) for: ${documentData.code}`);
+      }
+    } catch (error) {
+      this.logger.error(`Failed to process document for search: ${documentData.code}`, error);
+    }
+  }
+
+  async batchProcessDocuments(documents: any[]): Promise<void> {
+    this.logger.log(`Starting batch OCR processing for ${documents.length} documents`);
+    
+    for (const document of documents) {
+      try {
+        const documentPath = this.getDocumentPath(document);
+        if (fs.existsSync(documentPath)) {
+          await this.processDocumentForSearch(documentPath, document);
+        } else {
+          this.logger.warn(`Document file not found: ${documentPath}`);
+        }
+      } catch (error) {
+        this.logger.error(`Failed to process document ${document.code}:`, error);
+      }
+    }
+    
+    this.logger.log('Batch OCR processing completed');
+  }
+
+  private getDocumentPath(data: any): string {
+    const basePath = path.join(__dirname, '..', '..', '..', '절차서 PDF');
+    const { section, procedureCode, code, pr_code, vesselType } = data;
+    
+    if (section === 'main-manual') {
+      return path.join(basePath, '00_DRK Main Manual', `${code}. ${data.title_ko}.pdf`);
+    } else if (section === 'procedures') {
+      if (procedureCode === 'DRK-PR09' && vesselType) {
+        const folderMap: Record<string, string> = {
+          'Bulk Carrier': '9. PR-09 (벌크 화물관리 CARGO HANDLING FOR BULK CARRIER)',
+          'PCTC': '9. PR-09 (자동차운반선 화물관리 CARGO HANDLING FOR PCTC)'
+        };
+        const folderName = folderMap[vesselType] || `9. ${procedureCode}`;
+        return path.join(basePath, '01_DRK Procedure', folderName, `${code}. ${data.title_ko}.pdf`);
+      }
+      return path.join(basePath, '01_DRK Procedure', procedureCode, `${code}. ${data.title_ko}.pdf`);
+    } else if (section === 'instructions') {
+      const year = this.extractYearFromInstructionCode(code);
+      const categoryCode = code.split('-')[1];
+      
+      if (year && categoryCode) {
+        const categoryMap: Record<string, string> = {
+          '01': '사고속보 (INCIDENT PRESS)',
+          '02': '해사정보 (MARINE INFORMATION)',
+          '03': '기관정보 (TECHNICAL INFORMATION)',
+          '04': '항만정보 (PORT INFORMATION)',
+          '05': '업무연락 (OFFICIAL NOTICE)',
+          '06': '심사, 검사 정보 (AUDIT, INSPECTION INFORMATION)',
+          '07': '위험성평가서 (RISK ASSESSMENT SHEET)',
+          '08': '환경영향평가서 (ENVIRONMENTAL ASPECT INVESTIGATION SHEET)',
+          '09': '신규승선자 필수지침 (Essential Instruction for New Joined Crew)',
+          '10': '업무지시서 (Company instruction)'
+        };
+        
+        const categoryName = categoryMap[categoryCode] || `I-${categoryCode}`;
+        return path.join(basePath, '02_DRK Instruction', categoryName, year, `${code}.pdf`);
+      }
+      
+      return path.join(basePath, '02_DRK Instruction', code, `${data.title_ko}.pdf`);
+    } else if (section === 'forms') {
+      return path.join(basePath, '03_DRK Form', pr_code, `${code}. ${data.title_ko}`);
+    }
+    
+    return '';
+  }
+
+  private extractYearFromInstructionCode(code: string): string | null {
+    if (!code) return null;
+    
+    const parts = code.split('-');
+    
+    if (parts.length >= 4) {
+      const yearPart = parts[3];
+      if (yearPart.length === 2) {
+        const year = parseInt(yearPart);
+        return year <= 30 ? `20${yearPart}` : `19${yearPart}`;
+      }
+    } else if (parts.length >= 3) {
+      const yearPart = parts[2];
+      if (yearPart.length === 2) {
+        const year = parseInt(yearPart);
+        return year <= 30 ? `20${yearPart}` : `19${yearPart}`;
+      }
+    }
+    
+    return null;
+  }
+
+  private cleanupTempFiles(tempDir: string): void {
+    try {
+      if (fs.existsSync(tempDir)) {
+        const files = fs.readdirSync(tempDir);
+        files.forEach(file => {
+          const filePath = path.join(tempDir, file);
+          if (fs.statSync(filePath).isFile()) {
+            fs.unlinkSync(filePath);
+          }
+        });
+      }
+    } catch (error) {
+      this.logger.warn('Failed to cleanup temp files:', error);
+    }
+  }
+
+  async getOcrStatistics(): Promise<{
+    totalProcessed: number;
+    averageConfidence: number;
+    processingQueue: number;
+    lastProcessed: Date;
+  }> {
+    // In a real implementation, you'd track these stats in a database
+    return {
+      totalProcessed: 0,
+      averageConfidence: 0,
+      processingQueue: 0,
+      lastProcessed: new Date(),
+    };
+  }
+
+  async onModuleDestroy() {
+    if (this.worker) {
+      await this.worker.terminate();
+      this.logger.log('OCR Worker terminated');
+    }
+  }
+}

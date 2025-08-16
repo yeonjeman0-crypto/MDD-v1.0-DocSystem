@@ -1,0 +1,508 @@
+import { Injectable, Logger, OnModuleInit } from '@nestjs/common';
+import { ElasticsearchService } from '@nestjs/elasticsearch';
+import { ConfigService } from '@nestjs/config';
+
+export interface DocumentSearchResult {
+  id: string;
+  title_ko: string;
+  title_en: string;
+  code: string;
+  section: string;
+  content?: string;
+  file_path: string;
+  highlights?: any;
+  score: number;
+}
+
+export interface SearchOptions {
+  query: string;
+  section?: string;
+  filters?: {
+    documentType?: string;
+    dateRange?: {
+      from: string;
+      to: string;
+    };
+    tags?: string[];
+  };
+  size?: number;
+  from?: number;
+  sort?: string;
+}
+
+@Injectable()
+export class SearchService implements OnModuleInit {
+  private readonly logger = new Logger(SearchService.name);
+  private readonly indexName = 'mdd-documents';
+
+  constructor(
+    private readonly elasticsearchService: ElasticsearchService,
+    private readonly configService: ConfigService,
+  ) {}
+
+  async onModuleInit() {
+    await this.createIndexIfNotExists();
+  }
+
+  async createIndexIfNotExists() {
+    try {
+      const { body: indexExists } = await this.elasticsearchService.indices.exists({
+        index: this.indexName,
+      });
+
+      if (!indexExists) {
+        await this.createIndex();
+        this.logger.log(`Created Elasticsearch index: ${this.indexName}`);
+      } else {
+        this.logger.log(`Elasticsearch index already exists: ${this.indexName}`);
+      }
+    } catch (error) {
+      this.logger.error('Failed to check/create Elasticsearch index:', error);
+    }
+  }
+
+  private async createIndex() {
+    const indexConfig = {
+      index: this.indexName,
+      body: {
+        settings: {
+          analysis: {
+            analyzer: {
+              korean_analyzer: {
+                type: 'custom',
+                tokenizer: 'nori_tokenizer',
+                filter: ['lowercase', 'nori_part_of_speech'],
+              },
+              mixed_analyzer: {
+                type: 'custom',
+                tokenizer: 'standard',
+                filter: ['lowercase', 'asciifolding'],
+              },
+            },
+            tokenizer: {
+              nori_tokenizer: {
+                type: 'nori_tokenizer',
+                decompound_mode: 'mixed',
+              },
+            },
+          },
+          number_of_shards: 1,
+          number_of_replicas: 0,
+        },
+        mappings: {
+          properties: {
+            id: { type: 'keyword' },
+            code: { 
+              type: 'text',
+              analyzer: 'keyword',
+              fields: {
+                search: { type: 'text', analyzer: 'standard' }
+              }
+            },
+            title_ko: {
+              type: 'text',
+              analyzer: 'korean_analyzer',
+              fields: {
+                exact: { type: 'keyword' },
+                ngram: { 
+                  type: 'text',
+                  analyzer: 'mixed_analyzer'
+                }
+              },
+            },
+            title_en: {
+              type: 'text',
+              analyzer: 'english',
+              fields: {
+                exact: { type: 'keyword' }
+              }
+            },
+            section: { type: 'keyword' },
+            document_type: { type: 'keyword' },
+            content: {
+              type: 'text',
+              analyzer: 'korean_analyzer',
+            },
+            file_path: { type: 'keyword' },
+            vessel_type: { type: 'keyword' },
+            procedure_code: { type: 'keyword' },
+            pr_code: { type: 'keyword' },
+            revision_date: { type: 'date' },
+            created_at: { type: 'date' },
+            updated_at: { type: 'date' },
+            tags: { type: 'keyword' },
+            language: { type: 'keyword' },
+            file_size: { type: 'long' },
+            page_count: { type: 'integer' },
+          },
+        },
+      },
+    };
+
+    await this.elasticsearchService.indices.create(indexConfig);
+  }
+
+  async indexDocument(document: any): Promise<void> {
+    try {
+      const docId = `${document.section}-${document.code}`;
+      const indexDoc = {
+        id: docId,
+        code: document.code,
+        title_ko: document.title_ko,
+        title_en: document.title_en || '',
+        section: document.section,
+        document_type: this.getDocumentType(document.section),
+        content: document.content || '',
+        file_path: this.getDocumentPath(document),
+        vessel_type: document.vessel_type || document.vesselType || '',
+        procedure_code: document.procedure_code || document.procedureCode || '',
+        pr_code: document.pr_code || '',
+        revision_date: document.revision_date || document.revisionDate || new Date(),
+        created_at: new Date(),
+        updated_at: new Date(),
+        tags: this.extractTags(document),
+        language: 'ko',
+        file_size: 0,
+        page_count: 0,
+      };
+
+      await this.elasticsearchService.index({
+        index: this.indexName,
+        id: docId,
+        body: indexDoc,
+      });
+
+      this.logger.debug(`Indexed document: ${docId}`);
+    } catch (error) {
+      this.logger.error(`Failed to index document ${document.code}:`, error);
+    }
+  }
+
+  async search(options: SearchOptions): Promise<{
+    documents: DocumentSearchResult[];
+    total: number;
+    aggregations?: any;
+  }> {
+    try {
+      const searchBody = this.buildSearchQuery(options);
+      
+      const { body } = await this.elasticsearchService.search({
+        index: this.indexName,
+        body: searchBody,
+      });
+
+      const documents = body.hits.hits.map((hit: any) => ({
+        id: hit._id,
+        ...hit._source,
+        score: hit._score,
+        highlights: hit.highlight,
+      }));
+
+      return {
+        documents,
+        total: body.hits.total.value,
+        aggregations: body.aggregations,
+      };
+    } catch (error) {
+      this.logger.error('Search failed:', error);
+      return { documents: [], total: 0 };
+    }
+  }
+
+  private buildSearchQuery(options: SearchOptions) {
+    const { query, section, filters, size = 20, from = 0, sort = '_score' } = options;
+
+    const searchBody: any = {
+      size,
+      from,
+      query: {
+        bool: {
+          must: [],
+          filter: [],
+        },
+      },
+      highlight: {
+        fields: {
+          title_ko: {},
+          title_en: {},
+          content: {
+            fragment_size: 150,
+            number_of_fragments: 3,
+          },
+        },
+        pre_tags: ['<mark>'],
+        post_tags: ['</mark>'],
+      },
+      aggregations: {
+        sections: {
+          terms: { field: 'section' },
+        },
+        document_types: {
+          terms: { field: 'document_type' },
+        },
+        vessel_types: {
+          terms: { field: 'vessel_type' },
+        },
+      },
+    };
+
+    // Main search query
+    if (query && query.trim()) {
+      searchBody.query.bool.must.push({
+        multi_match: {
+          query: query.trim(),
+          fields: [
+            'title_ko^3',
+            'title_en^2',
+            'code^4',
+            'content^1',
+          ],
+          type: 'best_fields',
+          fuzziness: 'AUTO',
+        },
+      });
+    } else {
+      searchBody.query.bool.must.push({ match_all: {} });
+    }
+
+    // Section filter
+    if (section) {
+      searchBody.query.bool.filter.push({
+        term: { section },
+      });
+    }
+
+    // Additional filters
+    if (filters) {
+      if (filters.documentType) {
+        searchBody.query.bool.filter.push({
+          term: { document_type: filters.documentType },
+        });
+      }
+
+      if (filters.dateRange) {
+        searchBody.query.bool.filter.push({
+          range: {
+            revision_date: {
+              gte: filters.dateRange.from,
+              lte: filters.dateRange.to,
+            },
+          },
+        });
+      }
+
+      if (filters.tags && filters.tags.length > 0) {
+        searchBody.query.bool.filter.push({
+          terms: { tags: filters.tags },
+        });
+      }
+    }
+
+    // Sorting
+    if (sort === 'date') {
+      searchBody.sort = [{ revision_date: { order: 'desc' } }];
+    } else if (sort === 'title') {
+      searchBody.sort = [{ 'title_ko.exact': { order: 'asc' } }];
+    } else {
+      searchBody.sort = [{ _score: { order: 'desc' } }];
+    }
+
+    return searchBody;
+  }
+
+  async suggest(query: string, size = 5): Promise<string[]> {
+    try {
+      const { body } = await this.elasticsearchService.search({
+        index: this.indexName,
+        body: {
+          size: 0,
+          suggest: {
+            title_suggest: {
+              prefix: query,
+              completion: {
+                field: 'title_ko.ngram',
+                size,
+              },
+            },
+          },
+        },
+      });
+
+      return body.suggest.title_suggest[0].options.map(
+        (option: any) => option.text,
+      );
+    } catch (error) {
+      this.logger.error('Suggestion failed:', error);
+      return [];
+    }
+  }
+
+  async bulkIndex(documents: any[]): Promise<void> {
+    try {
+      const body = documents.flatMap((doc) => {
+        const docId = `${doc.section}-${doc.code}`;
+        return [
+          { index: { _index: this.indexName, _id: docId } },
+          {
+            id: docId,
+            code: doc.code,
+            title_ko: doc.title_ko,
+            title_en: doc.title_en || '',
+            section: doc.section,
+            document_type: this.getDocumentType(doc.section),
+            content: doc.content || '',
+            file_path: this.getDocumentPath(doc),
+            vessel_type: doc.vessel_type || doc.vesselType || '',
+            procedure_code: doc.procedure_code || doc.procedureCode || '',
+            pr_code: doc.pr_code || '',
+            revision_date: doc.revision_date || doc.revisionDate || new Date(),
+            created_at: new Date(),
+            updated_at: new Date(),
+            tags: this.extractTags(doc),
+            language: 'ko',
+            file_size: 0,
+            page_count: 0,
+          },
+        ];
+      });
+
+      const { body: bulkResponse } = await this.elasticsearchService.bulk({ body });
+
+      if (bulkResponse.errors) {
+        const erroredDocuments = bulkResponse.items.filter(
+          (item: any) => item.index && item.index.error,
+        );
+        this.logger.error('Bulk indexing errors:', erroredDocuments);
+      } else {
+        this.logger.log(`Bulk indexed ${documents.length} documents`);
+      }
+    } catch (error) {
+      this.logger.error('Bulk indexing failed:', error);
+    }
+  }
+
+  async deleteDocument(docId: string): Promise<void> {
+    try {
+      await this.elasticsearchService.delete({
+        index: this.indexName,
+        id: docId,
+      });
+      this.logger.debug(`Deleted document: ${docId}`);
+    } catch (error) {
+      this.logger.error(`Failed to delete document ${docId}:`, error);
+    }
+  }
+
+  async clearIndex(): Promise<void> {
+    try {
+      await this.elasticsearchService.deleteByQuery({
+        index: this.indexName,
+        body: {
+          query: {
+            match_all: {},
+          },
+        },
+      });
+      this.logger.log('Cleared all documents from index');
+    } catch (error) {
+      this.logger.error('Failed to clear index:', error);
+    }
+  }
+
+  private getDocumentType(section: string): string {
+    const typeMap: Record<string, string> = {
+      'main-manual': 'manual',
+      'procedures': 'procedure',
+      'instructions': 'instruction',
+      'forms': 'form',
+    };
+    return typeMap[section] || 'document';
+  }
+
+  private getDocumentPath(data: any): string {
+    const { section, procedureCode, code, pr_code, vesselType } = data;
+    
+    if (section === 'main-manual') {
+      return `/pdf/00_DRK Main Manual/${code}. ${data.title_ko}.pdf`;
+    } else if (section === 'procedures') {
+      if (procedureCode === 'DRK-PR09' && vesselType) {
+        const folderMap: Record<string, string> = {
+          'Bulk Carrier': '9. PR-09 (벌크 화물관리 CARGO HANDLING FOR BULK CARRIER)',
+          'PCTC': '9. PR-09 (자동차운반선 화물관리 CARGO HANDLING FOR PCTC)'
+        };
+        const folderName = folderMap[vesselType] || `9. ${procedureCode}`;
+        return `/pdf/01_DRK Procedure/${folderName}/${code}. ${data.title_ko}.pdf`;
+      }
+      return `/pdf/01_DRK Procedure/${procedureCode}/${code}. ${data.title_ko}.pdf`;
+    } else if (section === 'instructions') {
+      const year = this.extractYearFromInstructionCode(code);
+      const categoryCode = code.split('-')[1];
+      
+      if (year && categoryCode) {
+        const categoryMap: Record<string, string> = {
+          '01': '사고속보 (INCIDENT PRESS)',
+          '02': '해사정보 (MARINE INFORMATION)',
+          '03': '기관정보 (TECHNICAL INFORMATION)',
+          '04': '항만정보 (PORT INFORMATION)',
+          '05': '업무연락 (OFFICIAL NOTICE)',
+          '06': '심사, 검사 정보 (AUDIT, INSPECTION INFORMATION)',
+          '07': '위험성평가서 (RISK ASSESSMENT SHEET)',
+          '08': '환경영향평가서 (ENVIRONMENTAL ASPECT INVESTIGATION SHEET)',
+          '09': '신규승선자 필수지침 (Essential Instruction for New Joined Crew)',
+          '10': '업무지시서 (Company instruction)'
+        };
+        
+        const categoryName = categoryMap[categoryCode] || `I-${categoryCode}`;
+        return `/pdf/02_DRK Instruction/${categoryName}/${year}/${code}.pdf`;
+      }
+      
+      return `/pdf/02_DRK Instruction/${code}/${data.title_ko}.pdf`;
+    } else if (section === 'forms') {
+      return `/pdf/03_DRK Form/${pr_code}/${code}. ${data.title_ko}`;
+    }
+    
+    return '';
+  }
+
+  private extractYearFromInstructionCode(code: string): string | null {
+    if (!code) return null;
+    
+    const parts = code.split('-');
+    
+    if (parts.length >= 4) {
+      const yearPart = parts[3];
+      if (yearPart.length === 2) {
+        const year = parseInt(yearPart);
+        return year <= 30 ? `20${yearPart}` : `19${yearPart}`;
+      }
+    } else if (parts.length >= 3) {
+      const yearPart = parts[2];
+      if (yearPart.length === 2) {
+        const year = parseInt(yearPart);
+        return year <= 30 ? `20${yearPart}` : `19${yearPart}`;
+      }
+    }
+    
+    return null;
+  }
+
+  private extractTags(document: any): string[] {
+    const tags = [];
+    
+    if (document.section) tags.push(document.section);
+    if (document.vessel_type || document.vesselType) tags.push(document.vessel_type || document.vesselType);
+    if (document.procedure_code || document.procedureCode) tags.push(document.procedure_code || document.procedureCode);
+    if (document.pr_code) tags.push(document.pr_code);
+    
+    // Extract tags from title
+    const title = document.title_ko || '';
+    if (title.includes('안전')) tags.push('안전');
+    if (title.includes('환경')) tags.push('환경');
+    if (title.includes('보안')) tags.push('보안');
+    if (title.includes('화물')) tags.push('화물');
+    if (title.includes('기관')) tags.push('기관');
+    if (title.includes('항해')) tags.push('항해');
+    
+    return [...new Set(tags)]; // Remove duplicates
+  }
+}
