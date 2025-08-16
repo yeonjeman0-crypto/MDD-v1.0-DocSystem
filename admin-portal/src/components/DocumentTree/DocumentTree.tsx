@@ -30,19 +30,60 @@ export const DocumentTree: React.FC<DocumentTreeProps> = ({ onDocumentSelect }) 
   const loadDocumentStructure = async () => {
     try {
       setLoading(true);
-      const [mainManual, procedures, instructions, forms] = await Promise.all([
-        documentApi.getMainManual(),
-        documentApi.getProcedures(),
-        documentApi.getInstructions(),
-        documentApi.getForms(),
-      ]);
+      const treeData: TreeDataNode[] = [];
 
-      const treeData: TreeDataNode[] = [
-        buildMainManualNode(mainManual),
-        buildProceduresNode(procedures),
-        buildInstructionsNode(instructions),
-        buildFormsNode(forms),
-      ];
+      // 각 API를 개별적으로 호출하여 일부만 실패해도 다른 데이터는 표시
+      try {
+        const mainManual = await documentApi.getMainManual();
+        treeData.push(buildMainManualNode(mainManual));
+      } catch (error) {
+        console.error('Failed to load main manual:', error);
+        treeData.push({
+          title: '📖 본 매뉴얼 (로딩 실패)',
+          key: 'main-manual-error',
+          icon: <BookOutlined />,
+          disabled: true,
+        });
+      }
+
+      try {
+        const procedures = await documentApi.getProcedures();
+        treeData.push(buildProceduresNode(procedures));
+      } catch (error) {
+        console.error('Failed to load procedures:', error);
+        treeData.push({
+          title: '📋 절차서 (로딩 실패)',
+          key: 'procedures-error',
+          icon: <FileTextOutlined />,
+          disabled: true,
+        });
+      }
+
+      try {
+        const instructions = await documentApi.getInstructions();
+        treeData.push(buildInstructionsNode(instructions));
+      } catch (error) {
+        console.error('Failed to load instructions:', error);
+        treeData.push({
+          title: '📝 지침서 (로딩 실패)',
+          key: 'instructions-error',
+          icon: <SafetyOutlined />,
+          disabled: true,
+        });
+      }
+
+      try {
+        const forms = await documentApi.getForms();
+        treeData.push(buildFormsNode(forms));
+      } catch (error) {
+        console.error('Failed to load forms:', error);
+        treeData.push({
+          title: '📄 서식 (로딩 실패)',
+          key: 'forms-error',
+          icon: <FormOutlined />,
+          disabled: true,
+        });
+      }
 
       setTreeData(treeData);
     } catch (error) {
@@ -129,7 +170,7 @@ export const DocumentTree: React.FC<DocumentTreeProps> = ({ onDocumentSelect }) 
   };
 
   const buildProceduresNode = (data: any): TreeDataNode => {
-    const children: TreeDataNode[] = data.items?.map((procedure: any) => {
+    const children: TreeDataNode[] = data.items?.map((procedure: any, procedureIndex: number) => {
       const procChildren: TreeDataNode[] = [];
 
       // Front 항목들
@@ -143,7 +184,7 @@ export const DocumentTree: React.FC<DocumentTreeProps> = ({ onDocumentSelect }) 
             key: `${procedure.code}-front-${index}`,
             icon: <FileTextOutlined />,
             isLeaf: true,
-            data: { ...item, section: 'procedures', procedureCode: procedure.code },
+            data: { ...item, section: 'procedures', procedureCode: procedure.code, vesselType: procedure.vessel_type },
           })),
         });
       }
@@ -159,7 +200,7 @@ export const DocumentTree: React.FC<DocumentTreeProps> = ({ onDocumentSelect }) 
             key: `${procedure.code}-chapters-${index}`,
             icon: <FileTextOutlined />,
             isLeaf: true,
-            data: { ...item, section: 'procedures', procedureCode: procedure.code },
+            data: { ...item, section: 'procedures', procedureCode: procedure.code, vesselType: procedure.vessel_type },
           })),
         });
       }
@@ -175,7 +216,7 @@ export const DocumentTree: React.FC<DocumentTreeProps> = ({ onDocumentSelect }) 
             key: `${procedure.code}-appendices-${index}`,
             icon: <FileTextOutlined />,
             isLeaf: true,
-            data: { ...item, section: 'procedures', procedureCode: procedure.code },
+            data: { ...item, section: 'procedures', procedureCode: procedure.code, vesselType: procedure.vessel_type },
           })),
         });
       }
@@ -186,7 +227,7 @@ export const DocumentTree: React.FC<DocumentTreeProps> = ({ onDocumentSelect }) 
 
       return {
         title: procedureTitle,
-        key: procedure.code,
+        key: `procedure-${procedure.code}-${procedureIndex}`, // More explicit unique key
         icon: <SafetyOutlined style={{ color: '#52c41a' }} />,
         children: procChildren,
       };
@@ -228,13 +269,13 @@ export const DocumentTree: React.FC<DocumentTreeProps> = ({ onDocumentSelect }) 
       return groups;
     }, {}) || {};
 
-    const children: TreeDataNode[] = Object.entries(formsByPr).map(([prCode, forms]: [string, any]) => ({
-      title: `${prCode} 서식`,
-      key: `forms-${prCode}`,
+    const children: TreeDataNode[] = Object.entries(formsByPr).map(([prCode, forms]: [string, any], groupIndex: number) => ({
+      title: `${prCode} 서식 (${forms.length}개)`,
+      key: `forms-group-${prCode}-${groupIndex}`, // More explicit unique key for groups
       icon: <FolderOutlined />,
       children: forms.map((form: any, index: number) => ({
         title: `${form.code}. ${form.title_ko}`,
-        key: `form-${form.code}`,
+        key: `form-item-${form.code}-${prCode}-${index}`, // More explicit unique key for form items
         icon: <FormOutlined />,
         isLeaf: true,
         data: { ...form, section: 'forms' },

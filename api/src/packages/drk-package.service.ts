@@ -35,7 +35,7 @@ interface FileEntry {
 @Injectable()
 export class DRKPackageService {
   private readonly logger = new Logger(DRKPackageService.name);
-  private readonly MAGIC_HEADER = Buffer.from('DRK\x00');
+  private readonly MAGIC_HEADER = Buffer.from([0x44, 0x52, 0x4B, 0x00]); // 'DRK\x00'
   private readonly VERSION = '1.0.0';
   
   // Ed25519 키페어 (실제로는 안전하게 관리해야 함)
@@ -155,7 +155,11 @@ export class DRKPackageService {
       const packageData = await fs.promises.readFile(packagePath);
       
       // 2. 매직 헤더 확인
-      if (!packageData.subarray(0, 4).equals(this.MAGIC_HEADER)) {
+      const isValidHeader = packageData[0] === 0x44 && // 'D'
+                           packageData[1] === 0x52 && // 'R'  
+                           packageData[2] === 0x4B && // 'K'
+                           packageData[3] === 0x00;   // '\x00'
+      if (!isValidHeader) {
         this.logger.error('Invalid package format');
         return false;
       }
@@ -303,7 +307,7 @@ export class DRKPackageService {
       file.offset = offset;
       file.compressedSize = compressed.length;
       
-      chunks.push(compressed);
+      chunks.push(Buffer.from(compressed));
       offset += compressed.length;
     }
     
@@ -374,7 +378,7 @@ export class DRKPackageService {
           const outputDir = path.dirname(outputPath);
           
           await fs.promises.mkdir(outputDir, { recursive: true });
-          await fs.promises.writeFile(outputPath, Buffer.from(decompressed));
+          await fs.promises.writeFile(outputPath, decompressed);
           
           // 해시 검증
           const actualHash = await this.calculateFileHash(outputPath);

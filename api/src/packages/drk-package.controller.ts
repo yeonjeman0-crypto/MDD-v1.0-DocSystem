@@ -288,4 +288,50 @@ export class DRKPackageController {
       total: packages.length
     };
   }
+
+  @Get('stats')
+  @ApiOperation({ summary: '패키지 통계 조회' })
+  async getPackageStats(): Promise<any> {
+    const packagesDir = './uploads/packages';
+    
+    if (!fs.existsSync(packagesDir)) {
+      return {
+        totalPackages: 0,
+        fullPackages: 0,
+        deltaPackages: 0,
+        totalSize: 0
+      };
+    }
+
+    const files = await fs.promises.readdir(packagesDir);
+    let totalPackages = 0;
+    let fullPackages = 0;
+    let deltaPackages = 0;
+    let totalSize = 0;
+
+    for (const file of files) {
+      if (file.endsWith('.drkpack') || file.endsWith('.drkdelta')) {
+        const filePath = path.join(packagesDir, file);
+        const stats = await fs.promises.stat(filePath);
+        
+        totalPackages++;
+        totalSize += stats.size;
+        
+        if (file.endsWith('.drkpack')) {
+          fullPackages++;
+        } else {
+          deltaPackages++;
+        }
+      }
+    }
+
+    this.logger.log(`Package stats: ${totalPackages} total (${fullPackages} full, ${deltaPackages} delta)`);
+
+    return {
+      totalPackages,
+      fullPackages,
+      deltaPackages,
+      totalSize
+    };
+  }
 }

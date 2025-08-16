@@ -81,14 +81,22 @@ MDD-v1.0-DocSystem/
 - [x] **Docker 인프라**: PostgreSQL, Redis, MinIO, Elasticsearch, 모니터링 스택
 - [x] **개발 환경**: Workspace 기반 모노레포 구조
 
-#### 🚧 Phase 2: Viewer & Package System (개발 중)
-- [x] **Electron Viewer 프로젝트**: 기본 구조 및 빌드 시스템
-- [x] **패키지 의존성**: React-PDF, Electron Builder 설정 완료
-- [ ] React-PDF 통합 및 PDF 뷰어 구현
-- [ ] 드래그앤드롭 핸들러 구현
-- [ ] DRK 패키지 포맷 구현 (.drkpack/.drkdelta)
-- [ ] 델타 생성 알고리즘 및 증분 업데이트
-- [ ] Ed25519 서명 및 무결성 검증
+#### ✅ Phase 2: DRK Package System (완료)
+- [x] **DRK 패키지 포맷**: .drkpack/.drkdelta 구현 완료
+- [x] **Zstd 압축**: 고성능 압축 및 압축 해제 지원
+- [x] **Ed25519 서명**: 디지털 서명 및 무결성 검증
+- [x] **패키지 생성**: 전체/증분 패키지 생성 API
+- [x] **패키지 검증**: 무결성 및 서명 검증 시스템
+- [x] **패키지 적용**: 원자적 스왑 및 롤백 지원
+- [x] **패키지 관리**: 생성, 다운로드, 통계 API 완료
+
+#### ✅ Phase 2.5: PDF Viewer & Document System (완료)
+- [x] **PDF 뷰어**: iframe 기반 PDF 표시 시스템
+- [x] **한글 지원**: Korean 문자 URL 인코딩 완료
+- [x] **문서 네비게이션**: 계층적 문서 트리 구조
+- [x] **실시간 미리보기**: PDF 즉시 로딩 및 표시
+- [x] **다운로드 지원**: PDF 파일 직접 다운로드
+- [x] **경로 매핑**: JSON 메타데이터 ↔ 실제 파일 경로 연결
 
 #### 📋 Phase 3: Advanced Features (계획)
 - [ ] Elasticsearch 통합 및 전문 검색
@@ -108,18 +116,20 @@ MDD-v1.0-DocSystem/
 
 #### ✅ 완료된 핵심 기능
 1. **문서 데이터 모델**: 4개 JSON 파일 완전 파싱 및 데이터베이스 매핑
-2. **REST API 서버**: NestJS 기반 문서 관리 API (포트 3001)
-3. **관리자 포털**: React 18 + TypeScript + Ant Design 5 (포트 5173)
-4. **문서 트리 네비게이션**: 계층적 문서 구조 표시 및 검색
-5. **타입 안전성**: 완전한 TypeScript 타입 시스템
-6. **API 문서화**: Swagger/OpenAPI 자동 생성
-7. **개발 인프라**: Docker Compose 기반 개발 환경
-8. **빌드 시스템**: Workspace 기반 통합 빌드 스크립트
+2. **REST API 서버**: NestJS 기반 문서/패키지 관리 API (포트 3003)
+3. **관리자 포털**: React 18 + TypeScript + Ant Design 5 (포트 5178)
+4. **문서 트리 네비게이션**: 계층적 문서 구조 표시 및 PDF 뷰어
+5. **DRK 패키지 시스템**: .drkpack/.drkdelta 생성, 검증, 적용
+6. **PDF 뷰어**: 한글 지원, 실시간 미리보기, 다운로드 기능
+7. **API 문서화**: Swagger/OpenAPI 자동 생성
+8. **개발 인프라**: Docker Compose 기반 개발 환경
+9. **빌드 시스템**: Workspace 기반 통합 빌드 스크립트
 
 #### 🔧 개발 현황 상세
-- **백엔드**: 4개 도메인 모듈 완료 (MainManual, Procedures, Instructions, Forms)
-- **프론트엔드**: DocumentsPage, API 서비스 레이어 구현
-- **데이터**: 4개 JSON 파일 (2,000+ 문서 항목) 한/영 이중 언어 지원
+- **백엔드**: 문서 관리 + 패키지 시스템 모듈 완료
+- **프론트엔드**: DocumentsPage, PackagesPage, 대시보드 구현
+- **패키지 시스템**: Zstd 압축, Ed25519 서명, 원자적 적용
+- **데이터**: 4개 JSON 파일 (2,000+ 문서 항목) + PDF 파일 500+개
 - **인프라**: PostgreSQL, Redis, MinIO, Elasticsearch 컨테이너 구성
 
 ### 🚀 빠른 시작
@@ -139,15 +149,16 @@ npm install
 npm run dev
 
 # 또는 개별 실행
-npm run dev:api      # NestJS API 서버 (포트 3001)
-npm run dev:portal   # React Admin Portal (포트 5173)
+npm run dev:api      # NestJS API 서버 (포트 3003)
+npm run dev:portal   # React Admin Portal (포트 5178)
 ```
 
 ### 🌐 접속 주소
 
-- **Admin Portal**: http://localhost:5173
-- **API Server**: http://localhost:3001
-- **API Documentation**: http://localhost:3001/api/docs
+- **Admin Portal**: http://localhost:5178 (현재 실행 중)
+- **API Server**: http://localhost:3003 (현재 실행 중)
+- **API Documentation**: http://localhost:3003/api/docs
+- **PDF Static Files**: http://localhost:3003/pdf/
 
 ### 📚 문서
 

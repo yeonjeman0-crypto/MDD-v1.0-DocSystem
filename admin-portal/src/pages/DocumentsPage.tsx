@@ -15,7 +15,7 @@ export const DocumentsPage: React.FC = () => {
   const [selectedDocument, setSelectedDocument] = useState<any>(null);
   const [loading, setLoading] = useState(false);
 
-  const handleDocumentSelect = (key: string, nodeData: any) => {
+  const handleDocumentSelect = (_key: string, nodeData: any) => {
     setSelectedDocument(nodeData);
   };
 

@@ -45,8 +45,11 @@ class MDDViewer {
       webPreferences: {
         nodeIntegration: false,
         contextIsolation: true,
+        allowRunningInsecureContent: false,
+        experimentalFeatures: false,
+        webSecurity: true,
         preload: path.join(__dirname, 'preload.js'),
-        webSecurity: !this.isDev,
+        sandbox: false, // PDF.js requires access to file system
       },
       titleBarStyle: 'default',
       show: false, // 준비될 때까지 숨김
@@ -122,13 +125,152 @@ class MDDViewer {
       }
     });
 
-    // PDF 문서 목록 가져오기 (임시 구현)
+    // DRK 패키지에서 문서 목록 추출
+    ipcMain.handle('extract-package-documents', async (_, packagePath: string) => {
+      try {
+        console.log('Extracting documents from package:', packagePath);
+        
+        // DRK 패키지 파일 읽기
+        const packageData = fs.readFileSync(packagePath);
+        
+        // 매직 헤더 확인 (DRK\x00)
+        const isValidHeader = packageData[0] === 0x44 && // 'D'
+                             packageData[1] === 0x52 && // 'R'  
+                             packageData[2] === 0x4B && // 'K'
+                             packageData[3] === 0x00;   // '\x00'
+        
+        if (!isValidHeader) {
+          throw new Error('유효하지 않은 DRK 패키지 형식입니다.');
+        }
+
+        // 보안 검증: 파일 크기 제한 (최대 500MB)
+        if (packageData.length > 500 * 1024 * 1024) {
+          throw new Error('패키지 크기가 너무 큽니다. (최대 500MB)');
+        }
+
+        // 보안 검증: 매니페스트 크기 제한
+        const manifestLength = packageData.readUInt32LE(4);
+        if (manifestLength > 10 * 1024 * 1024) { // 최대 10MB
+          throw new Error('매니페스트 크기가 비정상적으로 큽니다.');
+        }
+
+        // 매니페스트 추출
+        const manifestJson = packageData.subarray(8, 8 + manifestLength).toString();
+        
+        // 보안 검증: JSON 파싱 보호
+        let manifest;
+        try {
+          manifest = JSON.parse(manifestJson);
+        } catch (error) {
+          throw new Error('매니페스트 JSON 파싱 실패: 손상된 패키지일 수 있습니다.');
+        }
+
+        // 보안 검증: 필수 필드 확인
+        if (!manifest.type || !manifest.file_entries || !Array.isArray(manifest.file_entries)) {
+          throw new Error('유효하지 않은 매니페스트 구조입니다.');
+        }
+
+        // 보안 검증: 파일 수 제한 (최대 10,000개)
+        if (manifest.file_entries.length > 10000) {
+          throw new Error('패키지 내 파일 수가 너무 많습니다. (최대 10,000개)');
+        }
+        
+        console.log('Package manifest loaded:', manifest.type, manifest.file_count, 'files');
+        
+        // 파일 목록을 문서 형태로 변환
+        const documents = manifest.file_entries.map((entry: any, index: number) => {
+          // 보안 검증: 경로 탐색 공격 방지
+          if (entry.path.includes('..') || entry.path.includes('\\') || path.isAbsolute(entry.path)) {
+            throw new Error(`위험한 파일 경로가 감지되었습니다: ${entry.path}`);
+          }
+
+          // 보안 검증: 허용된 파일 확장자만 허용
+          const allowedExtensions = ['.pdf', '.txt', '.md', '.json'];
+          const ext = path.extname(entry.path).toLowerCase();
+          if (!allowedExtensions.includes(ext)) {
+            console.warn(`지원하지 않는 파일 형식: ${entry.path}`);
+            return null;
+          }
+
+          const filename = path.basename(entry.path);
+          const type = entry.path.includes('Main Manual') ? 'MM' :
+                      entry.path.includes('Procedure') ? 'PR' :
+                      entry.path.includes('Instruction') ? 'I' :
+                      entry.path.includes('Form') ? 'F' : 'DOC';
+          
+          return {
+            id: `doc-${index}`,
+            title: filename.replace('.pdf', ''),
+            type: type,
+            path: entry.path,
+            size: entry.size,
+            hash: entry.hash
+          };
+        }).filter(Boolean); // null 값 제거
+        
+        return {
+          manifest,
+          documents
+        };
+      } catch (error) {
+        console.error('Failed to extract package documents:', error);
+        throw error;
+      }
+    });
+
+    // 패키지에서 특정 PDF 파일 추출
+    ipcMain.handle('extract-pdf-file', async (_, packagePath: string, filePath: string) => {
+      try {
+        console.log('Extracting PDF file:', filePath, 'from', packagePath);
+        
+        const packageData = fs.readFileSync(packagePath);
+        
+        // 매니페스트 추출
+        const manifestLength = packageData.readUInt32LE(4);
+        const manifestJson = packageData.subarray(8, 8 + manifestLength).toString();
+        const manifest = JSON.parse(manifestJson);
+        
+        // 요청된 파일 찾기
+        const fileEntry = manifest.file_entries.find((entry: any) => entry.path === filePath);
+        if (!fileEntry) {
+          throw new Error(`파일을 찾을 수 없습니다: ${filePath}`);
+        }
+        
+        // 데이터 섹션에서 파일 추출
+        const dataSection = packageData.subarray(8 + manifestLength);
+        const compressedData = dataSection.subarray(
+          fileEntry.offset || 0, 
+          (fileEntry.offset || 0) + (fileEntry.compressedSize || 0)
+        );
+        
+        // Zstd 압축 해제 (임시로 그대로 반환)
+        // TODO: Zstd 압축 해제 구현
+        const tempPath = path.join(app.getPath('temp'), `drk_${Date.now()}_${path.basename(filePath)}`);
+        fs.writeFileSync(tempPath, new Uint8Array(compressedData));
+        
+        return tempPath;
+      } catch (error) {
+        console.error('Failed to extract PDF file:', error);
+        throw error;
+      }
+    });
+
+    // 문서 목록 (임시 - 호환성 유지)
     ipcMain.handle('get-document-list', async () => {
-      // TODO: DRK 패키지에서 문서 목록 추출
+      // 임시 샘플 문서 목록
       return [
-        { id: '1', title: 'Main Manual', type: 'MM', path: '/sample.pdf' },
-        { id: '2', title: 'Procedures PR-01', type: 'PR', path: '/pr-01.pdf' },
-        { id: '3', title: 'Instructions I-01', type: 'I', path: '/i-01.pdf' },
+        {
+          id: 'sample-1',
+          title: '샘플 매뉴얼 1',
+          type: 'MM',
+          path: '/sample/manual1.pdf'
+        },
+        {
+          id: 'sample-2',
+          title: '샘플 절차서 1',
+          type: 'PR',
+          path: '/sample/procedure1.pdf'
+        }
       ];
     });
 

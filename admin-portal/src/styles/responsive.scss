@@ -1,0 +1,270 @@
+// 반응형 브레이크포인트
+$mobile: 576px;
+$tablet: 768px;
+$desktop: 992px;
+$large-desktop: 1200px;
+
+// 반응형 믹스인
+@mixin mobile {
+  @media (max-width: #{$mobile - 1px}) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media (min-width: #{$mobile}) and (max-width: #{$tablet - 1px}) {
+    @content;
+  }
+}
+
+@mixin tablet-up {
+  @media (min-width: #{$tablet}) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media (min-width: #{$desktop}) {
+    @content;
+  }
+}
+
+@mixin large-desktop {
+  @media (min-width: #{$large-desktop}) {
+    @content;
+  }
+}
+
+// 패키지 관리 페이지 스타일
+.packages-page {
+  .header-actions {
+    @include mobile {
+      flex-direction: column;
+      gap: 8px;
+      
+      .ant-btn {
+        width: 100%;
+      }
+    }
+  }
+
+  .dashboard-stats {
+    .ant-col {
+      @include mobile {
+        margin-bottom: 16px;
+      }
+    }
+  }
+
+  .package-table {
+    @include mobile {
+      .ant-table-thead > tr > th {
+        padding: 8px 4px;
+        font-size: 12px;
+      }
+      
+      .ant-table-tbody > tr > td {
+        padding: 8px 4px;
+        font-size: 12px;
+      }
+    }
+  }
+
+  .modal-form {
+    @include mobile {
+      .ant-modal {
+        margin: 0;
+        max-width: none;
+        top: 0;
+        padding-bottom: 0;
+        
+        .ant-modal-content {
+          border-radius: 0;
+          height: 100vh;
+        }
+      }
+    }
+  }
+}
+
+// 대시보드 컴포넌트 스타일
+.package-dashboard {
+  .activity-list {
+    @include mobile {
+      .ant-list-item-meta-title {
+        font-size: 14px;
+      }
+      
+      .ant-list-item-meta-description {
+        font-size: 12px;
+      }
+    }
+  }
+
+  .status-card {
+    @include mobile {
+      .ant-descriptions-item-label,
+      .ant-descriptions-item-content {
+        font-size: 12px;
+        padding: 8px;
+      }
+    }
+  }
+}
+
+// 사이드바 스타일
+.ant-layout-sider {
+  @include mobile {
+    position: fixed;
+    height: 100vh;
+    z-index: 1000;
+    
+    &.ant-layout-sider-collapsed {
+      margin-left: -250px;
+    }
+  }
+}
+
+// 메인 레이아웃 조정
+.ant-layout {
+  @include mobile {
+    .ant-layout-sider + .ant-layout {
+      margin-left: 0;
+    }
+  }
+}
+
+// 모바일 헤더
+.mobile-header {
+  display: none;
+  
+  @include mobile {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 16px;
+    background: #fff;
+    border-bottom: 1px solid #f0f0f0;
+    height: 48px;
+    
+    .menu-button {
+      border: none;
+      background: none;
+      font-size: 18px;
+      cursor: pointer;
+    }
+    
+    .logo {
+      font-weight: bold;
+      color: #1890ff;
+    }
+  }
+}
+
+// 테이블 반응형
+.responsive-table {
+  @include mobile {
+    .ant-table-wrapper {
+      overflow-x: auto;
+    }
+    
+    .ant-table {
+      min-width: 600px;
+    }
+  }
+}
+
+// 카드 스타일 조정
+.ant-card {
+  @include mobile {
+    margin-bottom: 16px;
+    
+    .ant-card-head {
+      padding: 0 16px;
+      min-height: 48px;
+      
+      .ant-card-head-title {
+        font-size: 16px;
+      }
+    }
+    
+    .ant-card-body {
+      padding: 16px;
+    }
+  }
+}
+
+// 통계 카드 조정
+.ant-statistic {
+  @include mobile {
+    text-align: center;
+    
+    .ant-statistic-title {
+      font-size: 12px;
+      margin-bottom: 4px;
+    }
+    
+    .ant-statistic-content {
+      font-size: 20px;
+    }
+  }
+}
+
+// 버튼 그룹 반응형
+.button-group {
+  @include mobile {
+    .ant-btn {
+      margin-bottom: 8px;
+      width: 100%;
+      
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+}
+
+// 폼 스타일 조정
+.ant-form {
+  @include mobile {
+    .ant-form-item-label {
+      text-align: left;
+    }
+  }
+}
+
+// 탭 스타일 조정
+.ant-tabs {
+  @include mobile {
+    .ant-tabs-nav {
+      margin-bottom: 16px;
+      
+      .ant-tabs-tab {
+        font-size: 14px;
+        padding: 8px 12px;
+      }
+    }
+  }
+}
+
+// 진행률 바 조정
+.ant-progress {
+  @include mobile {
+    .ant-progress-text {
+      font-size: 12px;
+    }
+  }
+}
+
+// 알림 카드 조정
+.ant-alert {
+  @include mobile {
+    .ant-alert-message {
+      font-size: 14px;
+    }
+    
+    .ant-alert-description {
+      font-size: 12px;
+    }
+  }
+}

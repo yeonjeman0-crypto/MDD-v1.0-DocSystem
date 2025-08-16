@@ -5,8 +5,10 @@ contextBridge.exposeInMainWorld('electronAPI', {
   // 패키지 관리
   openDRKPackage: () => ipcRenderer.invoke('open-drk-package'),
   readPackageInfo: (filePath: string) => ipcRenderer.invoke('read-package-info', filePath),
+  extractPackageDocuments: (packagePath: string) => ipcRenderer.invoke('extract-package-documents', packagePath),
+  extractPdfFile: (packagePath: string, filePath: string) => ipcRenderer.invoke('extract-pdf-file', packagePath, filePath),
   
-  // 문서 관리
+  // 문서 관리 (호환성 유지)
   getDocumentList: () => ipcRenderer.invoke('get-document-list'),
   
   // 앱 정보
@@ -30,6 +32,8 @@ declare global {
     electronAPI: {
       openDRKPackage: () => Promise<string | null>;
       readPackageInfo: (filePath: string) => Promise<any>;
+      extractPackageDocuments: (packagePath: string) => Promise<{ manifest: any; documents: any[] }>;
+      extractPdfFile: (packagePath: string, filePath: string) => Promise<string>;
       getDocumentList: () => Promise<any[]>;
       getAppInfo: () => Promise<any>;
       quitApp: () => Promise<void>;

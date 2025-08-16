@@ -1,7 +1,10 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useMemo, useCallback } from 'react';
 import { Document, Page, pdfjs } from 'react-pdf';
 import 'react-pdf/dist/cjs/Page/AnnotationLayer.css';
 import 'react-pdf/dist/cjs/Page/TextLayer.css';
+import { DropZone } from './components/DropZone';
+import { SearchBox } from './components/SearchBox';
+import { AdvancedPDFViewer } from './components/AdvancedPDFViewer';
 import './App.css';
 
 // PDF.js worker 설정
@@ -39,6 +42,19 @@ const App: React.FC = () => {
   const [scale, setScale] = useState<number>(1.0);
   const [appInfo, setAppInfo] = useState<AppInfo | null>(null);
   const [isLoading, setIsLoading] = useState<boolean>(false);
+  const [searchQuery, setSearchQuery] = useState<string>('');
+
+  // 검색 필터링된 문서 목록
+  const filteredDocuments = useMemo(() => {
+    if (!searchQuery.trim()) return documents;
+    
+    const query = searchQuery.toLowerCase();
+    return documents.filter(doc => 
+      doc.title.toLowerCase().includes(query) ||
+      doc.type.toLowerCase().includes(query) ||
+      doc.path.toLowerCase().includes(query)
+    );
+  }, [documents, searchQuery]);
 
   useEffect(() => {
     // 앱 정보 로드
@@ -48,46 +64,104 @@ const App: React.FC = () => {
     window.electronAPI?.getDocumentList().then(setDocuments);
   }, []);
 
-  const handleOpenPackage = async () => {
+  const loadPackage = async (filePath: string) => {
     setIsLoading(true);
     try {
-      const filePath = await window.electronAPI?.openDRKPackage();
-      if (filePath) {
-        const info = await window.electronAPI?.readPackageInfo(filePath);
-        if (info) {
-          setPackageInfo(info);
-          // TODO: 패키지에서 문서 목록 추출
-          console.log('패키지 로드됨:', info);
+      const info = await window.electronAPI?.readPackageInfo(filePath);
+      if (info) {
+        setPackageInfo(info);
+        
+        // DRK 패키지에서 문서 목록 추출
+        try {
+          const packageData = await window.electronAPI?.extractPackageDocuments(filePath);
+          if (packageData?.documents) {
+            setDocuments(packageData.documents);
+            console.log('패키지 문서 목록:', packageData.documents.length, '개');
+            console.log('매니페스트 정보:', packageData.manifest.type, packageData.manifest.version);
+          }
+        } catch (extractError) {
+          console.error('문서 목록 추출 실패:', extractError);
+          // 실패 시 기본 목록 사용
+          const defaultDocs = await window.electronAPI?.getDocumentList();
+          if (defaultDocs) setDocuments(defaultDocs);
         }
+        
+        console.log('패키지 로드 완료:', info);
+        return true;
       }
     } catch (error) {
-      console.error('패키지 열기 실패:', error);
+      console.error('패키지 로드 실패:', error);
+      alert('패키지 로드에 실패했습니다: ' + error);
+      return false;
     } finally {
       setIsLoading(false);
     }
+    return false;
   };
 
-  const handleDocumentSelect = (document: DocumentItem) => {
+  const handleOpenPackage = async () => {
+    try {
+      const filePath = await window.electronAPI?.openDRKPackage();
+      if (filePath) {
+        await loadPackage(filePath);
+      }
+    } catch (error) {
+      console.error('패키지 열기 실패:', error);
+      alert('패키지 열기에 실패했습니다: ' + error);
+    }
+  };
+
+  const handleDropPackage = async (filePath: string) => {
+    await loadPackage(filePath);
+  };
+
+  const handleSearch = useCallback((query: string) => {
+    setSearchQuery(query);
+  }, []);
+
+  const handleDocumentSelect = useCallback(async (document: DocumentItem) => {
     setSelectedDocument(document);
-    // TODO: 실제 PDF 파일 로드
-    setPdfFile('/sample.pdf'); // 임시
-    setPageNumber(1);
-  };
+    setIsLoading(true);
+    
+    try {
+      if (packageInfo?.path) {
+        // DRK 패키지에서 PDF 파일 추출
+        const extractedPath = await window.electronAPI?.extractPdfFile(packageInfo.path, document.path);
+        if (extractedPath) {
+          setPdfFile(`file://${extractedPath}`);
+          setPageNumber(1);
+          console.log('PDF 추출 완료:', extractedPath);
+        } else {
+          console.error('PDF 추출 실패');
+          alert('PDF 파일을 추출할 수 없습니다.');
+        }
+      } else {
+        // 패키지 없이 임시 파일 사용
+        setPdfFile('/sample.pdf');
+        setPageNumber(1);
+      }
+    } catch (error) {
+      console.error('PDF 로드 실패:', error);
+      alert('PDF 로드에 실패했습니다: ' + error);
+    } finally {
+      setIsLoading(false);
+    }
+  }, [packageInfo?.path]);
 
-  const onDocumentLoadSuccess = ({ numPages }: { numPages: number }) => {
+  const onDocumentLoadSuccess = useCallback(({ numPages }: { numPages: number }) => {
     setNumPages(numPages);
-  };
+  }, []);
 
-  const changePage = (offset: number) => {
+  const changePage = useCallback((offset: number) => {
     setPageNumber(prev => Math.min(Math.max(prev + offset, 1), numPages));
-  };
+  }, [numPages]);
 
-  const changeScale = (newScale: number) => {
+  const changeScale = useCallback((newScale: number) => {
     setScale(Math.min(Math.max(newScale, 0.5), 3.0));
-  };
+  }, []);
 
   return (
-    <div className="app">
+    <DropZone onDrop={handleDropPackage} className="app">
       {/* 헤더 */}
       <header className="app-header">
         <div className="header-left">
@@ -123,69 +197,46 @@ const App: React.FC = () => {
                 </div>
               </div>
             )}
+            <div className="search-container">
+              <SearchBox onSearch={handleSearch} />
+            </div>
           </div>
           
           <div className="document-list">
-            {documents.map(doc => (
-              <div
-                key={doc.id}
-                className={`document-item ${selectedDocument?.id === doc.id ? 'selected' : ''}`}
-                onClick={() => handleDocumentSelect(doc)}
-              >
-                <div className="doc-type">{doc.type}</div>
-                <div className="doc-title">{doc.title}</div>
+            {filteredDocuments.length === 0 ? (
+              <div className="no-documents">
+                {searchQuery ? '검색 결과가 없습니다' : '문서가 없습니다'}
               </div>
-            ))}
+            ) : (
+              filteredDocuments.map(doc => (
+                <div
+                  key={doc.id}
+                  className={`document-item ${selectedDocument?.id === doc.id ? 'selected' : ''}`}
+                  onClick={() => handleDocumentSelect(doc)}
+                >
+                  <div className="doc-type">{doc.type}</div>
+                  <div className="doc-title">{doc.title}</div>
+                </div>
+              ))
+            )}
+            {searchQuery && (
+              <div className="search-results-summary">
+                {filteredDocuments.length}개 문서 발견
+              </div>
+            )}
           </div>
         </aside>
 
         {/* 메인 뷰어 */}
         <main className="main-viewer">
           {selectedDocument ? (
-            <div className="pdf-viewer">
-              <div className="viewer-controls">
-                <div className="page-controls">
-                  <button 
-                    onClick={() => changePage(-1)} 
-                    disabled={pageNumber <= 1}
-                  >
-                    ← 이전
-                  </button>
-                  <span className="page-info">
-                    {pageNumber} / {numPages}
-                  </span>
-                  <button 
-                    onClick={() => changePage(1)} 
-                    disabled={pageNumber >= numPages}
-                  >
-                    다음 →
-                  </button>
-                </div>
-                
-                <div className="zoom-controls">
-                  <button onClick={() => changeScale(scale - 0.2)}>🔍-</button>
-                  <span className="zoom-level">{Math.round(scale * 100)}%</span>
-                  <button onClick={() => changeScale(scale + 0.2)}>🔍+</button>
-                </div>
-              </div>
-
-              <div className="pdf-container">
-                {pdfFile && (
-                  <Document
-                    file={pdfFile}
-                    onLoadSuccess={onDocumentLoadSuccess}
-                    loading={<div className="loading">📄 PDF 로딩 중...</div>}
-                    error={<div className="error">❌ PDF 로드 실패</div>}
-                  >
-                    <Page 
-                      pageNumber={pageNumber} 
-                      scale={scale}
-                      loading={<div className="loading">페이지 로딩 중...</div>}
-                    />
-                  </Document>
-                )}
-              </div>
-            </div>
+            pdfFile && (
+              <AdvancedPDFViewer 
+                pdfFile={pdfFile}
+                onLoadSuccess={onDocumentLoadSuccess}
+                onPageChange={(page) => setPageNumber(page)}
+              />
+            )
           ) : (
             <div className="welcome-screen">
               <div className="welcome-content">
@@ -225,7 +276,7 @@ const App: React.FC = () => {
           <span>🖥️ {appInfo?.platform} {appInfo?.arch}</span>
         </div>
       </footer>
-    </div>
+    </DropZone>
   );
 };
 
