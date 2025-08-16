@@ -326,9 +326,10 @@ export const PackagesPage: React.FC = () => {
             <Form.Item
               label="소스 디렉토리"
               name="sourceDir"
-              rules={[{ required: true, message: '소스 디렉토리를 입력하세요' }]}
+              rules={[{ required: false, message: '소스 디렉토리를 입력하세요' }]}
+              extra="비워두면 기본 절차서 디렉토리를 사용합니다"
             >
-              <Input placeholder="예: C:/Users/sicka/Desktop/MDD-v1.0-DocSystem/절차서 PDF/00_DRK Main Manual" />
+              <Input placeholder="절차서 PDF/00_DRK Main Manual (선택사항)" />
             </Form.Item>
 
             <Form.Item

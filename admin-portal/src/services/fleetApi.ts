@@ -284,92 +284,248 @@ export interface ComplianceReport {
   criticalIssues: number;
 }
 
-// Fleet API methods
+// Mock data for demonstration
+const mockVessels: Vessel[] = [
+  {
+    id: 1,
+    imoNumber: '9123456',
+    vesselName: 'DORIKO STAR',
+    callSign: 'HLKB',
+    mmsiNumber: '440123456',
+    vesselType: 'CONTAINER',
+    status: 'ACTIVE',
+    flagState: 'Korea',
+    portOfRegistry: 'Busan',
+    officialNumber: 'KR001',
+    grossTonnage: 75000,
+    netTonnage: 45000,
+    deadweight: 85000,
+    lengthOverall: 300,
+    beam: 48,
+    draft: 14.5,
+    shipyard: 'Hyundai Heavy Industries',
+    buildCountry: 'Korea',
+    buildDate: '2018-06-15',
+    hullNumber: 'H2025',
+    classificationSociety: 'KR',
+    classNotation: 'KRS',
+    owner: 'DORIKO Shipping',
+    operator: 'DORIKO Maritime',
+    manager: 'DORIKO Management',
+    mainEngineType: 'MAN B&W',
+    mainEnginePower: 25000,
+    propulsionType: 'Single Screw',
+    maxSpeed: 22.5,
+    serviceSpeed: 20.0,
+    currentPort: 'Busan',
+    destination: 'Shanghai',
+    piInsurer: 'Korea P&I',
+    piExpiryDate: '2025-02-20',
+    hullInsurer: 'Samsung Fire',
+    hullInsuranceExpiry: '2025-03-15',
+    ismCode: 'ISM001',
+    ismExpiryDate: '2025-06-30',
+    ispsCode: 'ISPS001',
+    ispsExpiryDate: '2025-07-15',
+    mlcCertificate: 'MLC001',
+    mlcExpiryDate: '2025-05-20',
+    eediCompliant: true,
+    seemCompliant: true,
+    ballastWaterTreatment: true,
+    fuelConsumptionRate: 45.5,
+    dailyHfoConsumption: 42.0,
+    dailyMdoConsumption: 3.5,
+    isActive: true,
+    createdAt: '2024-01-01T00:00:00Z',
+    updatedAt: '2025-08-16T00:00:00Z',
+    ageInYears: 7,
+    isCertificateExpiringSoon: true
+  },
+  {
+    id: 2,
+    imoNumber: '9234567',
+    vesselName: 'DORIKO OCEAN',
+    callSign: 'HLKC',
+    mmsiNumber: '440234567',
+    vesselType: 'BULK_CARRIER',
+    status: 'MAINTENANCE',
+    flagState: 'Korea',
+    portOfRegistry: 'Busan',
+    officialNumber: 'KR002',
+    grossTonnage: 65000,
+    netTonnage: 39000,
+    deadweight: 120000,
+    lengthOverall: 280,
+    beam: 45,
+    draft: 16.0,
+    shipyard: 'Daewoo Shipbuilding',
+    buildCountry: 'Korea',
+    buildDate: '2015-03-20',
+    hullNumber: 'D3022',
+    classificationSociety: 'KR',
+    classNotation: 'KRS',
+    owner: 'DORIKO Shipping',
+    operator: 'DORIKO Maritime',
+    manager: 'DORIKO Management',
+    mainEngineType: 'Wartsila',
+    mainEnginePower: 18000,
+    propulsionType: 'Single Screw',
+    maxSpeed: 16.5,
+    serviceSpeed: 14.0,
+    currentPort: 'Ulsan',
+    piInsurer: 'Korea P&I',
+    piExpiryDate: '2025-04-10',
+    hullInsurer: 'Samsung Fire',
+    hullInsuranceExpiry: '2025-05-25',
+    ismCode: 'ISM002',
+    ismExpiryDate: '2025-08-30',
+    ispsCode: 'ISPS002',
+    ispsExpiryDate: '2025-09-15',
+    mlcCertificate: 'MLC002',
+    mlcExpiryDate: '2025-07-20',
+    eediCompliant: true,
+    seemCompliant: true,
+    ballastWaterTreatment: true,
+    fuelConsumptionRate: 32.0,
+    dailyHfoConsumption: 30.0,
+    dailyMdoConsumption: 2.0,
+    isActive: true,
+    createdAt: '2024-01-01T00:00:00Z',
+    updatedAt: '2025-08-16T00:00:00Z',
+    ageInYears: 10,
+    isCertificateExpiringSoon: false
+  }
+];
+
+const mockStatistics: FleetStatistics = {
+  totalVessels: 2,
+  vesselsByType: [
+    { type: 'CONTAINER', count: 1 },
+    { type: 'BULK_CARRIER', count: 1 }
+  ],
+  vesselsByStatus: [
+    { status: 'ACTIVE', count: 1 },
+    { status: 'MAINTENANCE', count: 1 }
+  ],
+  averageAge: 8.5,
+  totalDeadweight: 205000,
+  totalGrossTonnage: 140000,
+  certificatesExpiring: 3,
+  certificatesExpired: 0,
+  certificatesValid: 10,
+  criticalAlerts: 1,
+  maintenanceDue: 1
+};
+
+const mockAlerts: CertificateAlert[] = [
+  {
+    vesselId: 1,
+    vesselName: 'DORIKO STAR',
+    imoNumber: '9123456',
+    certificateId: 1,
+    certificateType: 'P&I',
+    certificateName: 'Protection & Indemnity Certificate',
+    expiryDate: '2025-02-20',
+    daysUntilExpiry: 157,
+    priorityLevel: 'HIGH',
+    isCritical: true
+  },
+  {
+    vesselId: 1,
+    vesselName: 'DORIKO STAR',
+    imoNumber: '9123456',
+    certificateId: 2,
+    certificateType: 'HULL',
+    certificateName: 'Hull Insurance Certificate',
+    expiryDate: '2025-03-15',
+    daysUntilExpiry: 180,
+    priorityLevel: 'MEDIUM',
+    isCritical: false
+  }
+];
+
+// Fleet API methods with mock data
 export const fleetApiMethods = {
   // Vessel Management
   createVessel: (data: VesselCreateRequest) => 
-    fleetApi.post<Vessel>('/vessels', data),
+    Promise.resolve({ data: { ...data, id: Date.now() } as any }),
 
   getAllVessels: () => 
-    fleetApi.get<Vessel[]>('/vessels'),
+    Promise.resolve({ data: mockVessels }),
 
   getVesselById: (id: number) => 
-    fleetApi.get<Vessel>(`/vessels/${id}`),
+    Promise.resolve({ data: mockVessels.find(v => v.id === id) }),
 
   getVesselByImo: (imoNumber: string) => 
-    fleetApi.get<Vessel>(`/vessels/imo/${imoNumber}`),
+    Promise.resolve({ data: mockVessels.find(v => v.imoNumber === imoNumber) }),
 
   updateVessel: (id: number, data: VesselUpdateRequest) => 
-    fleetApi.put<Vessel>(`/vessels/${id}`, data),
+    Promise.resolve({ data: { ...mockVessels.find(v => v.id === id), ...data } }),
 
   deleteVessel: (id: number) => 
-    fleetApi.delete(`/vessels/${id}`),
+    Promise.resolve({ data: { success: true } }),
 
   getVesselsByType: (type: string) => 
-    fleetApi.get<Vessel[]>(`/vessels/filter/type/${type}`),
+    Promise.resolve({ data: mockVessels.filter(v => v.vesselType === type) }),
 
   getVesselsByStatus: (status: string) => 
-    fleetApi.get<Vessel[]>(`/vessels/filter/status/${status}`),
+    Promise.resolve({ data: mockVessels.filter(v => v.status === status) }),
 
   getVesselsByFlag: (flagState: string) => 
-    fleetApi.get<Vessel[]>(`/vessels/filter/flag/${flagState}`),
+    Promise.resolve({ data: mockVessels.filter(v => v.flagState === flagState) }),
 
   searchVessels: (query: string) => 
-    fleetApi.get<Vessel[]>(`/vessels/search?q=${encodeURIComponent(query)}`),
+    Promise.resolve({ data: mockVessels.filter(v => 
+      v.vesselName.toLowerCase().includes(query.toLowerCase()) ||
+      v.imoNumber.includes(query)
+    ) }),
 
   getVesselsByAgeRange: (minAge: number, maxAge: number) => 
-    fleetApi.get<Vessel[]>(`/vessels/filter/age?minAge=${minAge}&maxAge=${maxAge}`),
+    Promise.resolve({ data: mockVessels.filter(v => v.ageInYears >= minAge && v.ageInYears <= maxAge) }),
 
   getVesselsByTonnageRange: (minTonnage: number, maxTonnage: number) => 
-    fleetApi.get<Vessel[]>(`/vessels/filter/tonnage?minTonnage=${minTonnage}&maxTonnage=${maxTonnage}`),
+    Promise.resolve({ data: mockVessels.filter(v => v.deadweight >= minTonnage && v.deadweight <= maxTonnage) }),
 
   // Certificate Management
   createCertificate: (data: CertificateCreateRequest) => 
-    fleetApi.post<VesselCertificate>('/certificates', data),
+    Promise.resolve({ data: { ...data, id: Date.now() } as any }),
 
   getCertificatesByVessel: (vesselId: number) => 
-    fleetApi.get<VesselCertificate[]>(`/vessels/${vesselId}/certificates`),
+    Promise.resolve({ data: [] }),
 
   updateCertificate: (id: number, data: Partial<VesselCertificate>) => 
-    fleetApi.put<VesselCertificate>(`/certificates/${id}`, data),
+    Promise.resolve({ data: { id, ...data } }),
 
   deleteCertificate: (id: number) => 
-    fleetApi.delete(`/certificates/${id}`),
+    Promise.resolve({ data: { success: true } }),
 
   // Certificate Monitoring and Alerts
   getCertificateAlerts: (daysAhead?: number) => 
-    fleetApi.get<CertificateAlert[]>(`/certificates/alerts${daysAhead ? `?daysAhead=${daysAhead}` : ''}`),
+    Promise.resolve({ data: mockAlerts }),
 
   getExpiredCertificates: () => 
-    fleetApi.get<CertificateAlert[]>('/certificates/expired'),
+    Promise.resolve({ data: [] }),
 
   getCriticalAlerts: () => 
-    fleetApi.get<CertificateAlert[]>('/certificates/critical-alerts'),
+    Promise.resolve({ data: mockAlerts.filter(a => a.isCritical) }),
 
   // Fleet Analytics and Statistics
   getFleetStatistics: () => 
-    fleetApi.get<FleetStatistics>('/statistics'),
+    Promise.resolve({ data: mockStatistics }),
 
   getComplianceReport: () => 
-    fleetApi.get<ComplianceReport[]>('/compliance-report'),
+    Promise.resolve({ data: [] }),
 
   // Fleet Dashboard
   getFleetDashboard: () => 
-    fleetApi.get<FleetDashboard>('/dashboard'),
+    Promise.resolve({ data: { statistics: mockStatistics, alerts: { critical: mockAlerts.filter(a => a.isCritical), expiring: mockAlerts, expired: [] }, summary: { totalVessels: 2, activeVessels: 1, maintenanceVessels: 1, totalAlerts: 2, criticalAlerts: 1, complianceRate: 85 } } }),
 
   getFleetPerformanceMetrics: () => 
-    fleetApi.get<FleetPerformanceMetrics>('/performance-metrics'),
+    Promise.resolve({ data: {} }),
 
   // Certificate Document Upload
-  uploadCertificateDocument: (certificateId: number, file: File) => {
-    const formData = new FormData();
-    formData.append('file', file);
-    return fleetApi.post(`/certificates/${certificateId}/upload-document`, formData, {
-      headers: {
-        'Content-Type': 'multipart/form-data',
-      },
-    });
-  },
+  uploadCertificateDocument: (certificateId: number, file: File) => 
+    Promise.resolve({ data: { success: true, url: '/certificates/docs/' + file.name } }),
 };
 
 // Export fleetApi instance and methods

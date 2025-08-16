@@ -33,7 +33,7 @@ const storage = multer.diskStorage({
 });
 
 @ApiTags('DRK Packages')
-@Controller('api/packages')
+@Controller('packages')
 export class DRKPackageController {
   private readonly logger = new Logger(DRKPackageController.name);
 
@@ -57,16 +57,36 @@ export class DRKPackageController {
     }
   })
   async createFullPackage(
-    @Body() body: { sourceDir: string; metadata?: any }
+    @Body() body: { sourceDir?: string; metadata?: any }
   ): Promise<any> {
     this.logger.log('Creating full DRK package');
     
     const timestamp = new Date().toISOString().replace(/[:.]/g, '-');
     const outputPath = `./uploads/packages/full-${timestamp}.drkpack`;
     
+    // 한글 경로 인코딩 문제 해결
+    let sourceDir = body.sourceDir;
+    if (!sourceDir) {
+      sourceDir = path.resolve(process.cwd(), '..', '절차서 PDF');
+    } else {
+      // URL 디코딩 및 경로 정규화
+      sourceDir = decodeURIComponent(sourceDir).replace(/\//g, path.sep);
+      if (!path.isAbsolute(sourceDir)) {
+        sourceDir = path.resolve(process.cwd(), '..', sourceDir);
+      }
+    }
+    
+    // 경로 존재 여부 확인
+    try {
+      await fs.promises.access(sourceDir);
+    } catch (error) {
+      this.logger.error(`Source directory not found: ${sourceDir}`);
+      throw new Error(`Source directory not found: ${sourceDir}`);
+    }
+    
     try {
       await this.packageService.createFullPackage(
-        body.sourceDir,
+        sourceDir,
         outputPath,
         body.metadata
       );
@@ -75,16 +95,18 @@ export class DRKPackageController {
       
       return {
         success: true,
+        message: 'Package created successfully',
         package: {
           type: 'full',
           path: outputPath,
+          filename: path.basename(outputPath),
           size: stats.size,
           created_at: new Date().toISOString()
         }
       };
     } catch (error) {
-      this.logger.error('Failed to create full package', error);
-      throw error;
+      this.logger.error('Failed to create full package', error.message);
+      throw new Error(`Package creation failed: ${error.message}`);
     }
   }
 

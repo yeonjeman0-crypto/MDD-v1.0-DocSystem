@@ -29,8 +29,8 @@ export default defineConfig({
   },
   
   server: {
-    port: 5174, // API 서버(5173)와 구분
-    strictPort: true,
+    port: 5176, // API 서버(5173)와 구분
+    strictPort: false,
   },
   
   // Electron 환경을 위한 설정

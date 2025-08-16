@@ -1,0 +1,138 @@
+{
+  "app": {
+    "title": "MDD Admin Portal",
+    "subtitle": "Maritime Document Distribution System"
+  },
+  "nav": {
+    "concept": "System Overview",
+    "packages": "Package Management",
+    "documents": "Document Management",
+    "fleet": "Fleet Management",
+    "search": "Document Search",
+    "monitoring": "System Monitoring"
+  },
+  "concept": {
+    "title": "MDD v1.0 Maritime Document Distribution System",
+    "description": "Integrated system for maritime document distribution and management",
+    "workflow": {
+      "title": "System Workflow",
+      "step1": {
+        "title": "Document Management",
+        "description": "Centrally manage ship procedures, manuals, and form documents"
+      },
+      "step2": {
+        "title": "DRK Package Creation",
+        "description": "Create compressed deployment packages (.drkpack)"
+      },
+      "step3": {
+        "title": "Ship-specific Distribution",
+        "description": "Send packages to each ship's viewer application"
+      },
+      "step4": {
+        "title": "Automatic Updates",
+        "description": "Ships automatically update to the latest documents"
+      }
+    },
+    "components": {
+      "title": "System Components",
+      "mdd": {
+        "title": "Maritime Document Distribution (MDD)",
+        "features": [
+          "Maritime document distribution system",
+          "DRK (DORIKO) package format",
+          "Zstd compression + Ed25519 digital signature",
+          "Full/delta update support"
+        ]
+      },
+      "admin": {
+        "title": "Admin Portal",
+        "features": [
+          "Web-based central management system",
+          "Document upload and version control",
+          "DRK package creation and distribution",
+          "Ship and user management"
+        ]
+      },
+      "viewer": {
+        "title": "Ship Viewer",
+        "features": [
+          "Electron-based desktop application",
+          "PDF document viewer functionality",
+          "Automatic package updates",
+          "Offline document access"
+        ]
+      }
+    }
+  },
+  "packages": {
+    "title": "Package Management",
+    "create": "Create Package",
+    "verify": "Verify Package",
+    "download": "Download",
+    "details": "Details",
+    "refresh": "Refresh",
+    "dashboard": "Dashboard",
+    "list": "Package List",
+    "stats": "Statistics",
+    "form": {
+      "sourceDir": "Source Directory",
+      "sourceDirPlaceholder": "절차서 PDF/00_DRK Main Manual (optional)",
+      "sourceDirExtra": "Leave empty to use default procedure directory",
+      "vessel": "Ship Name",
+      "vesselPlaceholder": "Ship name (optional)",
+      "description": "Description",
+      "descriptionPlaceholder": "Enter package description",
+      "create": "Create Package",
+      "cancel": "Cancel"
+    },
+    "types": {
+      "full": "Full",
+      "delta": "Delta"
+    }
+  },
+  "fleet": {
+    "title": "Fleet Management",
+    "add": "Add Ship",
+    "edit": "Edit Ship",
+    "delete": "Delete Ship",
+    "form": {
+      "shipName": "Ship Name",
+      "imoNumber": "IMO Number",
+      "mmsiNumber": "MMSI Number",
+      "company": "Company",
+      "contact": "Contact",
+      "email": "Email",
+      "save": "Save",
+      "cancel": "Cancel"
+    }
+  },
+  "documents": {
+    "title": "Document Management",
+    "upload": "Upload File",
+    "category": "Category",
+    "version": "Version",
+    "date": "Date",
+    "actions": "Actions",
+    "categories": {
+      "manual": "Manual",
+      "procedure": "Procedure",
+      "form": "Form"
+    }
+  },
+  "common": {
+    "loading": "Loading...",
+    "success": "Success",
+    "error": "Error",
+    "confirm": "Confirm",
+    "cancel": "Cancel",
+    "save": "Save",
+    "delete": "Delete",
+    "edit": "Edit",
+    "view": "View",
+    "close": "Close",
+    "search": "Search",
+    "filter": "Filter",
+    "export": "Export",
+    "import": "Import"
+  }
+}

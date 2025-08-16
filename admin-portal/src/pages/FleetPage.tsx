@@ -24,7 +24,6 @@ import {
   Alert,
 } from 'antd';
 import {
-  ShipIcon,
   PlusOutlined,
   SearchOutlined,
   FilterOutlined,

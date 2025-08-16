@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Layout, Menu, Button, theme, Drawer } from 'antd';
+import { Layout, Menu, Button, theme, Drawer, Space, Avatar } from 'antd';
 import { 
   MenuFoldOutlined, 
   MenuUnfoldOutlined, 
@@ -9,18 +9,23 @@ import {
   SearchOutlined,
   DashboardOutlined
 } from '@ant-design/icons';
+import { useTranslation } from 'react-i18next';
+import { LanguageSwitcher } from './components/LanguageSwitcher';
+import { DashboardPage } from './pages/DashboardPage';
 import { PackagesPage } from './pages/PackagesPage';
 import { DocumentsPage } from './pages/DocumentsPage';
 import { SearchPage } from './pages/SearchPage';
 import { MonitoringPage } from './pages/MonitoringPage';
 import FleetPage from './pages/FleetPage';
+import { SystemConcept } from './components/SystemConcept';
 import './App.css';
 
 const { Header, Sider, Content } = Layout;
 
 function App() {
+  const { t } = useTranslation();
   const [collapsed, setCollapsed] = useState(false);
-  const [selectedKey, setSelectedKey] = useState('fleet');
+  const [selectedKey, setSelectedKey] = useState('concept');
   const [mobileDrawerVisible, setMobileDrawerVisible] = useState(false);
   const {
     token: { colorBgContainer, borderRadiusLG },
@@ -28,46 +33,53 @@ function App() {
 
   const menuItems = [
     {
-      key: 'fleet',
-      icon: <TeamOutlined />,
-      label: '선박 관리',
-    },
-    {
-      key: 'monitoring',
+      key: 'concept',
       icon: <DashboardOutlined />,
-      label: '모니터링',
-    },
-    {
-      key: 'search',
-      icon: <SearchOutlined />,
-      label: '문서 검색',
+      label: t('nav.concept'),
     },
     {
       key: 'packages',
       icon: <AppstoreOutlined />,
-      label: '패키지 관리',
+      label: t('nav.packages'),
     },
     {
       key: 'documents',
       icon: <FileTextOutlined />,
-      label: '문서 관리',
+      label: t('nav.documents'),
+    },
+    {
+      key: 'fleet',
+      icon: <TeamOutlined />,
+      label: t('nav.fleet'),
+    },
+    {
+      key: 'search',
+      icon: <SearchOutlined />,
+      label: t('nav.search'),
+    },
+    {
+      key: 'monitoring',
+      icon: <DashboardOutlined />,
+      label: t('nav.monitoring'),
     },
   ];
 
   const renderContent = () => {
     switch (selectedKey) {
-      case 'fleet':
-        return <FleetPage />;
-      case 'monitoring':
-        return <MonitoringPage />;
-      case 'search':
-        return <SearchPage />;
+      case 'concept':
+        return <SystemConcept />;
       case 'packages':
         return <PackagesPage />;
       case 'documents':
         return <DocumentsPage />;
-      default:
+      case 'fleet':
         return <FleetPage />;
+      case 'search':
+        return <SearchPage />;
+      case 'monitoring':
+        return <MonitoringPage />;
+      default:
+        return <SystemConcept />;
     }
   };
 
@@ -82,8 +94,15 @@ function App() {
           collapsible 
           collapsed={collapsed}
         >
-          <div className="sidebar-logo">
-            {collapsed ? 'MDD' : '🚢 MDD Admin Portal'}
+          <div className="sidebar-logo" style={{ display: 'flex', alignItems: 'center', padding: '16px' }}>
+            {collapsed ? (
+              <Avatar src="/doriko-logo.png" size="small" />
+            ) : (
+              <>
+                <Avatar src="/doriko-logo.png" size="small" style={{ marginRight: '8px' }} />
+                <span style={{ color: 'white', fontWeight: 'bold' }}>MDD Portal</span>
+              </>
+            )}
           </div>
           <Menu
             theme="dark"
@@ -97,7 +116,12 @@ function App() {
 
       {/* Mobile Drawer */}
       <Drawer
-        title="🚢 MDD Admin Portal"
+        title={
+          <div style={{ display: 'flex', alignItems: 'center' }}>
+            <Avatar src="/doriko-logo.png" size="small" style={{ marginRight: '8px' }} />
+            <span>MDD Admin Portal</span>
+          </div>
+        }
         placement="left"
         closable={false}
         onClose={() => setMobileDrawerVisible(false)}
@@ -148,12 +172,16 @@ function App() {
               }}
             />
             <h2 style={{ margin: 0, marginLeft: 16, color: '#1890ff' }}>
-              {selectedKey === 'fleet' ? '🚢 선박 관리' : 
-               selectedKey === 'monitoring' ? '📊 모니터링' :
-               selectedKey === 'search' ? '🔍 문서 검색' :
-               selectedKey === 'packages' ? '📦 패키지 관리' : '📄 문서 관리'}
+              {selectedKey === 'concept' ? `🚀 ${t('nav.concept')}` :
+               selectedKey === 'packages' ? `📦 ${t('nav.packages')}` :
+               selectedKey === 'documents' ? `📄 ${t('nav.documents')}` :
+               selectedKey === 'fleet' ? `🚢 ${t('nav.fleet')}` : 
+               selectedKey === 'search' ? `🔍 ${t('nav.search')}` : `📊 ${t('nav.monitoring')}`}
             </h2>
           </div>
+          <Space>
+            <LanguageSwitcher />
+          </Space>
         </Header>
         
         <Content

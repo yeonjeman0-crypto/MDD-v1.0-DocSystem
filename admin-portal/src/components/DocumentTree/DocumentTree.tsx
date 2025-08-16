@@ -32,10 +32,16 @@ export const DocumentTree: React.FC<DocumentTreeProps> = ({ onDocumentSelect }) 
       setLoading(true);
       const treeData: TreeDataNode[] = [];
 
-      // 각 API를 개별적으로 호출하여 일부만 실패해도 다른 데이터는 표시
+      // 데이터베이스에서 데이터를 불러오도록 변경
       try {
-        const mainManual = await documentApi.getMainManual();
-        treeData.push(buildMainManualNode(mainManual));
+        const mainManual = await documentApi.getMainManualFromDb();
+        if (mainManual && mainManual.length > 0) {
+          treeData.push(buildMainManualFromDbNode(mainManual));
+        } else {
+          // DB에 데이터가 없으면 JSON에서 직접 로드
+          const mainManualJson = await documentApi.getMainManual();
+          treeData.push(buildMainManualNode(mainManualJson));
+        }
       } catch (error) {
         console.error('Failed to load main manual:', error);
         treeData.push({
@@ -47,8 +53,14 @@ export const DocumentTree: React.FC<DocumentTreeProps> = ({ onDocumentSelect }) 
       }
 
       try {
-        const procedures = await documentApi.getProcedures();
-        treeData.push(buildProceduresNode(procedures));
+        const procedures = await documentApi.getProceduresFromDb();
+        if (procedures && procedures.length > 0) {
+          treeData.push(buildProceduresFromDbNode(procedures));
+        } else {
+          // DB에 데이터가 없으면 JSON에서 직접 로드
+          const proceduresJson = await documentApi.getProcedures();
+          treeData.push(buildProceduresNode(proceduresJson));
+        }
       } catch (error) {
         console.error('Failed to load procedures:', error);
         treeData.push({
@@ -60,8 +72,14 @@ export const DocumentTree: React.FC<DocumentTreeProps> = ({ onDocumentSelect }) 
       }
 
       try {
-        const instructions = await documentApi.getInstructions();
-        treeData.push(buildInstructionsNode(instructions));
+        const instructions = await documentApi.getInstructionsFromDb();
+        if (instructions && instructions.length > 0) {
+          treeData.push(buildInstructionsFromDbNode(instructions));
+        } else {
+          // DB에 데이터가 없으면 JSON에서 직접 로드
+          const instructionsJson = await documentApi.getInstructions();
+          treeData.push(buildInstructionsNode(instructionsJson));
+        }
       } catch (error) {
         console.error('Failed to load instructions:', error);
         treeData.push({
@@ -73,8 +91,14 @@ export const DocumentTree: React.FC<DocumentTreeProps> = ({ onDocumentSelect }) 
       }
 
       try {
-        const forms = await documentApi.getForms();
-        treeData.push(buildFormsNode(forms));
+        const forms = await documentApi.getFormsFromDb();
+        if (forms && forms.length > 0) {
+          treeData.push(buildFormsFromDbNode(forms));
+        } else {
+          // DB에 데이터가 없으면 JSON에서 직접 로드
+          const formsJson = await documentApi.getForms();
+          treeData.push(buildFormsNode(formsJson));
+        }
       } catch (error) {
         console.error('Failed to load forms:', error);
         treeData.push({
@@ -92,6 +116,90 @@ export const DocumentTree: React.FC<DocumentTreeProps> = ({ onDocumentSelect }) 
     } finally {
       setLoading(false);
     }
+  };
+
+  // 데이터베이스에서 불러온 데이터 처리 함수들
+  const buildMainManualFromDbNode = (items: any[]): TreeDataNode => {
+    const children: TreeDataNode[] = items.map((item: any, index: number) => ({
+      title: `${item.code}. ${item.title_ko}`,
+      key: `mm-db-${index}`,
+      icon: <FileTextOutlined />,
+      isLeaf: true,
+      data: { ...item, section: 'main-manual' },
+    }));
+
+    return {
+      title: `메인 매뉴얼 (${items.length}개)`,
+      key: 'main-manual',
+      icon: <BookOutlined style={{ color: '#1890ff' }} />,
+      children,
+    };
+  };
+
+  const buildProceduresFromDbNode = (items: any[]): TreeDataNode => {
+    const children: TreeDataNode[] = items.map((item: any, index: number) => ({
+      title: `${item.code}. ${item.title_ko}`,
+      key: `pr-db-${index}`,
+      icon: <SafetyOutlined />,
+      isLeaf: true,
+      data: { ...item, section: 'procedures' },
+    }));
+
+    return {
+      title: `절차서 (${items.length}개)`,
+      key: 'procedures',
+      icon: <SafetyOutlined style={{ color: '#52c41a' }} />,
+      children,
+    };
+  };
+
+  const buildInstructionsFromDbNode = (items: any[]): TreeDataNode => {
+    const children: TreeDataNode[] = items.map((item: any, index: number) => ({
+      title: `${item.code}. ${item.title_ko}`,
+      key: `inst-db-${index}`,
+      icon: <FileTextOutlined />,
+      isLeaf: true,
+      data: { ...item, section: 'instructions' },
+    }));
+
+    return {
+      title: `지침서 (${items.length}개)`,
+      key: 'instructions',
+      icon: <FileTextOutlined style={{ color: '#fa8c16' }} />,
+      children,
+    };
+  };
+
+  const buildFormsFromDbNode = (items: any[]): TreeDataNode => {
+    // PR 코드별로 그룹화
+    const formsByPr = items.reduce((groups: any, form: any) => {
+      const prCode = form.pr_code || 'OTHER';
+      if (!groups[prCode]) {
+        groups[prCode] = [];
+      }
+      groups[prCode].push(form);
+      return groups;
+    }, {});
+
+    const children: TreeDataNode[] = Object.entries(formsByPr).map(([prCode, forms]: [string, any], groupIndex: number) => ({
+      title: `${prCode} 서식 (${forms.length}개)`,
+      key: `forms-db-group-${prCode}-${groupIndex}`,
+      icon: <FolderOutlined />,
+      children: forms.map((form: any, index: number) => ({
+        title: `${form.code}. ${form.title_ko}`,
+        key: `form-db-item-${form.code}-${prCode}-${index}`,
+        icon: <FormOutlined />,
+        isLeaf: true,
+        data: { ...form, section: 'forms' },
+      })),
+    }));
+
+    return {
+      title: `서식 (${items.length}개)`,
+      key: 'forms',
+      icon: <FormOutlined style={{ color: '#eb2f96' }} />,
+      children,
+    };
   };
 
   const buildMainManualNode = (data: any): TreeDataNode => {

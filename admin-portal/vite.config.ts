@@ -18,7 +18,7 @@ export default defineConfig({
   },
   define: {
     // Define environment variables
-    'import.meta.env.VITE_API_URL': JSON.stringify('http://localhost:3003/api'),
+    'import.meta.env.VITE_API_URL': JSON.stringify('http://localhost:3005/api'),
   },
   server: {
     port: 5177,

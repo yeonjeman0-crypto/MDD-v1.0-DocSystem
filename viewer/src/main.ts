@@ -57,7 +57,7 @@ class MDDViewer {
 
     // 창 로딩
     if (this.isDev) {
-      this.mainWindow.loadURL('http://localhost:5174'); // Vite dev server
+      this.mainWindow.loadURL('http://localhost:5177'); // Vite dev server
       this.mainWindow.webContents.openDevTools();
     } else {
       this.mainWindow.loadFile(path.join(__dirname, '../dist/index.html'));
